@@ -1,0 +1,410 @@
+EESchema Schematic File Version 4
+LIBS:PB_16-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title "PB 16"
+Date "2019-08-24"
+Rev "v1.0d"
+Comp "Scott Hanson"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PB_16-rescue:R-Device R?
+U 1 1 5D49E88A
+P 6290 3370
+AR Path="/5D49E88A" Ref="R?"  Part="1" 
+AR Path="/5D469F02/5D49E88A" Ref="R2"  Part="1" 
+F 0 "R2" H 6360 3416 50  0000 L CNN
+F 1 "220" H 6360 3325 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6220 3370 50  0001 C CNN
+F 3 "~" H 6290 3370 50  0001 C CNN
+F 4 "CF14JT220RCT-ND" H 4760 660 50  0001 C CNN "Digi-Key_PN"
+F 5 "CF14JT220R" H 4760 660 50  0001 C CNN "MPN"
+	1    6290 3370
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D49E8A0
+P 6000 3420
+AR Path="/5D49E8A0" Ref="#PWR?"  Part="1" 
+AR Path="/5D469F02/5D49E8A0" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 6000 3170 50  0001 C CNN
+F 1 "GND" H 6005 3247 50  0000 C CNN
+F 2 "" H 6000 3420 50  0001 C CNN
+F 3 "" H 6000 3420 50  0001 C CNN
+	1    6000 3420
+	1    0    0    -1  
+$EndComp
+Connection ~ 6290 3220
+Wire Wire Line
+	6180 3520 6290 3520
+Connection ~ 6290 3520
+$Comp
+L PB_16-rescue:C-Device C?
+U 1 1 5D49E8B4
+P 6930 1490
+AR Path="/5D49E8B4" Ref="C?"  Part="1" 
+AR Path="/5D469F02/5D49E8B4" Ref="C5"  Part="1" 
+F 0 "C5" H 6720 1510 50  0000 L CNN
+F 1 "0.1uF" H 6700 1440 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 6968 1340 50  0001 C CNN
+F 3 "~" H 6930 1490 50  0001 C CNN
+F 4 "478-7336-1-ND" H 4320 -640 50  0001 C CNN "Digi-Key_PN"
+F 5 "SR215C104KARTR1" H 4320 -640 50  0001 C CNN "MPN"
+	1    6930 1490
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D49E8BA
+P 6930 1640
+AR Path="/5D49E8BA" Ref="#PWR?"  Part="1" 
+AR Path="/5D469F02/5D49E8BA" Ref="#PWR037"  Part="1" 
+F 0 "#PWR037" H 6930 1390 50  0001 C CNN
+F 1 "GND" H 6935 1467 50  0000 C CNN
+F 2 "" H 6930 1640 50  0001 C CNN
+F 3 "" H 6930 1640 50  0001 C CNN
+	1    6930 1640
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:RJ45 J?
+U 1 1 5D49E8DC
+P 4820 2100
+AR Path="/5D49E8DC" Ref="J?"  Part="1" 
+AR Path="/5D469F02/5D49E8DC" Ref="J20"  Part="1" 
+F 0 "J20" H 4877 2767 50  0000 C CNN
+F 1 "DMX1 RJ45" H 4877 2676 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 4820 2125 50  0001 C CNN
+F 3 "~" V 4820 2125 50  0001 C CNN
+F 4 "AE10392-ND" H 3980 -1780 50  0001 C CNN "Digi-Key_PN"
+F 5 "A-2014-2-4-R" H 3980 -1780 50  0001 C CNN "MPN"
+	1    4820 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5220 1700 5220 1750
+$Comp
+L power:GND #PWR?
+U 1 1 5D49E8E6
+P 5290 1750
+AR Path="/5D49E8E6" Ref="#PWR?"  Part="1" 
+AR Path="/5D469F02/5D49E8E6" Ref="#PWR034"  Part="1" 
+F 0 "#PWR034" H 5290 1500 50  0001 C CNN
+F 1 "GND" H 5295 1577 50  0000 C CNN
+F 2 "" H 5290 1750 50  0001 C CNN
+F 3 "" H 5290 1750 50  0001 C CNN
+	1    5290 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5290 1750 5220 1750
+Connection ~ 5220 1750
+Wire Wire Line
+	5220 1750 5220 1800
+Wire Wire Line
+	5420 2300 5220 2300
+Wire Wire Line
+	5220 2400 5480 2400
+Wire Wire Line
+	5480 2400 5480 2100
+Wire Wire Line
+	5220 1900 5220 1800
+Connection ~ 5220 1800
+Wire Wire Line
+	5220 2100 5480 2100
+Wire Wire Line
+	5220 2000 5420 2000
+Wire Wire Line
+	5420 2000 5420 2300
+Text Label 5220 2200 0    50   ~ 0
+9V
+Text GLabel 7110 2160 2    50   Input ~ 0
+TXD1
+$Comp
+L Connector:Screw_Terminal_01x04 J22
+U 1 1 5D54DB51
+P 5800 3220
+F 0 "J22" H 5718 3537 50  0000 C CNN
+F 1 "DMX2" H 5718 3446 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal" H 5800 3220 50  0001 C CNN
+F 3 "~" H 5800 3220 50  0001 C CNN
+F 4 "277-1238-ND" H 5800 3220 50  0001 C CNN "Digi-Key_PN"
+F 5 "1729034" H 5800 3220 50  0001 C CNN "MPN"
+	1    5800 3220
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3320 6180 3320
+Text GLabel 6000 3120 2    50   Input ~ 0
+V_DMX
+$Comp
+L Interface_LineDriver:UA9638CP U5
+U 1 1 5D4E3325
+P 6510 2160
+F 0 "U5" H 6130 2390 50  0000 R CNN
+F 1 "UA9638CP" H 5910 2390 50  0000 R CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 6510 1660 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ua9638.pdf" H 6510 2160 50  0001 C CNN
+F 4 "296-15059-5-ND" H 6510 2160 50  0001 C CNN "Digi-Key_PN"
+F 5 "UA9638CP" H 6510 2160 50  0001 C CNN "MPN"
+	1    6510 2160
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Interface_LineDriver:UA9638CP U5
+U 2 1 5D4E511A
+P 7370 3380
+F 0 "U5" H 6970 3820 50  0000 R CNN
+F 1 "UA9638CP" H 6950 3700 50  0000 R CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 7370 2880 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ua9638.pdf" H 7370 3380 50  0001 C CNN
+F 4 "296-15059-5-ND" H 7370 3380 50  0001 C CNN "Digi-Key_PN"
+F 5 "UA9638CP" H 7370 3380 50  0001 C CNN "MPN"
+	2    7370 3380
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PB_16-rescue:R-Device R?
+U 1 1 5D4E605D
+P 5800 2150
+AR Path="/5D4E605D" Ref="R?"  Part="1" 
+AR Path="/5D469F02/5D4E605D" Ref="R1"  Part="1" 
+F 0 "R1" H 5870 2196 50  0000 L CNN
+F 1 "220" H 5870 2105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5730 2150 50  0001 C CNN
+F 3 "~" H 5800 2150 50  0001 C CNN
+F 4 "CF14JT220RCT-ND" H 4270 -560 50  0001 C CNN "Digi-Key_PN"
+F 5 "CF14JT220R" H 4270 -560 50  0001 C CNN "MPN"
+	1    5800 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 7970 3380 2    50   Input ~ 0
+TXD2
+$Comp
+L power:GND #PWR?
+U 1 1 5D4EE143
+P 7470 3780
+AR Path="/5D4EE143" Ref="#PWR?"  Part="1" 
+AR Path="/5D469F02/5D4EE143" Ref="#PWR038"  Part="1" 
+F 0 "#PWR038" H 7470 3530 50  0001 C CNN
+F 1 "GND" H 7475 3607 50  0000 C CNN
+F 2 "" H 7470 3780 50  0001 C CNN
+F 3 "" H 7470 3780 50  0001 C CNN
+	1    7470 3780
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D4EE651
+P 6610 2560
+AR Path="/5D4EE651" Ref="#PWR?"  Part="1" 
+AR Path="/5D469F02/5D4EE651" Ref="#PWR035"  Part="1" 
+F 0 "#PWR035" H 6610 2310 50  0001 C CNN
+F 1 "GND" H 6615 2387 50  0000 C CNN
+F 2 "" H 6610 2560 50  0001 C CNN
+F 3 "" H 6610 2560 50  0001 C CNN
+	1    6610 2560
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D4EECE5
+P 7470 2980
+AR Path="/5D4EECE5" Ref="#PWR?"  Part="1" 
+AR Path="/5D469F02/5D4EECE5" Ref="#PWR036"  Part="1" 
+F 0 "#PWR036" H 7470 2830 50  0001 C CNN
+F 1 "+5V" H 7485 3153 50  0000 C CNN
+F 2 "" H 7470 2980 50  0001 C CNN
+F 3 "" H 7470 2980 50  0001 C CNN
+	1    7470 2980
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D4EF35C
+P 6610 1320
+AR Path="/5D4EF35C" Ref="#PWR?"  Part="1" 
+AR Path="/5D469F02/5D4EF35C" Ref="#PWR032"  Part="1" 
+F 0 "#PWR032" H 6610 1170 50  0001 C CNN
+F 1 "+5V" H 6625 1493 50  0000 C CNN
+F 2 "" H 6610 1320 50  0001 C CNN
+F 3 "" H 6610 1320 50  0001 C CNN
+	1    6610 1320
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6610 1760 6610 1320
+Wire Wire Line
+	6610 1320 6930 1320
+Wire Wire Line
+	6930 1320 6930 1340
+Connection ~ 6610 1320
+Wire Wire Line
+	6000 3220 6290 3220
+Wire Wire Line
+	5800 2300 5420 2300
+Connection ~ 5420 2300
+Wire Wire Line
+	5680 2100 5680 2000
+Wire Wire Line
+	5680 2000 5800 2000
+Wire Wire Line
+	5480 2100 5680 2100
+Connection ~ 5480 2100
+Text Label 6350 3220 0    50   ~ 0
+DMX2+
+Text Label 6360 3520 0    50   ~ 0
+DMX2-
+Wire Wire Line
+	6770 3220 6770 3180
+Wire Wire Line
+	6770 3580 6770 3520
+Wire Wire Line
+	5910 1960 5800 1960
+Wire Wire Line
+	5800 1960 5800 2000
+Connection ~ 5800 2000
+Wire Wire Line
+	5800 2300 5800 2360
+Wire Wire Line
+	5800 2360 5910 2360
+Connection ~ 5800 2300
+NoConn ~ 5220 2200
+$Comp
+L Connector:RJ45 J?
+U 1 1 5D4D236B
+P 4840 4010
+AR Path="/5D4D236B" Ref="J?"  Part="1" 
+AR Path="/5D469F02/5D4D236B" Ref="J21"  Part="1" 
+F 0 "J21" H 4897 4677 50  0000 C CNN
+F 1 "DMX2 RJ45" H 4897 4586 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 4840 4035 50  0001 C CNN
+F 3 "~" V 4840 4035 50  0001 C CNN
+F 4 "AE10392-ND" H 4000 130 50  0001 C CNN "Digi-Key_PN"
+F 5 "A-2014-2-4-R" H 4000 130 50  0001 C CNN "MPN"
+	1    4840 4010
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D4DF745
+P 5400 3660
+AR Path="/5D4DF745" Ref="#PWR?"  Part="1" 
+AR Path="/5D469F02/5D4DF745" Ref="#PWR046"  Part="1" 
+F 0 "#PWR046" H 5400 3410 50  0001 C CNN
+F 1 "GND" H 5405 3487 50  0000 C CNN
+F 2 "" H 5400 3660 50  0001 C CNN
+F 3 "" H 5400 3660 50  0001 C CNN
+	1    5400 3660
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5240 3710 5240 3660
+Wire Wire Line
+	5400 3660 5240 3660
+Connection ~ 5240 3660
+Wire Wire Line
+	5240 3660 5240 3610
+$Comp
+L Switch:SW_DPDT_x2 SW1
+U 1 1 5D4E1041
+P 5800 4920
+F 0 "SW1" H 5680 5080 50  0000 C CNN
+F 1 "DMX_Renard_Select" H 6220 4560 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight" H 5800 4920 50  0001 C CNN
+F 3 "~" H 5800 4920 50  0001 C CNN
+F 4 "401-2001-ND" H 5800 4920 50  0001 C CNN "Digi-Key_PN"
+F 5 "JS202011CQN" H 5800 4920 50  0001 C CNN "MPN"
+	1    5800 4920
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW1
+U 2 1 5D4E1EB8
+P 5790 4540
+F 0 "SW1" H 5790 4825 50  0000 C CNN
+F 1 "DMX_Renard_Select" H 6240 4530 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight" H 5790 4540 50  0001 C CNN
+F 3 "~" H 5790 4540 50  0001 C CNN
+F 4 "401-2001-ND" H 5790 4540 50  0001 C CNN "Digi-Key_PN"
+F 5 "JS202011CQN" H 5790 4540 50  0001 C CNN "MPN"
+	2    5790 4540
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5240 4210 5590 4210
+Wire Wire Line
+	5590 4210 5590 4540
+Wire Wire Line
+	5240 4310 5500 4310
+Wire Wire Line
+	5500 4310 5500 4920
+Wire Wire Line
+	5500 4920 5600 4920
+Wire Wire Line
+	5990 4640 6090 4640
+Wire Wire Line
+	6090 4640 6090 5020
+Wire Wire Line
+	6090 5020 6000 5020
+$Comp
+L power:GND #PWR?
+U 1 1 5D4E797E
+P 6090 5020
+AR Path="/5D4E797E" Ref="#PWR?"  Part="1" 
+AR Path="/5D469F02/5D4E797E" Ref="#PWR048"  Part="1" 
+F 0 "#PWR048" H 6090 4770 50  0001 C CNN
+F 1 "GND" H 6095 4847 50  0000 C CNN
+F 2 "" H 6090 5020 50  0001 C CNN
+F 3 "" H 6090 5020 50  0001 C CNN
+	1    6090 5020
+	1    0    0    -1  
+$EndComp
+Connection ~ 6090 5020
+NoConn ~ 5240 4110
+Wire Wire Line
+	6180 3320 6180 3520
+Wire Wire Line
+	6290 3220 6640 3220
+Wire Wire Line
+	6640 4820 6000 4820
+Connection ~ 6640 3220
+Wire Wire Line
+	6640 3220 6770 3220
+Wire Wire Line
+	6180 3520 6180 4010
+Wire Wire Line
+	6180 4440 5990 4440
+Connection ~ 6180 3520
+Wire Wire Line
+	5240 4010 6180 4010
+Connection ~ 6180 4010
+Wire Wire Line
+	6180 4010 6180 4440
+Wire Wire Line
+	5240 3910 6640 3910
+Wire Wire Line
+	6640 3220 6640 3910
+Connection ~ 6640 3910
+Wire Wire Line
+	6640 3910 6640 4820
+Text Label 5300 4210 0    50   ~ 0
+Pin2
+Text Label 5310 4310 0    50   ~ 0
+Pin1
+NoConn ~ 5240 3810
+Wire Wire Line
+	6290 3520 6770 3520
+Text Label 5420 2300 0    50   ~ 0
+DMX1-
+Text Label 5480 2100 0    50   ~ 0
+DMX1+
+$EndSCHEMATC
