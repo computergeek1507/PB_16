@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 LIBS:PB_16-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
 Title "PB 16"
-Date "2019-08-24"
-Rev "v1.0d"
+Date "2019-09-19"
+Rev "v1.0e"
 Comp "Scott Hanson"
 Comment1 ""
 Comment2 ""
@@ -420,7 +420,7 @@ L Connector:Conn_01x03_Male J23
 U 1 1 5D448A05
 P 7830 1330
 F 0 "J23" V 7892 1474 50  0000 L CNN
-F 1 "VIN_Voltage" V 7983 1474 50  0000 L CNN
+F 1 "VIN Voltage" V 7983 1474 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7830 1330 50  0001 C CNN
 F 3 "~" H 7830 1330 50  0001 C CNN
 F 4 "732-5316-ND" H 7830 1330 50  0001 C CNN "Digi-Key_PN"
@@ -891,10 +891,10 @@ U 1 1 5D5B9E67
 P 6860 860
 F 0 "J28" H 6778 1077 50  0000 C CNN
 F 1 "Aux Pwr" H 6778 986 50  0000 C CNN
-F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" H 6860 860 50  0001 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03402HBLC_1x02_P3.81mm_Horizontal" H 6860 860 50  0001 C CNN
 F 3 "~" H 6860 860 50  0001 C CNN
-F 4 "A98333-ND" H 6860 860 50  0001 C CNN "Digi-Key_PN"
-F 5 "282834-2" H 6860 860 50  0001 C CNN "MPN"
+F 4 "277-1947-ND" H 6860 860 50  0001 C CNN "Digi-Key_PN"
+F 5 "1727010" H 6860 860 50  0001 C CNN "MPN"
 	1    6860 860 
 	-1   0    0    -1  
 $EndComp
@@ -960,7 +960,7 @@ L Connector:Conn_01x03_Male J29
 U 1 1 5D6BD21E
 P 7260 1310
 F 0 "J29" V 7620 1160 50  0000 L CNN
-F 1 "VIN_Select" V 7700 1120 50  0000 L CNN
+F 1 "VIN Select" V 7700 1120 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7260 1310 50  0001 C CNN
 F 3 "~" H 7260 1310 50  0001 C CNN
 F 4 "732-5316-ND" H 7260 1310 50  0001 C CNN "Digi-Key_PN"
