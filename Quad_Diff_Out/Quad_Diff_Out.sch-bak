@@ -310,16 +310,11 @@ Wire Wire Line
 Wire Wire Line
 	4650 3610 4650 4500
 Wire Wire Line
-	6110 3990 6110 4290
-Wire Wire Line
-	6110 4290 6030 4290
-Wire Wire Line
 	6030 3990 6110 3990
-Connection ~ 6110 3990
 Wire Wire Line
 	6030 4090 6060 4090
 Wire Wire Line
-	6060 4090 6060 4390
+	6060 4090 6060 4290
 Wire Wire Line
 	6060 4390 6030 4390
 Wire Wire Line
@@ -327,4 +322,9 @@ Wire Wire Line
 Connection ~ 6060 4390
 Wire Wire Line
 	4350 4700 5390 4700
+Wire Wire Line
+	6030 4290 6060 4290
+Connection ~ 6060 4290
+Wire Wire Line
+	6060 4290 6060 4390
 $EndSCHEMATC
