@@ -1,0 +1,33 @@
+"Source:","D:\KiCad\PB_16_E682_Serial\PB_16.sch"
+"Date:","10/3/2019 12:13:41 PM"
+"Tool:","Eeschema (5.1.4)-1"
+"Generator:","C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value.py"
+"Component Count:","10"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Digi-Key_PN","MPN"
+"","","C1","0.1uF","PB_16-rescue:C-Device","Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm","~","478-7336-1-ND","SR215C104KARTR1"
+"","","D1","LED","Device:LED","LED_THT:LED_D3.0mm_Clear","~","732-5008-ND","151031VS06000"
+"","","J1","DMX1 RJ45","Connector:RJ45","Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal","~","AE10392-ND","A-2014-2-4-R"
+"","","J2","DMX2 RJ45","Connector:RJ45","Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal","~","AE10392-ND","A-2014-2-4-R"
+"","","J3","Serial In","Connector:Conn_01x04_Male","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical","~","732-5317-ND","61300411121"
+"","","R1","120","PB_16-rescue:R-Device","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","CF14JT120RCT-ND","CF14JT120R"
+"","","R2","120","PB_16-rescue:R-Device","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","CF14JT120RCT-ND","CF14JT120R"
+"","","R3","120","PB_16-rescue:R-Device","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","CF14JT120RCT-ND","CF14JT120R"
+"","","SW1","DMX_Renard_Select","Switch:SW_DPDT_x2","Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight","","401-2001-ND","JS202011CQN"
+"","","U1","UA9638CP","Interface_LineDriver:UA9638CP","Package_DIP:DIP-8_W7.62mm","http://www.ti.com/lit/ds/symlink/ua9638.pdf","296-15059-5-ND","UA9638CP"
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Digi-Key_PN","MPN"
+"1","1","C1","0.1uF","PB_16-rescue:C-Device","Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm","~","478-7336-1-ND","SR215C104KARTR1"
+"2","1","D1","LED","Device:LED","LED_THT:LED_D3.0mm_Clear","~","732-5008-ND","151031VS06000"
+"3","1","J1","DMX1 RJ45","Connector:RJ45","Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal","~","AE10392-ND","A-2014-2-4-R"
+"4","1","J2","DMX2 RJ45","Connector:RJ45","Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal","~","AE10392-ND","A-2014-2-4-R"
+"5","1","J3","Serial In","Connector:Conn_01x04_Male","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical","~","732-5317-ND","61300411121"
+"6","3","R1, R2, R3","120","PB_16-rescue:R-Device","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","CF14JT120RCT-ND","CF14JT120R"
+"7","1","SW1","DMX_Renard_Select","Switch:SW_DPDT_x2","Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight","","401-2001-ND","JS202011CQN"
+"8","1","U1","UA9638CP","Interface_LineDriver:UA9638CP","Package_DIP:DIP-8_W7.62mm","http://www.ti.com/lit/ds/symlink/ua9638.pdf","296-15059-5-ND","UA9638CP"
