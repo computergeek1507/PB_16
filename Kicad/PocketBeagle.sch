@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
 Title "PB 16"
-Date "2019-09-19"
-Rev "v1.0e"
+Date "2019-10-07"
+Rev "v1.0f"
 Comp "Scott Hanson"
 Comment1 ""
 Comment2 ""
@@ -163,8 +163,6 @@ NoConn ~ 5270 2890
 NoConn ~ 5270 2990
 NoConn ~ 5270 3090
 NoConn ~ 3470 2590
-NoConn ~ 3470 2790
-NoConn ~ 3470 2990
 NoConn ~ 6820 2740
 NoConn ~ 8620 2740
 NoConn ~ 8620 2840
@@ -214,8 +212,8 @@ $Comp
 L Device:C C7
 U 1 1 5D540524
 P 3060 2640
-F 0 "C7" H 2840 2700 50  0000 L CNN
-F 1 "0.1uF" H 2840 2610 50  0000 L CNN
+F 0 "C7" H 2800 2700 50  0000 L CNN
+F 1 "0.1uF" H 2740 2620 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 3098 2490 50  0001 C CNN
 F 3 "~" H 3060 2640 50  0001 C CNN
 F 4 "478-7336-1-ND" H 3060 2640 50  0001 C CNN "Digi-Key_PN"
@@ -256,4 +254,8 @@ Text GLabel 5270 4190 2    50   Input ~ 0
 GPIO1
 Text GLabel 5270 4290 2    50   Input ~ 0
 GPIO2
+Text GLabel 3470 2990 0    50   Input ~ 0
+BTN2
+Text GLabel 3470 2790 0    50   Input ~ 0
+BTN1
 $EndSCHEMATC
