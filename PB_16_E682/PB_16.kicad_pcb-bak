@@ -18,8 +18,8 @@
   )
 
   (layers
-    (0 F.Cu signal hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu signal)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -1765,7 +1765,7 @@
   (segment (start 215.9 132.15) (end 254 132.15) (width 0.35) (layer F.Cu) (net 66))
   (segment (start 254 132.15) (end 261.2 139.35) (width 0.35) (layer F.Cu) (net 66))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5D8E8ECD) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5D978841) (hatch edge 0.508)
     (connect_pads (clearance 0.25))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.308) (thermal_bridge_width 0.608))
@@ -2840,7 +2840,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5D8E8ECA) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5D97883E) (hatch edge 0.508)
     (connect_pads (clearance 0.25))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.308) (thermal_bridge_width 0.608))
