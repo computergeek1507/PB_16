@@ -526,9 +526,9 @@ Wire Wire Line
 	3010 3210 3270 3210
 Wire Wire Line
 	3270 3210 3270 3015
-Text GLabel 3300 3110 2    50   Input ~ 0
+Text GLabel 3345 3110 2    50   Input ~ 0
 I2C_SDA
-Text GLabel 3270 3210 2    50   Input ~ 0
+Text GLabel 3345 3210 2    50   Input ~ 0
 I2C_SCL
 $Comp
 L power:GND #PWR?
@@ -588,6 +588,9 @@ Wire Wire Line
 Wire Wire Line
 	3010 3015 3010 3110
 Wire Wire Line
-	3010 3110 3300 3110
+	3010 3110 3345 3110
 Connection ~ 3010 3110
+Wire Wire Line
+	3345 3210 3270 3210
+Connection ~ 3270 3210
 $EndSCHEMATC
