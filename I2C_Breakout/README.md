@@ -11,3 +11,4 @@ The PB16 EEPROM Breakout adds an EEPROM ship to the older PB16 version 1.0e cont
 
 ## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/I2C_Breakout/I2C_Breakout_BOM.ods)
 
+![Image of I2C Breakout](https://github.com/computergeek1507/PB_16/raw/master/I2C_Breakout/I2C_Breakout.png)
