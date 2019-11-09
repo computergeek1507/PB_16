@@ -206,7 +206,7 @@ U 1 1 5D5B9E67
 P 3790 1720
 F 0 "J1" H 3708 1937 50  0000 C CNN
 F 1 "Power In" H 3708 1846 50  0000 C CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03402HBLC_1x02_P3.81mm_Horizontal" H 3790 1720 50  0001 C CNN
+F 2 "MKDS1_2-3.81:PHOENIX_MKDS1%2f2-3.81" H 3790 1720 50  0001 C CNN
 F 3 "~" H 3790 1720 50  0001 C CNN
 F 4 "277-1947-ND" H 3790 1720 50  0001 C CNN "Digi-Key_PN"
 F 5 "1727010" H 3790 1720 50  0001 C CNN "MPN"
@@ -526,9 +526,9 @@ Wire Wire Line
 	3010 3210 3270 3210
 Wire Wire Line
 	3270 3210 3270 3015
-Text GLabel 3300 3110 2    50   Input ~ 0
+Text GLabel 3345 3110 2    50   Input ~ 0
 I2C_SDA
-Text GLabel 3270 3210 2    50   Input ~ 0
+Text GLabel 3345 3210 2    50   Input ~ 0
 I2C_SCL
 $Comp
 L power:GND #PWR?
@@ -588,6 +588,9 @@ Wire Wire Line
 Wire Wire Line
 	3010 3015 3010 3110
 Wire Wire Line
-	3010 3110 3300 3110
+	3010 3110 3345 3110
 Connection ~ 3010 3110
+Wire Wire Line
+	3345 3210 3270 3210
+Connection ~ 3270 3210
 $EndSCHEMATC
