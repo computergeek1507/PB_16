@@ -1,0 +1,332 @@
+EESchema Schematic File Version 4
+LIBS:Multi_Expansion-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title "PB 16"
+Date "2019-10-07"
+Rev "v1.0f"
+Comp "Scott Hanson"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x02 J9
+U 1 1 5CEC911C
+P 4745 2440
+F 0 "J9" H 4825 2432 50  0000 L CNN
+F 1 "Power In" H 4825 2341 50  0000 L CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal" H 4745 2440 50  0001 C CNN
+F 3 "~" H 4745 2440 50  0001 C CNN
+F 4 "ED2675-ND" H -3775 1580 50  0001 C CNN "Digi-Key_PN"
+F 5 "OSTT7020150" H -3775 1580 50  0001 C CNN "MPN"
+	1    4745 2440
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5CED08B0
+P 4945 2540
+F 0 "#PWR0101" H 4945 2290 50  0001 C CNN
+F 1 "GND" H 4950 2367 50  0000 C CNN
+F 2 "" H 4945 2540 50  0001 C CNN
+F 3 "" H 4945 2540 50  0001 C CNN
+	1    4945 2540
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 2990 4500 900  900 
+U 5D469293
+F0 "Output 1-8" 50
+F1 "Output1_8.sch" 50
+$EndSheet
+Text GLabel 4945 2440 2    50   Input ~ 0
+VIN1
+$Comp
+L Device:D_Schottky D1
+U 1 1 5D4209D1
+P 4880 3240
+F 0 "D1" H 4880 3456 50  0000 C CNN
+F 1 "SB5100-T" H 4880 3365 50  0000 C CNN
+F 2 "Diode_THT:D_DO-201AD_P12.70mm_Horizontal" H 4880 3240 50  0001 C CNN
+F 3 "~" H 4880 3240 50  0001 C CNN
+F 4 "SB5100DICT-ND" H 4880 3240 50  0001 C CNN "Digi-Key_PN"
+F 5 "SB5100-T" H 4880 3240 50  0001 C CNN "MPN"
+	1    4880 3240
+	1    0    0    -1  
+$EndComp
+Text GLabel 4730 3240 0    50   Input ~ 0
+VIN1
+$Comp
+L power:GND #PWR0103
+U 1 1 5D423C1C
+P 5030 3240
+F 0 "#PWR0103" H 5030 2990 50  0001 C CNN
+F 1 "GND" H 5035 3067 50  0000 C CNN
+F 2 "" H 5030 3240 50  0001 C CNN
+F 3 "" H 5030 3240 50  0001 C CNN
+	1    5030 3240
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J12
+U 1 1 5D420E83
+P 9400 4100
+F 0 "J12" H 9440 5120 50  0000 C CNN
+F 1 "Expansion Header" H 9400 5290 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical" H 9400 4100 50  0001 C CNN
+F 3 "~" H 9400 4100 50  0001 C CNN
+F 4 "S9175-ND" H 9400 4100 50  0001 C CNN "Digi-Key_PN"
+F 5 "SBH11-PBPC-D20-ST-BK" H 9400 4100 50  0001 C CNN "MPN"
+	1    9400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR044
+U 1 1 5D42302C
+P 9050 5000
+F 0 "#PWR044" H 9050 4750 50  0001 C CNN
+F 1 "GND" H 9055 4827 50  0000 C CNN
+F 2 "" H 9050 5000 50  0001 C CNN
+F 3 "" H 9050 5000 50  0001 C CNN
+	1    9050 5000
+	1    0    0    -1  
+$EndComp
+Text GLabel 9700 3400 2    50   Input ~ 0
+OUT17
+Text GLabel 9700 3500 2    50   Input ~ 0
+OUT18
+Text GLabel 9700 3600 2    50   Input ~ 0
+OUT19
+Text GLabel 9700 3700 2    50   Input ~ 0
+OUT20
+Text GLabel 9700 3800 2    50   Input ~ 0
+OUT21
+Text GLabel 9700 3900 2    50   Input ~ 0
+OUT22
+Text GLabel 9700 4000 2    50   Input ~ 0
+OUT23
+Text GLabel 9700 4100 2    50   Input ~ 0
+OUT24
+Text GLabel 9700 4200 2    50   Input ~ 0
+OUT25
+Text GLabel 9700 4300 2    50   Input ~ 0
+OUT26
+Text GLabel 9700 4400 2    50   Input ~ 0
+OUT27
+Text GLabel 9700 4700 2    50   Input ~ 0
+OUT30
+Text GLabel 9700 4800 2    50   Input ~ 0
+OUT31
+Text GLabel 9700 4900 2    50   Input ~ 0
+OUT32
+Wire Wire Line
+	9200 3300 9200 3400
+Connection ~ 9200 3400
+Wire Wire Line
+	9200 3400 9200 3500
+Connection ~ 9200 3500
+Wire Wire Line
+	9200 3500 9200 3600
+Connection ~ 9200 3600
+Wire Wire Line
+	9200 3600 9200 3700
+Connection ~ 9200 3700
+Wire Wire Line
+	9200 3700 9200 3800
+Connection ~ 9200 3800
+Wire Wire Line
+	9200 3800 9200 3900
+Connection ~ 9200 3900
+Wire Wire Line
+	9200 3900 9200 4000
+Connection ~ 9200 4000
+Wire Wire Line
+	9200 4000 9200 4100
+Connection ~ 9200 4100
+Wire Wire Line
+	9200 4100 9200 4200
+Connection ~ 9200 4200
+Wire Wire Line
+	9200 4200 9200 4300
+Connection ~ 9200 4300
+Wire Wire Line
+	9200 4300 9200 4400
+Connection ~ 9200 4400
+Wire Wire Line
+	9200 4400 9200 4500
+Connection ~ 9200 4500
+Wire Wire Line
+	9200 4500 9200 4600
+Wire Wire Line
+	9200 4800 9200 4900
+Connection ~ 9200 4900
+Wire Wire Line
+	9200 4900 9200 5000
+Wire Wire Line
+	9200 5000 9050 5000
+Connection ~ 9200 5000
+$Comp
+L power:GND #PWR0105
+U 1 1 5D4EFF24
+P 9820 5000
+F 0 "#PWR0105" H 9820 4750 50  0001 C CNN
+F 1 "GND" H 9825 4827 50  0000 C CNN
+F 2 "" H 9820 5000 50  0001 C CNN
+F 3 "" H 9820 5000 50  0001 C CNN
+	1    9820 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 5000 9820 5000
+$Comp
+L power:+5V #PWR0106
+U 1 1 5D4F14DC
+P 9600 5340
+F 0 "#PWR0106" H 9600 5190 50  0001 C CNN
+F 1 "+5V" H 9615 5513 50  0000 C CNN
+F 2 "" H 9600 5340 50  0001 C CNN
+F 3 "" H 9600 5340 50  0001 C CNN
+	1    9600 5340
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 5340 9600 5340
+Wire Wire Line
+	9700 5100 9700 5340
+Wire Wire Line
+	9600 5340 9200 5340
+Wire Wire Line
+	9200 5100 9200 5340
+Connection ~ 9600 5340
+Wire Wire Line
+	9700 3200 9700 3300
+$Comp
+L power:+5V #PWR0107
+U 1 1 5D4F69A3
+P 9700 3200
+F 0 "#PWR0107" H 9700 3050 50  0001 C CNN
+F 1 "+5V" H 9715 3373 50  0000 C CNN
+F 2 "" H 9700 3200 50  0001 C CNN
+F 3 "" H 9700 3200 50  0001 C CNN
+	1    9700 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 9700 3200
+NoConn ~ 9200 3200
+Text GLabel 9700 4500 2    50   Input ~ 0
+OUT28
+Text GLabel 9200 4700 0    50   Input ~ 0
+OUT29
+NoConn ~ 9700 4600
+$Comp
+L power:GND #PWR0110
+U 1 1 5D5A9CBA
+P 9040 4400
+F 0 "#PWR0110" H 9040 4150 50  0001 C CNN
+F 1 "GND" H 9045 4227 50  0000 C CNN
+F 2 "" H 9040 4400 50  0001 C CNN
+F 3 "" H 9040 4400 50  0001 C CNN
+	1    9040 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 4400 9040 4400
+$Comp
+L Device:LED D2
+U 1 1 5D5B28FD
+P 6560 3120
+F 0 "D2" H 6553 2865 50  0000 C CNN
+F 1 "VIN LED" H 6553 2956 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm_Clear" H 6560 3120 50  0001 C CNN
+F 3 "~" H 6560 3120 50  0001 C CNN
+F 4 "754-1217-ND" H 6560 3120 50  0001 C CNN "Digi-Key_PN"
+F 5 "WP3A8GD" H 6560 3120 50  0001 C CNN "MPN"
+	1    6560 3120
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5D5B5731
+P 6260 3120
+F 0 "R1" V 6053 3120 50  0000 C CNN
+F 1 "1K" V 6144 3120 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6190 3120 50  0001 C CNN
+F 3 "~" H 6260 3120 50  0001 C CNN
+F 4 "CF14JT1K00CT-ND" H 6260 3120 50  0001 C CNN "Digi-Key_PN"
+F 5 "CF14JT1K00" H 6260 3120 50  0001 C CNN "MPN"
+	1    6260 3120
+	0    1    1    0   
+$EndComp
+Text GLabel 6110 3120 0    50   Input ~ 0
+VIN1
+$Comp
+L power:GND #PWR0111
+U 1 1 5D5B8087
+P 6710 3120
+F 0 "#PWR0111" H 6710 2870 50  0001 C CNN
+F 1 "GND" H 6715 2947 50  0000 C CNN
+F 2 "" H 6710 3120 50  0001 C CNN
+F 3 "" H 6710 3120 50  0001 C CNN
+	1    6710 3120
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5D66016D
+P 7510 3180
+F 0 "R2" H 7440 3134 50  0000 R CNN
+F 1 "120" H 7440 3225 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7440 3180 50  0001 C CNN
+F 3 "~" H 7510 3180 50  0001 C CNN
+F 4 "CF14JT120RCT-ND" H 7510 3180 50  0001 C CNN "Digi-Key_PN"
+F 5 "CF14JT120R" H 7510 3180 50  0001 C CNN "MPN"
+	1    7510 3180
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5D6610ED
+P 7510 2880
+F 0 "D3" V 7549 2763 50  0000 R CNN
+F 1 "5V LED" V 7458 2763 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm_Clear" H 7510 2880 50  0001 C CNN
+F 3 "~" H 7510 2880 50  0001 C CNN
+F 4 "754-1217-ND" H 7510 2880 50  0001 C CNN "Digi-Key_PN"
+F 5 "WP3A8GD" H 7510 2880 50  0001 C CNN "MPN"
+	1    7510 2880
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR040
+U 1 1 5D661937
+P 7510 2730
+F 0 "#PWR040" H 7510 2580 50  0001 C CNN
+F 1 "+5V" H 7525 2903 50  0000 C CNN
+F 2 "" H 7510 2730 50  0001 C CNN
+F 3 "" H 7510 2730 50  0001 C CNN
+	1    7510 2730
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR052
+U 1 1 5D662164
+P 7510 3330
+F 0 "#PWR052" H 7510 3080 50  0001 C CNN
+F 1 "GND" H 7515 3157 50  0000 C CNN
+F 2 "" H 7510 3330 50  0001 C CNN
+F 3 "" H 7510 3330 50  0001 C CNN
+	1    7510 3330
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 4650 4695 1120 815 
+U 5DC70599
+F0 "Differential" 50
+F1 "Differential.sch" 50
+$EndSheet
+$EndSCHEMATC
