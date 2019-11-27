@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name PB_16-rescue)(type Legacy)(uri ${KIPRJMOD}/PB_16-rescue.lib)(options "")(descr ""))
+  (lib (name Multi_Expansion-rescue)(type Legacy)(uri ${KIPRJMOD}/Multi_Expansion-rescue.lib)(options "")(descr ""))
 )
