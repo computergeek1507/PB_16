@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Four_Out-rescue)(type Legacy)(uri ${KIPRJMOD}/Four_Out-rescue.lib)(options "")(descr ""))
+)
