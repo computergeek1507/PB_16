@@ -13,4 +13,4 @@ The Multi Expansion is a dual Differental Reciever output board with eight local
 
 ![Image of Multi Expansion](https://github.com/computergeek1507/PB_16/raw/master/Multi_Expansion/Multi_Expansion.png)
 
-![Real Image of PMulti Expansion](https://github.com/computergeek1507/PB_16/raw/master/PB_16_Mini/IMG_20191203_202821.jpg)
+![Real Image of PMulti Expansion](https://github.com/computergeek1507/PB_16/raw/master/Multi_Expansion/IMG_20191203_202821.jpg)
