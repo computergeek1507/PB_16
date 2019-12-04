@@ -12,3 +12,5 @@ The PB16 Mini is a compact version of the PB16 with only an Expansions Header. I
 ## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/PB_16_Mini/PB_16_Mini.ods)
 
 ![Image of PB16 Mini Out](https://github.com/computergeek1507/PB_16/raw/master/PB_16_Mini/PB_16_Mini.png)
+
+![Real Image of PB16 Mini Out](https://github.com/computergeek1507/PB_16/raw/master/PB_16_Mini/IMG_20191203_202850.jpg)
