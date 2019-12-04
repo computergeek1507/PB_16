@@ -13,7 +13,7 @@ The Quad Diff Out is a single Differental Reciever output board for the PB16. It
 
 ![Image of Quad Diff Out](https://github.com/computergeek1507/PB_16/raw/master/Quad_Diff_Out/Quad_Diff_Out.png)
 
-![Real Image of Quad Diff Out]](https://github.com/computergeek1507/PB_16/raw/master/Quad_Diff_Out/IMG_20191203_205121.jpg)
+![Real Image of Quad Diff Out](https://github.com/computergeek1507/PB_16/raw/master/Quad_Diff_Out/IMG_20191203_205121.jpg)
 
 
 
