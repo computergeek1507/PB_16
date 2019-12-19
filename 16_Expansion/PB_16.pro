@@ -1,4 +1,4 @@
-update=8/19/2019 4:56:29 PM
+update=12/18/2019 7:36:43 PM
 version=1
 last_client=kicad
 [general]
@@ -260,7 +260,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=Gnd
-Clearance=0.3
+Clearance=0.2
 TrackWidth=3
 ViaDiameter=0.8
 ViaDrill=0.4
