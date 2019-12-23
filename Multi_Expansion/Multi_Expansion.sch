@@ -5,9 +5,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title "PB 16"
-Date "2019-10-07"
-Rev "v1.0f"
+Title "Multi Expansion"
+Date "2019-12-23"
+Rev "v2"
 Comp "Scott Hanson"
 Comment1 ""
 Comment2 ""
@@ -15,27 +15,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x02 J9
-U 1 1 5CEC911C
-P 4745 2440
-F 0 "J9" H 4825 2432 50  0000 L CNN
-F 1 "Power In" H 4825 2341 50  0000 L CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal" H 4745 2440 50  0001 C CNN
-F 3 "~" H 4745 2440 50  0001 C CNN
-F 4 "ED2675-ND" H -3775 1580 50  0001 C CNN "Digi-Key_PN"
-F 5 "OSTT7020150" H -3775 1580 50  0001 C CNN "MPN"
-	1    4745 2440
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0101
 U 1 1 5CED08B0
-P 4945 2540
-F 0 "#PWR0101" H 4945 2290 50  0001 C CNN
-F 1 "GND" H 4950 2367 50  0000 C CNN
-F 2 "" H 4945 2540 50  0001 C CNN
-F 3 "" H 4945 2540 50  0001 C CNN
-	1    4945 2540
+P 4010 2580
+F 0 "#PWR0101" H 4010 2330 50  0001 C CNN
+F 1 "GND" H 4015 2407 50  0000 C CNN
+F 2 "" H 4010 2580 50  0001 C CNN
+F 3 "" H 4010 2580 50  0001 C CNN
+	1    4010 2580
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -44,7 +31,7 @@ U 5D469293
 F0 "Output 1-8" 50
 F1 "Output1_8.sch" 50
 $EndSheet
-Text GLabel 4945 2440 2    50   Input ~ 0
+Text GLabel 4010 2380 2    50   Input ~ 0
 VIN1
 $Comp
 L Device:D_Schottky D1
@@ -329,4 +316,41 @@ U 5DC70599
 F0 "Differential" 50
 F1 "Differential.sch" 50
 $EndSheet
+$Comp
+L Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS TB1
+U 1 1 5DF74432
+P 3660 2480
+F 0 "TB1" H 3527 2093 60  0000 C CNN
+F 1 "Power In" H 3527 2199 60  0000 C CNN
+F 2 "Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS_P9.5MM" H 3660 2480 60  0001 C CNN
+F 3 "" H 3660 2480 60  0000 C CNN
+F 4 "ED2953-ND" H 3660 2480 50  0001 C CNN "Digi-Key_PN"
+	1    3660 2480
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J9
+U 1 1 5E00B7C7
+P 3660 1370
+F 0 "J9" H 3578 1587 50  0000 C CNN
+F 1 "Power In" H 3578 1496 50  0000 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal" H 3660 1370 50  0001 C CNN
+F 3 "~" H 3660 1370 50  0001 C CNN
+F 4 "ED2675-ND" H 3660 1370 50  0001 C CNN "Digi-Key_PN"
+	1    3660 1370
+	-1   0    0    -1  
+$EndComp
+Text GLabel 3860 1370 2    50   Input ~ 0
+VIN1
+$Comp
+L power:GND #PWR021
+U 1 1 5E00D138
+P 3860 1470
+F 0 "#PWR021" H 3860 1220 50  0001 C CNN
+F 1 "GND" H 3865 1297 50  0000 C CNN
+F 2 "" H 3860 1470 50  0001 C CNN
+F 3 "" H 3860 1470 50  0001 C CNN
+	1    3860 1470
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

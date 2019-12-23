@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Multi Expansion"
+Date "2019-12-23"
+Rev "v2"
+Comp "Scott Hanson"
 Comment1 ""
 Comment2 ""
 Comment3 ""

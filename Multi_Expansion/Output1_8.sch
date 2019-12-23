@@ -5,9 +5,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
-Title "PB 16"
-Date "2019-10-07"
-Rev "v1.0f"
+Title "Multi Expansion"
+Date "2019-12-23"
+Rev "v2"
 Comp "Scott Hanson"
 Comment1 ""
 Comment2 ""
@@ -269,7 +269,7 @@ VOUT6
 Text Label 8450 3770 0    50   ~ 0
 VOUT7
 $Comp
-L PB_16-rescue:3544-2-Keystone_Fuse F?
+L Multi_Expansion-rescue:3544-2-Keystone_Fuse F?
 U 1 1 5D4CFB8B
 P 6190 3180
 AR Path="/5D4CFB8B" Ref="F?"  Part="1" 
@@ -289,7 +289,7 @@ F 10 "3544-2" H -1710 -90 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L PB_16-rescue:3544-2-Keystone_Fuse F?
+L Multi_Expansion-rescue:3544-2-Keystone_Fuse F?
 U 1 1 5D4CFB98
 P 6650 3190
 AR Path="/5D4CFB98" Ref="F?"  Part="1" 
@@ -309,7 +309,7 @@ F 10 "3544-2" H -1660 -90 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L PB_16-rescue:3544-2-Keystone_Fuse F?
+L Multi_Expansion-rescue:3544-2-Keystone_Fuse F?
 U 1 1 5D4CFBA5
 P 7100 3200
 AR Path="/5D4CFBA5" Ref="F?"  Part="1" 
@@ -329,7 +329,7 @@ F 10 "3544-2" H -1570 -90 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L PB_16-rescue:3544-2-Keystone_Fuse F?
+L Multi_Expansion-rescue:3544-2-Keystone_Fuse F?
 U 1 1 5D4CFBB2
 P 7550 3190
 AR Path="/5D4CFBB2" Ref="F?"  Part="1" 
@@ -349,7 +349,7 @@ F 10 "3544-2" H -1490 -80 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L PB_16-rescue:3544-2-Keystone_Fuse F?
+L Multi_Expansion-rescue:3544-2-Keystone_Fuse F?
 U 1 1 5D4CFBBF
 P 8000 3180
 AR Path="/5D4CFBBF" Ref="F?"  Part="1" 
@@ -369,7 +369,7 @@ F 10 "3544-2" H -1340 -90 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L PB_16-rescue:3544-2-Keystone_Fuse F?
+L Multi_Expansion-rescue:3544-2-Keystone_Fuse F?
 U 1 1 5D4CFBCC
 P 8450 3180
 AR Path="/5D4CFBCC" Ref="F?"  Part="1" 
@@ -389,7 +389,7 @@ F 10 "3544-2" H -1200 -90 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L PB_16-rescue:3544-2-Keystone_Fuse F?
+L Multi_Expansion-rescue:3544-2-Keystone_Fuse F?
 U 1 1 5D4CFBD9
 P 8900 3180
 AR Path="/5D4CFBD9" Ref="F?"  Part="1" 
@@ -452,7 +452,7 @@ F 3 "" H 2930 5190 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PB_16-rescue:C-Device C?
+L Multi_Expansion-rescue:C-Device C?
 U 1 1 5D4CFBF5
 P 5280 4240
 AR Path="/5D4CFBF5" Ref="C?"  Part="1" 
@@ -485,7 +485,7 @@ Wire Wire Line
 	5130 4090 5130 4290
 Connection ~ 5280 4090
 $Comp
-L PB_16-rescue:R_Pack04_SIP-Device RN?
+L Multi_Expansion-rescue:R_Pack04_SIP-Device RN?
 U 1 1 5D4CFC06
 P 8200 5080
 AR Path="/5D4CFC06" Ref="RN?"  Part="1" 
@@ -502,7 +502,7 @@ $EndComp
 Wire Wire Line
 	5280 4390 5130 4390
 $Comp
-L PB_16-rescue:SN74HCT245N-SN74HCT245N U?
+L Multi_Expansion-rescue:SN74HCT245N-SN74HCT245N U?
 U 1 1 5D4CFC0F
 P 2930 4290
 AR Path="/5D4CFC0F" Ref="U?"  Part="1" 
@@ -517,7 +517,7 @@ F 5 "SN74HCT245N" H -1500 -90 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PB_16-rescue:3544-2-Keystone_Fuse F?
+L Multi_Expansion-rescue:3544-2-Keystone_Fuse F?
 U 1 1 5D4CFC1C
 P 5740 3190
 AR Path="/5D4CFC1C" Ref="F?"  Part="1" 
@@ -579,7 +579,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 3990 7010 3990
 $Comp
-L PB_16-rescue:R_Pack04_SIP-Device RN?
+L Multi_Expansion-rescue:R_Pack04_SIP-Device RN?
 U 1 1 5D4CFC39
 P 6430 5440
 AR Path="/5D4CFC39" Ref="RN?"  Part="1" 
