@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:Quad_Diff_Out-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Quad Diff"
-Date "2019-09-27"
-Rev "v2"
+Date "2019-10-03"
+Rev "v3"
 Comp "Scott Hanson"
 Comment1 ""
 Comment2 ""
@@ -170,19 +169,9 @@ Wire Wire Line
 Wire Wire Line
 	5220 4890 5430 4890
 Wire Wire Line
-	5130 4400 5130 4990
-Wire Wire Line
 	5130 4990 5430 4990
 Wire Wire Line
 	5430 4290 5260 4290
-Wire Wire Line
-	5260 4290 5260 4500
-Wire Wire Line
-	5260 4500 4650 4500
-Wire Wire Line
-	5330 4600 5330 4390
-Wire Wire Line
-	5330 4390 5430 4390
 Wire Wire Line
 	5430 4690 5430 4800
 Wire Wire Line
@@ -227,15 +216,13 @@ Text Label 4770 4800 0    50   ~ 0
 Serial4_N
 Text Label 4770 4700 0    50   ~ 0
 Serial4_P
-Text Label 4770 4600 0    50   ~ 0
-Serial3_N
-Text Label 4770 4500 0    50   ~ 0
+Text Label 4790 4500 0    50   ~ 0
 Serial3_P
 Text Label 4770 4200 0    50   ~ 0
 Serial1_N
 Text Label 4770 3990 0    50   ~ 0
 Serial1_P
-Text Label 4770 4400 0    50   ~ 0
+Text Label 4770 4600 0    50   ~ 0
 Serial2_N
 Text Label 4770 4300 0    50   ~ 0
 Serial2_P
@@ -252,8 +239,6 @@ F 4 "4608X-2-121LF-ND" H 4850 3410 50  0001 C CNN "Digikey PN"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4330 4600 4750 4600
-Wire Wire Line
 	4350 3610 4350 4700
 Connection ~ 4350 4700
 Wire Wire Line
@@ -261,21 +246,6 @@ Wire Wire Line
 Connection ~ 4450 4800
 Wire Wire Line
 	4450 4800 4330 4800
-Connection ~ 4750 4600
-Wire Wire Line
-	4750 4600 5330 4600
-Wire Wire Line
-	4750 3990 4330 3990
-Connection ~ 4650 4500
-Wire Wire Line
-	4650 4500 4330 4500
-Wire Wire Line
-	4330 4400 4650 4400
-Wire Wire Line
-	4950 3610 4950 4400
-Connection ~ 4950 4400
-Wire Wire Line
-	4950 4400 5130 4400
 Wire Wire Line
 	5050 3610 5050 4300
 Connection ~ 5050 4300
@@ -290,10 +260,6 @@ Wire Wire Line
 	5350 3610 5350 3990
 Connection ~ 5350 3990
 Wire Wire Line
-	5350 3990 4750 3990
-Wire Wire Line
-	4650 4400 4950 4400
-Wire Wire Line
 	6030 4590 7010 4590
 Wire Wire Line
 	7010 4590 7010 3680
@@ -305,10 +271,6 @@ Wire Wire Line
 	6030 4790 7970 4790
 Wire Wire Line
 	6030 5190 8070 5190
-Wire Wire Line
-	4750 3610 4750 4600
-Wire Wire Line
-	4650 3610 4650 4500
 Wire Wire Line
 	6030 3990 6110 3990
 Wire Wire Line
@@ -327,4 +289,37 @@ Wire Wire Line
 Connection ~ 6060 4290
 Wire Wire Line
 	6060 4290 6060 4390
+Text Label 4790 4400 0    50   ~ 0
+Serial3_N
+Wire Wire Line
+	4330 3990 5350 3990
+Wire Wire Line
+	5130 4600 5130 4990
+Wire Wire Line
+	4330 4600 4950 4600
+Wire Wire Line
+	4950 3610 4950 4600
+Connection ~ 4950 4600
+Wire Wire Line
+	4950 4600 5130 4600
+Wire Wire Line
+	5370 4400 5370 4390
+Wire Wire Line
+	5370 4390 5430 4390
+Wire Wire Line
+	5260 4500 5260 4290
+Wire Wire Line
+	4330 4500 4650 4500
+Wire Wire Line
+	4330 4400 4750 4400
+Wire Wire Line
+	4650 3610 4650 4500
+Connection ~ 4650 4500
+Wire Wire Line
+	4650 4500 5260 4500
+Wire Wire Line
+	4750 3610 4750 4400
+Connection ~ 4750 4400
+Wire Wire Line
+	4750 4400 5370 4400
 $EndSCHEMATC
