@@ -1,0 +1,1168 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Diff Expansion"
+Date "2019-12-31"
+Rev "v1"
+Comp "Scott Hanson"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J5
+U 1 1 5D420E83
+P 9380 3870
+F 0 "J5" H 9420 4890 50  0000 C CNN
+F 1 "Expansion Header" H 9380 5060 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical" H 9380 3870 50  0001 C CNN
+F 3 "~" H 9380 3870 50  0001 C CNN
+F 4 "S9175-ND" H 9380 3870 50  0001 C CNN "Digi-Key_PN"
+F 5 "SBH11-PBPC-D20-ST-BK" H 9380 3870 50  0001 C CNN "MPN"
+	1    9380 3870
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5D42302C
+P 9030 4770
+F 0 "#PWR04" H 9030 4520 50  0001 C CNN
+F 1 "GND" H 9035 4597 50  0000 C CNN
+F 2 "" H 9030 4770 50  0001 C CNN
+F 3 "" H 9030 4770 50  0001 C CNN
+	1    9030 4770
+	1    0    0    -1  
+$EndComp
+Text GLabel 9680 3170 2    50   Input ~ 0
+OUT17
+Text GLabel 9680 3270 2    50   Input ~ 0
+OUT18
+Text GLabel 9680 3370 2    50   Input ~ 0
+OUT19
+Text GLabel 9680 3470 2    50   Input ~ 0
+OUT20
+Text GLabel 9680 3570 2    50   Input ~ 0
+OUT21
+Text GLabel 9680 3670 2    50   Input ~ 0
+OUT22
+Text GLabel 9680 3770 2    50   Input ~ 0
+OUT23
+Text GLabel 9680 3870 2    50   Input ~ 0
+OUT24
+Text GLabel 9680 3970 2    50   Input ~ 0
+OUT25
+Text GLabel 9680 4070 2    50   Input ~ 0
+OUT26
+Text GLabel 9680 4170 2    50   Input ~ 0
+OUT27
+Text GLabel 9680 4470 2    50   Input ~ 0
+OUT30
+Text GLabel 9680 4570 2    50   Input ~ 0
+OUT31
+Text GLabel 9680 4670 2    50   Input ~ 0
+OUT32
+Wire Wire Line
+	9180 3070 9180 3170
+Connection ~ 9180 3170
+Wire Wire Line
+	9180 3170 9180 3270
+Connection ~ 9180 3270
+Wire Wire Line
+	9180 3270 9180 3370
+Connection ~ 9180 3370
+Wire Wire Line
+	9180 3370 9180 3470
+Connection ~ 9180 3470
+Wire Wire Line
+	9180 3470 9180 3570
+Connection ~ 9180 3570
+Wire Wire Line
+	9180 3570 9180 3670
+Connection ~ 9180 3670
+Wire Wire Line
+	9180 3670 9180 3770
+Connection ~ 9180 3770
+Wire Wire Line
+	9180 3770 9180 3870
+Connection ~ 9180 3870
+Wire Wire Line
+	9180 3870 9180 3970
+Connection ~ 9180 3970
+Wire Wire Line
+	9180 3970 9180 4070
+Connection ~ 9180 4070
+Wire Wire Line
+	9180 4070 9180 4170
+Connection ~ 9180 4170
+Wire Wire Line
+	9180 4170 9180 4270
+Connection ~ 9180 4270
+Wire Wire Line
+	9180 4270 9180 4370
+Wire Wire Line
+	9180 4570 9180 4670
+Connection ~ 9180 4670
+Wire Wire Line
+	9180 4670 9180 4770
+Wire Wire Line
+	9180 4770 9030 4770
+Connection ~ 9180 4770
+$Comp
+L power:GND #PWR07
+U 1 1 5D4EFF24
+P 9800 4770
+F 0 "#PWR07" H 9800 4520 50  0001 C CNN
+F 1 "GND" H 9805 4597 50  0000 C CNN
+F 2 "" H 9800 4770 50  0001 C CNN
+F 3 "" H 9800 4770 50  0001 C CNN
+	1    9800 4770
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9680 4770 9800 4770
+$Comp
+L power:+5V #PWR05
+U 1 1 5D4F14DC
+P 9580 5110
+F 0 "#PWR05" H 9580 4960 50  0001 C CNN
+F 1 "+5V" H 9595 5283 50  0000 C CNN
+F 2 "" H 9580 5110 50  0001 C CNN
+F 3 "" H 9580 5110 50  0001 C CNN
+	1    9580 5110
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9680 5110 9580 5110
+Wire Wire Line
+	9680 4870 9680 5110
+Wire Wire Line
+	9580 5110 9180 5110
+Wire Wire Line
+	9180 4870 9180 5110
+Connection ~ 9580 5110
+Wire Wire Line
+	9680 2970 9680 3070
+$Comp
+L power:+5V #PWR06
+U 1 1 5D4F69A3
+P 9680 2970
+F 0 "#PWR06" H 9680 2820 50  0001 C CNN
+F 1 "+5V" H 9695 3143 50  0000 C CNN
+F 2 "" H 9680 2970 50  0001 C CNN
+F 3 "" H 9680 2970 50  0001 C CNN
+	1    9680 2970
+	1    0    0    -1  
+$EndComp
+Connection ~ 9680 2970
+NoConn ~ 9180 2970
+Text GLabel 9680 4270 2    50   Input ~ 0
+OUT28
+Text GLabel 9180 4470 0    50   Input ~ 0
+OUT29
+NoConn ~ 9680 4370
+$Comp
+L power:GND #PWR03
+U 1 1 5D5A9CBA
+P 9020 4170
+F 0 "#PWR03" H 9020 3920 50  0001 C CNN
+F 1 "GND" H 9025 3997 50  0000 C CNN
+F 2 "" H 9020 4170 50  0001 C CNN
+F 3 "" H 9020 4170 50  0001 C CNN
+	1    9020 4170
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9180 4170 9020 4170
+$Comp
+L Device:R R1
+U 1 1 5D66016D
+P 9430 2135
+F 0 "R1" H 9360 2089 50  0000 R CNN
+F 1 "120" H 9360 2180 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9360 2135 50  0001 C CNN
+F 3 "~" H 9430 2135 50  0001 C CNN
+F 4 "CF14JT120RCT-ND" H 9430 2135 50  0001 C CNN "Digi-Key_PN"
+F 5 "CF14JT120R" H 9430 2135 50  0001 C CNN "MPN"
+	1    9430 2135
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5D6610ED
+P 9430 1835
+F 0 "D1" V 9469 1718 50  0000 R CNN
+F 1 "5V LED" V 9378 1718 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm_Clear" H 9430 1835 50  0001 C CNN
+F 3 "~" H 9430 1835 50  0001 C CNN
+F 4 "754-1217-ND" H 9430 1835 50  0001 C CNN "Digi-Key_PN"
+F 5 "WP3A8GD" H 9430 1835 50  0001 C CNN "MPN"
+	1    9430 1835
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 5D661937
+P 9430 1685
+F 0 "#PWR01" H 9430 1535 50  0001 C CNN
+F 1 "+5V" H 9445 1858 50  0000 C CNN
+F 2 "" H 9430 1685 50  0001 C CNN
+F 3 "" H 9430 1685 50  0001 C CNN
+	1    9430 1685
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5D662164
+P 9430 2285
+F 0 "#PWR02" H 9430 2035 50  0001 C CNN
+F 1 "GND" H 9435 2112 50  0000 C CNN
+F 2 "" H 9430 2285 50  0001 C CNN
+F 3 "" H 9430 2285 50  0001 C CNN
+	1    9430 2285
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E154401
+P 8440 2020
+AR Path="/5DC70599/5E154401" Ref="C?"  Part="1" 
+AR Path="/5E154401" Ref="C3"  Part="1" 
+F 0 "C3" H 8555 2066 50  0000 L CNN
+F 1 "0.1uF" H 8555 1975 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 8478 1870 50  0001 C CNN
+F 3 "~" H 8440 2020 50  0001 C CNN
+F 4 "" H 8440 2020 50  0001 C CNN "Digikey PN"
+F 5 "478-7336-1-ND" H 8440 2020 50  0001 C CNN "Digi-Key_PN"
+F 6 "SR215C104KARTR1" H 8440 2020 50  0001 C CNN "MPN"
+	1    8440 2020
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:RJ45 J?
+U 1 1 5E154409
+P 5765 2285
+AR Path="/5DC70599/5E154409" Ref="J?"  Part="1" 
+AR Path="/5E154409" Ref="J3"  Part="1" 
+F 0 "J3" H 5822 2952 50  0000 C CNN
+F 1 "RJ45" H 5822 2861 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 5765 2310 50  0001 C CNN
+F 3 "~" V 5765 2310 50  0001 C CNN
+F 4 "" H 5765 2285 50  0001 C CNN "Digikey PN"
+F 5 "AE10392-ND" H 5765 2285 50  0001 C CNN "Digi-Key_PN"
+F 6 "A-2014-2-4-R" H 5765 2285 50  0001 C CNN "MPN"
+	1    5765 2285
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E15440F
+P 8440 1870
+AR Path="/5DC70599/5E15440F" Ref="#PWR?"  Part="1" 
+AR Path="/5E15440F" Ref="#PWR022"  Part="1" 
+F 0 "#PWR022" H 8440 1720 50  0001 C CNN
+F 1 "+5V" H 8455 2043 50  0000 C CNN
+F 2 "" H 8440 1870 50  0001 C CNN
+F 3 "" H 8440 1870 50  0001 C CNN
+	1    8440 1870
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E154415
+P 8440 2170
+AR Path="/5DC70599/5E154415" Ref="#PWR?"  Part="1" 
+AR Path="/5E154415" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 8440 1920 50  0001 C CNN
+F 1 "GND" H 8445 1997 50  0000 C CNN
+F 2 "" H 8440 2170 50  0001 C CNN
+F 3 "" H 8440 2170 50  0001 C CNN
+	1    8440 2170
+	1    0    0    -1  
+$EndComp
+$Comp
+L AM26C31:AM26C31 U?
+U 1 1 5E15441E
+P 7565 2485
+AR Path="/5DC70599/5E15441E" Ref="U?"  Part="1" 
+AR Path="/5E15441E" Ref="U3"  Part="1" 
+F 0 "U3" H 7565 3310 50  0000 C CNN
+F 1 "AM26C31" H 7565 3219 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 7365 1685 50  0001 L CNN
+F 3 "http://www.ti.com.cn/cn/lit/ds/symlink/am26c31.pdf" H 7365 1585 50  0001 L CNN
+F 4 "4975637" H 7365 1485 50  0001 L CNN "Farnell"
+F 5 "" H 7565 2485 50  0001 C CNN "Digikey PN"
+F 6 "296-6785-5-ND" H 7565 2485 50  0001 C CNN "Digi-Key_PN"
+F 7 "AM26C31IN" H 7565 2485 50  0001 C CNN "MPN"
+	1    7565 2485
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7265 1885 7185 1885
+Wire Wire Line
+	6165 1885 6165 1985
+Wire Wire Line
+	6165 2085 7085 2085
+Wire Wire Line
+	7265 2085 7265 1985
+Wire Wire Line
+	6165 2185 6885 2185
+Wire Wire Line
+	7040 2185 7040 2785
+Wire Wire Line
+	7040 2785 7265 2785
+Wire Wire Line
+	6965 2885 7265 2885
+Wire Wire Line
+	7265 2585 7265 2685
+Wire Wire Line
+	7265 2685 6285 2685
+Wire Wire Line
+	6165 2585 6185 2585
+Wire Wire Line
+	7225 2585 7225 2485
+Wire Wire Line
+	7225 2485 7265 2485
+$Comp
+L power:+5V #PWR?
+U 1 1 5E154431
+P 7915 1885
+AR Path="/5DC70599/5E154431" Ref="#PWR?"  Part="1" 
+AR Path="/5E154431" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 7915 1735 50  0001 C CNN
+F 1 "+5V" H 7930 2058 50  0000 C CNN
+F 2 "" H 7915 1885 50  0001 C CNN
+F 3 "" H 7915 1885 50  0001 C CNN
+	1    7915 1885
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E154437
+P 7945 2285
+AR Path="/5DC70599/5E154437" Ref="#PWR?"  Part="1" 
+AR Path="/5E154437" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 7945 2035 50  0001 C CNN
+F 1 "GND" H 8065 2285 50  0000 C CNN
+F 2 "" H 7945 2285 50  0001 C CNN
+F 3 "" H 7945 2285 50  0001 C CNN
+	1    7945 2285
+	1    0    0    -1  
+$EndComp
+Text Label 6605 2685 0    50   ~ 0
+Serial12_N
+Text Label 6605 2585 0    50   ~ 0
+Serial12_P
+Text Label 6630 2285 0    50   ~ 0
+Serial11_N
+Text Label 6590 2385 0    50   ~ 0
+Serial11_P
+Text Label 6605 2085 0    50   ~ 0
+Serial9_N
+Text Label 6605 1885 0    50   ~ 0
+Serial9_P
+Text Label 6605 2185 0    50   ~ 0
+Serial10_P
+$Comp
+L Device:R_Pack04_SIP RN?
+U 1 1 5E154446
+P 6685 1585
+AR Path="/5DC70599/5E154446" Ref="RN?"  Part="1" 
+AR Path="/5E154446" Ref="RN3"  Part="1" 
+F 0 "RN3" H 6920 1935 50  0000 R CNN
+F 1 "120" H 6915 1855 50  0000 R CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 7360 1585 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6685 1585 50  0001 C CNN
+F 4 "" H 6685 1585 50  0001 C CNN "Digikey PN"
+F 5 "4608X-2-121LF-ND" H 6685 1585 50  0001 C CNN "Digi-Key_PN"
+F 6 "4608X-102-121LF" H 6685 1585 50  0001 C CNN "MPN"
+	1    6685 1585
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6185 1785 6185 2585
+Connection ~ 6185 2585
+Wire Wire Line
+	6285 1785 6285 2685
+Connection ~ 6285 2685
+Wire Wire Line
+	6285 2685 6165 2685
+Wire Wire Line
+	6885 1785 6885 2185
+Connection ~ 6885 2185
+Wire Wire Line
+	6885 2185 7040 2185
+Wire Wire Line
+	7085 1785 7085 2085
+Connection ~ 7085 2085
+Wire Wire Line
+	7085 2085 7265 2085
+Wire Wire Line
+	7185 1785 7185 1885
+Connection ~ 7185 1885
+Wire Wire Line
+	7865 1885 7915 1885
+Wire Wire Line
+	7865 1985 7895 1985
+Wire Wire Line
+	7895 1985 7895 2185
+Wire Wire Line
+	7895 2285 7865 2285
+Wire Wire Line
+	7945 2285 7895 2285
+Connection ~ 7895 2285
+Wire Wire Line
+	6185 2585 7225 2585
+Wire Wire Line
+	7865 2185 7895 2185
+Connection ~ 7895 2185
+Wire Wire Line
+	7895 2185 7895 2285
+$Comp
+L Connector:RJ45 J?
+U 1 1 5E154465
+P 5815 4395
+AR Path="/5DC70599/5E154465" Ref="J?"  Part="1" 
+AR Path="/5E154465" Ref="J4"  Part="1" 
+F 0 "J4" H 5872 5062 50  0000 C CNN
+F 1 "RJ45" H 5872 4971 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 5815 4420 50  0001 C CNN
+F 3 "~" V 5815 4420 50  0001 C CNN
+F 4 "" H 5815 4395 50  0001 C CNN "Digikey PN"
+F 5 "AE10392-ND" H 5815 4395 50  0001 C CNN "Digi-Key_PN"
+F 6 "A-2014-2-4-R" H 5815 4395 50  0001 C CNN "MPN"
+	1    5815 4395
+	1    0    0    1   
+$EndComp
+$Comp
+L AM26C31:AM26C31 U?
+U 1 1 5E15446E
+P 7615 4595
+AR Path="/5DC70599/5E15446E" Ref="U?"  Part="1" 
+AR Path="/5E15446E" Ref="U4"  Part="1" 
+F 0 "U4" H 7615 5420 50  0000 C CNN
+F 1 "AM26C31" H 7615 5329 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 7415 3795 50  0001 L CNN
+F 3 "http://www.ti.com.cn/cn/lit/ds/symlink/am26c31.pdf" H 7415 3695 50  0001 L CNN
+F 4 "4975637" H 7415 3595 50  0001 L CNN "Farnell"
+F 5 "" H 7615 4595 50  0001 C CNN "Digikey PN"
+F 6 "296-6785-5-ND" H 7615 4595 50  0001 C CNN "Digi-Key_PN"
+F 7 "AM26C31IN" H 7615 4595 50  0001 C CNN "MPN"
+	1    7615 4595
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7315 3995 7235 3995
+Wire Wire Line
+	6215 3995 6215 4095
+Wire Wire Line
+	6215 4195 7135 4195
+Wire Wire Line
+	7315 4195 7315 4095
+Wire Wire Line
+	6215 4295 6935 4295
+Wire Wire Line
+	7105 4295 7105 4895
+Wire Wire Line
+	7105 4895 7315 4895
+Wire Wire Line
+	7015 4995 7315 4995
+Wire Wire Line
+	7315 4695 7315 4795
+Wire Wire Line
+	7315 4795 6335 4795
+Wire Wire Line
+	6215 4695 6235 4695
+Wire Wire Line
+	7275 4695 7275 4595
+Wire Wire Line
+	7275 4595 7315 4595
+$Comp
+L power:+5V #PWR?
+U 1 1 5E154481
+P 7970 3995
+AR Path="/5DC70599/5E154481" Ref="#PWR?"  Part="1" 
+AR Path="/5E154481" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 7970 3845 50  0001 C CNN
+F 1 "+5V" H 7985 4168 50  0000 C CNN
+F 2 "" H 7970 3995 50  0001 C CNN
+F 3 "" H 7970 3995 50  0001 C CNN
+	1    7970 3995
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E154487
+P 7995 4395
+AR Path="/5DC70599/5E154487" Ref="#PWR?"  Part="1" 
+AR Path="/5E154487" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 7995 4145 50  0001 C CNN
+F 1 "GND" H 8115 4395 50  0000 C CNN
+F 2 "" H 7995 4395 50  0001 C CNN
+F 3 "" H 7995 4395 50  0001 C CNN
+	1    7995 4395
+	1    0    0    -1  
+$EndComp
+Text Label 6655 4795 0    50   ~ 0
+Serial16_N
+Text Label 6655 4695 0    50   ~ 0
+Serial16_P
+Text Label 6675 4395 0    50   ~ 0
+Serial15_N
+Text Label 6670 4495 0    50   ~ 0
+Serial15_P
+Text Label 6660 4195 0    50   ~ 0
+Serial13_N
+Text Label 6655 3995 0    50   ~ 0
+Serial13_P
+Text Label 6655 4295 0    50   ~ 0
+Serial14_P
+$Comp
+L Device:R_Pack04_SIP RN?
+U 1 1 5E154496
+P 6735 3620
+AR Path="/5DC70599/5E154496" Ref="RN?"  Part="1" 
+AR Path="/5E154496" Ref="RN4"  Part="1" 
+F 0 "RN4" H 6975 3980 50  0000 R CNN
+F 1 "120" H 6965 3890 50  0000 R CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 7410 3620 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6735 3620 50  0001 C CNN
+F 4 "" H 6735 3620 50  0001 C CNN "Digikey PN"
+F 5 "4608X-2-121LF-ND" H 6735 3620 50  0001 C CNN "Digi-Key_PN"
+F 6 "4608X-102-121LF" H 6735 3620 50  0001 C CNN "MPN"
+	1    6735 3620
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6235 3820 6235 4695
+Connection ~ 6235 4695
+Wire Wire Line
+	6335 3820 6335 4795
+Connection ~ 6335 4795
+Wire Wire Line
+	6335 4795 6215 4795
+Wire Wire Line
+	6935 3820 6935 4295
+Connection ~ 6935 4295
+Wire Wire Line
+	6935 4295 7105 4295
+Wire Wire Line
+	7135 3820 7135 4195
+Connection ~ 7135 4195
+Wire Wire Line
+	7135 4195 7315 4195
+Wire Wire Line
+	7235 3820 7235 3995
+Connection ~ 7235 3995
+Wire Wire Line
+	7915 3995 7970 3995
+Wire Wire Line
+	7915 4095 7945 4095
+Wire Wire Line
+	7945 4095 7945 4295
+Wire Wire Line
+	7945 4395 7915 4395
+Wire Wire Line
+	7995 4395 7945 4395
+Connection ~ 7945 4395
+Wire Wire Line
+	6235 4695 7275 4695
+Wire Wire Line
+	7915 4295 7945 4295
+Connection ~ 7945 4295
+Wire Wire Line
+	7945 4295 7945 4395
+$Comp
+L Device:C C?
+U 1 1 5E1544B6
+P 8365 3850
+AR Path="/5DC70599/5E1544B6" Ref="C?"  Part="1" 
+AR Path="/5E1544B6" Ref="C4"  Part="1" 
+F 0 "C4" H 8480 3896 50  0000 L CNN
+F 1 "0.1uF" H 8480 3805 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 8403 3700 50  0001 C CNN
+F 3 "~" H 8365 3850 50  0001 C CNN
+F 4 "" H 8365 3850 50  0001 C CNN "Digikey PN"
+F 5 "478-7336-1-ND" H 8365 3850 50  0001 C CNN "Digi-Key_PN"
+F 6 "SR215C104KARTR1" H 8365 3850 50  0001 C CNN "MPN"
+	1    8365 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E1544BC
+P 8365 3700
+AR Path="/5DC70599/5E1544BC" Ref="#PWR?"  Part="1" 
+AR Path="/5E1544BC" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 8365 3550 50  0001 C CNN
+F 1 "+5V" H 8380 3873 50  0000 C CNN
+F 2 "" H 8365 3700 50  0001 C CNN
+F 3 "" H 8365 3700 50  0001 C CNN
+	1    8365 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1544C2
+P 8365 4000
+AR Path="/5DC70599/5E1544C2" Ref="#PWR?"  Part="1" 
+AR Path="/5E1544C2" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 8365 3750 50  0001 C CNN
+F 1 "GND" H 8370 3827 50  0000 C CNN
+F 2 "" H 8365 4000 50  0001 C CNN
+F 3 "" H 8365 4000 50  0001 C CNN
+	1    8365 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 7915 4995 2    50   Input ~ 0
+OUT32
+Text GLabel 7915 4795 2    50   Input ~ 0
+OUT31
+Text GLabel 7915 5195 2    50   Input ~ 0
+OUT30
+Text GLabel 7915 4595 2    50   Input ~ 0
+OUT29
+Text GLabel 7865 2885 2    50   Input ~ 0
+OUT28
+Text GLabel 7865 2685 2    50   Input ~ 0
+OUT27
+Wire Wire Line
+	6165 1885 7185 1885
+Text Label 6615 2485 0    50   ~ 0
+Serial10_N
+Wire Wire Line
+	6165 2485 6785 2485
+Wire Wire Line
+	6965 2485 6965 2885
+Wire Wire Line
+	6165 2285 6585 2285
+Wire Wire Line
+	6785 1785 6785 2485
+Connection ~ 6785 2485
+Wire Wire Line
+	6785 2485 6965 2485
+Wire Wire Line
+	7265 2185 7140 2185
+Wire Wire Line
+	7140 2185 7140 2385
+Wire Wire Line
+	7140 2385 6485 2385
+Wire Wire Line
+	6485 1785 6485 2385
+Connection ~ 6485 2385
+Wire Wire Line
+	6485 2385 6165 2385
+Wire Wire Line
+	6585 1785 6585 2285
+Connection ~ 6585 2285
+Wire Wire Line
+	6585 2285 7265 2285
+Wire Wire Line
+	6215 3995 7235 3995
+Wire Wire Line
+	6215 4395 6635 4395
+Wire Wire Line
+	7015 4595 7015 4995
+Wire Wire Line
+	6215 4495 6535 4495
+Wire Wire Line
+	7220 4495 7220 4295
+Wire Wire Line
+	7220 4295 7315 4295
+Text Label 6655 4595 0    50   ~ 0
+Serial14_N
+Wire Wire Line
+	6215 4595 6835 4595
+Wire Wire Line
+	6835 3820 6835 4595
+Connection ~ 6835 4595
+Wire Wire Line
+	6835 4595 7015 4595
+Wire Wire Line
+	6535 3820 6535 4495
+Connection ~ 6535 4495
+Wire Wire Line
+	6535 4495 7220 4495
+Wire Wire Line
+	6635 3820 6635 4395
+Connection ~ 6635 4395
+Wire Wire Line
+	6635 4395 7315 4395
+$Comp
+L Device:C C?
+U 1 1 5E1544F3
+P 4625 1965
+AR Path="/5DC70599/5E1544F3" Ref="C?"  Part="1" 
+AR Path="/5E1544F3" Ref="C1"  Part="1" 
+F 0 "C1" H 4740 2011 50  0000 L CNN
+F 1 "0.1uF" H 4740 1920 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 4663 1815 50  0001 C CNN
+F 3 "~" H 4625 1965 50  0001 C CNN
+F 4 "" H 4625 1965 50  0001 C CNN "Digikey PN"
+F 5 "478-7336-1-ND" H 4625 1965 50  0001 C CNN "Digi-Key_PN"
+F 6 "SR215C104KARTR1" H 4625 1965 50  0001 C CNN "MPN"
+	1    4625 1965
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:RJ45 J?
+U 1 1 5E1544FB
+P 1990 2250
+AR Path="/5DC70599/5E1544FB" Ref="J?"  Part="1" 
+AR Path="/5E1544FB" Ref="J1"  Part="1" 
+F 0 "J1" H 2047 2917 50  0000 C CNN
+F 1 "RJ45" H 2047 2826 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 1990 2275 50  0001 C CNN
+F 3 "~" V 1990 2275 50  0001 C CNN
+F 4 "" H 1990 2250 50  0001 C CNN "Digikey PN"
+F 5 "AE10392-ND" H 1990 2250 50  0001 C CNN "Digi-Key_PN"
+F 6 "A-2014-2-4-R" H 1990 2250 50  0001 C CNN "MPN"
+	1    1990 2250
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E154501
+P 4625 1815
+AR Path="/5DC70599/5E154501" Ref="#PWR?"  Part="1" 
+AR Path="/5E154501" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 4625 1665 50  0001 C CNN
+F 1 "+5V" H 4640 1988 50  0000 C CNN
+F 2 "" H 4625 1815 50  0001 C CNN
+F 3 "" H 4625 1815 50  0001 C CNN
+	1    4625 1815
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E154507
+P 4625 2115
+AR Path="/5DC70599/5E154507" Ref="#PWR?"  Part="1" 
+AR Path="/5E154507" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 4625 1865 50  0001 C CNN
+F 1 "GND" H 4630 1942 50  0000 C CNN
+F 2 "" H 4625 2115 50  0001 C CNN
+F 3 "" H 4625 2115 50  0001 C CNN
+	1    4625 2115
+	1    0    0    -1  
+$EndComp
+$Comp
+L AM26C31:AM26C31 U?
+U 1 1 5E154510
+P 3790 2450
+AR Path="/5DC70599/5E154510" Ref="U?"  Part="1" 
+AR Path="/5E154510" Ref="U1"  Part="1" 
+F 0 "U1" H 3790 3275 50  0000 C CNN
+F 1 "AM26C31" H 3790 3184 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3590 1650 50  0001 L CNN
+F 3 "http://www.ti.com.cn/cn/lit/ds/symlink/am26c31.pdf" H 3590 1550 50  0001 L CNN
+F 4 "4975637" H 3590 1450 50  0001 L CNN "Farnell"
+F 5 "" H 3790 2450 50  0001 C CNN "Digikey PN"
+F 6 "296-6785-5-ND" H 3790 2450 50  0001 C CNN "Digi-Key_PN"
+F 7 "AM26C31IN" H 3790 2450 50  0001 C CNN "MPN"
+	1    3790 2450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3490 1850 3410 1850
+Wire Wire Line
+	2390 1850 2390 1950
+Wire Wire Line
+	2390 2050 3310 2050
+Wire Wire Line
+	3490 2050 3490 1950
+Wire Wire Line
+	2390 2150 3110 2150
+Wire Wire Line
+	3265 2150 3265 2750
+Wire Wire Line
+	3265 2750 3490 2750
+Wire Wire Line
+	3190 2850 3490 2850
+Wire Wire Line
+	3490 2550 3490 2650
+Wire Wire Line
+	3490 2650 2510 2650
+Wire Wire Line
+	2390 2550 2410 2550
+Wire Wire Line
+	3450 2550 3450 2450
+Wire Wire Line
+	3450 2450 3490 2450
+$Comp
+L power:+5V #PWR?
+U 1 1 5E154523
+P 4140 1850
+AR Path="/5DC70599/5E154523" Ref="#PWR?"  Part="1" 
+AR Path="/5E154523" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 4140 1700 50  0001 C CNN
+F 1 "+5V" H 4155 2023 50  0000 C CNN
+F 2 "" H 4140 1850 50  0001 C CNN
+F 3 "" H 4140 1850 50  0001 C CNN
+	1    4140 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E154529
+P 4170 2250
+AR Path="/5DC70599/5E154529" Ref="#PWR?"  Part="1" 
+AR Path="/5E154529" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 4170 2000 50  0001 C CNN
+F 1 "GND" H 4290 2250 50  0000 C CNN
+F 2 "" H 4170 2250 50  0001 C CNN
+F 3 "" H 4170 2250 50  0001 C CNN
+	1    4170 2250
+	1    0    0    -1  
+$EndComp
+Text Label 2830 2650 0    50   ~ 0
+Serial4_N
+Text Label 2830 2550 0    50   ~ 0
+Serial4_P
+Text Label 2855 2250 0    50   ~ 0
+Serial3_N
+Text Label 2815 2350 0    50   ~ 0
+Serial3_P
+Text Label 2830 2050 0    50   ~ 0
+Serial1_N
+Text Label 2830 1850 0    50   ~ 0
+Serial1_P
+Text Label 2830 2150 0    50   ~ 0
+Serial2_P
+$Comp
+L Device:R_Pack04_SIP RN?
+U 1 1 5E154538
+P 2910 1550
+AR Path="/5DC70599/5E154538" Ref="RN?"  Part="1" 
+AR Path="/5E154538" Ref="RN1"  Part="1" 
+F 0 "RN1" H 3105 1900 50  0000 R CNN
+F 1 "120" H 3140 1820 50  0000 R CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 3585 1550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2910 1550 50  0001 C CNN
+F 4 "" H 2910 1550 50  0001 C CNN "Digikey PN"
+F 5 "4608X-2-121LF-ND" H 2910 1550 50  0001 C CNN "Digi-Key_PN"
+F 6 "4608X-102-121LF" H 2910 1550 50  0001 C CNN "MPN"
+	1    2910 1550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2410 1750 2410 2550
+Connection ~ 2410 2550
+Wire Wire Line
+	2510 1750 2510 2650
+Connection ~ 2510 2650
+Wire Wire Line
+	2510 2650 2390 2650
+Wire Wire Line
+	3110 1750 3110 2150
+Connection ~ 3110 2150
+Wire Wire Line
+	3110 2150 3265 2150
+Wire Wire Line
+	3310 1750 3310 2050
+Connection ~ 3310 2050
+Wire Wire Line
+	3310 2050 3490 2050
+Wire Wire Line
+	3410 1750 3410 1850
+Connection ~ 3410 1850
+Wire Wire Line
+	4090 1850 4140 1850
+Wire Wire Line
+	4090 1950 4120 1950
+Wire Wire Line
+	4120 1950 4120 2150
+Wire Wire Line
+	4120 2250 4090 2250
+Wire Wire Line
+	4170 2250 4120 2250
+Connection ~ 4120 2250
+Wire Wire Line
+	2410 2550 3450 2550
+Wire Wire Line
+	4090 2150 4120 2150
+Connection ~ 4120 2150
+Wire Wire Line
+	4120 2150 4120 2250
+$Comp
+L Connector:RJ45 J?
+U 1 1 5E154557
+P 1975 4370
+AR Path="/5DC70599/5E154557" Ref="J?"  Part="1" 
+AR Path="/5E154557" Ref="J2"  Part="1" 
+F 0 "J2" H 2032 5037 50  0000 C CNN
+F 1 "RJ45" H 2032 4946 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 1975 4395 50  0001 C CNN
+F 3 "~" V 1975 4395 50  0001 C CNN
+F 4 "" H 1975 4370 50  0001 C CNN "Digikey PN"
+F 5 "AE10392-ND" H 1975 4370 50  0001 C CNN "Digi-Key_PN"
+F 6 "A-2014-2-4-R" H 1975 4370 50  0001 C CNN "MPN"
+	1    1975 4370
+	1    0    0    1   
+$EndComp
+$Comp
+L AM26C31:AM26C31 U?
+U 1 1 5E154560
+P 3775 4570
+AR Path="/5DC70599/5E154560" Ref="U?"  Part="1" 
+AR Path="/5E154560" Ref="U2"  Part="1" 
+F 0 "U2" H 3775 5395 50  0000 C CNN
+F 1 "AM26C31" H 3775 5304 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3575 3770 50  0001 L CNN
+F 3 "http://www.ti.com.cn/cn/lit/ds/symlink/am26c31.pdf" H 3575 3670 50  0001 L CNN
+F 4 "4975637" H 3575 3570 50  0001 L CNN "Farnell"
+F 5 "" H 3775 4570 50  0001 C CNN "Digikey PN"
+F 6 "296-6785-5-ND" H 3775 4570 50  0001 C CNN "Digi-Key_PN"
+F 7 "AM26C31IN" H 3775 4570 50  0001 C CNN "MPN"
+	1    3775 4570
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3475 3970 3395 3970
+Wire Wire Line
+	2375 3970 2375 4070
+Wire Wire Line
+	2375 4170 3295 4170
+Wire Wire Line
+	3475 4170 3475 4070
+Wire Wire Line
+	2375 4270 3095 4270
+Wire Wire Line
+	3265 4270 3265 4870
+Wire Wire Line
+	3265 4870 3475 4870
+Wire Wire Line
+	3175 4970 3475 4970
+Wire Wire Line
+	3475 4670 3475 4770
+Wire Wire Line
+	3475 4770 2495 4770
+Wire Wire Line
+	2375 4670 2395 4670
+Wire Wire Line
+	3435 4670 3435 4570
+Wire Wire Line
+	3435 4570 3475 4570
+$Comp
+L power:+5V #PWR?
+U 1 1 5E154573
+P 4130 3970
+AR Path="/5DC70599/5E154573" Ref="#PWR?"  Part="1" 
+AR Path="/5E154573" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 4130 3820 50  0001 C CNN
+F 1 "+5V" H 4145 4143 50  0000 C CNN
+F 2 "" H 4130 3970 50  0001 C CNN
+F 3 "" H 4130 3970 50  0001 C CNN
+	1    4130 3970
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E154579
+P 4155 4370
+AR Path="/5DC70599/5E154579" Ref="#PWR?"  Part="1" 
+AR Path="/5E154579" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 4155 4120 50  0001 C CNN
+F 1 "GND" H 4275 4370 50  0000 C CNN
+F 2 "" H 4155 4370 50  0001 C CNN
+F 3 "" H 4155 4370 50  0001 C CNN
+	1    4155 4370
+	1    0    0    -1  
+$EndComp
+Text Label 2815 4770 0    50   ~ 0
+Serial8_N
+Text Label 2815 4670 0    50   ~ 0
+Serial8_P
+Text Label 2835 4370 0    50   ~ 0
+Serial7_N
+Text Label 2830 4470 0    50   ~ 0
+Serial7_P
+Text Label 2820 4170 0    50   ~ 0
+Serial5_N
+Text Label 2815 3970 0    50   ~ 0
+Serial5_P
+Text Label 2815 4270 0    50   ~ 0
+Serial6_P
+$Comp
+L Device:R_Pack04_SIP RN?
+U 1 1 5E154588
+P 2895 3595
+AR Path="/5DC70599/5E154588" Ref="RN?"  Part="1" 
+AR Path="/5E154588" Ref="RN2"  Part="1" 
+F 0 "RN2" H 3100 3980 50  0000 R CNN
+F 1 "120" H 3125 3865 50  0000 R CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 3570 3595 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2895 3595 50  0001 C CNN
+F 4 "" H 2895 3595 50  0001 C CNN "Digikey PN"
+F 5 "4608X-2-121LF-ND" H 2895 3595 50  0001 C CNN "Digi-Key_PN"
+F 6 "4608X-102-121LF" H 2895 3595 50  0001 C CNN "MPN"
+	1    2895 3595
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2395 3795 2395 4670
+Connection ~ 2395 4670
+Wire Wire Line
+	2495 3795 2495 4770
+Connection ~ 2495 4770
+Wire Wire Line
+	2495 4770 2375 4770
+Wire Wire Line
+	3095 3795 3095 4270
+Connection ~ 3095 4270
+Wire Wire Line
+	3095 4270 3265 4270
+Wire Wire Line
+	3295 3795 3295 4170
+Connection ~ 3295 4170
+Wire Wire Line
+	3295 4170 3475 4170
+Wire Wire Line
+	3395 3795 3395 3970
+Connection ~ 3395 3970
+Wire Wire Line
+	4075 3970 4130 3970
+Wire Wire Line
+	4075 4070 4105 4070
+Wire Wire Line
+	4105 4070 4105 4270
+Wire Wire Line
+	4105 4370 4075 4370
+Wire Wire Line
+	4155 4370 4105 4370
+Connection ~ 4105 4370
+Wire Wire Line
+	2395 4670 3435 4670
+Wire Wire Line
+	4075 4270 4105 4270
+Connection ~ 4105 4270
+Wire Wire Line
+	4105 4270 4105 4370
+$Comp
+L Device:C C?
+U 1 1 5E1545A8
+P 4460 3750
+AR Path="/5DC70599/5E1545A8" Ref="C?"  Part="1" 
+AR Path="/5E1545A8" Ref="C2"  Part="1" 
+F 0 "C2" H 4575 3796 50  0000 L CNN
+F 1 "0.1uF" H 4575 3705 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 4498 3600 50  0001 C CNN
+F 3 "~" H 4460 3750 50  0001 C CNN
+F 4 "" H 4460 3750 50  0001 C CNN "Digikey PN"
+F 5 "478-7336-1-ND" H 4460 3750 50  0001 C CNN "Digi-Key_PN"
+F 6 "SR215C104KARTR1" H 4460 3750 50  0001 C CNN "MPN"
+	1    4460 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E1545AE
+P 4460 3600
+AR Path="/5DC70599/5E1545AE" Ref="#PWR?"  Part="1" 
+AR Path="/5E1545AE" Ref="#PWR012"  Part="1" 
+F 0 "#PWR012" H 4460 3450 50  0001 C CNN
+F 1 "+5V" H 4475 3773 50  0000 C CNN
+F 2 "" H 4460 3600 50  0001 C CNN
+F 3 "" H 4460 3600 50  0001 C CNN
+	1    4460 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1545B4
+P 4460 3900
+AR Path="/5DC70599/5E1545B4" Ref="#PWR?"  Part="1" 
+AR Path="/5E1545B4" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 4460 3650 50  0001 C CNN
+F 1 "GND" H 4465 3727 50  0000 C CNN
+F 2 "" H 4460 3900 50  0001 C CNN
+F 3 "" H 4460 3900 50  0001 C CNN
+	1    4460 3900
+	1    0    0    -1  
+$EndComp
+Text GLabel 4075 4970 2    50   Input ~ 0
+OUT24
+Text GLabel 4075 4770 2    50   Input ~ 0
+OUT23
+Text GLabel 4075 5170 2    50   Input ~ 0
+OUT22
+Text GLabel 4075 4570 2    50   Input ~ 0
+OUT21
+Text GLabel 4090 2850 2    50   Input ~ 0
+OUT20
+Text GLabel 4090 2650 2    50   Input ~ 0
+OUT19
+Text GLabel 4090 3050 2    50   Input ~ 0
+OUT18
+Text GLabel 4090 2450 2    50   Input ~ 0
+OUT17
+Wire Wire Line
+	2390 1850 3410 1850
+Text Label 2840 2450 0    50   ~ 0
+Serial2_N
+Wire Wire Line
+	2390 2450 3010 2450
+Wire Wire Line
+	3190 2450 3190 2850
+Wire Wire Line
+	2390 2250 2810 2250
+Wire Wire Line
+	3010 1750 3010 2450
+Connection ~ 3010 2450
+Wire Wire Line
+	3010 2450 3190 2450
+Wire Wire Line
+	3490 2150 3365 2150
+Wire Wire Line
+	3365 2150 3365 2350
+Wire Wire Line
+	3365 2350 2710 2350
+Wire Wire Line
+	2710 1750 2710 2350
+Connection ~ 2710 2350
+Wire Wire Line
+	2710 2350 2390 2350
+Wire Wire Line
+	2810 1750 2810 2250
+Connection ~ 2810 2250
+Wire Wire Line
+	2810 2250 3490 2250
+Wire Wire Line
+	2375 3970 3395 3970
+Wire Wire Line
+	2375 4370 2795 4370
+Wire Wire Line
+	3175 4570 3175 4970
+Wire Wire Line
+	2375 4470 2695 4470
+Wire Wire Line
+	3380 4470 3380 4270
+Wire Wire Line
+	3380 4270 3475 4270
+Text Label 2815 4570 0    50   ~ 0
+Serial6_N
+Wire Wire Line
+	2375 4570 2995 4570
+Wire Wire Line
+	2995 3795 2995 4570
+Connection ~ 2995 4570
+Wire Wire Line
+	2995 4570 3175 4570
+Wire Wire Line
+	2695 3795 2695 4470
+Connection ~ 2695 4470
+Wire Wire Line
+	2695 4470 3380 4470
+Wire Wire Line
+	2795 3795 2795 4370
+Connection ~ 2795 4370
+Wire Wire Line
+	2795 4370 3475 4370
+Text GLabel 7865 3085 2    50   Input ~ 0
+OUT26
+Text GLabel 7865 2485 2    50   Input ~ 0
+OUT25
+$EndSCHEMATC

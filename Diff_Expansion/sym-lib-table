@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Diff_Expansion-rescue)(type Legacy)(uri ${KIPRJMOD}/Diff_Expansion-rescue.lib)(options "")(descr ""))
+)
