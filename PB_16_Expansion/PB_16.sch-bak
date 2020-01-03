@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title "PB 16 Min"
-Date "2019-10-20"
-Rev "v2"
+Title "PB 16 Expansion"
+Date "2019-12-31"
+Rev "v1"
 Comp "Scott Hanson"
 Comment1 ""
 Comment2 ""
@@ -1098,4 +1098,41 @@ U 5D413C25
 F0 "PocketBeagle" 50
 F1 "PocketBeagle.sch" 50
 $EndSheet
+$Comp
+L Connector:Conn_01x04_Male J9
+U 1 1 5E0EED5E
+P 4145 5605
+F 0 "J9" H 3935 5630 50  0000 C CNN
+F 1 "Serial Out" H 3910 5530 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4145 5605 50  0001 C CNN
+F 3 "~" H 4145 5605 50  0001 C CNN
+	1    4145 5605
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR039
+U 1 1 5E0F04D3
+P 4345 5505
+F 0 "#PWR039" H 4345 5355 50  0001 C CNN
+F 1 "+5V" H 4345 5680 50  0000 C CNN
+F 2 "" H 4345 5505 50  0001 C CNN
+F 3 "" H 4345 5505 50  0001 C CNN
+	1    4345 5505
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR040
+U 1 1 5E0F2155
+P 4345 5805
+F 0 "#PWR040" H 4345 5555 50  0001 C CNN
+F 1 "GND" H 4350 5632 50  0000 C CNN
+F 2 "" H 4345 5805 50  0001 C CNN
+F 3 "" H 4345 5805 50  0001 C CNN
+	1    4345 5805
+	1    0    0    -1  
+$EndComp
+Text GLabel 4345 5605 2    50   Input ~ 0
+TXD1
+Text GLabel 4345 5705 2    50   Input ~ 0
+TXD2
 $EndSCHEMATC
