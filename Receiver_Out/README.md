@@ -12,3 +12,6 @@ The "Receiver Out" ia a 4 port Differental Reciver output board for the PB16.  A
 ## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/Receiver_Out/Receiver_Out_BOM.ods)
 
 ![Image of Receiver Out](https://github.com/computergeek1507/PB_16/raw/master/Receiver_Out/Receiver_Out.png)
+
+![Real Image of Diff Expansion](https://github.com/computergeek1507/PB_16/raw/master/Receiver_Out/IMG_20200108_215053.jpg)
+

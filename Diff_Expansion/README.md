@@ -13,3 +13,5 @@ The Diff Expansion is a four port Differental Reciever output boardfor the PB16.
 
 ![Image of Diff Expansion](https://github.com/computergeek1507/PB_16/raw/master/Diff_Expansion/Diff_Expansion.png)
 
+![Real Image of Diff Expansion](https://github.com/computergeek1507/PB_16/raw/master/Diff_Expansion/IMG_20200108_222439.jpg)
+
