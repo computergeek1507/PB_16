@@ -55,9 +55,9 @@ DATA10
 Text GLabel 5055 3805 2    50   Input ~ 0
 DATA9
 Text GLabel 6285 3105 0    50   Input ~ 0
-TXD1
-Text GLabel 8085 3105 2    50   Input ~ 0
 TXD2
+Text GLabel 8085 3205 2    50   Input ~ 0
+TXD1
 Text GLabel 3255 3505 0    50   Input ~ 0
 OUT26
 Text GLabel 3255 3605 0    50   Input ~ 0
@@ -270,7 +270,6 @@ NoConn ~ 8085 4005
 NoConn ~ 8085 3905
 NoConn ~ 8085 3805
 NoConn ~ 8085 3705
-NoConn ~ 8085 3205
 NoConn ~ 8085 3305
 NoConn ~ 8085 3405
 NoConn ~ 8085 3505
@@ -300,4 +299,5 @@ NoConn ~ 5055 3005
 NoConn ~ 5055 3105
 NoConn ~ 5055 3205
 NoConn ~ 5055 3305
+NoConn ~ 8085 3105
 $EndSCHEMATC
