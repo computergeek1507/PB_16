@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 102)
+    (drawings 104)
     (tracks 1062)
     (zones 0)
     (modules 85)
@@ -6478,6 +6478,12 @@
     )
   )
 
+  (gr_text ttyS2 (at 113.4218 64.5412) (layer F.SilkS) (tstamp 5E31066F)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text ttyS1 (at 87.463 64.7698) (layer F.SilkS) (tstamp 5E31066A)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text "Down\nTest" (at 101.21202 58.69666) (layer F.SilkS) (tstamp 5E1E51DE)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
