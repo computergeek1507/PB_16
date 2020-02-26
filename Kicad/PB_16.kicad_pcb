@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.5)-3")
 
   (general
     (thickness 1.6)
@@ -464,6 +464,11 @@
       (net 1 GND))
     (pad 1 thru_hole circle (at -1.90556 0.050459 90) (size 1.904 1.904) (drill 1.1) (layers *.Cu *.Mask)
       (net 3 /VIN))
+    (model "${GIT_MODELS}/2Pin Blue.step"
+      (offset (xyz 3.5 3.5 0))
+      (scale (xyz 0.7 0.7 0.7))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module Fuse:Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm (layer F.Cu) (tedit 5BAABA15) (tstamp 5D499BFB)
@@ -1250,18 +1255,13 @@
       (net 129 GPIO1))
     (pad P1_1 thru_hole rect (at -13.97 -21.59 270) (size 1.408 1.408) (drill 0.9) (layers *.Cu *.Mask)
       (net 2 +5V))
-    (model D:/KiCad/libraries/POCKETBEAGLE/PocketBeagle.step
-      (offset (xyz -17.5 27.5 7))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
-    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x18_P2.54mm_Vertical.wrl
-      (offset (xyz 14 21.6 0))
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x18_P2.54mm_Vertical.wrl
+      (offset (xyz 11.5 21.6 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x18_P2.54mm_Vertical.wrl
-      (offset (xyz -11.4 21.6 0))
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x18_P2.54mm_Vertical.wrl
+      (offset (xyz -14 21.6 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
