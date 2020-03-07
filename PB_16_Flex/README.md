@@ -13,3 +13,5 @@ The PB16 Flex is a version of the PB16 for the HolidayCoro Flex System. It can b
 
 ![Image of PB16 Flex Out](https://github.com/computergeek1507/PB_16/raw/master/PB_16_Flex/PB_16_Flex.png)
 
+![Real Image of PB16 Flex Out](https://github.com/computergeek1507/PB_16/raw/master/PB_16_Flex/PB_16_Flex_Real.png)
+
