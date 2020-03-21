@@ -3048,7 +3048,7 @@
   (gr_text "By Scott Hanson" (at 166.225 74.75 270) (layer F.SilkS) (tstamp 5D7754F4)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "PB16 Expansion v1" (at 171.225 74.55 270) (layer F.SilkS)
+  (gr_text "PB16 Expansion v2" (at 171.225 74.55 270) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 200.75 119.75) (end 200.75 120.5) (layer F.SilkS) (width 0.12))
