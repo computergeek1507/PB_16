@@ -512,7 +512,7 @@ L Connector:Conn_01x04_Female J26
 U 1 1 5D551E96
 P 2400 2720
 F 0 "J26" H 2292 3005 50  0000 C CNN
-F 1 "OLED Select" H 2292 2914 50  0000 C CNN
+F 1 "OLED" H 2292 2914 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 2400 2720 50  0001 C CNN
 F 3 "~" H 2400 2720 50  0001 C CNN
 F 4 "S7002-ND" H 2400 2720 50  0001 C CNN "Digi-Key_PN"
@@ -1055,4 +1055,45 @@ Text Label 2995 2820 0    50   ~ 0
 Pin3
 Text Label 2640 2920 0    50   ~ 0
 Pin4
+$Comp
+L Connector:Conn_01x06_Male J?
+U 1 1 5E91DF8A
+P 1150 1585
+F 0 "J?" H 1258 1966 50  0000 C CNN
+F 1 "Audio Conn" H 1258 1875 50  0000 C CNN
+F 2 "" H 1150 1585 50  0001 C CNN
+F 3 "~" H 1150 1585 50  0001 C CNN
+	1    1150 1585
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E9225FD
+P 1350 1885
+F 0 "#PWR?" H 1350 1735 50  0001 C CNN
+F 1 "+5V" V 1365 2058 50  0000 C CNN
+F 2 "" H 1350 1885 50  0001 C CNN
+F 3 "" H 1350 1885 50  0001 C CNN
+	1    1350 1885
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E9235BE
+P 1350 1785
+F 0 "#PWR?" H 1350 1535 50  0001 C CNN
+F 1 "GND" V 1355 1612 50  0000 C CNN
+F 2 "" H 1350 1785 50  0001 C CNN
+F 3 "" H 1350 1785 50  0001 C CNN
+	1    1350 1785
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1350 1385 2    50   Input ~ 0
+SCK
+Text GLabel 1350 1485 2    50   Input ~ 0
+BCK
+Text GLabel 1350 1585 2    50   Input ~ 0
+DIN
+Text GLabel 1350 1685 2    50   Input ~ 0
+LRCK
 $EndSCHEMATC

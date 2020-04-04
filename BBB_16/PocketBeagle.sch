@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
 Title "BBB 16"
-Date "2020-01-12"
-Rev "v1"
+Date "2020-04-04"
+Rev "v2"
 Comp "Scott Hanson"
 Comment1 ""
 Comment2 ""
@@ -271,7 +271,6 @@ NoConn ~ 8085 3905
 NoConn ~ 8085 3805
 NoConn ~ 8085 3705
 NoConn ~ 8085 3305
-NoConn ~ 8085 3405
 NoConn ~ 8085 3505
 NoConn ~ 8085 2405
 NoConn ~ 8085 2505
@@ -279,10 +278,7 @@ NoConn ~ 8085 2605
 NoConn ~ 8085 2805
 NoConn ~ 8085 3005
 NoConn ~ 6285 3205
-NoConn ~ 6285 3305
 NoConn ~ 6285 3405
-NoConn ~ 6285 3505
-NoConn ~ 6285 3605
 NoConn ~ 6285 3705
 NoConn ~ 6285 3805
 NoConn ~ 6285 3905
@@ -300,4 +296,12 @@ NoConn ~ 5055 3105
 NoConn ~ 5055 3205
 NoConn ~ 5055 3305
 NoConn ~ 8085 3105
+Text GLabel 6285 3305 0    50   Input ~ 0
+SCK
+Text GLabel 6285 3605 0    50   Input ~ 0
+BCK
+Text GLabel 8085 3405 2    50   Input ~ 0
+DIN
+Text GLabel 6285 3505 0    50   Input ~ 0
+LRCK
 $EndSCHEMATC
