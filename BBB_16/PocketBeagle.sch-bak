@@ -55,9 +55,9 @@ DATA10
 Text GLabel 5055 3805 2    50   Input ~ 0
 DATA9
 Text GLabel 6285 3105 0    50   Input ~ 0
-TXD1
-Text GLabel 8085 3205 2    50   Input ~ 0
 TXD2
+Text GLabel 8085 3205 2    50   Input ~ 0
+TXD1
 Text GLabel 3255 3505 0    50   Input ~ 0
 OUT26
 Text GLabel 3255 3605 0    50   Input ~ 0
