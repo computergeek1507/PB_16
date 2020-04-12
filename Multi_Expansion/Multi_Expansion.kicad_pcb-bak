@@ -18,8 +18,8 @@
   )
 
   (layers
-    (0 F.Cu signal hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu signal)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -3440,7 +3440,7 @@
   )
   (gr_line (start 148.931 64.7698) (end 148.931 140.9698) (layer F.Fab) (width 0.12) (tstamp 5DCA4034))
   (gr_line (start 74.131 64.7698) (end 150.331 64.7698) (layer F.Fab) (width 0.12) (tstamp 5E00DB3C))
-  (gr_line (start 75.531 138.4298) (end 75.531 62.2298) (layer F.Fab) (width 0.12))
+  (gr_line (start 72.754 141.0124) (end 72.754 64.8124) (layer F.Fab) (width 0.12))
   (gr_line (start 72.731 140.9698) (end 148.931 140.9698) (layer F.Fab) (width 0.12))
   (gr_text + (at 75.151 70.2378) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))

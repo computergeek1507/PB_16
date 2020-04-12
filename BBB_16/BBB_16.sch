@@ -114,8 +114,8 @@ Wire Wire Line
 $Sheet
 S 2000 4500 890  900 
 U 5D413C25
-F0 "PocketBeagle" 50
-F1 "PocketBeagle.sch" 50
+F0 "BeagleBone" 50
+F1 "BeagleBone.sch" 50
 $EndSheet
 $Sheet
 S 2990 4500 900  900 

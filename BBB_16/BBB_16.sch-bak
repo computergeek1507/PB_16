@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
 Title "BBB 16"
-Date "2020-01-12"
-Rev "v1"
+Date "2020-04-04"
+Rev "v2"
 Comp "Scott Hanson"
 Comment1 ""
 Comment2 ""
@@ -1056,21 +1056,21 @@ Pin3
 Text Label 2640 2920 0    50   ~ 0
 Pin4
 $Comp
-L Connector:Conn_01x06_Male J?
+L Connector:Conn_01x06_Male J27
 U 1 1 5E91DF8A
 P 1150 1585
-F 0 "J?" H 1258 1966 50  0000 C CNN
+F 0 "J27" H 1258 1966 50  0000 C CNN
 F 1 "Audio Conn" H 1258 1875 50  0000 C CNN
-F 2 "" H 1150 1585 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1150 1585 50  0001 C CNN
 F 3 "~" H 1150 1585 50  0001 C CNN
 	1    1150 1585
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0120
 U 1 1 5E9225FD
 P 1350 1885
-F 0 "#PWR?" H 1350 1735 50  0001 C CNN
+F 0 "#PWR0120" H 1350 1735 50  0001 C CNN
 F 1 "+5V" V 1365 2058 50  0000 C CNN
 F 2 "" H 1350 1885 50  0001 C CNN
 F 3 "" H 1350 1885 50  0001 C CNN
@@ -1078,10 +1078,10 @@ F 3 "" H 1350 1885 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0129
 U 1 1 5E9235BE
 P 1350 1785
-F 0 "#PWR?" H 1350 1535 50  0001 C CNN
+F 0 "#PWR0129" H 1350 1535 50  0001 C CNN
 F 1 "GND" V 1355 1612 50  0000 C CNN
 F 2 "" H 1350 1785 50  0001 C CNN
 F 3 "" H 1350 1785 50  0001 C CNN
