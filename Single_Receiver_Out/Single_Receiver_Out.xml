@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\PB_16\Single_Receiver_Out\Single_Receiver_Out.sch</source>
+    <date>4/18/2020 10:17:11 PM</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Single Receiver Out</title>
+        <company>Scott Hanson</company>
+        <rev>v1</rev>
+        <date>2020-04-18</date>
+        <source>Single_Receiver_Out.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">445-FK26X7R1E106K-ND</field>
+        <field name="MPN">FK26X7R1E106K</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0AD280</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>String1</value>
+      <footprint>Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">277-5737-ND/ED10555-ND</field>
+        <field name="MPN">1843619/OSTTJ0311530</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E994D56</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>RJ45</value>
+      <footprint>Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">AE10392-ND</field>
+        <field name="MPN">A-2014-2-4-R</field>
+      </fields>
+      <libsource lib="Connector" part="RJ45" description="RJ connector, 8P8C (8 positions 8 connected)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E99ECA9</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">478-7336-1-ND</field>
+        <field name="MPN">SR215C104KARTR1</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E99ED09</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>L78L05_TO92</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">MC78L05BP-APMSCT-ND</field>
+        <field name="MPN">MC78L05BP-AP</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L78L05_TO92" description="Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9A666D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>120</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">CF14JT120RCT-ND</field>
+        <field name="MPN">CF14JT120R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9B8383</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>SN75176AP</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn75176a.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">296-1737-5-ND</field>
+        <field name="MPN">SN75176AP</field>
+      </fields>
+      <libsource lib="Interface_UART" part="SN75176AP" description="Differential RS-422/RS-485 bus transceiver, DIP-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9BE591</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">CF14JT33R0CT-ND</field>
+        <field name="MPN">CF14JT33R0</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9D030F</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">478-7336-1-ND</field>
+        <field name="MPN">SR215C104KARTR1</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9D21E8</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">478-7336-1-ND</field>
+        <field name="MPN">SR215C104KARTR1</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9D7ED2</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="8P8C">
+      <aliases>
+        <alias>RJ31</alias>
+        <alias>RJ32</alias>
+        <alias>RJ33</alias>
+        <alias>RJ34</alias>
+        <alias>RJ35</alias>
+        <alias>RJ41</alias>
+        <alias>RJ45</alias>
+        <alias>RJ49</alias>
+        <alias>RJ61</alias>
+      </aliases>
+      <description>RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>8P8C*</fp>
+        <fp>RJ31*</fp>
+        <fp>RJ32*</fp>
+        <fp>RJ33*</fp>
+        <fp>RJ34*</fp>
+        <fp>RJ35*</fp>
+        <fp>RJ41*</fp>
+        <fp>RJ45*</fp>
+        <fp>RJ49*</fp>
+        <fp>RJ61*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">8P8C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_UART" part="SN75LBC176P">
+      <aliases>
+        <alias>SN65LBC176P</alias>
+        <alias>SNJ55LBC176JG</alias>
+        <alias>SN75176AP</alias>
+      </aliases>
+      <description>Differential bus transceiver, DIP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN75LBC176P</field>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="R" type="output"/>
+        <pin num="2" name="~RE" type="input"/>
+        <pin num="3" name="DE" type="input"/>
+        <pin num="4" name="D" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="A" type="BiDi"/>
+        <pin num="7" name="B" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="MC78L05_TO92">
+      <aliases>
+        <alias>LM78L05_TO92</alias>
+        <alias>MC78L06_TO92</alias>
+        <alias>MC78L08_TO92</alias>
+        <alias>MC78L12_TO92</alias>
+        <alias>LM78L12_TO92</alias>
+        <alias>MC78L15_TO92</alias>
+        <alias>MC78L18_TO92</alias>
+        <alias>MC78L24_TO92</alias>
+        <alias>LM2931AZ-5.0_TO92</alias>
+        <alias>LM2936-3.0_TO92</alias>
+        <alias>LM2936-3.3_TO92</alias>
+        <alias>LM2936-5.0_TO92</alias>
+        <alias>LP2950-3.0_TO92</alias>
+        <alias>LP2950-3.3_TO92</alias>
+        <alias>LP2950-5.0_TO92</alias>
+        <alias>L78L33_TO92</alias>
+        <alias>L78L05_TO92</alias>
+        <alias>L78L06_TO92</alias>
+        <alias>L78L08_TO92</alias>
+        <alias>L78L09_TO92</alias>
+        <alias>L78L10_TO92</alias>
+        <alias>L78L12_TO92</alias>
+        <alias>L78L15_TO92</alias>
+        <alias>L78L18_TO92</alias>
+        <alias>L78L24_TO92</alias>
+      </aliases>
+      <description>Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92</description>
+      <docs>http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MC78L05_TO92</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VO" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Interface_UART">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Interface_UART.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="VIN1">
+      <node ref="C2" pin="1"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J2" pin="3"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="2" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="J2" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="J1" pin="8"/>
+      <node ref="J1" pin="7"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="5" name="Net-(J1-Pad2)">
+      <node ref="U1" pin="7"/>
+      <node ref="R1" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="6" name="+5V">
+      <node ref="U2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="7" name="Net-(J2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="8" name="OUT1">
+      <node ref="U1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="9" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="10" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+  </nets>
+</export>
