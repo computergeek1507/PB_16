@@ -1,0 +1,334 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title "Pwr Diff Breakout"
+Date "2020-04-19"
+Rev "v1"
+Comp "Scott Hanson"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:RJ45 J1
+U 1 1 5DC77259
+P 1305 2910
+F 0 "J1" H 1362 3577 50  0000 C CNN
+F 1 "RJ45" H 1362 3486 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 1305 2935 50  0001 C CNN
+F 3 "~" V 1305 2935 50  0001 C CNN
+F 4 "" H 1305 2910 50  0001 C CNN "Digikey PN"
+F 5 "AE10392-ND" H 1305 2910 50  0001 C CNN "Digi-Key_PN"
+F 6 "A-2014-2-4-R" H 1305 2910 50  0001 C CNN "MPN"
+	1    1305 2910
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:RJ45 J2
+U 1 1 5DC7E163
+P 1345 4100
+F 0 "J2" H 1402 4767 50  0000 C CNN
+F 1 "RJ45" H 1402 4676 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 1345 4125 50  0001 C CNN
+F 3 "~" V 1345 4125 50  0001 C CNN
+F 4 "" H 1345 4100 50  0001 C CNN "Digikey PN"
+F 5 "AE10392-ND" H 1345 4100 50  0001 C CNN "Digi-Key_PN"
+F 6 "A-2014-2-4-R" H 1345 4100 50  0001 C CNN "MPN"
+	1    1345 4100
+	1    0    0    1   
+$EndComp
+$Comp
+L Pwr_Diff_Breakout-rescue:3544-2-Keystone_Fuse F?
+U 1 1 5E9CB04C
+P 3205 1390
+AR Path="/5E9CB04C" Ref="F?"  Part="1" 
+AR Path="/5D469293/5E9CB04C" Ref="F?"  Part="1" 
+AR Path="/5DC70599/5E9CB04C" Ref="F3"  Part="1" 
+F 0 "F3" V 3159 1520 50  0000 L CNN
+F 1 "3544-2" V 3250 1520 50  0000 L CNN
+F 2 "Keystone_Fuse:FUSE_3544-2" H 3205 1390 50  0001 L BNN
+F 3 "" H 3205 1390 50  0001 L BNN
+F 4 "3544-2" H 3205 1390 50  0001 L BNN "Field4"
+F 5 "None" H 3205 1390 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 3205 1390 50  0001 L BNN "Field6"
+F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 3205 1390 50  0001 L BNN "Field7"
+F 8 "Keystone Electronics" H 3205 1390 50  0001 L BNN "Field8"
+F 9 "36-3544-2-ND" H -5105 -1890 50  0001 C CNN "Digi-Key_PN"
+F 10 "3544-2" H -5105 -1890 50  0001 C CNN "MPN"
+	1    3205 1390
+	0    1    1    0   
+$EndComp
+$Comp
+L Pwr_Diff_Breakout-rescue:3544-2-Keystone_Fuse F?
+U 1 1 5E9CB059
+P 3655 1400
+AR Path="/5E9CB059" Ref="F?"  Part="1" 
+AR Path="/5D469293/5E9CB059" Ref="F?"  Part="1" 
+AR Path="/5DC70599/5E9CB059" Ref="F4"  Part="1" 
+F 0 "F4" V 3609 1530 50  0000 L CNN
+F 1 "3544-2" V 3700 1530 50  0000 L CNN
+F 2 "Keystone_Fuse:FUSE_3544-2" H 3655 1400 50  0001 L BNN
+F 3 "" H 3655 1400 50  0001 L BNN
+F 4 "3544-2" H 3655 1400 50  0001 L BNN "Field4"
+F 5 "None" H 3655 1400 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 3655 1400 50  0001 L BNN "Field6"
+F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 3655 1400 50  0001 L BNN "Field7"
+F 8 "Keystone Electronics" H 3655 1400 50  0001 L BNN "Field8"
+F 9 "36-3544-2-ND" H -5015 -1890 50  0001 C CNN "Digi-Key_PN"
+F 10 "3544-2" H -5015 -1890 50  0001 C CNN "MPN"
+	1    3655 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Pwr_Diff_Breakout-rescue:3544-2-Keystone_Fuse F?
+U 1 1 5E9CB09C
+P 2295 1390
+AR Path="/5E9CB09C" Ref="F?"  Part="1" 
+AR Path="/5D469293/5E9CB09C" Ref="F?"  Part="1" 
+AR Path="/5DC70599/5E9CB09C" Ref="F1"  Part="1" 
+F 0 "F1" V 2249 1520 50  0000 L CNN
+F 1 "3544-2" V 2340 1520 50  0000 L CNN
+F 2 "Keystone_Fuse:FUSE_3544-2" H 2295 1390 50  0001 L BNN
+F 3 "" H 2295 1390 50  0001 L BNN
+F 4 "3544-2" H 2295 1390 50  0001 L BNN "Field4"
+F 5 "None" H 2295 1390 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 2295 1390 50  0001 L BNN "Field6"
+F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 2295 1390 50  0001 L BNN "Field7"
+F 8 "Keystone Electronics" H 2295 1390 50  0001 L BNN "Field8"
+F 9 "36-3544-2-ND" H -5075 -1900 50  0001 C CNN "Digi-Key_PN"
+F 10 "3544-2" H -5075 -1900 50  0001 C CNN "MPN"
+	1    2295 1390
+	0    1    1    0   
+$EndComp
+Text GLabel 2295 890  1    50   Input ~ 0
+VIN1
+Text GLabel 2745 880  1    50   Input ~ 0
+VIN1
+Text GLabel 3205 890  1    50   Input ~ 0
+VIN1
+Text GLabel 3655 900  1    50   Input ~ 0
+VIN1
+$Comp
+L Connector:RJ45 J3
+U 1 1 5E9ED085
+P 1380 5260
+F 0 "J3" H 1437 5927 50  0000 C CNN
+F 1 "RJ45" H 1437 5836 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 1380 5285 50  0001 C CNN
+F 3 "~" V 1380 5285 50  0001 C CNN
+F 4 "" H 1380 5260 50  0001 C CNN "Digikey PN"
+F 5 "AE10392-ND" H 1380 5260 50  0001 C CNN "Digi-Key_PN"
+F 6 "A-2014-2-4-R" H 1380 5260 50  0001 C CNN "MPN"
+	1    1380 5260
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:RJ45 J4
+U 1 1 5E9EEA92
+P 1375 6345
+F 0 "J4" H 1432 7012 50  0000 C CNN
+F 1 "RJ45" H 1432 6921 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 1375 6370 50  0001 C CNN
+F 3 "~" V 1375 6370 50  0001 C CNN
+F 4 "" H 1375 6345 50  0001 C CNN "Digikey PN"
+F 5 "AE10392-ND" H 1375 6345 50  0001 C CNN "Digi-Key_PN"
+F 6 "A-2014-2-4-R" H 1375 6345 50  0001 C CNN "MPN"
+	1    1375 6345
+	1    0    0    1   
+$EndComp
+Text GLabel 2295 1890 3    50   Input ~ 0
+VOUT1
+$Comp
+L Pwr_Diff_Breakout-rescue:3544-2-Keystone_Fuse F?
+U 1 1 5E9CB03F
+P 2745 1380
+AR Path="/5E9CB03F" Ref="F?"  Part="1" 
+AR Path="/5D469293/5E9CB03F" Ref="F?"  Part="1" 
+AR Path="/5DC70599/5E9CB03F" Ref="F2"  Part="1" 
+F 0 "F2" V 2699 1510 50  0000 L CNN
+F 1 "3544-2" V 2790 1510 50  0000 L CNN
+F 2 "Keystone_Fuse:FUSE_3544-2" H 2745 1380 50  0001 L BNN
+F 3 "" H 2745 1380 50  0001 L BNN
+F 4 "3544-2" H 2745 1380 50  0001 L BNN "Field4"
+F 5 "None" H 2745 1380 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 2745 1380 50  0001 L BNN "Field6"
+F 7 "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses" H 2745 1380 50  0001 L BNN "Field7"
+F 8 "Keystone Electronics" H 2745 1380 50  0001 L BNN "Field8"
+F 9 "36-3544-2-ND" H -5155 -1890 50  0001 C CNN "Digi-Key_PN"
+F 10 "3544-2" H -5155 -1890 50  0001 C CNN "MPN"
+	1    2745 1380
+	0    1    1    0   
+$EndComp
+Text GLabel 2745 1880 3    50   Input ~ 0
+VOUT2
+Text GLabel 3205 1890 3    50   Input ~ 0
+VOUT3
+Text GLabel 3655 1900 3    50   Input ~ 0
+VOUT4
+Text GLabel 1735 2910 2    50   Input ~ 0
+VOUT1
+Wire Wire Line
+	1705 3010 1705 2910
+Wire Wire Line
+	1735 2910 1705 2910
+Connection ~ 1705 2910
+$Comp
+L power:GND #PWR04
+U 1 1 5E9F33FD
+P 1790 4500
+F 0 "#PWR04" H 1790 4250 50  0001 C CNN
+F 1 "GND" H 1795 4327 50  0000 C CNN
+F 2 "" H 1790 4500 50  0001 C CNN
+F 3 "" H 1790 4500 50  0001 C CNN
+	1    1790 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1745 4400 1745 4500
+Wire Wire Line
+	1745 4500 1790 4500
+Connection ~ 1745 4500
+$Comp
+L power:GND #PWR08
+U 1 1 5E9F49F1
+P 1825 5660
+F 0 "#PWR08" H 1825 5410 50  0001 C CNN
+F 1 "GND" H 1830 5487 50  0000 C CNN
+F 2 "" H 1825 5660 50  0001 C CNN
+F 3 "" H 1825 5660 50  0001 C CNN
+	1    1825 5660
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1780 5660 1825 5660
+$Comp
+L power:GND #PWR07
+U 1 1 5E9F55F2
+P 1820 6745
+F 0 "#PWR07" H 1820 6495 50  0001 C CNN
+F 1 "GND" H 1825 6572 50  0000 C CNN
+F 2 "" H 1820 6745 50  0001 C CNN
+F 3 "" H 1820 6745 50  0001 C CNN
+	1    1820 6745
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1775 6745 1820 6745
+$Comp
+L power:GND #PWR03
+U 1 1 5E9F5E45
+P 1750 3310
+F 0 "#PWR03" H 1750 3060 50  0001 C CNN
+F 1 "GND" H 1755 3137 50  0000 C CNN
+F 2 "" H 1750 3310 50  0001 C CNN
+F 3 "" H 1750 3310 50  0001 C CNN
+	1    1750 3310
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1705 3310 1750 3310
+Wire Wire Line
+	1705 3210 1705 3310
+Connection ~ 1705 3310
+Wire Wire Line
+	1780 5660 1780 5560
+Connection ~ 1780 5660
+Wire Wire Line
+	1775 6745 1775 6645
+Connection ~ 1775 6745
+Wire Wire Line
+	1775 6345 1775 6445
+Wire Wire Line
+	1745 4200 1745 4100
+Wire Wire Line
+	1780 5360 1780 5260
+Text GLabel 1770 4100 2    50   Input ~ 0
+VOUT2
+Text GLabel 1800 6345 2    50   Input ~ 0
+VOUT4
+Text GLabel 1805 5260 2    50   Input ~ 0
+VOUT3
+Wire Wire Line
+	1780 5260 1805 5260
+Connection ~ 1780 5260
+Wire Wire Line
+	1775 6345 1800 6345
+Connection ~ 1775 6345
+Wire Wire Line
+	1745 4100 1770 4100
+Connection ~ 1745 4100
+Wire Wire Line
+	2315 3800 2315 4535
+Wire Wire Line
+	1745 3800 2315 3800
+Wire Wire Line
+	1780 4960 2435 4960
+Wire Wire Line
+	1775 6045 2575 6045
+Wire Wire Line
+	1705 2610 2850 2610
+Wire Wire Line
+	2755 2710 2755 4435
+NoConn ~ 1705 2810
+NoConn ~ 1705 3110
+NoConn ~ 1745 4000
+NoConn ~ 1745 4300
+NoConn ~ 1780 5460
+NoConn ~ 1780 5160
+NoConn ~ 1775 6245
+NoConn ~ 1775 6545
+$Comp
+L Connector:RJ45 J5
+U 1 1 5E9C1CBF
+P 3555 4635
+F 0 "J5" H 3612 5302 50  0000 C CNN
+F 1 "RJ45" H 3612 5211 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 3555 4660 50  0001 C CNN
+F 3 "~" V 3555 4660 50  0001 C CNN
+F 4 "" H 3555 4635 50  0001 C CNN "Digikey PN"
+F 5 "AE10392-ND" H 3555 4635 50  0001 C CNN "Digi-Key_PN"
+F 6 "A-2014-2-4-R" H 3555 4635 50  0001 C CNN "MPN"
+	1    3555 4635
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3155 4335 2850 4335
+Wire Wire Line
+	2850 4335 2850 2610
+Wire Wire Line
+	3155 4435 2755 4435
+Wire Wire Line
+	3155 5035 2655 5035
+Wire Wire Line
+	2655 5035 2655 6145
+Wire Wire Line
+	1775 6145 2655 6145
+Wire Wire Line
+	1705 2710 2755 2710
+Wire Wire Line
+	1745 3900 2250 3900
+Wire Wire Line
+	2575 4935 3155 4935
+Wire Wire Line
+	2575 4935 2575 6045
+Wire Wire Line
+	2315 4535 3155 4535
+Wire Wire Line
+	3155 4835 2250 4835
+Wire Wire Line
+	2250 3900 2250 4835
+Wire Wire Line
+	3155 4735 2435 4735
+Wire Wire Line
+	2435 4735 2435 4960
+Wire Wire Line
+	3155 4635 2140 4635
+Wire Wire Line
+	2140 4635 2140 5060
+Wire Wire Line
+	1780 5060 2140 5060
+$EndSCHEMATC
