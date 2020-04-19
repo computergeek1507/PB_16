@@ -7,11 +7,9 @@ You may redistribute and modify this documentation under the terms of the CERN O
 
 # Receiver Out
 
-The "Receiver Out" ia a 4 port Differental Reciver output board for the PB16.  All the design files are open source and available on github.
+The "Single Receiver Out" ia a 1 port Differental Reciver output board for the "Pwr Diff Expansion". Power is also provided over two of the Cat5 wires. All the design files are open source and available on github.
 
 ## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/Single_Receiver_Out/Single_Receiver_Out_BOM.ods)
 
 ![Image of Receiver Out](https://github.com/computergeek1507/PB_16/raw/master/Single_Receiver_Out/Single_Receiver_Out.png)
-
-![Real Image of Diff Expansion](https://github.com/computergeek1507/PB_16/raw/master/Single_Receiver_Out/IMG_20200108_215053.jpg)
 
