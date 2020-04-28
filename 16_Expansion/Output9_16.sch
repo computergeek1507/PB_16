@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:PB_16-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
 Title "16 Expansion"
-Date "2019-12-18"
-Rev "v2"
+Date "2020-04-27"
+Rev "v3"
 Comp "Scott Hanson"
 Comment1 ""
 Comment2 ""

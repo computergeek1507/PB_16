@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:PB_16-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "16 Expansion"
-Date "2019-12-18"
-Rev "v2"
+Date "2020-04-27"
+Rev "v3"
 Comp "Scott Hanson"
 Comment1 ""
 Comment2 ""
@@ -27,30 +26,17 @@ F0 "Output 9-16" 50
 F1 "Output9_16.sch" 50
 $EndSheet
 $Comp
-L Connector_Generic:Conn_01x02 J18
-U 1 1 5D51C5DD
-P 2745 2990
-F 0 "J18" H 2825 2982 50  0000 L CNN
-F 1 "Power In Right" H 2825 2891 50  0000 L CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal" H 2745 2990 50  0001 C CNN
-F 3 "~" H 2745 2990 50  0001 C CNN
-F 4 "ED2675-ND" H -5775 2130 50  0001 C CNN "Digi-Key_PN"
-F 5 "OSTT7020150" H -5775 2130 50  0001 C CNN "MPN"
-	1    2745 2990
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR02
 U 1 1 5D51C5E3
-P 2945 3090
-F 0 "#PWR02" H 2945 2840 50  0001 C CNN
-F 1 "GND" H 2950 2917 50  0000 C CNN
-F 2 "" H 2945 3090 50  0001 C CNN
-F 3 "" H 2945 3090 50  0001 C CNN
-	1    2945 3090
+P 2735 3070
+F 0 "#PWR02" H 2735 2820 50  0001 C CNN
+F 1 "GND" H 2740 2897 50  0000 C CNN
+F 2 "" H 2735 3070 50  0001 C CNN
+F 3 "" H 2735 3070 50  0001 C CNN
+	1    2735 3070
 	1    0    0    -1  
 $EndComp
-Text GLabel 2945 2990 2    50   Input ~ 0
+Text GLabel 2735 2870 2    50   Input ~ 0
 VIN2
 $Comp
 L Device:D_Schottky D2
@@ -394,30 +380,39 @@ F 3 "" H 7025 2990 50  0001 C CNN
 	1    7025 2990
 	1    0    0    -1  
 $EndComp
-Text GLabel 2940 2305 2    50   Input ~ 0
-VIN1
 $Comp
 L power:GND #PWR0101
 U 1 1 5CED08B0
-P 2940 2405
-F 0 "#PWR0101" H 2940 2155 50  0001 C CNN
-F 1 "GND" H 2945 2232 50  0000 C CNN
-F 2 "" H 2940 2405 50  0001 C CNN
-F 3 "" H 2940 2405 50  0001 C CNN
-	1    2940 2405
+P 2675 2045
+F 0 "#PWR0101" H 2675 1795 50  0001 C CNN
+F 1 "GND" H 2680 1872 50  0000 C CNN
+F 2 "" H 2675 2045 50  0001 C CNN
+F 3 "" H 2675 2045 50  0001 C CNN
+	1    2675 2045
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J17
-U 1 1 5CEC911C
-P 2740 2305
-F 0 "J17" H 2820 2297 50  0000 L CNN
-F 1 "Power In Left" H 2820 2206 50  0000 L CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal" H 2740 2305 50  0001 C CNN
-F 3 "~" H 2740 2305 50  0001 C CNN
-F 4 "ED2675-ND" H -5780 1445 50  0001 C CNN "Digi-Key_PN"
-F 5 "OSTT7020150" H -5780 1445 50  0001 C CNN "MPN"
-	1    2740 2305
+L Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS J17
+U 1 1 5EAABA93
+P 2325 1945
+F 0 "J17" H 2192 2332 60  0000 C CNN
+F 1 "Power In Left" H 2192 2226 60  0000 C CNN
+F 2 "Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS_P9.5MM" H 2325 1945 60  0001 C CNN
+F 3 "" H 2325 1945 60  0000 C CNN
+	1    2325 1945
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS J18
+U 1 1 5EAAE00B
+P 2385 2970
+F 0 "J18" H 2252 3357 60  0000 C CNN
+F 1 "Power In Right" H 2252 3251 60  0000 C CNN
+F 2 "Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS_P9.5MM" H 2385 2970 60  0001 C CNN
+F 3 "" H 2385 2970 60  0000 C CNN
+	1    2385 2970
+	-1   0    0    -1  
+$EndComp
+Text GLabel 2675 1845 2    50   Input ~ 0
+VIN1
 $EndSCHEMATC
