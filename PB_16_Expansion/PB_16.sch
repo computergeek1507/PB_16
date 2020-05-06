@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "PB 16 Expansion"
-Date "2020-01-02"
-Rev "v2"
+Date "2020-05-06"
+Rev "v3"
 Comp "Scott Hanson"
 Comment1 ""
 Comment2 ""
