@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "Pwr Diff Breakout"
-Date "2020-04-19"
+Date "2020-04-27"
 Rev "v1"
 Comp "Scott Hanson"
 Comment1 ""
