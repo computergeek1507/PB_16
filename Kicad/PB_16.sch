@@ -1,32 +1,18 @@
 EESchema Schematic File Version 4
-LIBS:PB_16-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
 Title "PB 16"
-Date "2019-10-07"
-Rev "v1.0f"
+Date "2020-05-09"
+Rev "v1.0g"
 Comp "Scott Hanson"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector_Generic:Conn_01x02 J17
-U 1 1 5CEC911C
-P 4670 1050
-F 0 "J17" H 4750 1042 50  0000 L CNN
-F 1 "Power In Left" H 4750 951 50  0000 L CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal" H 4670 1050 50  0001 C CNN
-F 3 "~" H 4670 1050 50  0001 C CNN
-F 4 "ED2675-ND" H -3850 190 50  0001 C CNN "Digi-Key_PN"
-F 5 "OSTT7020150" H -3850 190 50  0001 C CNN "MPN"
-	1    4670 1050
-	-1   0    0    -1  
-$EndComp
 $Comp
 L Regulator_Linear:LM7805_TO220 U2
 U 1 1 5CECC219
@@ -56,12 +42,12 @@ $EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 5CED08B0
-P 4870 1150
-F 0 "#PWR0101" H 4870 900 50  0001 C CNN
-F 1 "GND" H 4875 977 50  0000 C CNN
-F 2 "" H 4870 1150 50  0001 C CNN
-F 3 "" H 4870 1150 50  0001 C CNN
-	1    4870 1150
+P 5020 1150
+F 0 "#PWR0101" H 5020 900 50  0001 C CNN
+F 1 "GND" H 5025 977 50  0000 C CNN
+F 2 "" H 5020 1150 50  0001 C CNN
+F 3 "" H 5020 1150 50  0001 C CNN
+	1    5020 1150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -137,32 +123,32 @@ F0 "Serial" 50
 F1 "Serial.sch" 50
 $EndSheet
 $Comp
-L Connector_Generic:Conn_01x02 J18
+L Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS J18
 U 1 1 5D51C5DD
 P 4630 1710
-F 0 "J18" H 4710 1702 50  0000 L CNN
-F 1 "Power In Right" H 4710 1611 50  0000 L CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal" H 4630 1710 50  0001 C CNN
+F 0 "J18" H 4790 1710 50  0000 L CNN
+F 1 "Power In Right" H 4760 1610 50  0000 L CNN
+F 2 "Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS_P9.5MM" H 4630 1710 50  0001 C CNN
 F 3 "~" H 4630 1710 50  0001 C CNN
-F 4 "ED2675-ND" H -3890 850 50  0001 C CNN "Digi-Key_PN"
-F 5 "OSTT7020150" H -3890 850 50  0001 C CNN "MPN"
+F 4 "ED2953-ND" H -3890 850 50  0001 C CNN "Digi-Key_PN"
+F 5 "OSTYK51102030" H -3890 850 50  0001 C CNN "MPN"
 	1    4630 1710
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR02
 U 1 1 5D51C5E3
-P 4830 1810
-F 0 "#PWR02" H 4830 1560 50  0001 C CNN
-F 1 "GND" H 4835 1637 50  0000 C CNN
-F 2 "" H 4830 1810 50  0001 C CNN
-F 3 "" H 4830 1810 50  0001 C CNN
-	1    4830 1810
+P 4980 1810
+F 0 "#PWR02" H 4980 1560 50  0001 C CNN
+F 1 "GND" H 4985 1637 50  0000 C CNN
+F 2 "" H 4980 1810 50  0001 C CNN
+F 3 "" H 4980 1810 50  0001 C CNN
+	1    4980 1810
 	1    0    0    -1  
 $EndComp
-Text GLabel 4830 1710 2    50   Input ~ 0
+Text GLabel 4980 1610 2    50   Input ~ 0
 VIN2
-Text GLabel 4870 1050 2    50   Input ~ 0
+Text GLabel 5020 950  2    50   Input ~ 0
 VIN1
 Text GLabel 6020 1590 0    50   Input ~ 0
 VIN2
@@ -1187,4 +1173,17 @@ Text GLabel 5740 3750 1    50   Input ~ 0
 BTN1
 Text GLabel 6110 3750 1    50   Input ~ 0
 BTN2
+$Comp
+L Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS J17
+U 1 1 5CEC911C
+P 4670 1050
+F 0 "J17" H 4810 1050 50  0000 L CNN
+F 1 "Power In Left" H 4790 935 50  0000 L CNN
+F 2 "Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS_P9.5MM" H 4670 1050 50  0001 C CNN
+F 3 "~" H 4670 1050 50  0001 C CNN
+F 4 "ED2953-ND" H -3850 190 50  0001 C CNN "Digi-Key_PN"
+F 5 "OSTYK51102030" H -3850 190 50  0001 C CNN "MPN"
+	1    4670 1050
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:PB_16-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 5
 Title "PB 16"
-Date "2019-10-07"
-Rev "v1.0f"
+Date "2020-05-09"
+Rev "v1.0g"
 Comp "Scott Hanson"
 Comment1 ""
 Comment2 ""

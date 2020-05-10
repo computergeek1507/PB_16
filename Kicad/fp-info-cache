@@ -1,4 +1,11 @@
-17068792612706119
+17090956489704359
+302-S241
+OST_302-S241
+
+
+0
+24
+24
 AM26C32IN
 AM26C32IN
 
@@ -27,6 +34,13 @@ BARRIER_BLOCK_1ROW_2POS_P9.5MM
 0
 2
 2
+Barrier_Blocks
+BARRIER_BLOCK_1ROW_4POS_P9.5MM
+
+
+0
+4
+4
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -70552,6 +70566,69 @@ Logo WEEE
 0
 0
 0
+TE_1761469-1
+TE_1761469-1
+
+
+0
+64
+64
+Teensy
+Teensy1.0
+11
+
+0
+27
+27
+Teensy
+Teensy1.0++
+20
+
+0
+51
+51
+Teensy
+Teensy2.0
+11
+
+0
+31
+31
+Teensy
+Teensy2.0++
+20
+
+0
+52
+52
+Teensy
+Teensy30_31_32_LC
+
+
+0
+39
+38
+Teensy
+Teensy35_36
+
+
+0
+62
+62
+Teensy
+Teensy40
+
+
+0
+44
+44
+Teensy
+Teensy40_SMT
+
+
+0
+54
+54
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -75844,3 +75921,171 @@ varistor SIOV
 0
 2
 2
+WIZ850io
+WIZ850io
+
+
+0
+12
+12
+beagleboneblack
+BEAGLEBONEBLACK
+
+beaglebone black
+0
+96
+96
+switch
+PCB_PUSH
+PCB pushbutton, Tyco FSM6x6 series
+pushbutton
+0
+4
+4
+switch
+PCB_PUSH2
+PCB pushbutton, TEC R18-801A series
+pushbutton
+0
+4
+2
+switch
+dip_1-300
+Dip switch, DIL2 x 0,3"
+DIP
+0
+2
+2
+switch
+dip_2-300
+Dip switch, DIL4 x 0,3"
+DIP
+0
+4
+4
+switch
+dip_3-300
+Dip switch, DIL6 x 0,3"
+DIP
+0
+6
+6
+switch
+dip_4-300
+Dip switch, DIL8 x 0,3"
+DIP
+0
+8
+8
+switch
+dip_5-300
+Dip switch, DIL10 x 0,3"
+DIP
+0
+10
+10
+switch
+dip_6-300
+Dip switch, DIL12 x 0,3"
+DIP
+0
+12
+12
+switch
+dip_7-300
+Dip switch, DIL14 x 0,3"
+DIP
+0
+14
+14
+switch
+dip_8-300
+Dip switch, DIL16 x 0,3"
+DIP
+0
+16
+16
+switch
+dip_9-300
+Dip switch, DIL18 x 0,3"
+DIP
+0
+18
+18
+switch
+dip_10-300
+Dip switch, DIL20 x 0,3"
+DIP
+0
+20
+20
+switch
+dip_12-300
+Dip switch, DIL24 x 0,3"
+DIP
+0
+24
+24
+switch
+pcb_push_xiejia_pb-11d01
+PCB pushbutton, Xiejia PB-11D01
+pushbutton
+0
+2
+2
+switch
+pcb_push_xiejia_pb-11d03
+PCB pushbutton, Xiejia PB-11D03
+pushbutton
+0
+3
+3
+switch
+pcb_push_xiejia_pb-11d14
+PCB pushbutton, Xiejia PB-11D14
+pushbutton
+0
+4
+4
+switch
+smd_push
+SMD Pushbutton
+
+0
+2
+2
+switch
+smd_push2
+SMD Pushbutton 2
+
+0
+4
+4
+switch
+smd_push_xiejia_pb-11d06
+SMD pushbutton, Xiejia PB-11D06
+pushbutton
+0
+2
+2
+switch
+switch_100sp5
+E-Switch 100SP5
+
+0
+3
+3
+switch
+switch_mfp116dg-ra
+Knitter MFP 116 DG-RA
+
+0
+5
+3
+switch
+switch_mmp122-r
+Knitter MMP122-R
+
+0
+3
+3
