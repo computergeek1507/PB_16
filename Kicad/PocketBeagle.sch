@@ -34,30 +34,30 @@ $EndComp
 $Comp
 L POCKETBEAGLE:POCKETBEAGLE-SC-569 U1
 U 2 1 5D4189E5
-P 7720 3640
-F 0 "U1" H 7720 4807 50  0000 C CNN
-F 1 "POCKETBEAGLE-SC-569" H 7720 4716 50  0000 C CNN
-F 2 "POCKETBEAGLE:BEAGLE_POCKETBEAGLE-SC-569" H 7720 3640 50  0001 L BNN
-F 3 "" H 7720 3640 50  0001 L BNN
-F 4 "https://www.digikey.com/product-detail/en/ghi-electronics-llc/POCKETBEAGLE-SC-569/POCKETBEAGLE-SC-569-ND/7603326?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 7720 3640 50  0001 L BNN "Field4"
-F 5 "POCKETBEAGLE-SC-569" H 7720 3640 50  0001 L BNN "Field5"
-F 6 "None" H 7720 3640 50  0001 L BNN "Field6"
-F 7 "POCKETBEAGLE-SC-569-ND" H 7720 3640 50  0001 L BNN "Field7"
-F 8 "GHI Electronics," H 7720 3640 50  0001 L BNN "Field8"
-F 9 "POCKETBEAGLE-SC-569-ND" H 7720 3640 50  0001 C CNN "Digi-Key_PN"
-F 10 "POCKETBEAGLE-SC-569" H 7720 3640 50  0001 C CNN "MPN"
-	2    7720 3640
+P 7120 3380
+F 0 "U1" H 7120 4547 50  0000 C CNN
+F 1 "POCKETBEAGLE-SC-569" H 7120 4456 50  0000 C CNN
+F 2 "POCKETBEAGLE:BEAGLE_POCKETBEAGLE-SC-569" H 7120 3380 50  0001 L BNN
+F 3 "" H 7120 3380 50  0001 L BNN
+F 4 "https://www.digikey.com/product-detail/en/ghi-electronics-llc/POCKETBEAGLE-SC-569/POCKETBEAGLE-SC-569-ND/7603326?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 7120 3380 50  0001 L BNN "Field4"
+F 5 "POCKETBEAGLE-SC-569" H 7120 3380 50  0001 L BNN "Field5"
+F 6 "None" H 7120 3380 50  0001 L BNN "Field6"
+F 7 "POCKETBEAGLE-SC-569-ND" H 7120 3380 50  0001 L BNN "Field7"
+F 8 "GHI Electronics," H 7120 3380 50  0001 L BNN "Field8"
+F 9 "POCKETBEAGLE-SC-569-ND" H 7120 3380 50  0001 C CNN "Digi-Key_PN"
+F 10 "POCKETBEAGLE-SC-569" H 7120 3380 50  0001 C CNN "MPN"
+	2    7120 3380
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR05
 U 1 1 5D542B82
-P 3470 2490
-F 0 "#PWR05" H 3470 2340 50  0001 C CNN
-F 1 "+5V" H 3485 2663 50  0000 C CNN
-F 2 "" H 3470 2490 50  0001 C CNN
-F 3 "" H 3470 2490 50  0001 C CNN
-	1    3470 2490
+P 3400 2400
+F 0 "#PWR05" H 3400 2250 50  0001 C CNN
+F 1 "+5V" H 3415 2573 50  0000 C CNN
+F 2 "" H 3400 2400 50  0001 C CNN
+F 3 "" H 3400 2400 50  0001 C CNN
+	1    3400 2400
 	1    0    0    -1  
 $EndComp
 Text GLabel 3470 3590 0    50   Input ~ 0
@@ -75,8 +75,6 @@ F 3 "" H 5270 4590 50  0001 C CNN
 	1    5270 4590
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3470 4190 3340 4190
 Text GLabel 3470 3990 0    50   Input ~ 0
 USB_D-
 Text GLabel 3470 4090 0    50   Input ~ 0
@@ -94,51 +92,51 @@ F 3 "" H 5360 4490 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5270 4490 5360 4490
-Text GLabel 8620 3940 2    50   Input ~ 0
+Text GLabel 8020 3680 2    50   Input ~ 0
 DATA7
-Text GLabel 8620 3840 2    50   Input ~ 0
+Text GLabel 8020 3580 2    50   Input ~ 0
 DATA6
-Text GLabel 8620 3740 2    50   Input ~ 0
+Text GLabel 8020 3480 2    50   Input ~ 0
 DATA5
-Text GLabel 8620 4040 2    50   Input ~ 0
+Text GLabel 8020 3780 2    50   Input ~ 0
 DATA4
-Text GLabel 8620 3640 2    50   Input ~ 0
+Text GLabel 8020 3380 2    50   Input ~ 0
 DATA3
-Text GLabel 6820 4240 0    50   Input ~ 0
+Text GLabel 6220 3980 0    50   Input ~ 0
 DATA2
-Text GLabel 8620 3440 2    50   Input ~ 0
+Text GLabel 8020 3180 2    50   Input ~ 0
 DATA1
 Text GLabel 3470 4490 0    50   Input ~ 0
 DATA16
-Text GLabel 8620 4340 2    50   Input ~ 0
+Text GLabel 8020 4080 2    50   Input ~ 0
 DATA15
-Text GLabel 8620 4440 2    50   Input ~ 0
+Text GLabel 8020 4180 2    50   Input ~ 0
 DATA14
 Text GLabel 3470 4290 0    50   Input ~ 0
 DATA13
-Text GLabel 6820 4140 0    50   Input ~ 0
+Text GLabel 6220 3880 0    50   Input ~ 0
 DATA12
-Text GLabel 6820 3740 0    50   Input ~ 0
+Text GLabel 6220 3480 0    50   Input ~ 0
 DATA11
-Text GLabel 6820 3840 0    50   Input ~ 0
+Text GLabel 6220 3580 0    50   Input ~ 0
 DATA10
-Text GLabel 8620 3540 2    50   Input ~ 0
+Text GLabel 8020 3280 2    50   Input ~ 0
 DATA9
-Text GLabel 8620 4240 2    50   Input ~ 0
+Text GLabel 8020 3980 2    50   Input ~ 0
 TXD1
 Text GLabel 3470 3690 0    50   Input ~ 0
 TXD2
-Text GLabel 6820 4040 0    50   Input ~ 0
+Text GLabel 6220 3780 0    50   Input ~ 0
 OUT26
-Text GLabel 6820 4340 0    50   Input ~ 0
+Text GLabel 6220 4080 0    50   Input ~ 0
 OUT27
-Text GLabel 6820 4440 0    50   Input ~ 0
+Text GLabel 6220 4180 0    50   Input ~ 0
 OUT28
-Text GLabel 8620 3140 2    50   Input ~ 0
+Text GLabel 8020 2880 2    50   Input ~ 0
 OUT29
-Text GLabel 6820 2840 0    50   Input ~ 0
+Text GLabel 6220 2580 0    50   Input ~ 0
 OUT30
-Text GLabel 6820 3940 0    50   Input ~ 0
+Text GLabel 6220 3680 0    50   Input ~ 0
 OUT31
 Text GLabel 3470 4590 0    50   Input ~ 0
 OUT18
@@ -146,7 +144,7 @@ Text GLabel 3470 3790 0    50   Input ~ 0
 OUT22
 Text GLabel 5270 3890 2    50   Input ~ 0
 OUT23
-Text GLabel 6820 3540 0    50   Input ~ 0
+Text GLabel 6220 3280 0    50   Input ~ 0
 OUT25
 Wire Wire Line
 	5340 2590 5270 2590
@@ -162,13 +160,13 @@ NoConn ~ 5270 2890
 NoConn ~ 5270 2990
 NoConn ~ 5270 3090
 NoConn ~ 3470 2590
-NoConn ~ 6820 2740
-NoConn ~ 8620 2740
-NoConn ~ 8620 2840
-NoConn ~ 8620 3340
-NoConn ~ 8620 4140
-NoConn ~ 6820 4540
-NoConn ~ 6820 3040
+NoConn ~ 6220 2480
+NoConn ~ 8020 2480
+NoConn ~ 8020 2580
+NoConn ~ 8020 3080
+NoConn ~ 8020 3880
+NoConn ~ 6220 4280
+NoConn ~ 6220 2780
 NoConn ~ 5270 2490
 $Comp
 L power:GND #PWR045
@@ -183,30 +181,27 @@ F 3 "" H 5440 3190 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5270 3190 5440 3190
-Text GLabel 6820 3440 0    50   Input ~ 0
+Text GLabel 6220 3180 0    50   Input ~ 0
 OUT24
 Text GLabel 3470 3890 0    50   Input ~ 0
 OUT19
 Text GLabel 3470 2890 0    50   Input ~ 0
 OUT20
-Text GLabel 8620 4540 2    50   Input ~ 0
+Text GLabel 8020 4280 2    50   Input ~ 0
 OUT32
 $Comp
 L power:GND #PWR04
 U 1 1 5D545435
-P 3340 4190
-F 0 "#PWR04" H 3340 3940 50  0001 C CNN
-F 1 "GND" H 3345 4017 50  0000 C CNN
-F 2 "" H 3340 4190 50  0001 C CNN
-F 3 "" H 3340 4190 50  0001 C CNN
-	1    3340 4190
-	1    0    0    -1  
+P 3470 4190
+F 0 "#PWR04" H 3470 3940 50  0001 C CNN
+F 1 "GND" V 3475 4017 50  0000 C CNN
+F 2 "" H 3470 4190 50  0001 C CNN
+F 3 "" H 3470 4190 50  0001 C CNN
+	1    3470 4190
+	0    1    1    0   
 $EndComp
 Text GLabel 3470 4390 0    50   Input ~ 0
 OUT17
-Wire Wire Line
-	3060 2490 3470 2490
-Connection ~ 3470 2490
 $Comp
 L Device:C C7
 U 1 1 5D540524
@@ -246,9 +241,9 @@ Text GLabel 5270 4090 2    50   Input ~ 0
 I2C_SCL
 Text GLabel 5270 3990 2    50   Input ~ 0
 I2C_SDA
-Text GLabel 6820 3640 0    50   Input ~ 0
+Text GLabel 6220 3380 0    50   Input ~ 0
 DATA8
-NoConn ~ 6820 2940
+NoConn ~ 6220 2680
 Text GLabel 5270 4190 2    50   Input ~ 0
 GPIO1
 Text GLabel 5270 4290 2    50   Input ~ 0
@@ -257,4 +252,19 @@ Text GLabel 3470 2990 0    50   Input ~ 0
 BTN2
 Text GLabel 3470 2790 0    50   Input ~ 0
 BTN1
+$Comp
+L power:+5V #PWR?
+U 1 1 5ECC089C
+P 3060 2490
+F 0 "#PWR?" H 3060 2340 50  0001 C CNN
+F 1 "+5V" H 3075 2663 50  0000 C CNN
+F 2 "" H 3060 2490 50  0001 C CNN
+F 3 "" H 3060 2490 50  0001 C CNN
+	1    3060 2490
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3470 2490 3400 2490
+Wire Wire Line
+	3400 2490 3400 2400
 $EndSCHEMATC
