@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.5)-3")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-1")
 
   (general
     (thickness 1.6)
@@ -2250,9 +2250,9 @@
   (gr_text 40 (at 121.801 94.7178) (layer F.SilkS) (tstamp 5DF50B59)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_line (start 100.101 96.5178) (end 100.101 95.7178) (layer F.SilkS) (width 0.12))
-  (gr_line (start 95.601 96.5178) (end 100.101 96.5178) (layer F.SilkS) (width 0.12))
-  (gr_line (start 95.601 95.7178) (end 95.601 96.5178) (layer F.SilkS) (width 0.12))
+  (gr_line (start 95.611 104.2478) (end 95.611 105.0478) (layer F.SilkS) (width 0.12))
+  (gr_line (start 100.111 104.2478) (end 95.611 104.2478) (layer F.SilkS) (width 0.12))
+  (gr_line (start 100.111 105.0478) (end 100.111 104.2478) (layer F.SilkS) (width 0.12))
   (gr_text 39 (at 121.401 105.9178) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
