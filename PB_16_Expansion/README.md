@@ -9,7 +9,7 @@ You may redistribute and modify this documentation under the terms of the CERN O
 
 The PB16 Expansion is a compact version of the PB16 with only two Expansion Headers. It can be used with any PB16 Family Expansion or Falcon Expansion Boards. All the design files are open source and available on github.
 
-## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/PB_16_Expansion/PB_16_Expansion.ods)
+## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/PB_16_Expansion/PB_16_Expansion_BOM.ods)
 
 ![Image of PB16 Expansion Out](https://github.com/computergeek1507/PB_16/raw/master/PB_16_Expansion/PB_16_Expansion.png)
 
