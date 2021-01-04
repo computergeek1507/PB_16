@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name PB_16-rescue)(type Legacy)(uri D:/PB_16/Kicad/PB_16-rescue.lib)(options "")(descr ""))
+  (lib (name Receiver_Out-rescue)(type Legacy)(uri D:/PB_16/Receiver_Out/Receiver_Out-rescue.lib)(options "")(descr ""))
+)
