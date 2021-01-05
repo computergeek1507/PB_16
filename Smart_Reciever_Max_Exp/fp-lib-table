@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name NUCLEO)(type KiCad)(uri D:/PB_16/Smart_Reciever_Max/libraries/NUCLEO)(options "")(descr ""))
+  (lib (name MKDS1_2-3.81)(type KiCad)(uri ${KIPRJMOD}/libraries/MKDS1_2-3.81/MKDS1_2-3.81.pretty)(options "")(descr ""))
+)
