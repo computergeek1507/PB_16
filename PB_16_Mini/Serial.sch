@@ -279,8 +279,6 @@ F 5 "JS202011CQN" H 5900 3220 50  0001 C CNN "MPN"
 	1    5900 3220
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	5230 3520 5580 3520
 NoConn ~ 5230 3420
 Text Label 5290 3520 0    50   ~ 0
 Pin2
@@ -329,13 +327,7 @@ Wire Wire Line
 Wire Wire Line
 	5390 3320 5230 3320
 Wire Wire Line
-	5700 3320 5580 3320
-Wire Wire Line
 	5570 3120 5570 3220
-Wire Wire Line
-	5580 3320 5580 3520
-Wire Wire Line
-	5230 3620 5700 3620
 Wire Wire Line
 	5220 2360 5320 2360
 Wire Wire Line
@@ -362,4 +354,14 @@ F 5 "JS202011CQN" H 5600 1960 50  0001 C CNN "MPN"
 $EndComp
 Wire Wire Line
 	5570 3120 5700 3120
+Wire Wire Line
+	5230 3620 5490 3620
+Wire Wire Line
+	5490 3620 5490 3320
+Wire Wire Line
+	5490 3320 5700 3320
+Wire Wire Line
+	5230 3520 5700 3520
+Wire Wire Line
+	5700 3520 5700 3620
 $EndSCHEMATC

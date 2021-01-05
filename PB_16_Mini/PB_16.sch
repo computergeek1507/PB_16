@@ -132,7 +132,7 @@ USB_D+
 Text GLabel 1995 2565 2    50   Input ~ 0
 USB_D-
 $Comp
-L Connector:USB_A J1
+L PB_16-rescue:USB_A-Connector J1
 U 1 1 5D4E8733
 P 1695 2465
 F 0 "J1" H 1752 2932 50  0000 C CNN
