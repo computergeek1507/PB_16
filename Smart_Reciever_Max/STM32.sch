@@ -52,7 +52,7 @@ U 1 1 5FFACA79
 P 3900 2500
 F 0 "SW1" V 3860 3175 50  0000 R CNN
 F 1 "SW_Push" V 3970 3205 50  0000 R CNN
-F 2 "" H 3900 2700 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 3900 2700 50  0001 C CNN
 F 3 "~" H 3900 2700 50  0001 C CNN
 	1    3900 2500
 	0    -1   1    0   
@@ -63,7 +63,7 @@ U 1 1 5FFAE3A5
 P 4400 2500
 F 0 "C6" V 4230 2445 50  0000 L CNN
 F 1 "0.1uF" V 4300 2395 50  0000 L CNN
-F 2 "" H 4400 2500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4400 2500 50  0001 C CNN
 F 3 "~" H 4400 2500 50  0001 C CNN
 	1    4400 2500
 	0    1    1    0   
@@ -74,7 +74,7 @@ U 1 1 5FFAF50D
 P 3900 2800
 F 0 "R4" H 3959 2846 50  0000 L CNN
 F 1 "10K" H 3959 2755 50  0000 L CNN
-F 2 "" H 3900 2800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3900 2800 50  0001 C CNN
 F 3 "~" H 3900 2800 50  0001 C CNN
 	1    3900 2800
 	1    0    0    -1  
@@ -121,7 +121,7 @@ U 1 1 5FFC57A7
 P 4600 1950
 F 0 "C7" H 4692 1996 50  0000 L CNN
 F 1 "4.7uF" H 4692 1905 50  0000 L CNN
-F 2 "" H 4600 1950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4600 1950 50  0001 C CNN
 F 3 "~" H 4600 1950 50  0001 C CNN
 	1    4600 1950
 	1    0    0    -1  
@@ -132,7 +132,7 @@ U 1 1 5FFC5CBC
 P 6700 1950
 F 0 "C10" H 6792 1996 50  0000 L CNN
 F 1 "0.1uF" H 6792 1905 50  0000 L CNN
-F 2 "" H 6700 1950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6700 1950 50  0001 C CNN
 F 3 "~" H 6700 1950 50  0001 C CNN
 	1    6700 1950
 	1    0    0    -1  
@@ -143,7 +143,7 @@ U 1 1 5FFC63E4
 P 6300 1950
 F 0 "C9" H 6392 1996 50  0000 L CNN
 F 1 "0.1uF" H 6392 1905 50  0000 L CNN
-F 2 "" H 6300 1950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6300 1950 50  0001 C CNN
 F 3 "~" H 6300 1950 50  0001 C CNN
 	1    6300 1950
 	1    0    0    -1  
@@ -154,7 +154,7 @@ U 1 1 5FFC67FB
 P 7100 1950
 F 0 "C11" H 7192 1996 50  0000 L CNN
 F 1 "0.1uF" H 7192 1905 50  0000 L CNN
-F 2 "" H 7100 1950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7100 1950 50  0001 C CNN
 F 3 "~" H 7100 1950 50  0001 C CNN
 	1    7100 1950
 	1    0    0    -1  
@@ -165,7 +165,7 @@ U 1 1 5FFC6BE7
 P 5900 1950
 F 0 "C8" H 5992 1996 50  0000 L CNN
 F 1 "0.1uF" H 5992 1905 50  0000 L CNN
-F 2 "" H 5900 1950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5900 1950 50  0001 C CNN
 F 3 "~" H 5900 1950 50  0001 C CNN
 	1    5900 1950
 	1    0    0    -1  
@@ -319,7 +319,7 @@ Text GLabel 5800 3800 2    50   Input ~ 0
 DATA2
 Text GLabel 5800 3700 2    50   Input ~ 0
 DATA1
-Text GLabel 4500 4900 0    50   Input ~ 0
+Text GLabel 5800 4100 2    50   Input ~ 0
 EN1A
 $Comp
 L Device:R R?
@@ -329,7 +329,7 @@ AR Path="/60502B1D" Ref="R?"  Part="1"
 AR Path="/5FF2E2A0/60502B1D" Ref="R5"  Part="1" 
 F 0 "R5" H 5880 5604 50  0000 R CNN
 F 1 "120" H 5880 5695 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5880 5650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5880 5650 50  0001 C CNN
 F 3 "~" H 5950 5650 50  0001 C CNN
 F 4 "CF14JT120RCT-ND" H 5950 5650 50  0001 C CNN "Digi-Key_PN"
 F 5 "CF14JT120R" H 5950 5650 50  0001 C CNN "MPN"
@@ -341,10 +341,10 @@ L Device:LED D?
 U 1 1 60502B25
 P 5950 5350
 AR Path="/60502B25" Ref="D?"  Part="1" 
-AR Path="/5FF2E2A0/60502B25" Ref="D6"  Part="1" 
-F 0 "D6" V 5989 5233 50  0000 R CNN
+AR Path="/5FF2E2A0/60502B25" Ref="D5"  Part="1" 
+F 0 "D5" V 5989 5233 50  0000 R CNN
 F 1 "Stat LED" V 5898 5233 50  0000 R CNN
-F 2 "LED_THT:LED_D3.0mm_Clear" H 5950 5350 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5950 5350 50  0001 C CNN
 F 3 "~" H 5950 5350 50  0001 C CNN
 F 4 "754-1217-ND" H 5950 5350 50  0001 C CNN "Digi-Key_PN"
 F 5 "WP3A8GD" H 5950 5350 50  0001 C CNN "MPN"
@@ -364,28 +364,69 @@ F 3 "" H 5950 5800 50  0001 C CNN
 	1    5950 5800
 	1    0    0    -1  
 $EndComp
-Text GLabel 4500 5000 0    50   Input ~ 0
+Text GLabel 5800 4200 2    50   Input ~ 0
 EN2A
-Text GLabel 4500 5100 0    50   Input ~ 0
+Text GLabel 5800 4300 2    50   Input ~ 0
 EN3A
-Text GLabel 4500 5200 0    50   Input ~ 0
+Text GLabel 5800 4400 2    50   Input ~ 0
 EN4A
-Text GLabel 5800 4500 2    50   Input ~ 0
+Text GLabel 4500 4900 0    50   Input ~ 0
 EN1B
-Text GLabel 5800 4600 2    50   Input ~ 0
+Text GLabel 4500 5000 0    50   Input ~ 0
 EN2B
-Text GLabel 5800 4700 2    50   Input ~ 0
+Text GLabel 4500 5100 0    50   Input ~ 0
 EN3B
-Text GLabel 5800 4800 2    50   Input ~ 0
+Text GLabel 4500 5200 0    50   Input ~ 0
 EN4B
 Wire Wire Line
 	5800 5200 5950 5200
-Text GLabel 5800 4100 2    50   Input ~ 0
+Text GLabel 5800 4500 2    50   Input ~ 0
 EN1C
-Text GLabel 5800 4200 2    50   Input ~ 0
+Text GLabel 5800 4600 2    50   Input ~ 0
 EN2C
-Text GLabel 5800 4300 2    50   Input ~ 0
+Text GLabel 5800 4700 2    50   Input ~ 0
 EN3C
-Text GLabel 5800 4400 2    50   Input ~ 0
+Text GLabel 5800 4800 2    50   Input ~ 0
 EN4C
+$Comp
+L Connector:Conn_01x04_Male J15
+U 1 1 5FF9E105
+P 7500 3900
+F 0 "J15" H 7472 3874 50  0000 R CNN
+F 1 "PRG" H 7472 3783 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7500 3900 50  0001 C CNN
+F 3 "~" H 7500 3900 50  0001 C CNN
+	1    7500 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 5FFAF8E9
+P 7300 3800
+F 0 "#PWR0101" H 7300 3650 50  0001 C CNN
+F 1 "+3.3V" H 7315 3973 50  0000 C CNN
+F 2 "" H 7300 3800 50  0001 C CNN
+F 3 "" H 7300 3800 50  0001 C CNN
+	1    7300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5FFB0CCD
+P 7300 4100
+F 0 "#PWR0102" H 7300 3850 50  0001 C CNN
+F 1 "GND" H 7300 3950 50  0000 C CNN
+F 2 "" H 7300 4100 50  0001 C CNN
+F 3 "" H 7300 4100 50  0001 C CNN
+	1    7300 4100
+	1    0    0    -1  
+$EndComp
+Text GLabel 5800 5000 2    50   Input ~ 0
+SWDIO
+Text GLabel 5800 5100 2    50   Input ~ 0
+SWCLK
+Text GLabel 7300 3900 0    50   Input ~ 0
+SWDIO
+Text GLabel 7300 4000 0    50   Input ~ 0
+SWCLK
 $EndSCHEMATC

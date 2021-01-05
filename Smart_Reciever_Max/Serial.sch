@@ -38,33 +38,20 @@ F 5 "A-2014-2-4-R" H 2100 5300 50  0001 C CNN "MPN"
 	1    0    0    1   
 $EndComp
 Text GLabel 5850 3600 2    50   Input ~ 0
-OUT1
+DATA1
 Text GLabel 5850 4700 2    50   Input ~ 0
-OUT3
+DATA3
 Text GLabel 5850 3900 2    50   Input ~ 0
-OUT2
+DATA2
 Text GLabel 5850 5000 2    50   Input ~ 0
-OUT4
-$Comp
-L Device:R_Pack04_SIP RN4
-U 1 1 5E06D177
-P 2350 3850
-F 0 "RN4" H 2938 3877 50  0000 L CNN
-F 1 "120" H 2938 3786 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP8" V 3025 3850 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2350 3850 50  0001 C CNN
-F 4 "4608X-2-121LF-ND" H 2350 3850 50  0001 C CNN "Digi-Key_PN"
-F 5 "4608X-102-121LF" H 2350 3850 50  0001 C CNN "MPN"
-	1    2350 3850
-	0    -1   1    0   
-$EndComp
+DATA4
 $Comp
 L Device:C C4
 U 1 1 5FF93F5C
 P 6100 3000
 F 0 "C4" H 6215 3046 50  0000 L CNN
 F 1 "0.1uF" H 6215 2955 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 6138 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6138 2850 50  0001 C CNN
 F 3 "~" H 6100 3000 50  0001 C CNN
 F 4 "478-7336-1-ND" H 6100 3000 50  0001 C CNN "Digi-Key_PN"
 F 5 "SR215C104KARTR1" H 6100 3000 50  0001 C CNN "MPN"
@@ -101,21 +88,21 @@ Text GLabel 2500 5300 2    50   Input ~ 0
 Serial3_N
 Text GLabel 2500 5400 2    50   Input ~ 0
 Serial3_P
-Text GLabel 2550 3350 2    50   Input ~ 0
+Text GLabel 2150 3300 2    50   Input ~ 0
 Serial1_P
-Text GLabel 2550 3450 2    50   Input ~ 0
+Text GLabel 2150 3500 2    50   Input ~ 0
 Serial1_N
-Text GLabel 2550 3650 2    50   Input ~ 0
+Text GLabel 2150 3600 2    50   Input ~ 0
 Serial2_P
-Text GLabel 2550 3750 2    50   Input ~ 0
+Text GLabel 2150 3800 2    50   Input ~ 0
 Serial2_N
-Text GLabel 2550 4250 2    50   Input ~ 0
+Text GLabel 2150 4200 2    50   Input ~ 0
 Serial4_P
-Text GLabel 2550 4350 2    50   Input ~ 0
+Text GLabel 2150 4400 2    50   Input ~ 0
 Serial4_N
-Text GLabel 2550 4050 2    50   Input ~ 0
+Text GLabel 2150 4100 2    50   Input ~ 0
 Serial3_N
-Text GLabel 2550 3950 2    50   Input ~ 0
+Text GLabel 2150 3900 2    50   Input ~ 0
 Serial3_P
 $Comp
 L power:+3.3V #PWR047
@@ -192,6 +179,50 @@ F 1 "GND" H 5355 5127 50  0000 C CNN
 F 2 "" H 5350 5300 50  0001 C CNN
 F 3 "" H 5350 5300 50  0001 C CNN
 	1    5350 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5FF57C20
+P 2150 3400
+F 0 "R6" H 1990 3435 50  0000 L CNN
+F 1 "120" H 1940 3360 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2150 3400 50  0001 C CNN
+F 3 "~" H 2150 3400 50  0001 C CNN
+	1    2150 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 5FF5882E
+P 2150 3700
+F 0 "R7" H 1990 3735 50  0000 L CNN
+F 1 "120" H 1940 3660 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2150 3700 50  0001 C CNN
+F 3 "~" H 2150 3700 50  0001 C CNN
+	1    2150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 5FF58AB4
+P 2150 4000
+F 0 "R8" H 1990 4035 50  0000 L CNN
+F 1 "120" H 1940 3960 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2150 4000 50  0001 C CNN
+F 3 "~" H 2150 4000 50  0001 C CNN
+	1    2150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R9
+U 1 1 5FF58D48
+P 2150 4300
+F 0 "R9" H 1990 4335 50  0000 L CNN
+F 1 "120" H 1940 4260 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2150 4300 50  0001 C CNN
+F 3 "~" H 2150 4300 50  0001 C CNN
+	1    2150 4300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
