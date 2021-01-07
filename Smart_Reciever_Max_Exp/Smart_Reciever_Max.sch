@@ -32,10 +32,10 @@ F0 "Outputs" 50
 F1 "Outputs.sch" 50
 $EndSheet
 $Comp
-L Regulator_Linear:L7805 U2
+L Regulator_Linear:L7805 U1
 U 1 1 5E06E861
 P 6380 2570
-F 0 "U2" H 6380 2812 50  0000 C CNN
+F 0 "U1" H 6380 2812 50  0000 C CNN
 F 1 "L7805" H 6380 2721 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6405 2420 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 6380 2520 50  0001 C CNN
@@ -135,10 +135,10 @@ Wire Wire Line
 Wire Wire Line
 	5605 2490 5440 2490
 $Comp
-L Connector:Conn_01x03_Male J15
+L Connector:Conn_01x03_Male J4
 U 1 1 5E0B395F
 P 5705 2290
-F 0 "J15" V 5767 2434 50  0000 L CNN
+F 0 "J4" V 5767 2434 50  0000 L CNN
 F 1 "VIN_Voltage" V 5605 1975 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5705 2290 50  0001 C CNN
 F 3 "~" H 5705 2290 50  0001 C CNN
@@ -163,10 +163,10 @@ F 3 "" H 4100 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D3
+L Device:LED D1
 U 1 1 5FF9BB32
 P 5590 3875
-F 0 "D3" H 5583 3620 50  0000 C CNN
+F 0 "D1" H 5583 3620 50  0000 C CNN
 F 1 "VIN LED" H 5583 3711 50  0000 C CNN
 F 2 "LED_THT:LED_D3.0mm_Clear" H 5590 3875 50  0001 C CNN
 F 3 "~" H 5590 3875 50  0001 C CNN
@@ -176,10 +176,10 @@ F 5 "WP3A8GD" H 5590 3875 50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R3
+L Device:R R1
 U 1 1 5FF9BB3A
 P 5890 3875
-F 0 "R3" V 5683 3875 50  0000 C CNN
+F 0 "R1" V 5683 3875 50  0000 C CNN
 F 1 "1K" V 5774 3875 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5820 3875 50  0001 C CNN
 F 3 "~" H 5890 3875 50  0001 C CNN
@@ -202,10 +202,10 @@ F 3 "" H 6040 3875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse_Small F13
+L Device:Polyfuse_Small F1
 U 1 1 5FFAF840
 P 7080 2570
-F 0 "F13" V 6875 2570 50  0000 C CNN
+F 0 "F1" V 6875 2570 50  0000 C CNN
 F 1 "Fuse" V 6966 2570 50  0000 C CNN
 F 2 "Fuse:Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm" H 7130 2370 50  0001 L CNN
 F 3 "~" H 7080 2570 50  0001 C CNN
