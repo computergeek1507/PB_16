@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "Smart Reciver Max"
-Date "2021-01-05"
+Date "2021-02-01"
 Rev "v1"
 Comp "Scott Hanson"
 Comment1 ""
@@ -32,10 +32,10 @@ F0 "Outputs" 50
 F1 "Outputs.sch" 50
 $EndSheet
 $Comp
-L Device:LED D2
+L Device:LED D1
 U 1 1 5D5B28FD
 P 5705 3210
-F 0 "D2" H 5698 2955 50  0000 C CNN
+F 0 "D1" H 5698 2955 50  0000 C CNN
 F 1 "VIN1 LED" H 5698 3046 50  0000 C CNN
 F 2 "LED_THT:LED_D3.0mm_Clear" H 5705 3210 50  0001 C CNN
 F 3 "~" H 5705 3210 50  0001 C CNN
@@ -97,10 +97,10 @@ F 3 "" H 4625 2405 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:L7805 U2
+L Regulator_Linear:L7805 U1
 U 1 1 5E06E861
 P 6730 1720
-F 0 "U2" H 6730 1962 50  0000 C CNN
+F 0 "U1" H 6730 1962 50  0000 C CNN
 F 1 "L7805" H 6730 1871 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6755 1570 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 6730 1670 50  0001 C CNN
@@ -241,10 +241,10 @@ F 3 "" H 4545 1505 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D3
+L Device:LED D2
 U 1 1 5FF9BB32
 P 5640 3775
-F 0 "D3" H 5633 3520 50  0000 C CNN
+F 0 "D2" H 5633 3520 50  0000 C CNN
 F 1 "VIN2 LED" H 5633 3611 50  0000 C CNN
 F 2 "LED_THT:LED_D3.0mm_Clear" H 5640 3775 50  0001 C CNN
 F 3 "~" H 5640 3775 50  0001 C CNN
@@ -254,10 +254,10 @@ F 5 "WP3A8GD" H 5640 3775 50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R3
+L Device:R R2
 U 1 1 5FF9BB3A
 P 5940 3775
-F 0 "R3" V 5733 3775 50  0000 C CNN
+F 0 "R2" V 5733 3775 50  0000 C CNN
 F 1 "1K" V 5824 3775 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5870 3775 50  0001 C CNN
 F 3 "~" H 5940 3775 50  0001 C CNN
@@ -284,9 +284,11 @@ L Device:Polyfuse_Small F13
 U 1 1 5FFAF840
 P 7430 1720
 F 0 "F13" V 7225 1720 50  0000 C CNN
-F 1 "Fuse" V 7316 1720 50  0000 C CNN
+F 1 "500mA" V 7316 1720 50  0000 C CNN
 F 2 "Fuse:Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm" H 7480 1520 50  0001 L CNN
 F 3 "~" H 7430 1720 50  0001 C CNN
+F 4 "RXEF050-2HFCT-ND" H 7430 1720 50  0001 C CNN "Digi-Key_PN"
+F 5 "RXEF050-2" H 7430 1720 50  0001 C CNN "MPN"
 	1    7430 1720
 	0    1    1    0   
 $EndComp

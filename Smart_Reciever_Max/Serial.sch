@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
 Title "Smart Reciver Max"
-Date "2021-01-05"
+Date "2021-02-01"
 Rev "v1"
 Comp "Scott Hanson"
 Comment1 ""
@@ -54,8 +54,8 @@ U 1 1 5E069391
 P 4455 4160
 AR Path="/5E069391" Ref="U3"  Part="1" 
 AR Path="/5E06688B/5E069391" Ref="U3"  Part="1" 
-AR Path="/5FF2F4B6/5E069391" Ref="U3"  Part="1" 
-F 0 "U3" H 5955 4547 60  0000 C CNN
+AR Path="/5FF2F4B6/5E069391" Ref="U2"  Part="1" 
+F 0 "U2" H 5955 4547 60  0000 C CNN
 F 1 "AM26C32IN" H 5955 4441 60  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 5955 4400 60  0001 C CNN
 F 3 "" H 4455 4160 60  0000 C CNN
