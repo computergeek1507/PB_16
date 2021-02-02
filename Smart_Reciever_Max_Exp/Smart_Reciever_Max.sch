@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "Smart Reciver Max Exp"
-Date "2021-01-05"
-Rev "v1"
+Date "2021-01-14"
+Rev "v2"
 Comp "Scott Hanson"
 Comment1 ""
 Comment2 ""
@@ -268,10 +268,10 @@ U 1 1 601B29C0
 P 4300 2750
 F 0 "J1" H 4380 2742 50  0000 L CNN
 F 1 "Power In" H 4380 2651 50  0000 L CNN
-F 2 "MKDS1_2-3.81:PHOENIX_MKDS1_2-3.81" H 4300 2750 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 4300 2750 50  0001 C CNN
 F 3 "~" H 4300 2750 50  0001 C CNN
-F 4 "277-1947-ND" H 4300 2750 50  0001 C CNN "Digi-Key_PN"
-F 5 "1727010" H 4300 2750 50  0001 C CNN "MPN"
+F 4 "277-1236-ND" H 4300 2750 50  0001 C CNN "Digi-Key_PN"
+F 5 "1729018" H 4300 2750 50  0001 C CNN "MPN"
 	1    4300 2750
 	1    0    0    -1  
 $EndComp

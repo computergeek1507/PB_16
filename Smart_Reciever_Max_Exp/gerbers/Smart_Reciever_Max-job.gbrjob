@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9)-1"
     },
-    "CreationDate":  "2021-01-06T18:28:30-05:00"
+    "CreationDate":  "2021-02-01T21:30:57-05:00"
   },
   "GeneralSpecs":
   {
@@ -15,12 +15,12 @@
     {
       "Name": "Smart_Reciever_Max",
       "GUID": "536d6172-745f-4526-9563-69657665725f",
-      "Revision": "v1"
+      "Revision": "v2"
     },
     "Size":
     {
       "X": 88.050,
-      "Y": 63.050
+      "Y": 60.050
     },
     "LayerNumber": 2,
     "BoardThickness":  1.600
