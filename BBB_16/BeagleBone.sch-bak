@@ -107,13 +107,13 @@ Text GLabel 8085 2905 2    50   Input ~ 0
 I2C_SDA
 Text GLabel 5055 3705 2    50   Input ~ 0
 DATA8
-Text GLabel 3255 2305 0    50   Input ~ 0
+Text GLabel 3255 2805 0    50   Input ~ 0
 GPIO1
-Text GLabel 5055 2305 2    50   Input ~ 0
+Text GLabel 5055 2805 2    50   Input ~ 0
 GPIO2
-Text GLabel 5055 2205 2    50   Input ~ 0
+Text GLabel 5055 2605 2    50   Input ~ 0
 BTN2
-Text GLabel 3255 2205 0    50   Input ~ 0
+Text GLabel 3255 2605 0    50   Input ~ 0
 BTN1
 $Comp
 L beagleboneblack:BEAGLEBONEBLACK U1
@@ -275,7 +275,6 @@ NoConn ~ 8085 3505
 NoConn ~ 8085 2405
 NoConn ~ 8085 2505
 NoConn ~ 8085 2605
-NoConn ~ 8085 2805
 NoConn ~ 8085 3005
 NoConn ~ 6285 3205
 NoConn ~ 6285 3405
@@ -284,13 +283,9 @@ NoConn ~ 6285 3805
 NoConn ~ 6285 3905
 NoConn ~ 6285 4005
 NoConn ~ 6285 4105
-NoConn ~ 3255 2605
 NoConn ~ 3255 3105
 NoConn ~ 3255 3205
 NoConn ~ 3255 3305
-NoConn ~ 3255 2805
-NoConn ~ 5055 2605
-NoConn ~ 5055 2805
 NoConn ~ 5055 3005
 NoConn ~ 5055 3105
 NoConn ~ 5055 3205
@@ -304,4 +299,9 @@ Text GLabel 8085 3405 2    50   Input ~ 0
 DIN
 Text GLabel 6285 3505 0    50   Input ~ 0
 LRCK
+NoConn ~ 8085 2805
+NoConn ~ 3255 2305
+NoConn ~ 3255 2205
+NoConn ~ 5055 2305
+NoConn ~ 5055 2205
 $EndSCHEMATC
