@@ -5,23 +5,23 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title "Smart Reciver Max Exp"
-Date "2021-01-14"
-Rev "v2"
+Date "2021-03-27"
+Rev "v3"
 Comp "Scott Hanson"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 4200 3400 0    50   Input ~ 0
-DATA4
-Text GLabel 4200 3500 0    50   Input ~ 0
-DATA3
-Text GLabel 4200 3600 0    50   Input ~ 0
-DATA2
 Text GLabel 4200 3700 0    50   Input ~ 0
-DATA1
+DATA4
+Text GLabel 5750 3700 2    50   Input ~ 0
+DATA3
 Text GLabel 4200 3100 0    50   Input ~ 0
+DATA2
+Text GLabel 4200 2800 0    50   Input ~ 0
+DATA1
+Text GLabel 4200 3500 0    50   Input ~ 0
 EN1A
 $Comp
 L Device:R R?
@@ -70,7 +70,7 @@ Text GLabel 4200 3000 0    50   Input ~ 0
 EN2A
 Text GLabel 4200 2900 0    50   Input ~ 0
 EN3A
-Text GLabel 4200 2800 0    50   Input ~ 0
+Text GLabel 4200 2700 0    50   Input ~ 0
 EN4A
 Text GLabel 5750 3400 2    50   Input ~ 0
 EN1B
@@ -256,14 +256,14 @@ Text GLabel 4200 2400 0    50   Input ~ 0
 PA10
 Text GLabel 5950 1250 1    50   Input ~ 0
 PA10
-Text GLabel 4200 2700 0    50   Input ~ 0
-PA12
+Text GLabel 4200 3400 0    50   Input ~ 0
+PA8
 Text GLabel 2800 1500 2    50   Input ~ 0
-PA12
-Text GLabel 5750 3700 2    50   Input ~ 0
-PB3
+PA8
+Text GLabel 4200 3600 0    50   Input ~ 0
+PB5
 Text GLabel 2800 1600 2    50   Input ~ 0
-PB3
+PB5
 NoConn ~ 5750 2300
 NoConn ~ 5750 3500
 NoConn ~ 4200 2500

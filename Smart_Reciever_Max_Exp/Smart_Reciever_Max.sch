@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "Smart Reciver Max Exp"
-Date "2021-01-14"
-Rev "v2"
+Date "2021-03-27"
+Rev "v3"
 Comp "Scott Hanson"
 Comment1 ""
 Comment2 ""
