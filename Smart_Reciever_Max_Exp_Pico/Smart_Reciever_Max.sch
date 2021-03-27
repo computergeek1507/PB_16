@@ -1,0 +1,278 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title "Smart Reciver Max Exp Pico"
+Date "2021-03-27"
+Rev "v2"
+Comp "Scott Hanson"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4950 4915 635  395 
+U 5FF2E2A0
+F0 "Pico" 50
+F1 "Pico.sch" 50
+$EndSheet
+$Sheet
+S 5735 4930 605  395 
+U 5FF2F4B6
+F0 "Serial" 50
+F1 "Serial.sch" 50
+$EndSheet
+$Sheet
+S 6660 4955 785  535 
+U 5FF30D74
+F0 "Outputs" 50
+F1 "Outputs.sch" 50
+$EndSheet
+$Comp
+L Regulator_Linear:L7805 U1
+U 1 1 5E06E861
+P 6380 2570
+F 0 "U1" H 6380 2812 50  0000 C CNN
+F 1 "L7805" H 6380 2721 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6405 2420 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 6380 2520 50  0001 C CNN
+F 4 "MC7805CTGOS-ND" H 6380 2570 50  0001 C CNN "Digi-Key_PN"
+F 5 "MC7805CTG" H 6380 2570 50  0001 C CNN "MPN"
+	1    6380 2570
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C1
+U 1 1 5E0AD280
+P 5895 2720
+F 0 "C1" H 5600 2740 50  0000 L CNN
+F 1 "100uF" H 5550 2640 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5933 2570 50  0001 C CNN
+F 3 "~" H 5895 2720 50  0001 C CNN
+F 4 "1189-1148-ND" H 5895 2720 50  0001 C CNN "Digi-Key_PN"
+F 5 "16ZLH100MEFC5X11" H 5895 2720 50  0001 C CNN "MPN"
+	1    5895 2720
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 5E0ADC88
+P 6765 2720
+F 0 "C2" H 6883 2766 50  0000 L CNN
+F 1 "10uF" H 6883 2675 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 6803 2570 50  0001 C CNN
+F 3 "~" H 6765 2720 50  0001 C CNN
+F 4 "493-1103-ND" H 6765 2720 50  0001 C CNN "Digi-Key_PN"
+F 5 "UVR1H100MDD" H 6765 2720 50  0001 C CNN "MPN"
+	1    6765 2720
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5E0AE17C
+P 6380 2870
+F 0 "#PWR020" H 6380 2620 50  0001 C CNN
+F 1 "GND" H 6385 2697 50  0000 C CNN
+F 2 "" H 6380 2870 50  0001 C CNN
+F 3 "" H 6380 2870 50  0001 C CNN
+	1    6380 2870
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 5E0AEB98
+P 6765 2870
+F 0 "#PWR021" H 6765 2620 50  0001 C CNN
+F 1 "GND" H 6770 2697 50  0000 C CNN
+F 2 "" H 6765 2870 50  0001 C CNN
+F 3 "" H 6765 2870 50  0001 C CNN
+	1    6765 2870
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 5E0AEEC1
+P 5895 2870
+F 0 "#PWR019" H 5895 2620 50  0001 C CNN
+F 1 "GND" H 5900 2697 50  0000 C CNN
+F 2 "" H 5895 2870 50  0001 C CNN
+F 3 "" H 5895 2870 50  0001 C CNN
+	1    5895 2870
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR022
+U 1 1 5E0AFD42
+P 7180 2570
+F 0 "#PWR022" H 7180 2420 50  0001 C CNN
+F 1 "+5V" H 7300 2640 50  0000 C CNN
+F 2 "" H 7180 2570 50  0001 C CNN
+F 3 "" H 7180 2570 50  0001 C CNN
+	1    7180 2570
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6680 2570 6765 2570
+Connection ~ 6765 2570
+Wire Wire Line
+	6765 2570 6980 2570
+Wire Wire Line
+	6080 2570 5895 2570
+Connection ~ 5895 2570
+Wire Wire Line
+	5895 2570 5805 2570
+Wire Wire Line
+	5805 2570 5805 2490
+Text GLabel 5395 2610 0    50   Input ~ 0
+VIN2
+Wire Wire Line
+	5395 2610 5705 2610
+Wire Wire Line
+	5705 2610 5705 2490
+Wire Wire Line
+	5605 2490 5440 2490
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 5E0B395F
+P 5705 2290
+F 0 "J4" V 5767 2434 50  0000 L CNN
+F 1 "VIN_Voltage" V 5605 1975 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5705 2290 50  0001 C CNN
+F 3 "~" H 5705 2290 50  0001 C CNN
+F 4 "732-5316-ND" H 5705 2290 50  0001 C CNN "Digi-Key_PN"
+F 5 "61300311121" H 5705 2290 50  0001 C CNN "MPN"
+	1    5705 2290
+	0    1    1    0   
+$EndComp
+Text Label 5835 2570 0    50   ~ 0
+PWR
+Text GLabel 4100 2750 0    50   Input ~ 0
+VIN2
+$Comp
+L power:GND #PWR01
+U 1 1 5FF98410
+P 4100 2850
+F 0 "#PWR01" H 4100 2600 50  0001 C CNN
+F 1 "GND" H 4105 2677 50  0000 C CNN
+F 2 "" H 4100 2850 50  0001 C CNN
+F 3 "" H 4100 2850 50  0001 C CNN
+	1    4100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5FF9BB32
+P 5590 3875
+F 0 "D1" H 5583 3620 50  0000 C CNN
+F 1 "VIN LED" H 5583 3711 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm_Clear" H 5590 3875 50  0001 C CNN
+F 3 "~" H 5590 3875 50  0001 C CNN
+F 4 "754-1217-ND" H 5590 3875 50  0001 C CNN "Digi-Key_PN"
+F 5 "WP3A8GD" H 5590 3875 50  0001 C CNN "MPN"
+	1    5590 3875
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5FF9BB3A
+P 5890 3875
+F 0 "R1" V 5683 3875 50  0000 C CNN
+F 1 "1K" V 5774 3875 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5820 3875 50  0001 C CNN
+F 3 "~" H 5890 3875 50  0001 C CNN
+F 4 "CF14JT1K00CT-ND" H 5890 3875 50  0001 C CNN "Digi-Key_PN"
+F 5 "CF14JT1K00" H 5890 3875 50  0001 C CNN "MPN"
+	1    5890 3875
+	0    1    1    0   
+$EndComp
+Text GLabel 5440 3875 0    50   Input ~ 0
+VIN2
+$Comp
+L power:GND #PWR07
+U 1 1 5FF9BB41
+P 6040 3875
+F 0 "#PWR07" H 6040 3625 50  0001 C CNN
+F 1 "GND" H 6045 3702 50  0000 C CNN
+F 2 "" H 6040 3875 50  0001 C CNN
+F 3 "" H 6040 3875 50  0001 C CNN
+	1    6040 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse_Small F1
+U 1 1 5FFAF840
+P 7080 2570
+F 0 "F1" V 6875 2570 50  0000 C CNN
+F 1 "Fuse" V 6966 2570 50  0000 C CNN
+F 2 "Fuse:Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm" H 7130 2370 50  0001 L CNN
+F 3 "~" H 7080 2570 50  0001 C CNN
+F 4 "RXEF050-2HFCT-ND" H 7080 2570 50  0001 C CNN "Digi-Key_PN"
+F 5 "RXEF050-2" H 7080 2570 50  0001 C CNN "MPN"
+	1    7080 2570
+	0    1    1    0   
+$EndComp
+Text GLabel 6860 2570 1    50   Input ~ 0
+5IN
+Text GLabel 5440 2490 0    50   Input ~ 0
+5IN
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60231C48
+P 8500 2750
+F 0 "H4" H 8600 2796 50  0000 L CNN
+F 1 "MountingHole" H 8600 2705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 8500 2750 50  0001 C CNN
+F 3 "~" H 8500 2750 50  0001 C CNN
+	1    8500 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 602323BE
+P 8500 2500
+F 0 "H3" H 8600 2546 50  0000 L CNN
+F 1 "MountingHole" H 8600 2455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 8500 2500 50  0001 C CNN
+F 3 "~" H 8500 2500 50  0001 C CNN
+	1    8500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 602326D6
+P 8500 2000
+F 0 "H1" H 8600 2046 50  0000 L CNN
+F 1 "MountingHole" H 8600 1955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 8500 2000 50  0001 C CNN
+F 3 "~" H 8500 2000 50  0001 C CNN
+	1    8500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60232A6E
+P 8500 2250
+F 0 "H2" H 8600 2296 50  0000 L CNN
+F 1 "MountingHole" H 8600 2205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 8500 2250 50  0001 C CNN
+F 3 "~" H 8500 2250 50  0001 C CNN
+	1    8500 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 601B29C0
+P 4300 2750
+F 0 "J1" H 4380 2742 50  0000 L CNN
+F 1 "Power In" H 4380 2651 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 4300 2750 50  0001 C CNN
+F 3 "~" H 4300 2750 50  0001 C CNN
+F 4 "277-1236-ND" H 4300 2750 50  0001 C CNN "Digi-Key_PN"
+F 5 "1729018" H 4300 2750 50  0001 C CNN "MPN"
+	1    4300 2750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

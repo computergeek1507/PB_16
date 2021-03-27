@@ -1,0 +1,537 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title "Smart Reciver Max Exp Pico"
+Date "2021-03-27"
+Rev "v2"
+Comp "Scott Hanson"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:RJ45 J3
+U 1 1 5E069C26
+P 5350 2600
+F 0 "J3" V 5361 3130 50  0000 L CNN
+F 1 "RJ45" V 5452 3130 50  0000 L CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 5350 2625 50  0001 C CNN
+F 3 "~" V 5350 2625 50  0001 C CNN
+F 4 "AE10392-ND" H 5350 2600 50  0001 C CNN "Digi-Key_PN"
+F 5 "A-2014-2-4-R" H 5350 2600 50  0001 C CNN "MPN"
+	1    5350 2600
+	0    1    1    0   
+$EndComp
+Text GLabel 5300 4500 0    50   Input ~ 0
+DATA1_3v3
+Text GLabel 5300 4700 0    50   Input ~ 0
+DATA3_3v3
+$Comp
+L power:GND #PWR?
+U 1 1 5E073AEF
+P 7400 5200
+AR Path="/5E073AEF" Ref="#PWR?"  Part="1" 
+AR Path="/5E06688B/5E073AEF" Ref="#PWR018"  Part="1" 
+AR Path="/5FF2F4B6/5E073AEF" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 7400 4950 50  0001 C CNN
+F 1 "GND" H 7405 5027 50  0000 C CNN
+F 2 "" H 7400 5200 50  0001 C CNN
+F 3 "" H 7400 5200 50  0001 C CNN
+	1    7400 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5E0AB93E
+P 7650 3800
+F 0 "C4" H 7765 3846 50  0000 L CNN
+F 1 "0.1uF" H 7765 3755 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 7688 3650 50  0001 C CNN
+F 3 "~" H 7650 3800 50  0001 C CNN
+F 4 "478-7336-1-ND" H 7650 3800 50  0001 C CNN "Digi-Key_PN"
+F 5 "SR215C104KARTR1" H 7650 3800 50  0001 C CNN "MPN"
+	1    7650 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0AC21E
+P 7650 3950
+AR Path="/5E0AC21E" Ref="#PWR?"  Part="1" 
+AR Path="/5E06688B/5E0AC21E" Ref="#PWR024"  Part="1" 
+AR Path="/5FF2F4B6/5E0AC21E" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 7650 3700 50  0001 C CNN
+F 1 "GND" H 7655 3777 50  0000 C CNN
+F 2 "" H 7650 3950 50  0001 C CNN
+F 3 "" H 7650 3950 50  0001 C CNN
+	1    7650 3950
+	1    0    0    -1  
+$EndComp
+Text GLabel 6950 4600 2    50   Input ~ 0
+DATA2_3v3
+Text GLabel 6950 4800 2    50   Input ~ 0
+DATA4_3v3
+$Comp
+L AM26C32IN:AM26C32IN U6
+U 1 1 601E3AF7
+P 5300 4300
+F 0 "U6" H 6125 4687 60  0000 C CNN
+F 1 "AM26C32IN" H 6125 4581 60  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 6100 4590 60  0001 C CNN
+F 3 "" H 5300 4300 60  0000 C CNN
+F 4 "296-6789-5-ND" H 5300 4300 50  0001 C CNN "Digi-Key_PN"
+F 5 "AM26C32IN" H 5300 4300 50  0001 C CNN "MPN"
+	1    5300 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 5200 7400 4700
+Wire Wire Line
+	7400 4700 6950 4700
+$Comp
+L power:GND #PWR?
+U 1 1 601F1845
+P 4850 5150
+AR Path="/601F1845" Ref="#PWR?"  Part="1" 
+AR Path="/5E06688B/601F1845" Ref="#PWR?"  Part="1" 
+AR Path="/5FF2F4B6/601F1845" Ref="#PWR026"  Part="1" 
+F 0 "#PWR026" H 4850 4900 50  0001 C CNN
+F 1 "GND" H 4855 4977 50  0000 C CNN
+F 2 "" H 4850 5150 50  0001 C CNN
+F 3 "" H 4850 5150 50  0001 C CNN
+	1    4850 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5000 4850 5000
+Wire Wire Line
+	4850 5000 4850 5150
+Wire Wire Line
+	5300 4600 4850 4600
+Wire Wire Line
+	4850 4600 4850 5000
+Connection ~ 4850 5000
+Text GLabel 5050 3000 3    50   Input ~ 0
+Serial1_P
+Text GLabel 5150 3000 3    50   Input ~ 0
+Serial1_N
+Text GLabel 5250 3000 3    50   Input ~ 0
+Serial2_P
+Text GLabel 5550 3000 3    50   Input ~ 0
+Serial2_N
+Text GLabel 5650 3000 3    50   Input ~ 0
+Serial4_P
+Text GLabel 5750 3000 3    50   Input ~ 0
+Serial4_N
+Text GLabel 5450 3000 3    50   Input ~ 0
+Serial3_P
+Text GLabel 5350 3000 3    50   Input ~ 0
+Serial3_N
+Text GLabel 5300 4400 0    50   Input ~ 0
+Serial1_P
+Text GLabel 5300 4300 0    50   Input ~ 0
+Serial1_N
+Text GLabel 5300 4800 0    50   Input ~ 0
+Serial3_P
+Text GLabel 5300 4900 0    50   Input ~ 0
+Serial3_N
+Text GLabel 6950 4500 2    50   Input ~ 0
+Serial2_P
+Text GLabel 6950 4400 2    50   Input ~ 0
+Serial2_N
+Text GLabel 6950 5000 2    50   Input ~ 0
+Serial4_N
+Text GLabel 6950 4900 2    50   Input ~ 0
+Serial4_P
+Text GLabel 6250 2500 1    50   Input ~ 0
+Serial1_P
+Text GLabel 6250 2800 3    50   Input ~ 0
+Serial1_N
+Text GLabel 6550 2800 3    50   Input ~ 0
+Serial2_N
+Text GLabel 6550 2500 1    50   Input ~ 0
+Serial2_P
+Text GLabel 6850 2800 3    50   Input ~ 0
+Serial3_N
+Text GLabel 6850 2500 1    50   Input ~ 0
+Serial3_P
+Text GLabel 7150 2800 3    50   Input ~ 0
+Serial4_N
+Text GLabel 7150 2500 1    50   Input ~ 0
+Serial4_P
+$Comp
+L Device:R_Pack04_SIP_Split RN1
+U 1 1 605BAAB7
+P 6250 2650
+F 0 "RN1" H 6338 2696 50  0000 L CNN
+F 1 "120" H 6338 2605 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 6170 2650 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6250 2650 50  0001 C CNN
+F 4 "4608X-2-121LF-ND" H 6250 2650 50  0001 C CNN "Digi-Key_PN"
+F 5 "4608X-102-121LF" H 6250 2650 50  0001 C CNN "MPN"
+	1    6250 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split RN1
+U 2 1 605BB103
+P 6550 2650
+F 0 "RN1" H 6638 2696 50  0000 L CNN
+F 1 "120" H 6638 2605 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 6470 2650 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6550 2650 50  0001 C CNN
+F 4 "4608X-2-121LF-ND" H 6550 2650 50  0001 C CNN "Digi-Key_PN"
+F 5 "4608X-102-121LF" H 6550 2650 50  0001 C CNN "MPN"
+	2    6550 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split RN1
+U 3 1 605BB7F5
+P 6850 2650
+F 0 "RN1" H 6780 2604 50  0000 R CNN
+F 1 "120" H 6780 2695 50  0000 R CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 6770 2650 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6850 2650 50  0001 C CNN
+F 4 "4608X-2-121LF-ND" H 6850 2650 50  0001 C CNN "Digi-Key_PN"
+F 5 "4608X-102-121LF" H 6850 2650 50  0001 C CNN "MPN"
+	3    6850 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP_Split RN1
+U 4 1 605BBCE1
+P 7150 2650
+F 0 "RN1" H 7080 2604 50  0000 R CNN
+F 1 "120" H 7080 2695 50  0000 R CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 7070 2650 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 7150 2650 50  0001 C CNN
+F 4 "4608X-2-121LF-ND" H 7150 2650 50  0001 C CNN "Digi-Key_PN"
+F 5 "4608X-102-121LF" H 7150 2650 50  0001 C CNN "MPN"
+	4    7150 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS125 U?
+U 1 1 605D5035
+P 9150 1450
+AR Path="/5FF30D74/605D5035" Ref="U?"  Part="1" 
+AR Path="/5FF2F4B6/605D5035" Ref="U7"  Part="1" 
+F 0 "U7" H 8710 1755 50  0000 C CNN
+F 1 "74LS125" H 8655 1630 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 9150 1450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 9150 1450 50  0001 C CNN
+F 4 "296-4531-5-ND" H 9150 1450 50  0001 C CNN "Digi-Key_PN"
+F 5 "SN74AHC125N" H 9150 1450 50  0001 C CNN "MPN"
+	1    9150 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS125 U?
+U 3 1 605D503D
+P 9150 2350
+AR Path="/5FF30D74/605D503D" Ref="U?"  Part="3" 
+AR Path="/5FF2F4B6/605D503D" Ref="U7"  Part="3" 
+F 0 "U7" H 9150 2667 50  0000 C CNN
+F 1 "74LS125" H 9150 2576 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 9150 2350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 9150 2350 50  0001 C CNN
+F 4 "296-4531-5-ND" H 9150 2350 50  0001 C CNN "Digi-Key_PN"
+F 5 "SN74AHC125N" H 9150 2350 50  0001 C CNN "MPN"
+	3    9150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS125 U?
+U 4 1 605D5045
+P 9150 3100
+AR Path="/5FF30D74/605D5045" Ref="U?"  Part="4" 
+AR Path="/5FF2F4B6/605D5045" Ref="U7"  Part="4" 
+F 0 "U7" H 9150 3417 50  0000 C CNN
+F 1 "74LS125" H 9150 3326 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 9150 3100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 9150 3100 50  0001 C CNN
+F 4 "296-4531-5-ND" H 9150 3100 50  0001 C CNN "Digi-Key_PN"
+F 5 "SN74AHC125N" H 9150 3100 50  0001 C CNN "MPN"
+	4    9150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Smart_Reciever_Max-rescue:C-Device-PB_16-rescue C?
+U 1 1 605D504D
+P 8500 5650
+AR Path="/605D504D" Ref="C?"  Part="1" 
+AR Path="/5D469293/605D504D" Ref="C?"  Part="1" 
+AR Path="/5FF30D74/605D504D" Ref="C?"  Part="1" 
+AR Path="/5FF2F4B6/605D504D" Ref="C8"  Part="1" 
+F 0 "C8" H 8615 5696 50  0000 L CNN
+F 1 "0.1uF" H 8615 5605 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 8538 5500 50  0001 C CNN
+F 3 "~" H 8500 5650 50  0001 C CNN
+F 4 "478-7336-1-ND" H 1720 1320 50  0001 C CNN "Digi-Key_PN"
+F 5 "SR215C104KARTR1" H 1720 1320 50  0001 C CNN "MPN"
+	1    8500 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 605D505F
+P 8500 5800
+AR Path="/605D505F" Ref="#PWR?"  Part="1" 
+AR Path="/5D469293/605D505F" Ref="#PWR?"  Part="1" 
+AR Path="/5FF30D74/605D505F" Ref="#PWR?"  Part="1" 
+AR Path="/5FF2F4B6/605D505F" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 8500 5550 50  0001 C CNN
+F 1 "GND" H 8505 5627 50  0000 C CNN
+F 2 "" H 8500 5800 50  0001 C CNN
+F 3 "" H 8500 5800 50  0001 C CNN
+	1    8500 5800
+	1    0    0    -1  
+$EndComp
+Text GLabel 9450 2350 2    50   Input ~ 0
+DATA2
+Text GLabel 9450 1450 2    50   Input ~ 0
+DATA1
+Text GLabel 9450 3100 2    50   Input ~ 0
+DATA3
+Text GLabel 9450 4000 2    50   Input ~ 0
+DATA4
+$Comp
+L power:GND #PWR?
+U 1 1 605D506D
+P 9500 6000
+AR Path="/605D506D" Ref="#PWR?"  Part="1" 
+AR Path="/5D469293/605D506D" Ref="#PWR?"  Part="1" 
+AR Path="/5FF30D74/605D506D" Ref="#PWR?"  Part="1" 
+AR Path="/5FF2F4B6/605D506D" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 9500 5750 50  0001 C CNN
+F 1 "GND" H 9505 5827 50  0000 C CNN
+F 2 "" H 9500 6000 50  0001 C CNN
+F 3 "" H 9500 6000 50  0001 C CNN
+	1    9500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS125 U?
+U 5 1 605D5075
+P 9500 5500
+AR Path="/5FF30D74/605D5075" Ref="U?"  Part="5" 
+AR Path="/5FF2F4B6/605D5075" Ref="U7"  Part="5" 
+F 0 "U7" H 9730 5546 50  0000 L CNN
+F 1 "74LS125" H 9730 5455 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 9500 5500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 9500 5500 50  0001 C CNN
+F 4 "296-4531-5-ND" H 9500 5500 50  0001 C CNN "Digi-Key_PN"
+F 5 "SN74AHC125N" H 9500 5500 50  0001 C CNN "MPN"
+	5    9500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS125 U?
+U 2 1 605D5081
+P 9150 4000
+AR Path="/5FF30D74/605D5081" Ref="U?"  Part="2" 
+AR Path="/5FF2F4B6/605D5081" Ref="U7"  Part="2" 
+F 0 "U7" H 8800 4300 50  0000 C CNN
+F 1 "74LS125" H 8850 4200 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 9150 4000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 9150 4000 50  0001 C CNN
+F 4 "296-4531-5-ND" H 9150 4000 50  0001 C CNN "Digi-Key_PN"
+F 5 "SN74AHC125N" H 9150 4000 50  0001 C CNN "MPN"
+	2    9150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 605D8511
+P 9150 4250
+AR Path="/605D8511" Ref="#PWR?"  Part="1" 
+AR Path="/5E06688B/605D8511" Ref="#PWR?"  Part="1" 
+AR Path="/5FF2F4B6/605D8511" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 9150 4000 50  0001 C CNN
+F 1 "GND" H 9155 4077 50  0000 C CNN
+F 2 "" H 9150 4250 50  0001 C CNN
+F 3 "" H 9150 4250 50  0001 C CNN
+	1    9150 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 605D8BBA
+P 9150 3350
+AR Path="/605D8BBA" Ref="#PWR?"  Part="1" 
+AR Path="/5E06688B/605D8BBA" Ref="#PWR?"  Part="1" 
+AR Path="/5FF2F4B6/605D8BBA" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 9150 3100 50  0001 C CNN
+F 1 "GND" H 9155 3177 50  0000 C CNN
+F 2 "" H 9150 3350 50  0001 C CNN
+F 3 "" H 9150 3350 50  0001 C CNN
+	1    9150 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 605D8F83
+P 9150 2600
+AR Path="/605D8F83" Ref="#PWR?"  Part="1" 
+AR Path="/5E06688B/605D8F83" Ref="#PWR?"  Part="1" 
+AR Path="/5FF2F4B6/605D8F83" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 9150 2350 50  0001 C CNN
+F 1 "GND" H 9155 2427 50  0000 C CNN
+F 2 "" H 9150 2600 50  0001 C CNN
+F 3 "" H 9150 2600 50  0001 C CNN
+	1    9150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 605D9353
+P 9150 1700
+AR Path="/605D9353" Ref="#PWR?"  Part="1" 
+AR Path="/5E06688B/605D9353" Ref="#PWR?"  Part="1" 
+AR Path="/5FF2F4B6/605D9353" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 9150 1450 50  0001 C CNN
+F 1 "GND" H 9155 1527 50  0000 C CNN
+F 2 "" H 9150 1700 50  0001 C CNN
+F 3 "" H 9150 1700 50  0001 C CNN
+	1    9150 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR027
+U 1 1 601BFD4F
+P 9500 5000
+F 0 "#PWR027" H 9500 4850 50  0001 C CNN
+F 1 "+3.3V" H 9515 5173 50  0000 C CNN
+F 2 "" H 9500 5000 50  0001 C CNN
+F 3 "" H 9500 5000 50  0001 C CNN
+	1    9500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0121
+U 1 1 605F5B52
+P 8500 5500
+F 0 "#PWR0121" H 8500 5350 50  0001 C CNN
+F 1 "+3.3V" H 8515 5673 50  0000 C CNN
+F 2 "" H 8500 5500 50  0001 C CNN
+F 3 "" H 8500 5500 50  0001 C CNN
+	1    8500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JP1
+U 1 1 605F6BF0
+P 7000 3700
+F 0 "JP1" H 7000 3905 50  0000 C CNN
+F 1 "U6_V" H 7000 3814 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm" H 7000 3700 50  0001 C CNN
+F 3 "~" H 7000 3700 50  0001 C CNN
+	1    7000 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 605F8342
+P 6800 3700
+AR Path="/605F8342" Ref="#PWR?"  Part="1" 
+AR Path="/5D469293/605F8342" Ref="#PWR?"  Part="1" 
+AR Path="/5FF30D74/605F8342" Ref="#PWR?"  Part="1" 
+AR Path="/5FF2F4B6/605F8342" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 6800 3550 50  0001 C CNN
+F 1 "+5V" H 6815 3873 50  0000 C CNN
+F 2 "" H 6800 3700 50  0001 C CNN
+F 3 "" H 6800 3700 50  0001 C CNN
+	1    6800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0123
+U 1 1 605F87EB
+P 7200 3700
+F 0 "#PWR0123" H 7200 3550 50  0001 C CNN
+F 1 "+3.3V" H 7215 3873 50  0000 C CNN
+F 2 "" H 7200 3700 50  0001 C CNN
+F 3 "" H 7200 3700 50  0001 C CNN
+	1    7200 3700
+	1    0    0    -1  
+$EndComp
+Text GLabel 6950 4300 2    50   Input ~ 0
+U6_V
+Text GLabel 7000 3850 3    50   Input ~ 0
+U6_V
+Text GLabel 7650 3650 1    50   Input ~ 0
+U6_V
+Text GLabel 8850 1450 0    50   Input ~ 0
+DATA1_3v3
+Text GLabel 8850 4000 0    50   Input ~ 0
+DATA4_3v3
+Text GLabel 8850 2350 0    50   Input ~ 0
+DATA2_3v3
+Text GLabel 8850 3100 0    50   Input ~ 0
+DATA3_3v3
+$Comp
+L Jumper:SolderJumper_2_Open JP5
+U 1 1 60602544
+P 10600 3100
+F 0 "JP5" H 10600 3305 50  0000 C CNN
+F 1 "Data3_JMP" H 10600 3214 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 10600 3100 50  0001 C CNN
+F 3 "~" H 10600 3100 50  0001 C CNN
+	1    10600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP3
+U 1 1 60602E0B
+P 10550 4000
+F 0 "JP3" H 10550 4205 50  0000 C CNN
+F 1 "Data4_JMP" H 10550 4114 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 10550 4000 50  0001 C CNN
+F 3 "~" H 10550 4000 50  0001 C CNN
+	1    10550 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 10700 4000 2    50   Input ~ 0
+DATA4
+Text GLabel 10400 4000 0    50   Input ~ 0
+DATA4_3v3
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 6060745E
+P 10500 1400
+F 0 "JP2" H 10500 1605 50  0000 C CNN
+F 1 "Data1_JMP" H 10500 1514 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 10500 1400 50  0001 C CNN
+F 3 "~" H 10500 1400 50  0001 C CNN
+	1    10500 1400
+	1    0    0    -1  
+$EndComp
+Text GLabel 10750 2350 2    50   Input ~ 0
+DATA2
+Text GLabel 10450 2350 0    50   Input ~ 0
+DATA2_3v3
+Text GLabel 10650 1400 2    50   Input ~ 0
+DATA1
+Text GLabel 10350 1400 0    50   Input ~ 0
+DATA1_3v3
+$Comp
+L Jumper:SolderJumper_2_Open JP4
+U 1 1 6060219B
+P 10600 2350
+F 0 "JP4" H 10600 2555 50  0000 C CNN
+F 1 "Data2_JMP" H 10600 2464 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 10600 2350 50  0001 C CNN
+F 3 "~" H 10600 2350 50  0001 C CNN
+	1    10600 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 10750 3100 2    50   Input ~ 0
+DATA3
+Text GLabel 10450 3100 0    50   Input ~ 0
+DATA3_3v3
+$EndSCHEMATC

@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name MKDS1_2-3.81)(type KiCad)(uri ${KIPRJMOD}/libraries/MKDS1_2-3.81/MKDS1_2-3.81.pretty)(options "")(descr ""))
+  (lib (name MCU_RaspberryPi_and_Boards)(type KiCad)(uri ${KIPRJMOD}/libraries/MCU_RaspberryPi_and_Boards/MCU_RaspberryPi_and_Boards.pretty)(options "")(descr ""))
+  (lib (name AM26LV32EIDR)(type KiCad)(uri ${KIPRJMOD}/libraries/AM26LV32EIDR)(options "")(descr ""))
+  (lib (name kiwih_kicad)(type KiCad)(uri ${KIPRJMOD}/libraries/kiwih_kicad/footprints/kiwih_kicad.pretty)(options "")(descr ""))
+)
