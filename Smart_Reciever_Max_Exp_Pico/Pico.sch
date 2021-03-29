@@ -541,4 +541,30 @@ F 3 "" H 7650 2000 50  0001 C CNN
 	1    7650 2000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:TestPoint_Small TP6
+U 1 1 6084506F
+P 8100 2000
+F 0 "TP6" H 8050 1950 50  0000 L CNN
+F 1 "GND" H 7900 2000 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 8300 2000 50  0001 C CNN
+F 3 "~" H 8300 2000 50  0001 C CNN
+	1    8100 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60845075
+P 8100 2000
+AR Path="/60845075" Ref="#PWR?"  Part="1" 
+AR Path="/5E06688B/60845075" Ref="#PWR?"  Part="1" 
+AR Path="/5FF2F4B6/60845075" Ref="#PWR?"  Part="1" 
+AR Path="/5FF2E2A0/60845075" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 8100 1750 50  0001 C CNN
+F 1 "GND" H 8105 1827 50  0000 C CNN
+F 2 "" H 8100 2000 50  0001 C CNN
+F 3 "" H 8100 2000 50  0001 C CNN
+	1    8100 2000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
