@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
 Title "BBB 16"
-Date "2020-04-04"
-Rev "v2"
+Date "2021-02-19"
+Rev "v3"
 Comp "Scott Hanson"
 Comment1 ""
 Comment2 ""
@@ -101,9 +101,7 @@ F 3 "" H 6285 2105 50  0001 C CNN
 	1    6285 2105
 	0    1    1    0   
 $EndComp
-Text GLabel 6285 2905 0    50   Input ~ 0
-I2C_SCL
-Text GLabel 8085 2905 2    50   Input ~ 0
+Text GLabel 8085 3005 2    50   Input ~ 0
 I2C_SDA
 Text GLabel 5055 3705 2    50   Input ~ 0
 DATA8
@@ -275,7 +273,6 @@ NoConn ~ 8085 3505
 NoConn ~ 8085 2405
 NoConn ~ 8085 2505
 NoConn ~ 8085 2605
-NoConn ~ 8085 3005
 NoConn ~ 6285 3205
 NoConn ~ 6285 3405
 NoConn ~ 6285 3705
@@ -304,4 +301,8 @@ NoConn ~ 3255 2305
 NoConn ~ 3255 2205
 NoConn ~ 5055 2305
 NoConn ~ 5055 2205
+Text GLabel 6285 3005 0    50   Input ~ 0
+I2C_SCL
+NoConn ~ 8085 2905
+NoConn ~ 6285 2905
 $EndSCHEMATC
