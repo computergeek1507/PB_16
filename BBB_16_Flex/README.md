@@ -9,8 +9,8 @@ You may redistribute and modify this documentation under the terms of the CERN O
 
 The BBB16 Flex is a version of the BBB16 for the HolidayCoro Flex System. It can be used with all three flex boards, 48 outputs. The design is surface mount. All the design files are open source and available on github.
 
-## [Part BOM](https://github.com/computergeek1507/BBB_16_Flex/raw/master/BBB_16_Flex/BBB_16_Flex_BOM.ods)
+## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/BBB_16_Flex/BBB_16_Flex_BOM.ods)
 
-![Image of BBB16 Flex Out](https://github.com/computergeek1507/BBB_16_Flex/raw/master/BBB_16_Flex/BBB_16_Flex.png)
+![Image of BBB16 Flex Out](https://github.com/computergeek1507/PB_16/raw/master/BBB_16_Flex/BBB_16_Flex.png)
 
 
