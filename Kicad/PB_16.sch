@@ -222,7 +222,7 @@ F 3 "" H 3270 1685 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_A J19
+L PB_16-rescue:USB_A-Connector J19
 U 1 1 5D4E8733
 P 4270 4495
 F 0 "J19" H 4327 4962 50  0000 C CNN

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title "BBB 16"
 Date "2021-07-14"
 Rev "v4"
@@ -13,19 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector_Generic:Conn_01x02 J17
-U 1 1 5CEC911C
-P 4670 1050
-F 0 "J17" H 4750 1042 50  0000 L CNN
-F 1 "Power In Left" H 4750 951 50  0000 L CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal" H 4670 1050 50  0001 C CNN
-F 3 "~" H 4670 1050 50  0001 C CNN
-F 4 "ED2675-ND" H -3850 190 50  0001 C CNN "Digi-Key_PN"
-F 5 "OSTT7020150" H -3850 190 50  0001 C CNN "MPN"
-	1    4670 1050
-	-1   0    0    -1  
-$EndComp
 $Comp
 L Regulator_Linear:LM7805_TO220 U2
 U 1 1 5CECC219
@@ -55,12 +42,12 @@ $EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 5CED08B0
-P 4870 1150
-F 0 "#PWR0101" H 4870 900 50  0001 C CNN
-F 1 "GND" H 4875 977 50  0000 C CNN
-F 2 "" H 4870 1150 50  0001 C CNN
-F 3 "" H 4870 1150 50  0001 C CNN
-	1    4870 1150
+P 4730 1030
+F 0 "#PWR0101" H 4730 780 50  0001 C CNN
+F 1 "GND" H 4735 857 50  0000 C CNN
+F 2 "" H 4730 1030 50  0001 C CNN
+F 3 "" H 4730 1030 50  0001 C CNN
+	1    4730 1030
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -136,32 +123,19 @@ F0 "Serial" 50
 F1 "Serial.sch" 50
 $EndSheet
 $Comp
-L Connector_Generic:Conn_01x02 J18
-U 1 1 5D51C5DD
-P 4630 1710
-F 0 "J18" H 4710 1702 50  0000 L CNN
-F 1 "Power In Right" H 4710 1611 50  0000 L CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal" H 4630 1710 50  0001 C CNN
-F 3 "~" H 4630 1710 50  0001 C CNN
-F 4 "ED2675-ND" H -3890 850 50  0001 C CNN "Digi-Key_PN"
-F 5 "OSTT7020150" H -3890 850 50  0001 C CNN "MPN"
-	1    4630 1710
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR02
 U 1 1 5D51C5E3
-P 4830 1810
-F 0 "#PWR02" H 4830 1560 50  0001 C CNN
-F 1 "GND" H 4835 1637 50  0000 C CNN
-F 2 "" H 4830 1810 50  0001 C CNN
-F 3 "" H 4830 1810 50  0001 C CNN
-	1    4830 1810
+P 4740 1720
+F 0 "#PWR02" H 4740 1470 50  0001 C CNN
+F 1 "GND" H 4745 1547 50  0000 C CNN
+F 2 "" H 4740 1720 50  0001 C CNN
+F 3 "" H 4740 1720 50  0001 C CNN
+	1    4740 1720
 	1    0    0    -1  
 $EndComp
-Text GLabel 4830 1710 2    50   Input ~ 0
+Text GLabel 4740 1520 2    50   Input ~ 0
 VIN2
-Text GLabel 4870 1050 2    50   Input ~ 0
+Text GLabel 4730 830  2    50   Input ~ 0
 VIN1
 Text GLabel 6020 1590 0    50   Input ~ 0
 VIN2
@@ -345,33 +319,33 @@ F 3 "" H 9050 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 9700 3400 2    50   Input ~ 0
-OUT17
-Text GLabel 9700 3500 2    50   Input ~ 0
-OUT18
-Text GLabel 9700 3600 2    50   Input ~ 0
-OUT19
-Text GLabel 9700 3700 2    50   Input ~ 0
-OUT20
-Text GLabel 9700 3800 2    50   Input ~ 0
 OUT21
-Text GLabel 9700 3900 2    50   Input ~ 0
+Text GLabel 9700 3500 2    50   Input ~ 0
 OUT22
-Text GLabel 9700 4000 2    50   Input ~ 0
+Text GLabel 9700 3600 2    50   Input ~ 0
 OUT23
-Text GLabel 9700 4100 2    50   Input ~ 0
+Text GLabel 9700 3700 2    50   Input ~ 0
 OUT24
-Text GLabel 9700 4200 2    50   Input ~ 0
+Text GLabel 9700 3800 2    50   Input ~ 0
 OUT25
-Text GLabel 9700 4300 2    50   Input ~ 0
+Text GLabel 9700 3900 2    50   Input ~ 0
 OUT26
-Text GLabel 9700 4400 2    50   Input ~ 0
+Text GLabel 9700 4000 2    50   Input ~ 0
 OUT27
-Text GLabel 9700 4700 2    50   Input ~ 0
+Text GLabel 9700 4100 2    50   Input ~ 0
+OUT28
+Text GLabel 9700 4200 2    50   Input ~ 0
+OUT29
+Text GLabel 9700 4300 2    50   Input ~ 0
 OUT30
-Text GLabel 9700 4800 2    50   Input ~ 0
+Text GLabel 9700 4400 2    50   Input ~ 0
 OUT31
+Text GLabel 9700 4700 2    50   Input ~ 0
+OUT34
+Text GLabel 9700 4800 2    50   Input ~ 0
+OUT35
 Text GLabel 9700 4900 2    50   Input ~ 0
-OUT32
+OUT36
 NoConn ~ 2800 1350
 $Comp
 L Connector:Conn_01x03_Male J23
@@ -504,9 +478,9 @@ $EndComp
 Connection ~ 9700 3200
 NoConn ~ 9200 3200
 Text GLabel 9700 4500 2    50   Input ~ 0
-OUT28
+OUT32
 Text GLabel 9200 4700 0    50   Input ~ 0
-OUT29
+OUT33
 $Comp
 L Connector:Conn_01x04_Female J26
 U 1 1 5D551E96
@@ -1056,44 +1030,31 @@ Pin3
 Text Label 2640 2920 0    50   ~ 0
 Pin4
 $Comp
-L Connector:Conn_01x06_Male J27
-U 1 1 5E91DF8A
-P 1150 1585
-F 0 "J27" H 1258 1966 50  0000 C CNN
-F 1 "Audio Conn" H 1258 1875 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1150 1585 50  0001 C CNN
-F 3 "~" H 1150 1585 50  0001 C CNN
-	1    1150 1585
-	1    0    0    -1  
+L Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS J17
+U 1 1 60F1E50A
+P 4380 930
+F 0 "J17" H 4508 983 60  0000 L CNN
+F 1 "Power In Left" H 4508 877 60  0000 L CNN
+F 2 "Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS_P9.5MM" H 4380 930 60  0001 C CNN
+F 3 "" H 4380 930 60  0000 C CNN
+	1    4380 930 
+	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0120
-U 1 1 5E9225FD
-P 1350 1885
-F 0 "#PWR0120" H 1350 1735 50  0001 C CNN
-F 1 "+5V" V 1365 2058 50  0000 C CNN
-F 2 "" H 1350 1885 50  0001 C CNN
-F 3 "" H 1350 1885 50  0001 C CNN
-	1    1350 1885
-	0    1    1    0   
+L Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS J18
+U 1 1 60F1FD2A
+P 4390 1620
+F 0 "J18" H 4518 1673 60  0000 L CNN
+F 1 "Power In Right" H 4518 1567 60  0000 L CNN
+F 2 "Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS_P9.5MM" H 4390 1620 60  0001 C CNN
+F 3 "" H 4390 1620 60  0000 C CNN
+	1    4390 1620
+	-1   0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0129
-U 1 1 5E9235BE
-P 1350 1785
-F 0 "#PWR0129" H 1350 1535 50  0001 C CNN
-F 1 "GND" V 1355 1612 50  0000 C CNN
-F 2 "" H 1350 1785 50  0001 C CNN
-F 3 "" H 1350 1785 50  0001 C CNN
-	1    1350 1785
-	0    -1   -1   0   
-$EndComp
-Text GLabel 1350 1385 2    50   Input ~ 0
-SCK
-Text GLabel 1350 1485 2    50   Input ~ 0
-BCK
-Text GLabel 1350 1585 2    50   Input ~ 0
-DIN
-Text GLabel 1350 1685 2    50   Input ~ 0
-LRCK
+$Sheet
+S 1950 5900 850  600 
+U 60F51154
+F0 "Diff" 50
+F1 "Diff.sch" 50
+$EndSheet
 $EndSCHEMATC

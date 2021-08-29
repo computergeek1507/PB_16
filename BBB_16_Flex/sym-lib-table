@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name BBB_16_Flex-rescue)(type Legacy)(uri ${KIPRJMOD}/BBB_16_Flex-rescue.lib)(options "")(descr ""))
+  (lib (name TPD4S009DBVR)(type Legacy)(uri ${KIPRJMOD}/libraries/TPD4S009DBVR/TPD4S009DBVR.lib)(options "")(descr ""))
+)

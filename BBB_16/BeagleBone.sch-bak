@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 6
 Title "BBB 16"
-Date "2021-02-19"
-Rev "v3"
+Date "2021-07-14"
+Rev "v4"
 Comp "Scott Hanson"
 Comment1 ""
 Comment2 ""
@@ -71,7 +71,7 @@ OUT30
 Text GLabel 3255 4005 0    50   Input ~ 0
 OUT31
 Text GLabel 6285 2605 0    50   Input ~ 0
-OUT18
+DATA18
 Text GLabel 3255 2705 0    50   Input ~ 0
 OUT22
 Text GLabel 3255 2905 0    50   Input ~ 0
@@ -83,13 +83,13 @@ OUT21
 Text GLabel 3255 3005 0    50   Input ~ 0
 OUT24
 Text GLabel 8085 2705 2    50   Input ~ 0
-OUT19
+DATA19
 Text GLabel 3255 2405 0    50   Input ~ 0
-OUT20
+DATA20
 Text GLabel 3255 4105 0    50   Input ~ 0
 OUT32
 Text GLabel 6285 2705 0    50   Input ~ 0
-OUT17
+DATA17
 $Comp
 L power:GND #PWR050
 U 1 1 5D540EE6
@@ -262,7 +262,6 @@ $EndComp
 Text GLabel 6285 2505 0    50   Input ~ 0
 PWR_BUT
 NoConn ~ 6285 2405
-NoConn ~ 6285 2805
 NoConn ~ 8085 4105
 NoConn ~ 8085 4005
 NoConn ~ 8085 3905
@@ -273,8 +272,6 @@ NoConn ~ 8085 3505
 NoConn ~ 8085 2405
 NoConn ~ 8085 2505
 NoConn ~ 8085 2605
-NoConn ~ 6285 3205
-NoConn ~ 6285 3405
 NoConn ~ 6285 3705
 NoConn ~ 6285 3805
 NoConn ~ 6285 3905
@@ -288,14 +285,6 @@ NoConn ~ 5055 3105
 NoConn ~ 5055 3205
 NoConn ~ 5055 3305
 NoConn ~ 8085 3105
-Text GLabel 6285 3305 0    50   Input ~ 0
-SCK
-Text GLabel 6285 3605 0    50   Input ~ 0
-BCK
-Text GLabel 8085 3405 2    50   Input ~ 0
-DIN
-Text GLabel 6285 3505 0    50   Input ~ 0
-LRCK
 NoConn ~ 8085 2805
 NoConn ~ 3255 2305
 NoConn ~ 3255 2205
@@ -305,4 +294,16 @@ Text GLabel 6285 3005 0    50   Input ~ 0
 I2C_SCL
 NoConn ~ 8085 2905
 NoConn ~ 6285 2905
+Text GLabel 6285 2805 0    50   Input ~ 0
+OUT33
+Text GLabel 6285 3205 0    50   Input ~ 0
+OUT34
+Text GLabel 6285 3305 0    50   Input ~ 0
+OUT35
+Text GLabel 6285 3405 0    50   Input ~ 0
+OUT36
+NoConn ~ 8085 3405
+NoConn ~ 6285 3605
+NoConn ~ 6285 3505
+NoConn ~ 8085 3605
 $EndSCHEMATC

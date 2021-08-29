@@ -450,8 +450,8 @@
   (module Keystone_Fuse:FUSE_3544-2 (layer F.Cu) (tedit 0) (tstamp 5EBF9A5D)
     (at 73.051 129.3886 90)
     (path /5D469F02/5EC26705)
-    (fp_text reference F18 (at -5.08 -3.556 90) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.05)))
+    (fp_text reference F18 (at 8.1708 -1 180) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 3544-2 (at -4.445 3.175 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.05)))
@@ -711,10 +711,10 @@
       (net 1 GND))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.905 2) (drill 1.1) (layers *.Cu *.Mask)
       (net 116 /12V))
-    (model ${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/libraries/OKI-78SR-5/mps_dcdc_oki_78sr_a.step
+      (offset (xyz -3 2.7 2))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 

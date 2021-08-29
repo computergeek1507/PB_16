@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 5 6
 Title "BBB 16"
-Date "2021-02-19"
-Rev "v3"
+Date "2021-07-14"
+Rev "v4"
 Comp "Scott Hanson"
 Comment1 ""
 Comment2 ""
@@ -220,105 +220,6 @@ Text Label 5800 1960 0    50   ~ 0
 DMX1+
 Wire Wire Line
 	5800 2300 5800 2360
-Wire Wire Line
-	6640 3220 6770 3220
-Wire Wire Line
-	6290 3220 6640 3220
-Connection ~ 6640 3220
-Wire Wire Line
-	6640 3220 6640 3910
-Connection ~ 6180 3520
-Wire Wire Line
-	5390 4120 5680 4120
-Wire Wire Line
-	5390 3940 5390 4120
-Wire Wire Line
-	5210 3940 5390 3940
-Wire Wire Line
-	5680 3840 5680 3810
-Wire Wire Line
-	5210 3840 5680 3840
-Wire Wire Line
-	5270 4320 5680 4320
-Wire Wire Line
-	5270 4140 5270 4320
-Wire Wire Line
-	5210 4140 5270 4140
-Wire Wire Line
-	5480 4240 5210 4240
-Wire Wire Line
-	5480 4010 5480 4240
-Wire Wire Line
-	5680 4010 5480 4010
-Wire Wire Line
-	6180 3520 6180 4220
-Wire Wire Line
-	6080 3910 6640 3910
-NoConn ~ 5210 3740
-Wire Wire Line
-	6180 4220 6080 4220
-NoConn ~ 5210 4040
-$Comp
-L Switch:SW_DPDT_x2 SW1
-U 2 1 5D4E1EB8
-P 5880 3910
-F 0 "SW1" H 5960 4180 50  0000 C CNN
-F 1 "DMX_Renard_Select" H 5930 4100 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight" H 5880 3910 50  0001 C CNN
-F 3 "~" H 5880 3910 50  0001 C CNN
-F 4 "401-2001-ND" H 5880 3910 50  0001 C CNN "Digi-Key_PN"
-F 5 "JS202011CQN" H 5880 3910 50  0001 C CNN "MPN"
-	2    5880 3910
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_DPDT_x2 SW1
-U 1 1 5D4E1041
-P 5880 4220
-F 0 "SW1" H 5760 4380 50  0000 C CNN
-F 1 "DMX_Renard_Select" H 5880 3980 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight" H 5880 4220 50  0001 C CNN
-F 3 "~" H 5880 4220 50  0001 C CNN
-F 4 "401-2001-ND" H 5880 4220 50  0001 C CNN "Digi-Key_PN"
-F 5 "JS202011CQN" H 5880 4220 50  0001 C CNN "MPN"
-	1    5880 4220
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5210 3590 5210 3540
-Connection ~ 5210 3590
-Wire Wire Line
-	5370 3590 5210 3590
-Wire Wire Line
-	5210 3640 5210 3590
-$Comp
-L power:GND #PWR?
-U 1 1 5D4DF745
-P 5370 3590
-AR Path="/5D4DF745" Ref="#PWR?"  Part="1" 
-AR Path="/5D469F02/5D4DF745" Ref="#PWR046"  Part="1" 
-F 0 "#PWR046" H 5370 3340 50  0001 C CNN
-F 1 "GND" H 5375 3417 50  0000 C CNN
-F 2 "" H 5370 3590 50  0001 C CNN
-F 3 "" H 5370 3590 50  0001 C CNN
-	1    5370 3590
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:RJ45 J?
-U 1 1 5D4D236B
-P 4810 3940
-AR Path="/5D4D236B" Ref="J?"  Part="1" 
-AR Path="/5D469F02/5D4D236B" Ref="J21"  Part="1" 
-F 0 "J21" H 4867 4607 50  0000 C CNN
-F 1 "DMX2 RJ45" H 4867 4516 50  0000 C CNN
-F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 4810 3965 50  0001 C CNN
-F 3 "~" V 4810 3965 50  0001 C CNN
-F 4 "AE10392-ND" H 3970 60  50  0001 C CNN "Digi-Key_PN"
-F 5 "A-2014-2-4-R" H 3970 60  50  0001 C CNN "MPN"
-	1    4810 3940
-	1    0    0    -1  
-$EndComp
 Connection ~ 5800 2360
 Connection ~ 5800 1960
 Wire Wire Line
@@ -406,4 +307,6 @@ F 5 "A-2014-2-4-R" H 3540 -2020 50  0001 C CNN "MPN"
 	1    4380 1860
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6290 3220 6770 3220
 $EndSCHEMATC

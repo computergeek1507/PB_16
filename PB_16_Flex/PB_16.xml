@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>D:\PB_16\PB_16_Flex\PB_16.sch</source>
-    <date>1/16/2020 4:35:08 PM</date>
-    <tool>Eeschema (5.1.5)-3</tool>
+    <date>11/5/2020 1:02:44 PM</date>
+    <tool>Eeschema (5.1.7)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>PB 16 Flex</title>
         <company>Scott Hanson</company>
-        <rev>v1</rev>
-        <date>2020-01-15</date>
+        <rev>v1.1</rev>
+        <date>2020-10-04</date>
         <source>PB_16.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -21,8 +21,8 @@
       <title_block>
         <title>PB 16 Flex</title>
         <company>Scott Hanson</company>
-        <rev>v1</rev>
-        <date>2020-01-15</date>
+        <rev>v1.1</rev>
+        <date>2020-10-04</date>
         <source>PocketBeagle.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -34,9 +34,22 @@
       <title_block>
         <title>PB 16 Flex</title>
         <company>Scott Hanson</company>
-        <rev>v1</rev>
-        <date>2020-01-15</date>
+        <rev>v1.1</rev>
+        <date>2020-10-04</date>
         <source>Serial.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/USB/" tstamps="/5F7B82B2/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev>v1.1</rev>
+        <date>2020-10-04</date>
+        <source>USB.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -45,18 +58,6 @@
     </sheet>
   </design>
   <components>
-    <comp ref="J1">
-      <value>USB</value>
-      <footprint>Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal</footprint>
-      <datasheet> ~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">380-1412-ND</field>
-        <field name="MPN">SS-52100-001</field>
-      </fields>
-      <libsource lib="Connector" part="USB_A" description="USB Type A connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D4E8733</tstamp>
-    </comp>
     <comp ref="J4">
       <value>RTC Conn</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
@@ -68,30 +69,6 @@
       <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D51F129</tstamp>
-    </comp>
-    <comp ref="F1">
-      <value>500ma</value>
-      <footprint>Fuse:Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">RXEF050-2HFCT-ND</field>
-        <field name="MPN">RXEF050-2</field>
-      </fields>
-      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D4A206E</tstamp>
-    </comp>
-    <comp ref="C2">
-      <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">478-7336-1-ND</field>
-        <field name="MPN">SR215C104KARTR1</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D54209B</tstamp>
     </comp>
     <comp ref="J2">
       <value>OLED Conn</value>
@@ -107,11 +84,12 @@
     </comp>
     <comp ref="R1">
       <value>120</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">CF14JT120RCT-ND</field>
-        <field name="MPN">CF14JT120R</field>
+        <field name="Digi-Key_PN">311-120ARCT-ND</field>
+        <field name="LCSC">C17437</field>
+        <field name="MPN">RC0805JR-07120RL</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -119,11 +97,12 @@
     </comp>
     <comp ref="D1">
       <value>5V LED</value>
-      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">754-1217-ND</field>
-        <field name="MPN">WP3A8GD</field>
+        <field name="Digi-Key_PN">160-1423-1-ND</field>
+        <field name="LCSC">C2297</field>
+        <field name="MPN">LTST-C171GKT</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/" tstamps="/"/>
@@ -154,11 +133,12 @@
     </comp>
     <comp ref="U3">
       <value>24LC256</value>
-      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://ww1.microchip.com/downloads/en/devicedoc/21203m.pdf</datasheet>
       <fields>
-        <field name="Digi-Key_PN">1219-1052-ND</field>
-        <field name="MPN">FT24C256A-UDR-B</field>
+        <field name="Digi-Key_PN">24LC256T-I/SNCT-ND</field>
+        <field name="LCSC">C6482</field>
+        <field name="MPN">24LC256T-I/SN</field>
       </fields>
       <libsource lib="Memory_EEPROM" part="24LC256" description="I2C Serial EEPROM, 256Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8"/>
       <sheetpath names="/" tstamps="/"/>
@@ -166,11 +146,12 @@
     </comp>
     <comp ref="C3">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">478-7336-1-ND</field>
-        <field name="MPN">SR215C104KARTR1</field>
+        <field name="Digi-Key_PN">1276-1007-1-ND</field>
+        <field name="LCSC">C49678</field>
+        <field name="MPN">CL21F104ZBCNNNC</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -178,11 +159,12 @@
     </comp>
     <comp ref="R4">
       <value>4.7K</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">CF14JT4K70CT-ND</field>
-        <field name="MPN">CF14JT4K70</field>
+        <field name="Digi-Key_PN">311-4.7KARCT-ND</field>
+        <field name="LCSC">C17673</field>
+        <field name="MPN">RC0805JR-074K7L</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -190,11 +172,12 @@
     </comp>
     <comp ref="R5">
       <value>4.7K</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">CF14JT4K70CT-ND</field>
-        <field name="MPN">CF14JT4K70</field>
+        <field name="Digi-Key_PN">311-4.7KARCT-ND</field>
+        <field name="LCSC">C17673</field>
+        <field name="MPN">RC0805JR-074K7L</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -226,11 +209,12 @@
     </comp>
     <comp ref="C1">
       <value>100uF</value>
-      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">1189-1148-ND</field>
-        <field name="MPN">16ZLH100MEFC5X11</field>
+        <field name="Digi-Key_PN">493-2105-1-ND</field>
+        <field name="LCSC">C134723</field>
+        <field name="MPN">UWX1C101MCL1GB</field>
       </fields>
       <libsource lib="PB_16-rescue" part="CP-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -290,11 +274,12 @@
     </comp>
     <comp ref="C4">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">478-7336-1-ND</field>
-        <field name="MPN">SR215C104KARTR1</field>
+        <field name="Digi-Key_PN">1276-1007-1-ND</field>
+        <field name="LCSC">C49678</field>
+        <field name="MPN">CL21F104ZBCNNNC</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/PocketBeagle/" tstamps="/5D413C25/"/>
@@ -302,11 +287,12 @@
     </comp>
     <comp ref="R3">
       <value>120</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">CF14JT120RCT-ND</field>
-        <field name="MPN">CF14JT120R</field>
+        <field name="Digi-Key_PN">311-120ARCT-ND</field>
+        <field name="LCSC">C17437</field>
+        <field name="MPN">RC0805JR-07120RL</field>
       </fields>
       <libsource lib="PB_16-rescue" part="R-Device" description=""/>
       <sheetpath names="/Serial/" tstamps="/5D469F02/"/>
@@ -314,11 +300,12 @@
     </comp>
     <comp ref="C5">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">478-7336-1-ND</field>
-        <field name="MPN">SR215C104KARTR1</field>
+        <field name="Digi-Key_PN">1276-1007-1-ND</field>
+        <field name="LCSC">C49678</field>
+        <field name="MPN">CL21F104ZBCNNNC</field>
       </fields>
       <libsource lib="PB_16-rescue" part="C-Device" description=""/>
       <sheetpath names="/Serial/" tstamps="/5D469F02/"/>
@@ -326,11 +313,12 @@
     </comp>
     <comp ref="U2">
       <value>UA9638CP</value>
-      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/ua9638.pdf</datasheet>
       <fields>
-        <field name="Digi-Key_PN">296-15059-5-ND</field>
-        <field name="MPN">UA9638CP</field>
+        <field name="Digi-Key_PN">296-15058-1-ND</field>
+        <field name="LCSC">C435812</field>
+        <field name="MPN">UA9638CDR</field>
       </fields>
       <libsource lib="Interface_LineDriver" part="UA9638CP" description="Dual high-speed differential line driver, DIP-8"/>
       <sheetpath names="/Serial/" tstamps="/5D469F02/"/>
@@ -338,11 +326,12 @@
     </comp>
     <comp ref="R2">
       <value>120</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">CF14JT120RCT-ND</field>
-        <field name="MPN">CF14JT120R</field>
+        <field name="Digi-Key_PN">311-120ARCT-ND</field>
+        <field name="LCSC">C17437</field>
+        <field name="MPN">RC0805JR-07120RL</field>
       </fields>
       <libsource lib="PB_16-rescue" part="R-Device" description=""/>
       <sheetpath names="/Serial/" tstamps="/5D469F02/"/>
@@ -371,6 +360,102 @@
       <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/Serial/" tstamps="/5D469F02/"/>
       <tstamp>5E216D92</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TPS2051BDBVR</value>
+      <footprint>digikey-footprints:SOT-753</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps2051b</datasheet>
+      <fields>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps2051b</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/TPS2051BDBVR/296-21265-1-ND/1219985</field>
+        <field name="Description">IC PWR DIST SWITCH SNGL SOT23-5</field>
+        <field name="Digi-Key_PN">296-21265-1-ND</field>
+        <field name="Family">PMIC - Power Distribution Switches, Load Drivers</field>
+        <field name="LCSC">C51386</field>
+        <field name="MPN">TPS2051BDBVR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_PMIC-Power-Distribution-Switches-Load-Drivers" part="TPS2051BDBVR" description="IC PWR DIST SWITCH SNGL SOT23-5"/>
+      <sheetpath names="/USB/" tstamps="/5F7B82B2/"/>
+      <tstamp>5F7B9ABD</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>TPD4S009DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <fields>
+        <field name="Digi-Key_PN">296-23749-1-ND</field>
+        <field name="LCSC">C88032</field>
+        <field name="MPN">TPD4S009DBVR</field>
+      </fields>
+      <libsource lib="TPD4S009DBVR" part="TPD4S009DBVR" description=""/>
+      <sheetpath names="/USB/" tstamps="/5F7B82B2/"/>
+      <tstamp>5F7BA991</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB</value>
+      <footprint>Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">380-1412-ND</field>
+        <field name="MPN">SS-52100-001</field>
+      </fields>
+      <libsource lib="PB_16-rescue" part="USB_A-Connector" description=""/>
+      <sheetpath names="/USB/" tstamps="/5F7B82B2/"/>
+      <tstamp>5F7C37D3</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="LCSC">C17673</field>
+        <field name="MPN">RNCP0805FTD10K0</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/USB/" tstamps="/5F7B82B2/"/>
+      <tstamp>5F7C3CE0</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="LCSC">C17673</field>
+        <field name="MPN">RNCP0805FTD10K0</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/USB/" tstamps="/5F7B82B2/"/>
+      <tstamp>5F7C4104</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1276-1007-1-ND</field>
+        <field name="LCSC">C49678</field>
+        <field name="MPN">CL21F104ZBCNNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USB/" tstamps="/5F7B82B2/"/>
+      <tstamp>5F7C47AD</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>150 OHM</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">MU2029-151YCT-ND</field>
+        <field name="LCSC">C1015</field>
+        <field name="MPN">MU2029-151Y</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <sheetpath names="/USB/" tstamps="/5F7B82B2/"/>
+      <tstamp>5F7C4B1C</tstamp>
     </comp>
   </components>
   <libparts>
@@ -458,24 +543,6 @@
         <pin num="3" name="Pin_3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="USB_A">
-      <description>USB Type A connector</description>
-      <docs> ~</docs>
-      <footprints>
-        <fp>USB*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">USB_A</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VBUS" type="power_in"/>
-        <pin num="2" name="D-" type="passive"/>
-        <pin num="3" name="D+" type="passive"/>
-        <pin num="4" name="GND" type="power_in"/>
-        <pin num="5" name="Shield" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Connector_Generic" part="Conn_02x12_Odd_Even">
       <description>Generic connector, double row, 02x12, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
@@ -528,6 +595,23 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="Ferrite_Bead_Small">
+      <description>Ferrite bead, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">Ferrite_Bead_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="LED">
       <description>Light emitting diode</description>
       <docs>~</docs>
@@ -543,22 +627,6 @@
       <pins>
         <pin num="1" name="K" type="passive"/>
         <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="Polyfuse">
-      <description>Resettable fuse, polymeric positive temperature coefficient</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>*polyfuse*</fp>
-        <fp>*PTC*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">F</field>
-        <field name="Value">Polyfuse</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="R">
@@ -679,6 +747,22 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="PB_16-rescue" part="USB_A-Connector">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_A-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="POCKETBEAGLE" part="POCKETBEAGLE-SC-569">
       <fields>
         <field name="Reference">U</field>
@@ -797,6 +881,47 @@
         <pin num="2" name="B" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="TPD4S009DBVR" part="TPD4S009DBVR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPD4S009DBVR</field>
+        <field name="Footprint">SOT95P280X145-6N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1+" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="D2+" type="input"/>
+        <pin num="4" name="D2-" type="input"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="D1-" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_PMIC-Power-Distribution-Switches-Load-Drivers" part="TPS2051BDBVR">
+      <description>IC PWR DIST SWITCH SNGL SOT23-5</description>
+      <docs>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps2051b</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS2051BDBVR</field>
+        <field name="Footprint">digikey-footprints:SOT-753</field>
+        <field name="Datasheet">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps2051b</field>
+        <field name="Digi-Key_PN">296-21265-1-ND</field>
+        <field name="MPN">TPS2051BDBVR</field>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="Family">PMIC - Power Distribution Switches, Load Drivers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps2051b</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/TPS2051BDBVR/296-21265-1-ND/1219985</field>
+        <field name="Description">IC PWR DIST SWITCH SNGL SOT23-5</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="~OC" type="output"/>
+        <pin num="4" name="~EN" type="input"/>
+        <pin num="5" name="IN" type="input"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
     <library logical="Connector">
@@ -823,348 +948,363 @@
     <library logical="Switch">
       <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
     </library>
+    <library logical="TPD4S009DBVR">
+      <uri>D:\PB_16\PB_16_Flex/libraries/TPD4S009DBVR/TPD4S009DBVR.lib</uri>
+    </library>
+    <library logical="dk_PMIC-Power-Distribution-Switches-Load-Drivers">
+      <uri>D:/KiCad/libraries/digikey/digikey-symbols/dk_PMIC-Power-Distribution-Switches-Load-Drivers.lib</uri>
+    </library>
   </libraries>
   <nets>
-    <net code="1" name="OUT13">
+    <net code="1" name="GND">
+      <node ref="J7" pin="3"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J8" pin="3"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="SW1" pin="4"/>
+      <node ref="J4" pin="5"/>
+      <node ref="J6" pin="8"/>
+      <node ref="J6" pin="7"/>
+      <node ref="U1" pin="P2_21"/>
+      <node ref="U1" pin="P1_17"/>
+      <node ref="U1" pin="P2_15"/>
+      <node ref="U1" pin="P1_13"/>
+      <node ref="U1" pin="P1_15"/>
+      <node ref="U1" pin="P1_16"/>
+      <node ref="U1" pin="P1_22"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J3" pin="4"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J1" pin="5"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U3" pin="7"/>
+      <node ref="J5" pin="8"/>
+      <node ref="J5" pin="7"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="2" name="OUT12">
+      <node ref="J5" pin="20"/>
+      <node ref="U1" pin="P2_33"/>
+    </net>
+    <net code="3" name="OUT13">
       <node ref="J5" pin="21"/>
       <node ref="U1" pin="P1_29"/>
     </net>
-    <net code="2" name="OUT2">
+    <net code="4" name="OUT14">
+      <node ref="J5" pin="22"/>
+      <node ref="U1" pin="P2_34"/>
+    </net>
+    <net code="5" name="OUT15">
+      <node ref="J5" pin="23"/>
+      <node ref="U1" pin="P2_30"/>
+    </net>
+    <net code="6" name="OUT16">
+      <node ref="J5" pin="24"/>
+      <node ref="U1" pin="P1_33"/>
+    </net>
+    <net code="7" name="Net-(J5-Pad3)">
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="8" name="Net-(J5-Pad4)">
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="9" name="Net-(J5-Pad5)">
+      <node ref="J5" pin="5"/>
+    </net>
+    <net code="10" name="Net-(J5-Pad6)">
+      <node ref="J5" pin="6"/>
+    </net>
+    <net code="11" name="OUT1">
+      <node ref="J5" pin="9"/>
+      <node ref="U1" pin="P2_22"/>
+    </net>
+    <net code="12" name="+5V">
+      <node ref="J9" pin="2"/>
+      <node ref="U1" pin="P1_1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="13" name="BTN1">
+      <node ref="U1" pin="P1_6"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="14" name="BTN2">
+      <node ref="U1" pin="P1_8"/>
+      <node ref="SW3" pin="2"/>
+    </net>
+    <net code="15" name="OUT2">
       <node ref="U1" pin="P2_18"/>
       <node ref="J5" pin="10"/>
     </net>
-    <net code="3" name="OUT3">
-      <node ref="U1" pin="P2_10"/>
+    <net code="16" name="OUT3">
       <node ref="J5" pin="11"/>
+      <node ref="U1" pin="P2_10"/>
     </net>
-    <net code="4" name="OUT4">
-      <node ref="U1" pin="P2_8"/>
+    <net code="17" name="OUT4">
       <node ref="J5" pin="12"/>
+      <node ref="U1" pin="P2_8"/>
     </net>
-    <net code="5" name="OUT5">
+    <net code="18" name="OUT5">
       <node ref="J5" pin="13"/>
       <node ref="U1" pin="P2_6"/>
     </net>
-    <net code="6" name="OUT6">
-      <node ref="J5" pin="14"/>
+    <net code="19" name="OUT6">
       <node ref="U1" pin="P2_4"/>
+      <node ref="J5" pin="14"/>
     </net>
-    <net code="7" name="OUT7">
+    <net code="20" name="OUT7">
       <node ref="J5" pin="15"/>
       <node ref="U1" pin="P2_2"/>
     </net>
-    <net code="8" name="OUT8">
-      <node ref="U1" pin="P2_1"/>
+    <net code="21" name="OUT8">
       <node ref="J5" pin="16"/>
+      <node ref="U1" pin="P2_1"/>
     </net>
-    <net code="9" name="OUT9">
-      <node ref="J5" pin="17"/>
+    <net code="22" name="OUT9">
       <node ref="U1" pin="P2_24"/>
+      <node ref="J5" pin="17"/>
     </net>
-    <net code="10" name="OUT10">
-      <node ref="U1" pin="P2_25"/>
+    <net code="23" name="OUT10">
       <node ref="J5" pin="18"/>
+      <node ref="U1" pin="P2_25"/>
     </net>
-    <net code="11" name="OUT11">
-      <node ref="U1" pin="P2_27"/>
+    <net code="24" name="OUT11">
       <node ref="J5" pin="19"/>
+      <node ref="U1" pin="P2_27"/>
     </net>
-    <net code="12" name="OUT12">
-      <node ref="U1" pin="P2_33"/>
-      <node ref="J5" pin="20"/>
+    <net code="25" name="OUT17">
+      <node ref="U1" pin="P1_31"/>
+      <node ref="J6" pin="9"/>
     </net>
-    <net code="13" name="GND">
-      <node ref="SW1" pin="4"/>
-      <node ref="C2" pin="2"/>
-      <node ref="R1" pin="1"/>
-      <node ref="J1" pin="5"/>
-      <node ref="J1" pin="4"/>
-      <node ref="U3" pin="7"/>
-      <node ref="C3" pin="1"/>
-      <node ref="SW1" pin="3"/>
-      <node ref="J3" pin="4"/>
-      <node ref="J3" pin="2"/>
-      <node ref="U3" pin="4"/>
-      <node ref="SW3" pin="1"/>
-      <node ref="SW2" pin="1"/>
-      <node ref="J4" pin="5"/>
-      <node ref="U1" pin="P2_21"/>
-      <node ref="U3" pin="1"/>
-      <node ref="C4" pin="2"/>
-      <node ref="J6" pin="8"/>
-      <node ref="C5" pin="2"/>
-      <node ref="U2" pin="4"/>
-      <node ref="J6" pin="7"/>
-      <node ref="C1" pin="2"/>
-      <node ref="U2" pin="4"/>
-      <node ref="J7" pin="3"/>
-      <node ref="J8" pin="3"/>
-      <node ref="U3" pin="2"/>
-      <node ref="U1" pin="P2_15"/>
-      <node ref="U3" pin="3"/>
-      <node ref="U1" pin="P1_13"/>
-      <node ref="U1" pin="P1_15"/>
-      <node ref="U1" pin="P1_17"/>
-      <node ref="J5" pin="8"/>
-      <node ref="J5" pin="7"/>
-      <node ref="U1" pin="P1_22"/>
-      <node ref="U1" pin="P1_16"/>
-    </net>
-    <net code="14" name="OUT14">
-      <node ref="U1" pin="P2_34"/>
-      <node ref="J5" pin="22"/>
-    </net>
-    <net code="15" name="OUT15">
-      <node ref="U1" pin="P2_30"/>
-      <node ref="J5" pin="23"/>
-    </net>
-    <net code="16" name="OUT16">
-      <node ref="U1" pin="P1_33"/>
-      <node ref="J5" pin="24"/>
-    </net>
-    <net code="17" name="Net-(J5-Pad3)">
-      <node ref="J5" pin="3"/>
-    </net>
-    <net code="18" name="Net-(J5-Pad4)">
-      <node ref="J5" pin="4"/>
-    </net>
-    <net code="19" name="Net-(J5-Pad5)">
-      <node ref="J5" pin="5"/>
-    </net>
-    <net code="20" name="Net-(J5-Pad6)">
-      <node ref="J5" pin="6"/>
-    </net>
-    <net code="21" name="OUT1">
-      <node ref="U1" pin="P2_22"/>
-      <node ref="J5" pin="9"/>
-    </net>
-    <net code="22" name="+5V">
-      <node ref="C1" pin="1"/>
-      <node ref="U2" pin="1"/>
-      <node ref="C5" pin="1"/>
-      <node ref="U2" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="U1" pin="P1_1"/>
-      <node ref="F1" pin="2"/>
-      <node ref="J9" pin="2"/>
-      <node ref="D1" pin="2"/>
-    </net>
-    <net code="23" name="+3V3">
-      <node ref="U3" pin="8"/>
-      <node ref="SW1" pin="1"/>
-      <node ref="SW1" pin="6"/>
-      <node ref="J4" pin="4"/>
-      <node ref="R4" pin="1"/>
-      <node ref="C3" pin="2"/>
-      <node ref="R5" pin="1"/>
-      <node ref="U1" pin="P1_14"/>
-    </net>
-    <net code="24" name="I2C_SDA">
-      <node ref="U1" pin="P1_26"/>
-      <node ref="J2" pin="1"/>
-      <node ref="J4" pin="3"/>
-      <node ref="U3" pin="5"/>
-      <node ref="R4" pin="2"/>
-    </net>
-    <net code="25" name="I2C_SCL">
-      <node ref="U1" pin="P1_28"/>
-      <node ref="J2" pin="2"/>
-      <node ref="J4" pin="2"/>
-      <node ref="U3" pin="6"/>
-      <node ref="R5" pin="2"/>
-    </net>
-    <net code="26" name="BTN1">
-      <node ref="SW2" pin="2"/>
-      <node ref="U1" pin="P1_6"/>
-    </net>
-    <net code="27" name="BTN2">
-      <node ref="SW3" pin="2"/>
-      <node ref="U1" pin="P1_8"/>
-    </net>
-    <net code="28" name="OUT27">
-      <node ref="J6" pin="19"/>
-      <node ref="U1" pin="P2_20"/>
-    </net>
-    <net code="29" name="OUT28">
-      <node ref="U1" pin="P2_17"/>
-      <node ref="J6" pin="20"/>
-    </net>
-    <net code="30" name="OUT29">
-      <node ref="J6" pin="21"/>
-      <node ref="U1" pin="P2_7"/>
-    </net>
-    <net code="31" name="OUT30">
-      <node ref="J6" pin="22"/>
-      <node ref="U1" pin="P2_5"/>
-    </net>
-    <net code="32" name="OUT31">
-      <node ref="J6" pin="23"/>
-      <node ref="U1" pin="P2_3"/>
-    </net>
-    <net code="33" name="OUT32">
-      <node ref="U1" pin="P2_28"/>
-      <node ref="J6" pin="24"/>
-    </net>
-    <net code="34" name="Net-(J6-Pad3)">
-      <node ref="J6" pin="3"/>
-    </net>
-    <net code="35" name="Net-(J6-Pad4)">
-      <node ref="J6" pin="4"/>
-    </net>
-    <net code="36" name="Net-(J6-Pad5)">
-      <node ref="J6" pin="5"/>
-    </net>
-    <net code="37" name="Net-(J6-Pad6)">
+    <net code="26" name="Net-(J6-Pad6)">
       <node ref="J6" pin="6"/>
     </net>
-    <net code="38" name="OUT17">
-      <node ref="J6" pin="9"/>
-      <node ref="U1" pin="P1_31"/>
-    </net>
-    <net code="39" name="OUT26">
-      <node ref="J6" pin="18"/>
-      <node ref="U1" pin="P2_19"/>
-    </net>
-    <net code="40" name="/PWR1">
+    <net code="27" name="/PWR1">
+      <node ref="J5" pin="2"/>
       <node ref="J5" pin="1"/>
       <node ref="J9" pin="1"/>
-      <node ref="J5" pin="2"/>
     </net>
-    <net code="41" name="/PWR2">
-      <node ref="J9" pin="3"/>
+    <net code="28" name="/PWR2">
       <node ref="J6" pin="2"/>
       <node ref="J6" pin="1"/>
+      <node ref="J9" pin="3"/>
     </net>
-    <net code="42" name="OUT18">
-      <node ref="U1" pin="P1_35"/>
+    <net code="29" name="Net-(J6-Pad3)">
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="30" name="Net-(J6-Pad5)">
+      <node ref="J6" pin="5"/>
+    </net>
+    <net code="31" name="Net-(J6-Pad4)">
+      <node ref="J6" pin="4"/>
+    </net>
+    <net code="32" name="OUT22">
+      <node ref="U1" pin="P1_20"/>
+      <node ref="J6" pin="14"/>
+    </net>
+    <net code="33" name="OUT18">
       <node ref="J6" pin="10"/>
+      <node ref="U1" pin="P1_35"/>
     </net>
-    <net code="43" name="OUT19">
+    <net code="34" name="OUT19">
       <node ref="U1" pin="P1_34"/>
       <node ref="J6" pin="11"/>
     </net>
-    <net code="44" name="OUT20">
-      <node ref="J6" pin="12"/>
+    <net code="35" name="OUT20">
       <node ref="U1" pin="P1_32"/>
+      <node ref="J6" pin="12"/>
     </net>
-    <net code="45" name="OUT21">
+    <net code="36" name="OUT21">
       <node ref="J6" pin="13"/>
       <node ref="U1" pin="P1_30"/>
     </net>
-    <net code="46" name="OUT22">
-      <node ref="J6" pin="14"/>
-      <node ref="U1" pin="P1_20"/>
-    </net>
-    <net code="47" name="OUT23">
-      <node ref="U1" pin="P1_12"/>
+    <net code="37" name="OUT23">
       <node ref="J6" pin="15"/>
+      <node ref="U1" pin="P1_12"/>
     </net>
-    <net code="48" name="OUT24">
+    <net code="38" name="OUT24">
       <node ref="J6" pin="16"/>
       <node ref="U1" pin="P2_9"/>
     </net>
-    <net code="49" name="OUT25">
-      <node ref="U1" pin="P2_11"/>
+    <net code="39" name="OUT25">
       <node ref="J6" pin="17"/>
+      <node ref="U1" pin="P2_11"/>
     </net>
-    <net code="50" name="V_USB">
-      <node ref="C2" pin="1"/>
-      <node ref="F1" pin="1"/>
-      <node ref="U1" pin="P1_7"/>
-      <node ref="U1" pin="P1_5"/>
-      <node ref="J1" pin="1"/>
+    <net code="40" name="OUT26">
+      <node ref="J6" pin="18"/>
+      <node ref="U1" pin="P2_19"/>
     </net>
-    <net code="51" name="Net-(D1-Pad1)">
-      <node ref="D1" pin="1"/>
+    <net code="41" name="OUT27">
+      <node ref="J6" pin="19"/>
+      <node ref="U1" pin="P2_20"/>
+    </net>
+    <net code="42" name="OUT28">
+      <node ref="U1" pin="P2_17"/>
+      <node ref="J6" pin="20"/>
+    </net>
+    <net code="43" name="OUT29">
+      <node ref="U1" pin="P2_7"/>
+      <node ref="J6" pin="21"/>
+    </net>
+    <net code="44" name="OUT30">
+      <node ref="U1" pin="P2_5"/>
+      <node ref="J6" pin="22"/>
+    </net>
+    <net code="45" name="OUT31">
+      <node ref="J6" pin="23"/>
+      <node ref="U1" pin="P2_3"/>
+    </net>
+    <net code="46" name="OUT32">
+      <node ref="J6" pin="24"/>
+      <node ref="U1" pin="P2_28"/>
+    </net>
+    <net code="47" name="Net-(D1-Pad1)">
       <node ref="R1" pin="2"/>
+      <node ref="D1" pin="1"/>
     </net>
-    <net code="52" name="GPIO1">
+    <net code="48" name="GPIO1">
       <node ref="J3" pin="1"/>
       <node ref="U1" pin="P1_2"/>
     </net>
-    <net code="53" name="GPIO2">
+    <net code="49" name="GPIO2">
       <node ref="J3" pin="3"/>
       <node ref="U1" pin="P1_4"/>
     </net>
-    <net code="54" name="USB_D-">
-      <node ref="J1" pin="2"/>
-      <node ref="U1" pin="P1_9"/>
+    <net code="50" name="+3V3">
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="P1_14"/>
+      <node ref="J4" pin="4"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U3" pin="8"/>
+      <node ref="SW1" pin="6"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R4" pin="1"/>
     </net>
-    <net code="55" name="USB_D+">
-      <node ref="J1" pin="3"/>
-      <node ref="U1" pin="P1_11"/>
+    <net code="51" name="/OLED_Pin_4">
+      <node ref="SW1" pin="5"/>
+      <node ref="J2" pin="4"/>
     </net>
-    <net code="56" name="Net-(J4-Pad1)">
+    <net code="52" name="Net-(J4-Pad1)">
       <node ref="J4" pin="1"/>
     </net>
-    <net code="57" name="/OLED_Pin_3">
-      <node ref="J2" pin="3"/>
+    <net code="53" name="I2C_SCL">
+      <node ref="J2" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="P1_28"/>
+      <node ref="J4" pin="2"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="54" name="I2C_SDA">
+      <node ref="J4" pin="3"/>
+      <node ref="U1" pin="P1_26"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U3" pin="5"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="55" name="/OLED_Pin_3">
       <node ref="SW1" pin="2"/>
+      <node ref="J2" pin="3"/>
     </net>
-    <net code="58" name="/OLED_Pin_4">
-      <node ref="J2" pin="4"/>
-      <node ref="SW1" pin="5"/>
-    </net>
-    <net code="59" name="Net-(U1-PadP2_13)">
+    <net code="56" name="Net-(U1-PadP2_13)">
       <node ref="U1" pin="P2_13"/>
     </net>
-    <net code="60" name="Net-(U1-PadP1_24)">
+    <net code="57" name="Net-(U1-PadP1_24)">
       <node ref="U1" pin="P1_24"/>
     </net>
-    <net code="61" name="Net-(U1-PadP1_10)">
+    <net code="58" name="Net-(U1-PadP1_10)">
       <node ref="U1" pin="P1_10"/>
     </net>
-    <net code="62" name="Net-(U1-PadP1_18)">
+    <net code="59" name="Net-(U1-PadP1_18)">
       <node ref="U1" pin="P1_18"/>
     </net>
-    <net code="63" name="Net-(U1-PadP1_19)">
+    <net code="60" name="Net-(U1-PadP1_19)">
       <node ref="U1" pin="P1_19"/>
     </net>
-    <net code="64" name="Net-(U1-PadP1_21)">
+    <net code="61" name="Net-(U1-PadP1_21)">
       <node ref="U1" pin="P1_21"/>
     </net>
-    <net code="65" name="Net-(U1-PadP1_23)">
+    <net code="62" name="Net-(U1-PadP1_23)">
       <node ref="U1" pin="P1_23"/>
     </net>
-    <net code="66" name="Net-(U1-PadP1_25)">
+    <net code="63" name="Net-(U1-PadP1_25)">
       <node ref="U1" pin="P1_25"/>
     </net>
-    <net code="67" name="Net-(U1-PadP1_27)">
+    <net code="64" name="Net-(U1-PadP1_27)">
       <node ref="U1" pin="P1_27"/>
     </net>
-    <net code="68" name="Net-(U1-PadP1_3)">
-      <node ref="U1" pin="P1_3"/>
-    </net>
-    <net code="69" name="Net-(U1-PadP2_31)">
+    <net code="65" name="Net-(U1-PadP2_31)">
       <node ref="U1" pin="P2_31"/>
     </net>
-    <net code="70" name="Net-(U1-PadP2_12)">
+    <net code="66" name="Net-(U1-PadP2_12)">
       <node ref="U1" pin="P2_12"/>
     </net>
-    <net code="71" name="Net-(U1-PadP2_36)">
+    <net code="67" name="Net-(U1-PadP2_36)">
       <node ref="U1" pin="P2_36"/>
     </net>
-    <net code="72" name="Net-(U1-PadP2_16)">
+    <net code="68" name="Net-(U1-PadP2_16)">
       <node ref="U1" pin="P2_16"/>
     </net>
-    <net code="73" name="Net-(U1-PadP2_26)">
+    <net code="69" name="Net-(U1-PadP2_26)">
       <node ref="U1" pin="P2_26"/>
     </net>
-    <net code="74" name="Net-(U1-PadP2_14)">
-      <node ref="U1" pin="P2_14"/>
-    </net>
-    <net code="75" name="Net-(U1-PadP2_23)">
-      <node ref="U1" pin="P2_23"/>
-    </net>
-    <net code="76" name="Net-(U1-PadP2_35)">
+    <net code="70" name="Net-(U1-PadP2_35)">
       <node ref="U1" pin="P2_35"/>
     </net>
-    <net code="77" name="Net-(U1-PadP2_29)">
+    <net code="71" name="Net-(U1-PadP2_14)">
+      <node ref="U1" pin="P2_14"/>
+    </net>
+    <net code="72" name="Net-(U1-PadP2_23)">
+      <node ref="U1" pin="P2_23"/>
+    </net>
+    <net code="73" name="Net-(U1-PadP2_29)">
       <node ref="U1" pin="P2_29"/>
     </net>
-    <net code="78" name="TXD2">
-      <node ref="U1" pin="P1_36"/>
+    <net code="74" name="TXD2">
       <node ref="U2" pin="3"/>
+      <node ref="U1" pin="P1_36"/>
+    </net>
+    <net code="75" name="USB_DVBUS">
+      <node ref="U1" pin="P1_3"/>
+      <node ref="U4" pin="4"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="76" name="V_USB">
+      <node ref="FB1" pin="2"/>
+      <node ref="U1" pin="P1_7"/>
+      <node ref="U1" pin="P1_5"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="77" name="USB_D-">
+      <node ref="U1" pin="P1_9"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="78" name="USB_D+">
+      <node ref="U1" pin="P1_11"/>
+      <node ref="U5" pin="3"/>
+      <node ref="J1" pin="3"/>
     </net>
     <net code="79" name="TXD1">
       <node ref="U2" pin="2"/>
@@ -1172,23 +1312,37 @@
     </net>
     <net code="80" name="/Serial/DMX1-">
       <node ref="J7" pin="2"/>
-      <node ref="R2" pin="2"/>
       <node ref="U2" pin="7"/>
+      <node ref="R2" pin="2"/>
     </net>
     <net code="81" name="/Serial/DMX1+">
-      <node ref="R2" pin="1"/>
       <node ref="U2" pin="8"/>
       <node ref="J7" pin="1"/>
+      <node ref="R2" pin="1"/>
     </net>
-    <net code="82" name="/Serial/DMX2-">
-      <node ref="J8" pin="2"/>
+    <net code="82" name="/Serial/DMX2+">
+      <node ref="U2" pin="6"/>
+      <node ref="J8" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="83" name="/Serial/DMX2-">
       <node ref="R3" pin="2"/>
+      <node ref="J8" pin="2"/>
       <node ref="U2" pin="5"/>
     </net>
-    <net code="83" name="/Serial/DMX2+">
-      <node ref="R3" pin="1"/>
-      <node ref="J8" pin="1"/>
-      <node ref="U2" pin="6"/>
+    <net code="84" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="85" name="Net-(U5-Pad1)">
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="86" name="Net-(U5-Pad6)">
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="87" name="/USB/VBUS">
+      <node ref="J1" pin="1"/>
+      <node ref="FB1" pin="1"/>
     </net>
   </nets>
 </export>

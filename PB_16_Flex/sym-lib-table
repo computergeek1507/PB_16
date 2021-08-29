@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name PB_16-rescue)(type Legacy)(uri ${KIPRJMOD}/PB_16-rescue.lib)(options "")(descr ""))
+  (lib (name TPD4S009DBVR)(type Legacy)(uri ${KIPRJMOD}/libraries/TPD4S009DBVR/TPD4S009DBVR.lib)(options "")(descr ""))
 )
