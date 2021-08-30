@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "Four Out"
-Date "2019-12-18"
-Rev "v2"
+Date "2021-08-30"
+Rev "v3"
 Comp "Scott Hanson"
 Comment1 ""
 Comment2 ""
@@ -333,4 +333,93 @@ F 3 "" H 4720 2650 50  0001 C CNN
 	1    4720 2650
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_02x12_Odd_Even J7
+U 1 1 614D8B0C
+P 9000 3500
+F 0 "J7" H 9050 4217 50  0000 C CNN
+F 1 "v4 Input" H 9050 4126 50  0000 C CNN
+F 2 "" H 9000 3500 50  0001 C CNN
+F 3 "~" H 9000 3500 50  0001 C CNN
+	1    9000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0108
+U 1 1 614DC22E
+P 9300 3000
+F 0 "#PWR0108" H 9300 2850 50  0001 C CNN
+F 1 "+5V" V 9315 3173 50  0000 C CNN
+F 2 "" H 9300 3000 50  0001 C CNN
+F 3 "" H 9300 3000 50  0001 C CNN
+	1    9300 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0109
+U 1 1 614DEC29
+P 8800 3000
+F 0 "#PWR0109" H 8800 2850 50  0001 C CNN
+F 1 "+5V" V 8815 3173 50  0000 C CNN
+F 2 "" H 8800 3000 50  0001 C CNN
+F 3 "" H 8800 3000 50  0001 C CNN
+	1    8800 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 614E13C8
+P 9300 3100
+F 0 "#PWR0110" H 9300 2850 50  0001 C CNN
+F 1 "GND" V 9305 2927 50  0000 C CNN
+F 2 "" H 9300 3100 50  0001 C CNN
+F 3 "" H 9300 3100 50  0001 C CNN
+	1    9300 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 614E38B8
+P 8800 3100
+F 0 "#PWR0111" H 8800 2850 50  0001 C CNN
+F 1 "GND" V 8805 2927 50  0000 C CNN
+F 2 "" H 8800 3100 50  0001 C CNN
+F 3 "" H 8800 3100 50  0001 C CNN
+	1    8800 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 614E40F8
+P 9300 4000
+F 0 "#PWR0112" H 9300 3750 50  0001 C CNN
+F 1 "GND" V 9305 3827 50  0000 C CNN
+F 2 "" H 9300 4000 50  0001 C CNN
+F 3 "" H 9300 4000 50  0001 C CNN
+	1    9300 4000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8800 3200 0    50   Input ~ 0
+OUT17
+Text GLabel 9300 3200 2    50   Input ~ 0
+OUT18
+Text GLabel 8800 3300 0    50   Input ~ 0
+OUT19
+Text GLabel 9300 3300 2    50   Input ~ 0
+OUT20
+NoConn ~ 8800 3400
+NoConn ~ 8800 3500
+NoConn ~ 8800 3600
+NoConn ~ 8800 3700
+NoConn ~ 8800 3800
+NoConn ~ 8800 3900
+NoConn ~ 8800 4000
+NoConn ~ 8800 4100
+NoConn ~ 9300 4100
+NoConn ~ 9300 3900
+NoConn ~ 9300 3800
+NoConn ~ 9300 3700
+NoConn ~ 9300 3600
+NoConn ~ 9300 3500
+NoConn ~ 9300 3400
 $EndSCHEMATC
