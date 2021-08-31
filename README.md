@@ -44,11 +44,14 @@ The PB16 Controller contains an expansion header. The expansion header can drive
 * [**Quad Diff Out**](Quad_Diff_Out/README.md) - 1 Port Remote Differential Expansion.
 * [**Four Out**](Four_Out/README.md) - 4 Port Local Expansion.
 * [**Receiver Out**](Receiver_Out/README.md) - 4 Port Remote Receiver Board for use with Remote Differential Expansions.
+* [**Receiver Out SMD**](Receiver_Out_SMD/README.md) - 4 Port Remote Receiver Board for use with Remote Differential Expansions. This is a **Surface Mount(SMD)** Design.
 
 ## Variants
 
 I created some addition variants of the PB 16, to use with other controller systems and fit some specific needs.
 
+* [**BBB 16**](BBB_16/README.md) - Beaglebone Version with 16 pixel ports, 2 serial ports and an expansion header for additional 16 pixel outputs.
+* [**BBB 16 Flex**](BBB_16_Flex/README.md) - BBB 16 PCB to use with the HolidayCoro Flex System. This is a **Surface Mount(SMD)** Design.
 * [**PB 16 Expansion**](PB_16_Expansion/README.md) - Small Form Factor PB 16 with Two Expansion Board Ports for 32 outputs.
 * [**PB 16 Mini**](PB_16_Mini/README.md) - Small Form Factor PB 16 with one Expansion Board Port for 16 ouputs and two Serial Outputs.
 * [**PB 16 Flex**](PB_16_Flex/README.md) - PB 16 PCB to use with the HolidayCoro Flex System.
