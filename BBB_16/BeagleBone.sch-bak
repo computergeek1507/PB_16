@@ -247,7 +247,6 @@ NoConn ~ 8100 2600
 NoConn ~ 6300 3700
 NoConn ~ 6300 3800
 NoConn ~ 6300 3900
-NoConn ~ 6300 4000
 NoConn ~ 3200 3000
 NoConn ~ 3200 3100
 NoConn ~ 3200 3200
@@ -293,7 +292,6 @@ NoConn ~ 8100 2900
 NoConn ~ 8100 3400
 NoConn ~ 8100 3500
 NoConn ~ 8100 3600
-NoConn ~ 8100 3700
 NoConn ~ 8100 3800
 NoConn ~ 8100 3900
 NoConn ~ 8100 4000
@@ -307,4 +305,17 @@ Text GLabel 8100 3300 2    50   Input ~ 0
 GPIO1
 Text GLabel 8100 3100 2    50   Input ~ 0
 GPIO2
+$Comp
+L power:GND #PWR?
+U 1 1 6191DEF8
+P 8100 3700
+F 0 "#PWR?" H 8100 3450 50  0001 C CNN
+F 1 "GND" V 8100 3500 50  0000 C CNN
+F 2 "" H 8100 3700 50  0001 C CNN
+F 3 "" H 8100 3700 50  0001 C CNN
+	1    8100 3700
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6300 4000 0    50   Input ~ 0
+VIN_ADC
 $EndSCHEMATC

@@ -1105,4 +1105,48 @@ Text GLabel 2650 2550 2    50   Input ~ 0
 GPIO2
 Text GLabel 2650 2350 2    50   Input ~ 0
 GPIO1
+Text GLabel 1500 4000 0    50   Input ~ 0
+VIN_ADC
+$Comp
+L Device:R R8
+U 1 1 6192E854
+P 1650 3800
+F 0 "R8" H 1720 3846 50  0000 L CNN
+F 1 "10K" H 1720 3755 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1580 3800 50  0001 C CNN
+F 3 "~" H 1650 3800 50  0001 C CNN
+	1    1650 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 6193082F
+P 1650 4200
+F 0 "R9" H 1720 4246 50  0000 L CNN
+F 1 "680" H 1720 4155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1580 4200 50  0001 C CNN
+F 3 "~" H 1650 4200 50  0001 C CNN
+	1    1650 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 61938B32
+P 1650 4350
+F 0 "#PWR01" H 1650 4100 50  0001 C CNN
+F 1 "GND" H 1655 4177 50  0000 C CNN
+F 2 "" H 1650 4350 50  0001 C CNN
+F 3 "" H 1650 4350 50  0001 C CNN
+	1    1650 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 3950 1650 4000
+Wire Wire Line
+	1650 4000 1500 4000
+Connection ~ 1650 4000
+Wire Wire Line
+	1650 4000 1650 4050
+Text GLabel 1650 3650 1    50   Input ~ 0
+V_DMX
 $EndSCHEMATC
