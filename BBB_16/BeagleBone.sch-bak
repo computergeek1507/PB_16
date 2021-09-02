@@ -303,8 +303,8 @@ Wire Wire Line
 Connection ~ 6300 4300
 Text GLabel 5000 3300 2    50   Input ~ 0
 OUT30
-Text GLabel 8100 3100 2    50   Input ~ 0
-GPIO1
 Text GLabel 8100 3300 2    50   Input ~ 0
+GPIO1
+Text GLabel 8100 3100 2    50   Input ~ 0
 GPIO2
 $EndSCHEMATC
