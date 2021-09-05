@@ -294,7 +294,6 @@ NoConn ~ 8100 3500
 NoConn ~ 8100 3600
 NoConn ~ 8100 3800
 NoConn ~ 8100 3900
-NoConn ~ 8100 4000
 NoConn ~ 8100 4100
 Wire Wire Line
 	6300 4200 6300 4300
@@ -317,5 +316,7 @@ F 3 "" H 8100 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 6300 4000 0    50   Input ~ 0
-VIN_ADC
+VIN1_ADC
+Text GLabel 8100 4000 2    50   Input ~ 0
+VIN2_ADC
 $EndSCHEMATC
