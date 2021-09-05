@@ -7,7 +7,7 @@ You may redistribute and modify this documentation under the terms of the CERN O
 
 # Receiver Out
 
-The "Receiver Out" ia a 4 port Differental Reciver output board for the PB16.  All the design files are open source and available on github.
+The "Receiver Out" is a 4 port Differental Reciver output board for the PB16.  All the design files are open source and available on github.
 
 ## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/Receiver_Out/Receiver_Out_BOM.ods)
 
