@@ -1,4 +1,4 @@
-Comment,Designator,Footprint,LCSC, Digi-Key_PN, LCSC_PN, MPN, Field4, Field5, Field6, Field7, Field8
+Comment,Designator,Footprint,LCSC2, Digi-Key_PN, LCSC, MPN, Field4, Field5, Field6, Field7, Field8
 "10uF","C1,C2","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","","490-5523-1-ND","C15850","GRM21BR61E106KA73L","","","","",""
 "0.1uF","C3,C4","Capacitor_SMD:C_0402_1005Metric","","1292-1630-1-ND","C1525","0402B104K160CT","","","","",""
 "B5819W","D1","Diode_SMD:D_SOD-123","","B5819W-TPMSCT-ND","C8598","B5819W-TP","","","","",""
