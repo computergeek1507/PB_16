@@ -34,6 +34,8 @@ Assembly Instructions are included in the manual below.
 
 ## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/PB16_Bom.ods)
 
+## [Ordering Instructions](https://github.com/computergeek1507/PB_16/raw/master/JLC_PCB.md)
+
 ## Addon Boards
 
 The PB16 Controller contains an expansion header. The expansion header can drive 16 additional pixel ports. I have also created addition addon boards to work with the expansion port. These Expansions will work with Kulp Controllers, but **not** Falcon Controllers.
