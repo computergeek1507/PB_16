@@ -34,7 +34,7 @@ Assembly Instructions are included in the manual below.
 
 ## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/PB16_Bom.ods)
 
-## [Ordering Instructions](https://github.com/computergeek1507/PB_16/raw/master/JLC_PCB.md)
+## [Ordering Instructions](https://github.com/computergeek1507/PB_16/blob/master/JLC_PCB.md)
 
 ## Addon Boards
 
