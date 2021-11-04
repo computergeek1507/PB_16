@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:\PB_16\BBB_16\BBB_16.sch)
-    (date "9/23/2021 12:19:13 AM")
+    (date "11/3/2021 10:36:57 PM")
     (tool "Eeschema (5.1.10)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
