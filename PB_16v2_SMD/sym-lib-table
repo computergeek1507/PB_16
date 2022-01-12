@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name PB_16-rescue)(type Legacy)(uri ${KIPRJMOD}/PB_16-rescue.lib)(options "")(descr ""))
+  (lib (name switch_DP3T)(type Legacy)(uri ${KIPRJMOD}/libraries/switch_DP3T.lib)(options "")(descr ""))
+  (lib (name TPD4S009DBVR)(type Legacy)(uri D:/KiCad/libraries/TPD4S009DBVR/TPD4S009DBVR.lib)(options "")(descr ""))
+  (lib (name dk_DC-DC-Converters)(type Legacy)(uri D:/KiCad/libraries/digikey/digikey-symbols/dk_DC-DC-Converters.lib)(options "")(descr ""))
+  (lib (name SN74HCT245PW)(type Legacy)(uri D:/kicad_wally/W16_BBB/libraries/SN74HCT245PW/SN74HCT245PW.lib)(options "")(descr ""))
+)

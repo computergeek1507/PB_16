@@ -1,0 +1,618 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+BEAGLE_POCKETBEAGLE-SC-569
+$EndINDEX
+$MODULE BEAGLE_POCKETBEAGLE-SC-569
+Po 0 0 0 15 00000000 00000000 ~~
+Li BEAGLE_POCKETBEAGLE-SC-569
+Cd 
+Sc 00000000
+At STD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -6.01228 -30.7479 1.72032 1.72032 0 0.05 N V 21 "BEAGLE_POCKETBEAGLE-SC-569"
+T1 -3.5692 29.3094 1.72009 1.72009 0 0.05 N V 21 "VAL**"
+DS -7.5 -27.5 7.5 -27.5 0.127 21
+DA 7.5 -17.5 17.5 -17.5 -900 0.127 21
+DS 17.5 -17.5 17.5 17.5 0.127 21
+DA 7.5 17.5 7.5 27.5 -900 0.127 21
+DS 7.5 27.5 -7.5 27.5 0.127 21
+DA -7.5 17.5 -17.5 17.5 -900 0.127 21
+DS -17.5 17.5 -17.5 -17.5 0.127 21
+DA -7.5 -17.5 -7.5 -27.5 -900 0.127 21
+DA 7.5 -17.5 17.75 -17.5 -900 0.05 26
+DS 17.75 -17.5 17.75 17.5 0.05 26
+DA 7.57537 17.5754 7.5 27.75 -908 0.05 26
+DS 7.5 27.75 -7.5 27.75 0.05 26
+DA -7.5 17.5 -17.75 17.5 -900 0.05 26
+DS -17.75 17.5 -17.75 -17.5 0.05 26
+DA -7.5 -17.5 -7.5 -27.75 -900 0.05 26
+DS -7.5 -27.75 -4 -27.75 0.05 26
+DS 4 -27.75 7.5 -27.75 0.05 26
+DS -3.75 -27.6 -3.75 -28.2 0.127 21
+DS -3.75 -28.2 3.75 -28.2 0.127 21
+DS 3.75 -28.2 3.75 -27.6 0.127 21
+DS -4 -27.75 -4 -28.45 0.05 26
+DS -4 -28.45 4 -28.45 0.05 26
+DS 4 -28.45 4 -27.75 0.05 26
+DC -15.7 -21.4 -15.4764 -21.4 0.3048 21
+$PAD
+Sh "P1_1" R 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -13.97 -21.59
+$EndPAD
+$PAD
+Sh "P1_2" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -11.43 -21.59
+$EndPAD
+$PAD
+Sh "P1_3" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -13.97 -19.05
+$EndPAD
+$PAD
+Sh "P1_4" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -11.43 -19.05
+$EndPAD
+$PAD
+Sh "P1_5" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -13.97 -16.51
+$EndPAD
+$PAD
+Sh "P1_6" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -11.43 -16.51
+$EndPAD
+$PAD
+Sh "P1_7" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -13.97 -13.97
+$EndPAD
+$PAD
+Sh "P1_8" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -11.43 -13.97
+$EndPAD
+$PAD
+Sh "P1_9" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -13.97 -11.43
+$EndPAD
+$PAD
+Sh "P1_10" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -11.43 -11.43
+$EndPAD
+$PAD
+Sh "P1_11" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -13.97 -8.89
+$EndPAD
+$PAD
+Sh "P1_12" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -11.43 -8.89
+$EndPAD
+$PAD
+Sh "P1_13" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -13.97 -6.35
+$EndPAD
+$PAD
+Sh "P1_14" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -11.43 -6.35
+$EndPAD
+$PAD
+Sh "P1_15" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -13.97 -3.81
+$EndPAD
+$PAD
+Sh "P1_16" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -11.43 -3.81
+$EndPAD
+$PAD
+Sh "P1_17" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -13.97 -1.27
+$EndPAD
+$PAD
+Sh "P1_18" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -11.43 -1.27
+$EndPAD
+$PAD
+Sh "P1_19" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -13.97 1.27
+$EndPAD
+$PAD
+Sh "P1_20" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -11.43 1.27
+$EndPAD
+$PAD
+Sh "P1_21" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -13.97 3.81
+$EndPAD
+$PAD
+Sh "P1_22" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -11.43 3.81
+$EndPAD
+$PAD
+Sh "P1_23" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -13.97 6.35
+$EndPAD
+$PAD
+Sh "P1_24" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -11.43 6.35
+$EndPAD
+$PAD
+Sh "P1_25" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -13.97 8.89
+$EndPAD
+$PAD
+Sh "P1_26" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -11.43 8.89
+$EndPAD
+$PAD
+Sh "P1_27" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -13.97 11.43
+$EndPAD
+$PAD
+Sh "P1_28" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -11.43 11.43
+$EndPAD
+$PAD
+Sh "P1_29" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -13.97 13.97
+$EndPAD
+$PAD
+Sh "P1_30" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -11.43 13.97
+$EndPAD
+$PAD
+Sh "P1_31" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -13.97 16.51
+$EndPAD
+$PAD
+Sh "P1_32" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -11.43 16.51
+$EndPAD
+$PAD
+Sh "P1_33" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -13.97 19.05
+$EndPAD
+$PAD
+Sh "P1_34" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -11.43 19.05
+$EndPAD
+$PAD
+Sh "P1_35" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -13.97 21.59
+$EndPAD
+$PAD
+Sh "P1_36" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -11.43 21.59
+$EndPAD
+$PAD
+Sh "P2_1" R 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 11.43 -21.59
+$EndPAD
+$PAD
+Sh "P2_2" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 13.97 -21.59
+$EndPAD
+$PAD
+Sh "P2_3" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 11.43 -19.05
+$EndPAD
+$PAD
+Sh "P2_4" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 13.97 -19.05
+$EndPAD
+$PAD
+Sh "P2_5" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 11.43 -16.51
+$EndPAD
+$PAD
+Sh "P2_6" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 13.97 -16.51
+$EndPAD
+$PAD
+Sh "P2_7" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 11.43 -13.97
+$EndPAD
+$PAD
+Sh "P2_8" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 13.97 -13.97
+$EndPAD
+$PAD
+Sh "P2_9" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 11.43 -11.43
+$EndPAD
+$PAD
+Sh "P2_10" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 13.97 -11.43
+$EndPAD
+$PAD
+Sh "P2_11" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 11.43 -8.89
+$EndPAD
+$PAD
+Sh "P2_12" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 13.97 -8.89
+$EndPAD
+$PAD
+Sh "P2_13" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 11.43 -6.35
+$EndPAD
+$PAD
+Sh "P2_14" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 13.97 -6.35
+$EndPAD
+$PAD
+Sh "P2_15" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 11.43 -3.81
+$EndPAD
+$PAD
+Sh "P2_16" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 13.97 -3.81
+$EndPAD
+$PAD
+Sh "P2_17" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 11.43 -1.27
+$EndPAD
+$PAD
+Sh "P2_18" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 13.97 -1.27
+$EndPAD
+$PAD
+Sh "P2_19" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 11.43 1.27
+$EndPAD
+$PAD
+Sh "P2_20" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 13.97 1.27
+$EndPAD
+$PAD
+Sh "P2_21" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 11.43 3.81
+$EndPAD
+$PAD
+Sh "P2_22" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 13.97 3.81
+$EndPAD
+$PAD
+Sh "P2_23" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 11.43 6.35
+$EndPAD
+$PAD
+Sh "P2_24" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 13.97 6.35
+$EndPAD
+$PAD
+Sh "P2_25" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 11.43 8.89
+$EndPAD
+$PAD
+Sh "P2_26" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 13.97 8.89
+$EndPAD
+$PAD
+Sh "P2_27" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 11.43 11.43
+$EndPAD
+$PAD
+Sh "P2_28" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 13.97 11.43
+$EndPAD
+$PAD
+Sh "P2_29" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 11.43 13.97
+$EndPAD
+$PAD
+Sh "P2_30" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 13.97 13.97
+$EndPAD
+$PAD
+Sh "P2_31" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 11.43 16.51
+$EndPAD
+$PAD
+Sh "P2_32" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 13.97 16.51
+$EndPAD
+$PAD
+Sh "P2_33" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 11.43 19.05
+$EndPAD
+$PAD
+Sh "P2_34" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 13.97 19.05
+$EndPAD
+$PAD
+Sh "P2_35" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 11.43 21.59
+$EndPAD
+$PAD
+Sh "P2_36" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 13.97 21.59
+$EndPAD
+$EndMODULE BEAGLE_POCKETBEAGLE-SC-569

@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# TPD4S009DBVR
+#
+DEF TPD4S009DBVR U 0 40 Y Y 1 L N
+F0 "U" -500 539 50 H V L BNN
+F1 "TPD4S009DBVR" -500 -657 50 H V L BNN
+F2 "SOT95P280X145-6N" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -500 500 500 500 N
+P 2 0 0 16 500 500 500 -500 N
+P 2 0 0 16 500 -500 -500 -500 N
+P 2 0 0 16 -500 -500 -500 500 N
+X D1+ 1 -700 200 200 R 40 40 0 0 I 
+X D1- 6 -700 100 200 R 40 40 0 0 I 
+X D2+ 3 -700 -0 200 R 40 40 0 0 I 
+X D2- 4 -700 -100 200 R 40 40 0 0 I 
+X VCC 5 700 400 200 L 40 40 0 0 W 
+X GND 2 700 -300 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library
