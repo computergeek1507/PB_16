@@ -11,6 +11,8 @@ The BBB16 is a Beaglebone version of the PB16. All the design files are open sou
 
 ## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/BBB_16/BBB_16_BOM.ods)
 
+## [Interactive BOM](https://github.com/computergeek1507/PB_16/raw/master/BBB_16/bom/ibom.html)
+
 ![Image of BBB16 Out](https://github.com/computergeek1507/PB_16/raw/master/BBB_16/BBB_16.png)
 
 
