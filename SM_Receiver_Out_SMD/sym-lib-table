@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Receiver_Out-rescue")(type "Legacy")(uri "${KIPRJMOD}/Receiver_Out-rescue.lib")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "Legacy")(uri "${KIPRJMOD}/libraries/MCU_RaspberryPi_and_Boards/MCU_RaspberryPi_and_Boards.lib")(options "")(descr ""))
+)
