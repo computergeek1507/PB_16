@@ -14,6 +14,8 @@ The default setting are correct, blue color PCB's are recommended, but it will a
 
 ### Surface Mount Assembly Service
 
+****NOTE: Surface Mount Assembly Service**** is only required for designs ending in "SMD" or "SMT", all other designs can skip this step.
+
 Scroll down and Enable the SMD service.
 
 ![SMD ON](https://github.com/computergeek1507/PB_16/raw/master/img/smd_on.png)

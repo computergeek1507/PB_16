@@ -13,7 +13,7 @@ The PB 16v2 is a surface mount(SMD) version of the original PB16. The updated PB
 
 ## [Interactive BOM](https://computergeek1507.github.io/PB_16/PB_16v2_SMD/bom/ibom)
 
-![Image of PB 16v2](https://github.com/computergeek1507/PB_16/raw/master/PB_16v2_SMD/PB_16.png)
+![Image of PB 16v2](https://github.com/computergeek1507/PB_16/raw/master/PB_16v2_SMD/Real_PB_16v2.jpg)
 
 
 
