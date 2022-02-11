@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "BBB 16")
-    (date "2021-11-04")
-    (rev "v2.1")
+    (title "BBB 16 SMD")
+    (date "2022-02-11")
+    (rev "v2")
     (company "Scott Hanson")
   )
 

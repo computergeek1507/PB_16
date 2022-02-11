@@ -1,8 +1,9 @@
 (fp_lib_table
   (lib (name "Barrier_Blocks")(type "KiCad")(uri "${KIPRJMOD}/libraries/Barrier_Blocks/Barrier_Blocks.pretty")(options "")(descr ""))
   (lib (name "OLED-SSD1306-128X64-I2C")(type "KiCad")(uri "${KIPRJMOD}/libraries/OLED-SSD1306-128X64-I2C")(options "")(descr ""))
-  (lib (name "302-S241")(type "KiCad")(uri "D:/PB_16/libraries/302-S241")(options "")(descr ""))
-  (lib (name "Keystone_Fuse")(type "Legacy")(uri "D:/PB_16/libraries/Fuse/3544-2.mod")(options "")(descr ""))
-  (lib (name "beagleboneblack")(type "Legacy")(uri "D:/PB_16/libraries/beagleboneblack/beagleboneblack.mod")(options "")(descr ""))
+  (lib (name "302-S241")(type "KiCad")(uri "${KIPRJMOD}/../libraries/302-S241")(options "")(descr ""))
+  (lib (name "Keystone_Fuse")(type "Legacy")(uri "${KIPRJMOD}/../libraries/Fuse/3544-2.mod")(options "")(descr ""))
+  (lib (name "beagleboneblack")(type "Legacy")(uri "${KIPRJMOD}/../libraries/beagleboneblack/beagleboneblack.mod")(options "")(descr ""))
   (lib (name "SN74HCT245NSR")(type "KiCad")(uri "${KIPRJMOD}/libraries/SN74HCT245NSR/footprints.pretty")(options "")(descr ""))
+  (lib (name "OKI-78SR-5")(type "KiCad")(uri "${KIPRJMOD}/libraries/OKI-78SR-5/OKI-78SR-5.pretty")(options "")(descr ""))
 )
