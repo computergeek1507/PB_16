@@ -1,7 +1,7 @@
 (sym_lib_table
   (lib (name Smart_Reciever_Max-rescue)(type Legacy)(uri ${KIPRJMOD}/Smart_Reciever_Max-rescue.lib)(options "")(descr ""))
-  (lib (name 3544-2)(type Legacy)(uri ${KIPRJMOD}/libraries/Fuse/3544-2.lib)(options "")(descr ""))
-  (lib (name MCU_RaspberryPi_and_Boards)(type Legacy)(uri ${KIPRJMOD}/libraries/MCU_RaspberryPi_and_Boards/MCU_RaspberryPi_and_Boards.lib)(options "")(descr ""))
-  (lib (name AM26C32IN)(type Legacy)(uri ${KIPRJMOD}/libraries/AM26C32IN/AM26C32IN.lib)(options "")(descr ""))
-  (lib (name kiwih_kicad)(type Legacy)(uri ${KIPRJMOD}/libraries/kiwih_kicad/symbols/kiwih_kicad.lib)(options "")(descr ""))
+  (lib (name 3544-2)(type Legacy)(uri ${KIPRJMOD}/../libraries/Fuse/3544-2.lib)(options "")(descr ""))
+  (lib (name MCU_RaspberryPi_and_Boards)(type Legacy)(uri ${KIPRJMOD}/../libraries/MCU_RaspberryPi_and_Boards/MCU_RaspberryPi_and_Boards.lib)(options "")(descr ""))
+  (lib (name AM26C32IN)(type Legacy)(uri ${KIPRJMOD}/../libraries/AM26C32IN/AM26C32IN.lib)(options "")(descr ""))
+
 )

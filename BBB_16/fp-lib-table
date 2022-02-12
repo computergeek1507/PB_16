@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name Barrier_Blocks)(type KiCad)(uri ${KIPRJMOD}/libraries/Barrier_Blocks/Barrier_Blocks.pretty)(options "")(descr ""))
-  (lib (name OLED-SSD1306-128X64-I2C)(type KiCad)(uri ${KIPRJMOD}/libraries/OLED-SSD1306-128X64-I2C)(options "")(descr ""))
+  (lib (name Barrier_Blocks)(type KiCad)(uri ${KIPRJMOD}/../libraries/Barrier_Blocks/Barrier_Blocks.pretty)(options "")(descr ""))
+  (lib (name OLED-SSD1306-128X64-I2C)(type KiCad)(uri ${KIPRJMOD}/../libraries/OLED-SSD1306-128X64-I2C)(options "")(descr ""))
 )
