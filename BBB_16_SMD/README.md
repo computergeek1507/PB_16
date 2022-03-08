@@ -11,3 +11,9 @@ You may redistribute and modify this documentation under the terms of the CERN O
 
 The BBB16 SMD is a surface mount Beaglebone version of the PB16. All the design files are open source and available on github.
 
+## [Interactive BOM](https://computergeek1507.github.io/PB_16/BBB_16_SMD/bom/ibom)
+
+## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/BBB_16_SMD/BBB_16_BOM.ods)
+
+![Image of BBB16 Out](https://github.com/computergeek1507/PB_16/raw/master/BBB_16_SMD/BBB_16.png)
+
