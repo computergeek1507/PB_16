@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MP1584
+#
+DEF MP1584 U 0 40 Y Y 1 L N
+F0 "U" 0 0 50 H I L BNN
+F1 "MP1584" 0 0 50 H I L BNN
+F2 "DC-BRICK" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+S -300 -200 400 200 0 0 10 f
+X VIN+ IN1+ -600 100 300 R 40 40 0 0 I 
+X VIN+ IN2+ -600 100 300 R 40 40 0 0 I 
+X VIN- IN1 -600 -100 300 R 40 40 0 0 I 
+X VIN- IN2 -600 -100 300 R 40 40 0 0 I 
+X VOUT- OUT1 700 -100 300 L 40 40 0 0 O 
+X VOUT- OUT2 700 -100 300 L 40 40 0 0 O 
+X VOUT+ OUT1+ 700 100 300 L 40 40 0 0 O 
+X VOUT+ OUT2+ 700 100 300 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
