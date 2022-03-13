@@ -738,6 +738,9 @@
     (property "MPN" "4DB-P108-02" (id 5) (at 93.853 65.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC_PN" "C306200" (id 6) (at 93.853 65.405 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 45391477-a617-4165-8520-f528b17e905f))
     (pin "2" (uuid d613705e-6c01-4c95-b222-959bcd0e5f62))
   )
@@ -897,6 +900,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "61300311121" (id 5) (at 131.699 39.624 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC_PN" "C49257" (id 6) (at 131.699 39.624 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 502f58c2-f06a-4226-a01b-c8a8ce92d08e))
@@ -1192,6 +1198,12 @@
     (path "/50635fed-12b2-4cb9-8000-248242ab040f/d22f11bf-6f97-4f5b-a06c-0597a3dbd7f3"
       (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
     )
+    (path "/50635fed-12b2-4cb9-8000-248242ab040f/6ca981f8-c140-4b4a-973c-718a02ee5280"
+      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/50635fed-12b2-4cb9-8000-248242ab040f/3cd7b347-520d-48bb-8771-e0efc49661ba"
+      (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005e0ad280"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
@@ -1264,8 +1276,17 @@
     (path "/00000000-0000-0000-0000-00005e06688b/a86ebb7d-c08b-41a3-932e-4967a39ce5f9"
       (reference "J8") (unit 1) (value "RJ45") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
     )
+    (path "/50635fed-12b2-4cb9-8000-248242ab040f/c7b5ed2c-76bf-47e8-8cb4-e55d0520e569"
+      (reference "J9") (unit 1) (value "Debug") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/50635fed-12b2-4cb9-8000-248242ab040f/d4a5c320-27d5-4385-82f2-4e9d2560cdce"
+      (reference "J10") (unit 1) (value "SWD") (footprint "Scotts:1x02_Horizontal_SMD")
+    )
     (path "/00000000-0000-0000-0000-00005d5b5731"
       (reference "R1") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005e06688b/1df7d795-7db4-4143-a50f-46eb18061ee1"
+      (reference "R2") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00005e06688b/00000000-0000-0000-0000-00005e9ce8a0"
       (reference "R3") (unit 1) (value "120") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
@@ -1308,6 +1329,30 @@
     )
     (path "/00000000-0000-0000-0000-00005df59725"
       (reference "TB1") (unit 1) (value "Power In") (footprint "Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS")
+    )
+    (path "/50635fed-12b2-4cb9-8000-248242ab040f/60514e79-ee6c-4a3c-9437-63dc5c1db08f"
+      (reference "TP1") (unit 1) (value "DATA1") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/50635fed-12b2-4cb9-8000-248242ab040f/610e802b-e315-48cc-8f46-9b53d2667495"
+      (reference "TP2") (unit 1) (value "DATA2") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/50635fed-12b2-4cb9-8000-248242ab040f/d860dc2d-a748-412b-98fe-a74efa1b702c"
+      (reference "TP3") (unit 1) (value "DATA3") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/50635fed-12b2-4cb9-8000-248242ab040f/3791ac7f-7fc7-4b46-a088-2b00c125d1f4"
+      (reference "TP4") (unit 1) (value "DATA4") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/50635fed-12b2-4cb9-8000-248242ab040f/eb6f745b-7c30-4fbd-84d5-63574cba2985"
+      (reference "TP5") (unit 1) (value "EN1") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/50635fed-12b2-4cb9-8000-248242ab040f/96e24845-5348-42b3-9f97-c5d7cb73c25d"
+      (reference "TP6") (unit 1) (value "EN2") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/50635fed-12b2-4cb9-8000-248242ab040f/c5e0743a-422f-409c-afc7-5255917c7b39"
+      (reference "TP7") (unit 1) (value "EN3") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/50635fed-12b2-4cb9-8000-248242ab040f/a46f8316-a089-45b3-8fb8-a69b411ada52"
+      (reference "TP8") (unit 1) (value "EN4") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/00000000-0000-0000-0000-00005d469293/dcb1e630-cba4-4ed0-a70c-c3424f8cf8e0"
       (reference "U1") (unit 1) (value "74AHCT1G125") (footprint "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm")

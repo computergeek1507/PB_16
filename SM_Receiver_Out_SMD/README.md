@@ -12,7 +12,7 @@ The "SM Receiver Out SMD" is a 4 port "Smart" Differential Receiver output board
 **WIP** Work in progress, not tester and no firmware is available.
 
 <!---To order PCBs upload the gerber.zip file to jlcpcb.com. Enable the SMD service, 'Receiver_Out_SMD.csv' is the SMD BOM and 'Receiver_Out-all-pos.csv' is the SMD CPL position file.
-
+--->
 ## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/Receiver_Out_SMD/Receiver_Out_BOM.ods)
 
 ![Image of Receiver Out](https://github.com/computergeek1507/PB_16/raw/master/Receiver_Out_SMD/Receiver_Out.png)--->

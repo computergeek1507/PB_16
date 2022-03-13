@@ -1,0 +1,36 @@
+Comment,Designator,Footprint,LCSC
+User,"SW3,SW4",SW_Push_1P1T_NO_6x6mm_H9.5mm,C127509
+0.1uF,"C3,C4,C5",C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C1525
+10uF,"C1,C2",C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C15850
+String1,"J1,J2,J3,J4","PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",C192778
+1K,R1,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C21190
+OLED,J5,OLED-SSD1306-128X64-I2C-THT,C225501
+120,"R3,R4,R5,R6",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C22787
+VIN LED,"D2,D4",LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C2286
+220,R11,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C22962
+33ohm,"R10,R7,R8,R9",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C23140
+RJ45,"J7,J8",RJ45_Amphenol_54602-x08_Horizontal,C305972
+Power In,TB1,BARRIER_BLOCK_1ROW_2POS,C306200
+ID,SW1,Nidec_Copal_SH-7010C,C457921
+SWD,J10,1x02_Horizontal_SMD,C492401
+VIN_Voltage,"J6,J9",PinHeader_1x03_P2.54mm_Vertical,C49257
+3544-2,"F1,F2,F3,F4",FUSE_3544-2,C492610
+Terminators,SW2,SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile,C509571
+AM26C32IN,U3,SOIC-16_3.9x9.9mm_P1.27mm,C6180
+AMS1117-5.0,U2,SOT-223-3_TabPin2,C6187
+74AHCT1G125,"U1,U4,U5,U6",TSOP-5_1.65x3.05mm_P0.95mm,C7484
+B5819W,D1,D_SOD-123,C8598
+DATA4,TP4,TestPoint_Pad_D1.5mm,
+DATA3,TP3,TestPoint_Pad_D1.5mm,
+DATA2,TP2,TestPoint_Pad_D1.5mm,
+DATA1,TP1,TestPoint_Pad_D1.5mm,
+EN4,TP8,TestPoint_Pad_D1.5mm,
+EN3,TP7,TestPoint_Pad_D1.5mm,
+EN2,TP6,TestPoint_Pad_D1.5mm,
+EN1,TP5,TestPoint_Pad_D1.5mm,
+MountingHole,H3,MountingHole_3.7mm,
+Pico,U7,RPi_Pico_SMD_TH,
+MountingHole,H4,MountingHole_3.7mm,
+MountingHole,H2,MountingHole_3.7mm,
+MountingHole,H1,MountingHole_3.7mm,
+100K,R2,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
