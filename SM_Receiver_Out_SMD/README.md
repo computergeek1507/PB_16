@@ -15,5 +15,7 @@ The "SM Receiver Out SMD" is a 4 port "Smart" Differential Receiver output board
 --->
 ## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/SM_Receiver_Out_SMD/Receiver_Out_BOM.ods)
 
+## [Interactive BOM](https://computergeek1507.github.io/PB_16/SM_Receiver_Out_SMD/bom/ibom)
+
 ![Image of Receiver Out](https://github.com/computergeek1507/PB_16/raw/master/SM_Receiver_Out_SMD/Receiver_Out.png)--->
 

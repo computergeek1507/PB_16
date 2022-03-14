@@ -11,6 +11,8 @@ The BBB16 Expansion is a version of the BBB16 for the Falcon v4 Expansion Boards
 
 ## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/BBB_16_Expansion/BBB_16_Expansion_BOM.ods)
 
+## [Interactive BOM](https://computergeek1507.github.io/PB_16/BBB_16_Expansion/bom/ibom)
+
 ![Image of BBB16 Expansion Out](https://github.com/computergeek1507/PB_16/raw/master/BBB_16_Expansion/BBB_16_Expansion.png)
 
 
