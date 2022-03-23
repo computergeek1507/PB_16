@@ -7,7 +7,7 @@ You may redistribute and modify this documentation under the terms of the CERN O
 
 # Receiver Out SMD
 
-The "SM Receiver Out SMD" is a 4 port "Smart" Differential Receiver output board for the PB16. The Firmware is incomplete and this PCB is basically useless until then it works. This design is surface mount based and is harder to solder. All the design files are open source and available on github.
+The "SM Receiver Out SMD" is a 4 port "Smart" Differential Receiver output board for the PB16. The Firmware is incomplete and this PCB is basically useless until then. This design is surface mount based and is harder to solder. All the design files are open source and available on github.
 
 **WIP** Work in progress, not tester and no firmware is available.
 
