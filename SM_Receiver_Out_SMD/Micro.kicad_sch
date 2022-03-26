@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "SM Receiver Out SMD")
+    (date "2022-03-25")
+    (rev "v2")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x02_Male" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
