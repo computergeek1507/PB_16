@@ -80,9 +80,9 @@ The PB16 Controller contains an expansion header. The expansion header can drive
 
 * [**16 Expansion**](16_Expansion/README.md) - 16 Port Local Expansion. Supports PB 16 (40 pins) & BBB 16 (24 pins) Connectors.
 * [**16 Expansion SMD**](16_Expansion_SMD/README.md) - 16 Port Local Expansion. Supports PB 16 (40 pins) & BBB 16 (24 pins) Connectors. This is a **Surface Mount(SMD)** Design.
-* [**Diff Expansion**](Diff_Expansion/README.md) - 4 Port Remote Differential Expansion.
-* [**Multi Expansion**](Multi_Expansion/README.md) - 8 Port Local & 2 Port Remote Differential Expansion.
+* [**Diff Expansion**](Diff_Expansion/README.md) - 4 Port Remote Differential Expansion. Supports PB 16 (40 pins) & BBB 16 (24 pins) Connectors.
+* [**Multi Expansion**](Multi_Expansion/README.md) - 8 Port Local & 2 Port Remote Differential Expansion. **Only Supports PB 16 (40 pins) Connectors.**
 * [**Quad Diff Out**](Quad_Diff_Out/README.md) - 1 Port Remote Differential Expansion.
-* [**Four Out**](Four_Out/README.md) - 4 Port Local Expansion.
+* [**Four Out**](Four_Out/README.md) - 4 Port Local Expansion. Supports PB 16 (40 pins) & BBB 16 (24 pins) Connectors.
 * [**Receiver Out**](Receiver_Out/README.md) - 4 Port Remote Receiver Board for use with Remote Differential Expansions.
 * [**Receiver Out SMD**](Receiver_Out_SMD/README.md) - 4 Port Remote Receiver Board for use with Remote Differential Expansions. This is a **Surface Mount(SMD)** Design.
