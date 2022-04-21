@@ -19,15 +19,15 @@ The design was made with all through hole components for easy assembly by most u
 
 ![Image of Rev C Controller](https://github.com/computergeek1507/PB_16/raw/master/PB_16_rev_C.jpg)
 
-# PB 16v2 SMD
+# [PB 16v2](PB_16v2_SMD/README.md)
 The PB 16v2 is a Surface Mount(SMD) Pocketbeagle Version with 16 pixel ports, 1 remote differential port, 2 serial ports, and an expansion header for additional 16 pixel outputs. The v2 has an improved reverse protect circuit and USB power supply circuit.
 ![Image of PB 16v2](https://github.com/computergeek1507/PB_16/raw/master/PB_16v2_SMD/Real_PB_16v2.jpg)
 
-# BBB 16v2
+# [BBB 16v2](BBB_16/README.md)
 The BBB 16v2 is a BeagleBone Version with 16 pixel ports, 1 remote differential port, 2 serial ports, and an expansion header for additional 16 pixel outputs. Uses Falcon v4 (24 pine) Expansion Pinout.
 ![Image of BBB 16v2](https://github.com/computergeek1507/PB_16/raw/master/BBB_16/BBB_16.png)
 
-# BBB 16v2 SMD
+# [BBB 16v2 SMD](BBB_16_SMD/README.md) 
 The BBB 16v2 SMD is a Surface Mount(SMD) BeagleBone Version with 16 pixel ports, 1 remote differential port, 2 serial ports, and an expansion header for additional 16 pixel outputs. Uses Falcon v4 (24 pine) Expansion Pinout.
 ![Image of BBB 16v2 SMD](https://github.com/computergeek1507/PB_16/raw/master/BBB_16_SMD/BBB_16.png)
 
@@ -43,7 +43,7 @@ The BBB 16v2 SMD is a Surface Mount(SMD) BeagleBone Version with 16 pixel ports,
 * Adafruit Real Time Clock Header Connector
 * 2 pin GPIO Header for Push Button or Relay Support
 * 5v - 24v Vin Support
-* Expansion Header for additional 16 pixel outputs, Supports Falcon v3 (40 pin) Expansion Boards
+* Expansion Header for additional 16 pixel outputs, Supports Falcon v3 (40 pin) Expansion Boards.
 
 ### Features of the PB 16v1
 * Through Hole Assemply
@@ -78,8 +78,8 @@ I created different variants of the PB 16, to fit my specific needs.
 
 The PB16 Controller contains an expansion header. The expansion header can drive 16 additional pixel ports. I have also created addition addon boards to work with the expansion port. These Expansions will work with Kulp Controllers, but **not** Falcon Controllers.
 
-* [**16 Expansion**](16_Expansion/README.md) - 16 Port Local Expansion.
-* [**16 Expansion SMD**](16_Expansion_SMD/README.md) - 16 Port Local Expansion. This is a **Surface Mount(SMD)** Design.
+* [**16 Expansion**](16_Expansion/README.md) - 16 Port Local Expansion. Supports PB 16 (40 pins) & BBB 16 (24 pins) Connectors.
+* [**16 Expansion SMD**](16_Expansion_SMD/README.md) - 16 Port Local Expansion. Supports PB 16 (40 pins) & BBB 16 (24 pins) Connectors. This is a **Surface Mount(SMD)** Design.
 * [**Diff Expansion**](Diff_Expansion/README.md) - 4 Port Remote Differential Expansion.
 * [**Multi Expansion**](Multi_Expansion/README.md) - 8 Port Local & 2 Port Remote Differential Expansion.
 * [**Quad Diff Out**](Quad_Diff_Out/README.md) - 1 Port Remote Differential Expansion.
