@@ -7,9 +7,9 @@ You may redistribute and modify this documentation under the terms of the CERN O
 
 **Under CERN OHL-S-v2, derivative work must be publicy released as defined in subsection 3.3**
 
-# PB 'Family' of Controllers
+# BBB/PB 'Family' of Controllers
 
-The PB16 Pixel Controllers are designed as open source DIY hobbyist controllers. 
+The PB16/BBB16 Pixel Controllers are designed as open source DIY hobbyist controllers. 
 They all run FPP to drives the ports and serial ports. 
 They are designed to be modular and support many use cases. It runs a full Linux operating system with ethernet, WIFI and audio supported over the USB port. It can run in standalone, or be used with other controllers/devices. All the design files are open source and available on github. Open source applications were used to create the controllers. [KiCad](http://kicad.org/) was used for the PCB design, and [LibreOffice](https://www.libreoffice.org/) for the documentation.
 
@@ -23,7 +23,15 @@ The design was made with all through hole components for easy assembly by most u
 The PB 16v2 is a Surface Mount(SMD) Pocketbeagle Version with 16 pixel ports, 1 remote differential port, 2 serial ports, and an expansion header for additional 16 pixel outputs. The v2 has an improved reverse protect circuit and USB power supply circuit.
 ![Image of PB 16v2](https://github.com/computergeek1507/PB_16/raw/master/PB_16v2_SMD/Real_PB_16v2.jpg)
 
-### Common Features of the v1 and v2
+# BBB 16v2
+The BBB 16v2 is a BeagleBone Version with 16 pixel ports, 1 remote differential port, 2 serial ports, and an expansion header for additional 16 pixel outputs. Uses Falcon v4 (24 pine) Expansion Pinout.
+![Image of BBB 16v2](https://github.com/computergeek1507/PB_16/raw/master/BBB_16/BBB_16.jpg)
+
+# BBB 16v2 SMD
+The BBB 16v2 SMD is a Surface Mount(SMD) BeagleBone Version with 16 pixel ports, 1 remote differential port, 2 serial ports, and an expansion header for additional 16 pixel outputs. Uses Falcon v4 (24 pine) Expansion Pinout.
+![Image of BBB 16v2 SMD](https://github.com/computergeek1507/PB_16/raw/master/BBB_16_SMD/BBB_16.jpg)
+
+### Common Features of the PB 16v1, PB 16v2, & BBB 16v2
 * Powered by FPP Falcon Player
 * Standalone/Master/Remote/Bridge Support
 * 16 3-Wire Pixel Ports
@@ -35,21 +43,22 @@ The PB 16v2 is a Surface Mount(SMD) Pocketbeagle Version with 16 pixel ports, 1 
 * Adafruit Real Time Clock Header Connector
 * 2 pin GPIO Header for Push Button or Relay Support
 * 5v - 24v Vin Support
-* Expansion Header for additional 16 pixel outputs, Supports Falcon Expansion Boards
+* Expansion Header for additional 16 pixel outputs, Supports Falcon v3 (40 pin) Expansion Boards
 
-### Features of the v1
+### Features of the PB 16v1
 * Through Hole Assemply
 * 1 RJ-45 Connector with DMX/Renard Wiring Support.
 * 1 RJ-45 Connector with DMX/LOR Wiring Support.
 * Only Supports DMX Protocol over Serial Ports.
 
-### Features of the v2
+### Features of the PB 16v2 & BBB 16v2
 * Surface Mount Assemply (SMD/SMT)
 * 1 RJ-45 Connector for a remote differential port.
 * 1 RJ-45 Connector with DMX/LOR Wiring Support.
 * Supports DMX/Renard/Lor Protocol over Serial Ports.
 
 ## [Ordering Instructions](https://github.com/computergeek1507/PB_16/blob/master/JLC_PCB.md)
+## [Flashing EEPROM Instructions](https://github.com/computergeek1507/PB_16/blob/master/Flashing_EEPROM.md)
 
 ## Variants
 I created different variants of the PB 16, to fit my specific needs.
