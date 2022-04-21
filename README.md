@@ -13,7 +13,7 @@ The PB16/BBB16 Pixel Controllers are designed as open source DIY hobbyist contro
 They all run FPP to drives the ports and serial ports. 
 They are designed to be modular and support many use cases. It runs a full Linux operating system with ethernet, WIFI and audio supported over the USB port. It can run in standalone, or be used with other controllers/devices. All the design files are open source and available on github. Open source applications were used to create the controllers. [KiCad](http://kicad.org/) was used for the PCB design, and [LibreOffice](https://www.libreoffice.org/) for the documentation.
 
-# PB 16v1
+# [PB 16v1](PB_16v1/README.md)
 The "Original" Pocketbeagle Version with 16 pixel ports, 2 serial ports and an expansion header for additional 16 pixel outputs.
 The design was made with all through hole components for easy assembly by most users.
 
