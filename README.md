@@ -68,10 +68,10 @@ I created different variants of the PB 16, to fit my specific needs.
 * [**BBB 16v2 SMD**](BBB_16_SMD/README.md) - Surface Mount(SMD) Beaglebone Version with 16 pixel ports, 1 remote differential port, 2 serial ports and an expansion header for additional 16 pixel outputs. Uses Falcon v4 Expansion Pinout.
 * [**BBB 16 Flex**](BBB_16_Flex/README.md) - BBB 16 PCB to use with the HolidayCoro Flex System. This is a **Surface Mount(SMD)** Design.
 * [**BBB 16 Expansion**](BBB_16_Expansion/README.md) - BBB 16v2 PCB with Three Expansion Board Ports for 48 outputs. Uses Falcon v4 Expansion Pinout. This is a **Surface Mount(SMD)** Design.
-* [**PB 16 Expansion**](BBB_16_Expansion/README.md) - Small Form Factor PB 16 with Two Expansion Board Ports for 32 outputs.
+* [**PB 16 Expansion**](PB_16_Expansion/README.md) - Small Form Factor PB 16 with Two Expansion Board Ports for 32 outputs.
 * [**PB 16 Mini**](PB_16_Mini/README.md) - Small Form Factor PB 16 with one Expansion Board Port for 16 ouputs and two Serial Outputs.
 * [**PB 16 Flex**](PB_16_Flex/README.md) - PB 16 PCB to use with the HolidayCoro Flex System.
-* [**PB 16 E682**](PB_16_E682/README.md) - Adapter PCB to use a Pocketbeagle with a Sandevice E682. (This is a proof of concept, not designed for extended use)
+<!--- * [**PB 16 E682**](PB_16_E682/README.md) - Adapter PCB to use a Pocketbeagle with a Sandevice E682. (This is a proof of concept, not designed for extended use)-->
 * [**PB 16 E682 Serial**](PB_16_E682_Serial/README.md) - Serial Output PCB to for PB 16 E682 or PB 16 Expansion.
 
 ## Addon Boards
