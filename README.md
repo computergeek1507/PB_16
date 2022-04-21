@@ -25,11 +25,11 @@ The PB 16v2 is a Surface Mount(SMD) Pocketbeagle Version with 16 pixel ports, 1 
 
 # BBB 16v2
 The BBB 16v2 is a BeagleBone Version with 16 pixel ports, 1 remote differential port, 2 serial ports, and an expansion header for additional 16 pixel outputs. Uses Falcon v4 (24 pine) Expansion Pinout.
-![Image of BBB 16v2](https://github.com/computergeek1507/PB_16/raw/master/BBB_16/BBB_16.jpg)
+![Image of BBB 16v2](https://github.com/computergeek1507/PB_16/raw/master/BBB_16/BBB_16.png)
 
 # BBB 16v2 SMD
 The BBB 16v2 SMD is a Surface Mount(SMD) BeagleBone Version with 16 pixel ports, 1 remote differential port, 2 serial ports, and an expansion header for additional 16 pixel outputs. Uses Falcon v4 (24 pine) Expansion Pinout.
-![Image of BBB 16v2 SMD](https://github.com/computergeek1507/PB_16/raw/master/BBB_16_SMD/BBB_16.jpg)
+![Image of BBB 16v2 SMD](https://github.com/computergeek1507/PB_16/raw/master/BBB_16_SMD/BBB_16.png)
 
 ### Common Features of the PB 16v1, PB 16v2, & BBB 16v2
 * Powered by FPP Falcon Player
