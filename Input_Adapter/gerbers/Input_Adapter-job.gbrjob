@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "(6.0.4)"
     },
-    "CreationDate": "2022-04-07T22:37:18-04:00"
+    "CreationDate": "2022-04-21T22:41:51-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Input_Adapter",
       "GUID": "496e7075-745f-4416-9461-707465722e6b",
-      "Revision": "v1"
+      "Revision": "v2"
     },
     "Size": {
       "X": 61.2,
