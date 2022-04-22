@@ -6,8 +6,8 @@
 
   (title_block
     (title "Input2Expansion")
-    (date "2022-04-06")
-    (rev "v1")
+    (date "2022-04-21")
+    (rev "v2")
     (company "Scott Hanson")
   )
 
@@ -1794,7 +1794,7 @@
     (property "Value" "MountingHole" (id 1) (at 168.148 96.0119 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_4.3mm_M4" (id 2) (at 165.608 94.742 0)
+    (property "Footprint" "" (id 2) (at 165.608 94.742 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 165.608 94.742 0)
@@ -2109,7 +2109,7 @@
     (property "Value" "MountingHole" (id 1) (at 168.148 106.1719 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_4.3mm_M4" (id 2) (at 165.608 104.902 0)
+    (property "Footprint" "" (id 2) (at 165.608 104.902 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 165.608 104.902 0)
@@ -2158,7 +2158,7 @@
     (property "Value" "MountingHole" (id 1) (at 168.148 101.0919 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_4.3mm_M4" (id 2) (at 165.608 99.822 0)
+    (property "Footprint" "" (id 2) (at 165.608 99.822 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 165.608 99.822 0)
@@ -2349,7 +2349,7 @@
     (property "Value" "MountingHole" (id 1) (at 168.148 90.9319 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_4.3mm_M4" (id 2) (at 165.608 89.662 0)
+    (property "Footprint" "" (id 2) (at 165.608 89.662 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 165.608 89.662 0)
@@ -2442,16 +2442,16 @@
       (reference "C2") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/ee1ae70f-b26d-42d8-a872-5eaaa66a2cd9"
-      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_4.3mm_M4")
+      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
     (path "/0610f3a7-5c49-484a-bbfe-0bd021ef5489"
-      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_4.3mm_M4")
+      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
     (path "/b8af5461-cea0-427b-ae6a-495c2eafd63d"
-      (reference "H3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_4.3mm_M4")
+      (reference "H3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
     (path "/9742bb24-72af-4d92-853d-c602fbcdb5ce"
-      (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_4.3mm_M4")
+      (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
     (path "/3afbb2ca-9a8d-49bd-9c80-1573fb304855"
       (reference "J1") (unit 1) (value "Raspberry_Pi_2_3") (footprint "MCU_RaspberryPi_and_Boards:Raspberry_Pi_Hat_Socketed_THT_FaceDown_MountingHoles")
