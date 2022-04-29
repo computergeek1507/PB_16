@@ -1315,6 +1315,30 @@
     (path "/50635fed-12b2-4cb9-8000-248242ab040f/53c9c46e-8f74-4083-9b1f-ab8102cf2dea"
       (reference "R11") (unit 1) (value "220") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
+    (path "/00000000-0000-0000-0000-00005e06688b/d22e11eb-e118-4d10-8955-0dd3da40bc45"
+      (reference "R12") (unit 1) (value "100ohm") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005e06688b/ca7da2a1-95b1-44fc-aa5d-5288b7f66def"
+      (reference "R13") (unit 1) (value "100ohm") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005e06688b/d6235f37-d7d9-431c-83c7-810fec9cbc2c"
+      (reference "R14") (unit 1) (value "100ohm") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005e06688b/34bb0bdd-6843-4a2b-ba28-afd1f59750f6"
+      (reference "R15") (unit 1) (value "100ohm") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/50635fed-12b2-4cb9-8000-248242ab040f/3df644cd-60b1-4a1e-adcd-892ed6679ebd"
+      (reference "R16") (unit 1) (value "100ohm") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/50635fed-12b2-4cb9-8000-248242ab040f/91ca34f9-5ad4-491e-8e21-9382b03b93e8"
+      (reference "R17") (unit 1) (value "100ohm") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/50635fed-12b2-4cb9-8000-248242ab040f/bb6d71a0-b938-4304-97fa-7f470ca4197e"
+      (reference "R18") (unit 1) (value "100ohm") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/50635fed-12b2-4cb9-8000-248242ab040f/610c5ac5-6eaf-4219-a353-d85c57d7f12f"
+      (reference "R19") (unit 1) (value "100ohm") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
     (path "/50635fed-12b2-4cb9-8000-248242ab040f/1bbd0493-bef7-4922-a1c2-52fdf4d212ba"
       (reference "SW1") (unit 1) (value "ID") (footprint "Button_Switch_THT:Nidec_Copal_SH-7010C")
     )
@@ -1354,8 +1378,8 @@
     (path "/50635fed-12b2-4cb9-8000-248242ab040f/a46f8316-a089-45b3-8fb8-a69b411ada52"
       (reference "TP8") (unit 1) (value "EN4") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
-    (path "/00000000-0000-0000-0000-00005d469293/dcb1e630-cba4-4ed0-a70c-c3424f8cf8e0"
-      (reference "U1") (unit 1) (value "74AHCT1G125") (footprint "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm")
+    (path "/50635fed-12b2-4cb9-8000-248242ab040f/59c96dda-dcdc-4c4b-b8b6-b6b0e9e2c32c"
+      (reference "U1") (unit 1) (value "Pico") (footprint "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH")
     )
     (path "/00000000-0000-0000-0000-00005ed1c91d"
       (reference "U2") (unit 1) (value "AMS1117-5.0") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
@@ -1363,17 +1387,17 @@
     (path "/00000000-0000-0000-0000-00005e06688b/00000000-0000-0000-0000-00005e069391"
       (reference "U3") (unit 1) (value "AM26C32IN") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/00000000-0000-0000-0000-00005d469293/81d091a7-dd43-4108-9bad-91f21605e2a9"
+    (path "/00000000-0000-0000-0000-00005d469293/dcb1e630-cba4-4ed0-a70c-c3424f8cf8e0"
       (reference "U4") (unit 1) (value "74AHCT1G125") (footprint "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm")
     )
-    (path "/00000000-0000-0000-0000-00005d469293/e69b018f-11ca-4683-b716-f808032d1c9b"
+    (path "/00000000-0000-0000-0000-00005d469293/81d091a7-dd43-4108-9bad-91f21605e2a9"
       (reference "U5") (unit 1) (value "74AHCT1G125") (footprint "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm")
     )
-    (path "/00000000-0000-0000-0000-00005d469293/0c4cbed8-8c14-42c3-82b7-0672a92117f4"
+    (path "/00000000-0000-0000-0000-00005d469293/e69b018f-11ca-4683-b716-f808032d1c9b"
       (reference "U6") (unit 1) (value "74AHCT1G125") (footprint "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm")
     )
-    (path "/50635fed-12b2-4cb9-8000-248242ab040f/59c96dda-dcdc-4c4b-b8b6-b6b0e9e2c32c"
-      (reference "U7") (unit 1) (value "Pico") (footprint "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH")
+    (path "/00000000-0000-0000-0000-00005d469293/0c4cbed8-8c14-42c3-82b7-0672a92117f4"
+      (reference "U7") (unit 1) (value "74AHCT1G125") (footprint "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm")
     )
   )
 )
