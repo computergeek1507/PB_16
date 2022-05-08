@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name PB_16-rescue)(type Legacy)(uri ${KIPRJMOD}/PB_16-rescue.lib)(options "")(descr ""))
+  (lib (name "PB_16-rescue")(type "Legacy")(uri "${KIPRJMOD}/PB_16-rescue.lib")(options "")(descr ""))
+  (lib (name "Barrier_Blocks")(type "Legacy")(uri "${KIPRJMOD}/../libraries/Barrier_Blocks/Barrier_Blocks.lib")(options "")(descr ""))
 )
