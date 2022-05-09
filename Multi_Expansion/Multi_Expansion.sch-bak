@@ -352,4 +352,107 @@ U 5DC70599
 F0 "Differential" 50
 F1 "Differential.sch" 50
 $EndSheet
+$Comp
+L Connector_Generic:Conn_02x12_Odd_Even J?
+U 1 1 61498B37
+P 9850 3250
+F 0 "J?" H 9900 3967 50  0000 C CNN
+F 1 "v4 Input" H 9900 3876 50  0000 C CNN
+F 2 "302-S241:OST_302-S241" H 9850 3250 50  0001 C CNN
+F 3 "~" H 9850 3250 50  0001 C CNN
+F 4 "ED10525-ND" H 9850 3250 50  0001 C CNN "Digi-Key_PN"
+F 5 "302-S241" H 9850 3250 50  0001 C CNN "MPN"
+	1    9850 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6149C839
+P 9650 2850
+F 0 "#PWR?" H 9650 2700 50  0001 C CNN
+F 1 "+5V" V 9665 3023 50  0000 C CNN
+F 2 "" H 9650 2850 50  0001 C CNN
+F 3 "" H 9650 2850 50  0001 C CNN
+	1    9650 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6149F3DE
+P 10150 2850
+F 0 "#PWR?" H 10150 2700 50  0001 C CNN
+F 1 "+5V" V 10165 3023 50  0000 C CNN
+F 2 "" H 10150 2850 50  0001 C CNN
+F 3 "" H 10150 2850 50  0001 C CNN
+	1    10150 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614A1872
+P 10150 2750
+F 0 "#PWR?" H 10150 2500 50  0001 C CNN
+F 1 "GND" V 10155 2577 50  0000 C CNN
+F 2 "" H 10150 2750 50  0001 C CNN
+F 3 "" H 10150 2750 50  0001 C CNN
+	1    10150 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614A51FB
+P 9650 2750
+F 0 "#PWR?" H 9650 2500 50  0001 C CNN
+F 1 "GND" V 9655 2577 50  0000 C CNN
+F 2 "" H 9650 2750 50  0001 C CNN
+F 3 "" H 9650 2750 50  0001 C CNN
+	1    9650 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614A643F
+P 10150 3750
+F 0 "#PWR?" H 10150 3500 50  0001 C CNN
+F 1 "GND" V 10155 3577 50  0000 C CNN
+F 2 "" H 10150 3750 50  0001 C CNN
+F 3 "" H 10150 3750 50  0001 C CNN
+	1    10150 3750
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 9650 3750
+NoConn ~ 9650 3850
+NoConn ~ 10150 3850
+Text GLabel 9650 2950 0    50   Input ~ 0
+OUT17
+Text GLabel 10150 2950 2    50   Input ~ 0
+OUT18
+Text GLabel 9650 3050 0    50   Input ~ 0
+OUT19
+Text GLabel 10150 3050 2    50   Input ~ 0
+OUT20
+Text GLabel 9650 3150 0    50   Input ~ 0
+OUT21
+Text GLabel 10150 3150 2    50   Input ~ 0
+OUT22
+Text GLabel 9650 3250 0    50   Input ~ 0
+OUT23
+Text GLabel 10150 3250 2    50   Input ~ 0
+OUT24
+Text GLabel 9650 3350 0    50   Input ~ 0
+OUT25
+Text GLabel 10150 3350 2    50   Input ~ 0
+OUT26
+Text GLabel 9650 3450 0    50   Input ~ 0
+OUT27
+Text GLabel 10150 3450 2    50   Input ~ 0
+OUT28
+Text GLabel 9650 3550 0    50   Input ~ 0
+OUT29
+Text GLabel 10150 3550 2    50   Input ~ 0
+OUT30
+Text GLabel 9650 3650 0    50   Input ~ 0
+OUT31
+Text GLabel 10150 3650 2    50   Input ~ 0
+OUT32
 $EndSCHEMATC

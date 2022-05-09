@@ -372,8 +372,13 @@
       (net 8 "OUT18") (pinfunction "AIN5/GPIO86") (pintype "bidirectional") (tstamp 57276367-9ce4-4738-88d7-6e8cb94c966c))
     (pad "P2_36" thru_hole circle locked (at 13.97 21.59 270) (size 1.408 1.408) (drill 0.9) (layers *.Cu *.Mask)
       (net 7 "unconnected-(U1-PadP2_36)") (pinfunction "AIN7(1.8V)") (pintype "power_in") (tstamp bdf40d30-88ff-4479-bad1-69529464b61b))
-    (model "D:/PB_16/PB_16v1/PB_16.step"
+    (model "D:/PB_16/PB_16v1/PB_16.step" hide
       (offset (xyz 53 43.5 -14))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
+    )
+    (model "D:/PB_16/PB_16v2_SMD/PB_16.step"
+      (offset (xyz 50 43.5 -11.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
     )
