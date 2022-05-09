@@ -78,8 +78,9 @@ I created different variants of the PB 16, to fit my specific needs.
 
 The PB16 Controller contains an expansion header. The expansion header can drive 16 additional pixel ports. I have also created addition addon boards to work with the expansion port. These Expansions will work with Kulp Controllers, but **not** Falcon Controllers.
 
-* [**16 Expansion**](16_Expansion/README.md) - 16 Port Local Expansion. Supports PB 16 (40 pins) & BBB 16 (24 pins) Connectors.
-* [**16 Expansion SMD**](16_Expansion_SMD/README.md) - 16 Port Local Expansion. Supports PB 16 (40 pins) & BBB 16 (24 pins) Connectors. This is a **Surface Mount(SMD)** Design.
+* [**16 Expansion**](16_Expansion/README.md) - 16 Port Local Expansion. Supports PB 16 (40 pins) Connectors.
+* [**16 Expansion SMD**](16_Expansion_SMD/README.md) - 16 Port Local Expansion. Supports PB 16 (40 pins) Connectors. This is a **Surface Mount(SMD)** Design.
+* [**16 Expansion SMD 24pin**](16_Expansion_SMD_24pin/README.md) - 16 Port Local Expansion. Supports BBB 16v2 (24 pins) Connectors. This is a **Surface Mount(SMD)** Design.
 * [**Diff Expansion**](Diff_Expansion/README.md) - 4 Port Remote Differential Expansion. Supports PB 16 (40 pins) & BBB 16 (24 pins) Connectors.
 * [**Multi Expansion**](Multi_Expansion/README.md) - 8 Port Local & 2 Port Remote Differential Expansion. **Only Supports PB 16 (40 pins) Connectors.**
 * [**Quad Diff Out**](Quad_Diff_Out/README.md) - 1 Port Remote Differential Expansion.
