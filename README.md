@@ -24,11 +24,11 @@ The PB 16v2 is a Surface Mount(SMD) Pocketbeagle Version with 16 pixel ports, 1 
 ![Image of PB 16v2](https://github.com/computergeek1507/PB_16/raw/master/PB_16v2_SMD/Real_PB_16v2.jpg)
 
 # [BBB 16v2](BBB_16/README.md)
-The BBB 16v2 is a BeagleBone Version with 16 pixel ports, 1 remote differential port, 2 serial ports, and an expansion header for additional 16 pixel outputs. Uses Falcon v4 (24 pine) Expansion Pinout.
+The BBB 16v2 is a BeagleBone Version with 16 pixel ports, 1 remote differential port, 2 serial ports, and an expansion header for additional 16 pixel outputs. Uses Falcon v4 (24 pin) Expansion Pinout.
 ![Image of BBB 16v2](https://github.com/computergeek1507/PB_16/raw/master/BBB_16/BBB_16.png)
 
 # [BBB 16v2 SMD](BBB_16_SMD/README.md) 
-The BBB 16v2 SMD is a Surface Mount(SMD) BeagleBone Version with 16 pixel ports, 1 remote differential port, 2 serial ports, and an expansion header for additional 16 pixel outputs. Uses Falcon v4 (24 pine) Expansion Pinout.
+The BBB 16v2 SMD is a Surface Mount(SMD) BeagleBone Version with 16 pixel ports, 1 remote differential port, 2 serial ports, and an expansion header for additional 16 pixel outputs. Uses Falcon v4 (24 pin) Expansion Pinout.
 ![Image of BBB 16v2 SMD](https://github.com/computergeek1507/PB_16/raw/master/BBB_16_SMD/BBB_16.png)
 
 ### Common Features of the PB 16v1, PB 16v2, & BBB 16v2
@@ -52,7 +52,6 @@ The BBB 16v2 SMD is a Surface Mount(SMD) BeagleBone Version with 16 pixel ports,
 * Only Supports DMX Protocol over Serial Ports.
 
 ### Features of the PB 16v2 & BBB 16v2
-* Surface Mount Assemply (SMD/SMT)
 * 1 RJ-45 Connector for a remote differential port.
 * 1 RJ-45 Connector with DMX/LOR Wiring Support.
 * Supports DMX/Renard/Lor Protocol over Serial Ports.
@@ -62,14 +61,14 @@ The BBB 16v2 SMD is a Surface Mount(SMD) BeagleBone Version with 16 pixel ports,
 
 ## Variants
 I created different variants of the PB 16, to fit my specific needs.
-* [**PB 16v1**](PB_16v1/README.md) - Original Pocketbeagle Version with 16 pixel ports, 2 serial ports and an expansion header for additional 16 pixel outputs.
-* [**PB 16v2**](PB_16v2_SMD/README.md) - Surface Mount(SMD) Pocketbeagle Version with 16 pixel ports, 1 remote differential port, 2 serial ports, and an expansion header for additional 16 pixel outputs.
-* [**BBB 16v2**](BBB_16/README.md) - Beaglebone Version with 16 pixel ports, 1 remote differential port, 2 serial ports and an expansion header for additional 16 pixel outputs. Uses Falcon v4 Expansion Pinout.
-* [**BBB 16v2 SMD**](BBB_16_SMD/README.md) - Surface Mount(SMD) Beaglebone Version with 16 pixel ports, 1 remote differential port, 2 serial ports and an expansion header for additional 16 pixel outputs. Uses Falcon v4 Expansion Pinout.
+* [**PB 16v1**](PB_16v1/README.md) - Original Pocketbeagle Version with 16 pixel ports, 2 serial ports and an expansion header(40 pins) for additional 16 pixel outputs.
+* [**PB 16v2**](PB_16v2_SMD/README.md) - **Surface Mount(SMD)** Pocketbeagle Version with 16 pixel ports, 1 remote differential port, 2 serial ports, and an expansion header(40 pins) for additional 16 pixel outputs.
+* [**BBB 16v2**](BBB_16/README.md) - Beaglebone Version with 16 pixel ports, 1 remote differential port, 2 serial ports and an expansion header for additional 16 pixel outputs. Uses Falcon v4 Expansion Pinout(24 pins).
+* [**BBB 16v2 SMD**](BBB_16_SMD/README.md) - **Surface Mount(SMD)** Beaglebone Version with 16 pixel ports, 1 remote differential port, 2 serial ports and an expansion header for additional 16 pixel outputs. Uses Falcon v4 Expansion Pinout(24 pins).
 * [**BBB 16 Flex**](BBB_16_Flex/README.md) - BBB 16 PCB to use with the HolidayCoro Flex System. This is a **Surface Mount(SMD)** Design.
 * [**BBB 16 Expansion**](BBB_16_Expansion/README.md) - BBB 16v2 PCB with Three Expansion Board Ports for 48 outputs. Uses Falcon v4 Expansion Pinout. This is a **Surface Mount(SMD)** Design.
-* [**PB 16 Expansion**](PB_16_Expansion/README.md) - Small Form Factor PB 16 with Two Expansion Board Ports for 32 outputs.
-* [**PB 16 Mini**](PB_16_Mini/README.md) - Small Form Factor PB 16 with one Expansion Board Port for 16 ouputs and two Serial Outputs.
+* [**PB 16 Expansion**](PB_16_Expansion/README.md) - Small Form Factor PB 16 with Two Expansion Board Ports(40 pins) for 32 outputs.
+* [**PB 16 Mini**](PB_16_Mini/README.md) - Small Form Factor PB 16 with one Expansion Board Port(40 pins) for 16 ouputs and two Serial Outputs.
 * [**PB 16 Flex**](PB_16_Flex/README.md) - PB 16 PCB to use with the HolidayCoro Flex System.
 <!--- * [**PB 16 E682**](PB_16_E682/README.md) - Adapter PCB to use a Pocketbeagle with a Sandevice E682. (This is a proof of concept, not designed for extended use)-->
 * [**PB 16 E682 Serial**](PB_16_E682_Serial/README.md) - Serial Output PCB to for PB 16 E682 or PB 16 Expansion.
@@ -79,6 +78,7 @@ I created different variants of the PB 16, to fit my specific needs.
 The PB16 Controller contains an expansion header. The expansion header can drive 16 additional pixel ports. I have also created addition addon boards to work with the expansion port. These Expansions will work with Kulp Controllers, but **not** Falcon Controllers.
 
 * [**16 Expansion**](16_Expansion/README.md) - 16 Port Local Expansion. Supports PB 16 (40 pins) Connectors.
+* [**16 Expansion 24pin**](16_Expansion_24pin/README.md) - 16 Port Local Expansion. Supports BBB 16v2 (24 pins) Connectors.
 * [**16 Expansion SMD**](16_Expansion_SMD/README.md) - 16 Port Local Expansion. Supports PB 16 (40 pins) Connectors. This is a **Surface Mount(SMD)** Design.
 * [**16 Expansion SMD 24pin**](16_Expansion_SMD_24pin/README.md) - 16 Port Local Expansion. Supports BBB 16v2 (24 pins) Connectors. This is a **Surface Mount(SMD)** Design.
 * [**Diff Expansion**](Diff_Expansion/README.md) - 4 Port Remote Differential Expansion. Supports PB 16 (40 pins) & BBB 16 (24 pins) Connectors.
