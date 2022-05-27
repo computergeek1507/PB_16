@@ -1,0 +1,89 @@
+Comment,Designator,Footprint,LCSC
+150 OHM,FB1,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C1015
+SN74HCT245N,"U4,U5",SN74HCT245NSR,C133641
+100uF,C2,CP_Elec_6.3x5.4_Nichicon,C134723
+DMP3056L,Q1,SOT-23,C150724
+AM26C31,U7,SOIC-16_3.9x9.9mm_P1.27mm,C157476
+OLED Select,SW2,SW_CuK_JS202011CQN_DPDT_Straight,C1731583
+Zener 5.1V,D5,D_SOD-123,C173407
+Zener 10V,D4,D_SOD-123,C173431
+100K,R4,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C17407
+10K,"R29,R30",R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C17414
+120,"R23,R24,R25,R26,R27,R28,R3",R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C17437
+1K,"R1,R2",R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C17513
+4.7K,"R5,R6",R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C17673
+VIN1 LED,"D1,D2,D3",LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C2297
+UA9638CDR,U6,SOIC-8_3.9x4.9mm_P1.27mm,C435812
+0.1uF,"C3,C4,C5,C6,C7,C8,C9",C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C49678
+TPS2051BDBVR,U8,SOT-753,C51386
+24LC256,U2,SOIC-8_3.9x4.9mm_P1.27mm,C6482
+TPD4S009DBVR,U9,SOT-23-6_Handsoldering,C88032
+3544-2,F18,FUSE_3544-2,
+Power In Right,J2,BARRIER_BLOCK_1ROW_2POS_P9.5MM,
+RTC Conn,J5,PinHeader_1x05_P2.54mm_Vertical,
+VIN Select,J6,PinHeader_1x03_P2.54mm_Vertical,
+OLED Conn,J7,PinSocket_1x04_P2.54mm_Vertical,
+VIN Voltage,J8,PinHeader_1x03_P2.54mm_Vertical,
+Expansion Header,J9,IDC-Header_2x20_P2.54mm_Vertical,
+String1,J10,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",
+String2,J11,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",
+String3,J12,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",
+String4,J13,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",
+String5,J14,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",
+String6,J15,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",
+String7,J16,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",
+3544-2,F1,FUSE_3544-2,
+3544-2,F7,FUSE_3544-2,
+3544-2,F2,FUSE_3544-2,
+3544-2,F6,FUSE_3544-2,
+3544-2,F8,FUSE_3544-2,
+3544-2,F9,FUSE_3544-2,
+3544-2,F10,FUSE_3544-2,
+3544-2,F5,FUSE_3544-2,
+3544-2,F3,FUSE_3544-2,
+3544-2,F11,FUSE_3544-2,
+3544-2,F4,FUSE_3544-2,
+Power In Left,J1,BARRIER_BLOCK_1ROW_2POS_P9.5MM,
+Aux Pwr,J3,PHOENIX_MKDS1_2-3.81,
+GPIO Header,J4,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,
+3544-2,F12,FUSE_3544-2,
+POCKETBEAGLE-SC-569,U3,BEAGLE_POCKETBEAGLE-SC-569,
+String14,J23,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",
+3544-2,F17,FUSE_3544-2,
+USB,J29,USB_A_Molex_105057_Vertical,
+String10,J19,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",
+33,R7,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+33,R9,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+33,R8,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+220uF,C1,CP_Radial_D10.0mm_P5.00mm,
+String13,J22,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",
+OKI-78SR-5,U1,Converter_DCDC_muRata_OKI-78SR_Horizontal,
+String15,J24,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",
+String16,J25,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",
+DMX1 RJ45,J26,RJ45_Amphenol_54602-x08_Horizontal,
+String11,J20,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",
+String12,J21,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",
+33,R10,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+String9,J18,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",
+3544-2,F13,FUSE_3544-2,
+3544-2,F14,FUSE_3544-2,
+3544-2,F15,FUSE_3544-2,
+3544-2,F16,FUSE_3544-2,
+String8,J17,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",
+33,R11,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+33,R12,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+33,R14,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+33,R13,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+DMX2,J28,"TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal",
+Enter BTN,SW1,SW_Push_1P1T_NO_6x6mm_H9.5mm,
+Diff Out,J27,RJ45_Amphenol_54602-x08_Horizontal,
+DMX_LOR_Select,SW4,SW_CuK_JS202011CQN_DPDT_Straight,
+Down BTN,SW3,SW_Push_1P1T_NO_6x6mm_H9.5mm,
+33,R15,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+33,R22,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+33,R17,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+33,R21,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+33,R20,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+33,R18,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+33,R16,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+33,R19,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
