@@ -34,8 +34,10 @@ Assembly Instructions are included in the manual below.
 
 ## [Manual](https://github.com/computergeek1507/PB_16/raw/master/PB_16v1/FPP%20PB16%20Pixel%20Controller%20Manual%20and%20Assembly%20Guide.pdf)
 
-## [Gerbers](https://github.com/computergeek1507/PB_16/raw/master/PB_16v1/gerbers.zip)
+## [Gerbers](https://github.com/computergeek1507/PB_16/raw/master/PB_16v1/gerbers/gerbers.zip)
 
 ## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/PB_16v1/PB16_Bom.ods)
+
+## [Interactive BOM](https://computergeek1507.github.io/PB_16/PB_16v1/bom/ibom)
 
 ## [Ordering Instructions](https://github.com/computergeek1507/PB_16/blob/master/JLC_PCB.md)
