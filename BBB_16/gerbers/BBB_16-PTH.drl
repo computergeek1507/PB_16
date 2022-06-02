@@ -1,26 +1,42 @@
 M48
-; DRILL file {KiCad (5.1.10)-1} date 11/04/21 00:22:00
+; DRILL file {KiCad (6.0.5)} date Thu Jun  2 00:44:01 2022
 ; FORMAT={-:-/ absolute / metric / decimal}
-; #@! TF.CreationDate,2021-11-04T00:22:00-04:00
-; #@! TF.GenerationSoftware,Kicad,Pcbnew,(5.1.10)-1
+; #@! TF.CreationDate,2022-06-02T00:44:01-04:00
+; #@! TF.GenerationSoftware,Kicad,Pcbnew,(6.0.5)
 ; #@! TF.FileFunction,Plated,1,2,PTH
 FMAT,2
 METRIC
+; #@! TA.AperFunction,Plated,PTH,ViaDrill
 T1C0.400
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T2C0.760
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T3C0.787
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T4C0.800
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T5C0.900
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T6C0.950
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T7C1.000
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T8C1.020
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T9C1.100
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T10C1.200
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T11C1.300
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T12C1.400
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T13C1.600
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T14C1.650
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T15C1.700
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T16C3.175
 %
 G90
