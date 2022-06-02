@@ -6,4 +6,5 @@
   (lib (name "beagleboneblack")(type "Legacy")(uri "${KIPRJMOD}/../libraries/beagleboneblack/beagleboneblack.mod")(options "")(descr ""))
   (lib (name "SN74HCT245NSR")(type "KiCad")(uri "${KIPRJMOD}/../libraries/SN74HCT245NSR/footprints.pretty")(options "")(descr ""))
   (lib (name "OKI-78SR-5")(type "KiCad")(uri "${KIPRJMOD}/../libraries/OKI-78SR-5/OKI-78SR-5.pretty")(options "")(descr ""))
+  (lib (name "Scotts")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Scotts/Scotts.pretty")(options "")(descr ""))
 )
