@@ -737,7 +737,7 @@
     )
   )
 
-  (symbol (lib_id "AM26C32IN:AM26C32IN") (at 113.157 105.664 0)
+  (symbol (lib_id "AM26C32IN:AM26C32IN") (at 113.157 105.664 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005e069391)
     (property "Reference" "U3" (id 0) (at 151.257 95.8342 0)
@@ -813,7 +813,7 @@
     (pin "8" (uuid f8d68001-bc83-49a3-9a3b-239dea0d723a))
   )
 
-  (symbol (lib_id "power:+5V") (at 189.357 105.664 0)
+  (symbol (lib_id "power:+5V") (at 189.357 105.664 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005e0716fd)
     (property "Reference" "#PWR017" (id 0) (at 189.357 109.474 0)
@@ -829,7 +829,7 @@
     (pin "1" (uuid eb0806c5-c45a-4118-8af7-e5b803fcc588))
   )
 
-  (symbol (lib_id "power:GND") (at 194.818 127.762 0)
+  (symbol (lib_id "power:GND") (at 194.818 127.762 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005e073aef)
     (property "Reference" "#PWR018" (id 0) (at 194.818 134.112 0)
@@ -845,7 +845,7 @@
     (pin "1" (uuid 7970cc01-8b67-4da3-98ee-d5692b5d0dee))
   )
 
-  (symbol (lib_id "power:GND") (at 109.982 123.444 0)
+  (symbol (lib_id "power:GND") (at 109.982 123.444 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005e074031)
     (property "Reference" "#PWR016" (id 0) (at 109.982 129.794 0)
@@ -889,7 +889,7 @@
     (pin "2" (uuid f6aa89f7-03c5-4825-bbcb-acdaec5d8155))
   )
 
-  (symbol (lib_id "power:GND") (at 222.631 114.046 0)
+  (symbol (lib_id "power:GND") (at 222.631 114.046 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005e0ac21e)
     (property "Reference" "#PWR024" (id 0) (at 222.631 120.396 0)
@@ -905,7 +905,7 @@
     (pin "1" (uuid b0fb380c-44a1-420e-8802-341f83958017))
   )
 
-  (symbol (lib_id "power:+5V") (at 222.631 106.426 0)
+  (symbol (lib_id "power:+5V") (at 222.631 106.426 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005e0ac7d2)
     (property "Reference" "#PWR023" (id 0) (at 222.631 110.236 0)
