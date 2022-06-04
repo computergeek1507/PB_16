@@ -3440,7 +3440,7 @@
     (property "Description" "IC PWR DIST SWITCH SNGL SOT23-5")
     (property "Digi-Key_PN" "296-21265-1-ND")
     (property "Family" "PMIC - Power Distribution Switches, Load Drivers")
-    (property "LCSC" "C51386")
+    (property "LCSC" "C24593")
     (property "MPN" "TPS2051BDBVR")
     (property "Manufacturer" "Texas Instruments")
     (property "Sheetfile" "USB.kicad_sch")
