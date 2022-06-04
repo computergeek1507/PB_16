@@ -19,6 +19,7 @@ UA9638CDR,U6,SOIC-8_3.9x4.9mm_P1.27mm,C435812
 TPS2051BDBVR,U8,SOT-753,C51386
 24LC256,U2,SOIC-8_3.9x4.9mm_P1.27mm,C6482
 TPD4S009DBVR,U9,SOT-23-6_Handsoldering,C88032
+220uF,C1,CP_Radial_D10.0mm_P5.00mm,C88784
 3544-2,F18,FUSE_3544-2,
 Power In Right,J2,BARRIER_BLOCK_1ROW_2POS_P9.5MM,
 RTC Conn,J5,PinHeader_1x05_P2.54mm_Vertical,
@@ -53,7 +54,6 @@ String14,J23,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",
 3544-2,F17,FUSE_3544-2,
 USB,J29,USB_A_Molex_105057_Vertical,
 String10,J19,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",
-220uF,C1,CP_Radial_D10.0mm_P5.00mm,
 String13,J22,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",
 OKI-78SR-5,U1,Universal_5V_Horizontal,
 String15,J24,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",
