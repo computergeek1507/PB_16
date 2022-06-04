@@ -2692,6 +2692,9 @@
     (property "MPN" "ECA-1HM221" (id 5) (at -56.261 88.519 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C338228" (id 6) (at 161.417 40.005 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 2af15406-cfb2-440c-a855-c7c7af84ef98))
     (pin "2" (uuid 17357e88-5811-4f4a-bde2-5913909d67e9))
   )
@@ -2779,7 +2782,7 @@
   (symbol (lib_id "PB_16-rescue:3544-2-Keystone_Fuse") (at 93.853 34.036 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005cfed4b7)
-    (property "Reference" "F1" (id 0) (at 87.757 30.226 0)
+    (property "Reference" "F18" (id 0) (at 87.757 30.226 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3544-2" (id 1) (at 90.297 32.512 0)
@@ -2810,6 +2813,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "3544-2" (id 10) (at -107.823 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C492610" (id 11) (at 93.853 34.036 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1_1" (uuid 189197ff-492e-431e-95d8-53fe3ac08d1c))
@@ -2881,7 +2887,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x20_Odd_Even") (at 243.84 57.785 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d420e83)
-    (property "Reference" "J9" (id 0) (at 244.856 31.877 0))
+    (property "Reference" "J24" (id 0) (at 244.856 31.877 0))
     (property "Value" "Expansion Header" (id 1) (at 243.84 27.559 0))
     (property "Footprint" "Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical" (id 2) (at 243.84 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2893,6 +2899,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "SBH11-PBPC-D20-ST-BK" (id 5) (at 243.84 57.785 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C9138" (id 6) (at 243.84 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f68d1fe7-5555-43aa-bd99-2212022ed491))
@@ -2956,7 +2965,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Male") (at 155.956 29.591 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d448a05)
-    (property "Reference" "J8" (id 0) (at 154.051 25.146 90)
+    (property "Reference" "J23" (id 0) (at 154.051 25.146 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VIN Voltage" (id 1) (at 152.654 27.432 90)
@@ -2972,6 +2981,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "61300311121" (id 5) (at 155.956 29.591 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C49257" (id 6) (at 155.956 29.591 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1ffab338-9bda-45ea-ba75-c81cf442e33d))
@@ -3062,7 +3074,7 @@
   (symbol (lib_id "Connector:Conn_01x05_Male") (at 100.965 83.185 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d51f129)
-    (property "Reference" "J5" (id 0) (at 103.7082 73.5076 0))
+    (property "Reference" "J25" (id 0) (at 103.7082 73.5076 0))
     (property "Value" "RTC Conn" (id 1) (at 103.7082 75.819 0))
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (id 2) (at 100.965 83.185 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3074,6 +3086,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "61300511121" (id 5) (at 100.965 83.185 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C358687" (id 6) (at 100.965 83.185 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8f8842e5-42df-4579-8521-18f83d918074))
@@ -3102,7 +3117,7 @@
   (symbol (lib_id "PB_16-rescue:3544-2-Keystone_Fuse") (at 94.615 115.316 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d532781)
-    (property "Reference" "F2" (id 0) (at 88.519 111.506 0)
+    (property "Reference" "F17" (id 0) (at 88.519 111.506 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3544-2" (id 1) (at 91.059 113.792 0)
@@ -3135,6 +3150,9 @@
     (property "MPN" "3544-2" (id 10) (at -107.061 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C492610" (id 11) (at 94.615 115.316 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1_1" (uuid 85b0b6f3-9bfd-4181-98b1-99317041331c))
     (pin "1_2" (uuid 66afcab9-70e1-4672-a9d2-67cf1c5e00c5))
     (pin "2_1" (uuid 96eb689e-77a7-4814-99f9-cd9f5439741d))
@@ -3144,7 +3162,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Female") (at 124.46 82.423 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d551e96)
-    (property "Reference" "J7" (id 0) (at 127.2032 75.184 0))
+    (property "Reference" "J26" (id 0) (at 127.2032 75.184 0))
     (property "Value" "OLED Conn" (id 1) (at 127.2032 77.4954 0))
     (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" (id 2) (at 124.46 82.423 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3156,6 +3174,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "PPTC041LFBN-RC" (id 5) (at 124.46 82.423 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C225501" (id 6) (at 124.46 82.423 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4496ca2b-5d90-46f4-84fe-9ff5bb913499))
@@ -3247,7 +3268,7 @@
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 144.526 80.137 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d584d90)
-    (property "Reference" "SW2" (id 0) (at 148.59 69.977 0))
+    (property "Reference" "SW3" (id 0) (at 148.59 69.977 0))
     (property "Value" "OLED Select" (id 1) (at 149.352 72.263 0))
     (property "Footprint" "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight" (id 2) (at 144.526 80.137 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3261,6 +3282,9 @@
     (property "MPN" "JS202011JCQN" (id 5) (at 144.526 80.137 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C221663" (id 6) (at 144.526 80.137 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b9dee70b-d401-45a9-a2d0-6c38ca0ed1e4))
     (pin "2" (uuid f07315d4-3ab4-41c3-9897-ab03fb09868b))
     (pin "3" (uuid 4bcb46ec-8c27-47c1-9662-6b0597db98ea))
@@ -3272,7 +3296,7 @@
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 152.908 90.297 0) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d585820)
-    (property "Reference" "SW2" (id 0) (at 148.59 93.091 0))
+    (property "Reference" "SW3" (id 0) (at 148.59 93.091 0))
     (property "Value" "OLED Select" (id 1) (at 148.336 95.631 0))
     (property "Footprint" "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight" (id 2) (at 152.908 90.297 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3284,6 +3308,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "JS202011JCQN" (id 5) (at 152.908 90.297 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C221663" (id 6) (at 152.908 90.297 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4713c02a-25ca-430c-bdf9-995edfb5effa))
@@ -3441,7 +3468,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 39.243 63.754 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d5b9e67)
-    (property "Reference" "J3" (id 0) (at 41.3258 58.2422 0))
+    (property "Reference" "J28" (id 0) (at 41.3258 58.2422 0))
     (property "Value" "Aux Pwr" (id 1) (at 41.3258 60.5536 0))
     (property "Footprint" "MKDS1_2-3.81:PHOENIX_MKDS1_2-3.81" (id 2) (at 39.243 63.754 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3453,6 +3480,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "1727010" (id 5) (at 39.243 63.754 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C69811" (id 6) (at 39.243 63.754 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1c58c8f6-4cfd-4581-9f20-1135f2981809))
@@ -3566,7 +3596,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Male") (at 78.486 81.534 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d67a2b5)
-    (property "Reference" "J4" (id 0) (at 81.2292 74.3966 0))
+    (property "Reference" "J27" (id 0) (at 81.2292 74.3966 0))
     (property "Value" "GPIO Header" (id 1) (at 81.2292 76.708 0))
     (property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" (id 2) (at 78.486 81.534 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3578,6 +3608,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "B4B-XH-A(LF)(SN)" (id 5) (at 78.486 81.534 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C144395" (id 6) (at 78.486 81.534 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1a63ad9b-5658-4c5d-92ef-a9717ae28c8d))
@@ -3605,7 +3638,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Male") (at 112.649 26.924 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d6bd21e)
-    (property "Reference" "J6" (id 0) (at 108.839 36.068 90)
+    (property "Reference" "J29" (id 0) (at 108.839 36.068 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VIN Select" (id 1) (at 107.823 38.1 90)
@@ -3621,6 +3654,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "61300311121" (id 5) (at 112.649 26.924 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C49257" (id 6) (at 112.649 26.924 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e791ba35-583c-4136-b19e-1d9f578f4e66))
@@ -3851,6 +3887,9 @@
     (property "MPN" "PTS645SL50SMTR92 LFS" (id 5) (at 131.826 119.253 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C127509" (id 6) (at 131.826 119.253 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 04e76c39-7875-425c-b903-c0dedda2920e))
     (pin "2" (uuid 48a05107-09b7-44a2-94b9-d856a0b72774))
   )
@@ -3858,7 +3897,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 148.336 118.999 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d94d363)
-    (property "Reference" "SW3" (id 0) (at 152.0952 117.8306 90)
+    (property "Reference" "SW2" (id 0) (at 152.0952 117.8306 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Down BTN" (id 1) (at 152.0952 120.142 90)
@@ -3874,6 +3913,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "PTS645SL50SMTR92 LFS" (id 5) (at 148.336 118.999 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C127509" (id 6) (at 148.336 118.999 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5d6514fe-1098-47f1-8e17-062cde14a948))
@@ -4044,7 +4086,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 38.608 33.401 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005ecf36b3)
-    (property "Reference" "J1" (id 0) (at 40.6908 25.146 0))
+    (property "Reference" "J17" (id 0) (at 40.6908 25.146 0))
     (property "Value" "Power In Left" (id 1) (at 40.6908 27.4574 0))
     (property "Footprint" "Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS_P9.5MM" (id 2) (at 38.608 33.401 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4058,6 +4100,9 @@
     (property "MPN" "OSTYK51102030" (id 5) (at 38.608 33.401 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C707421" (id 6) (at 38.608 33.401 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e1507edd-64ae-42c6-ae19-0017b6d45c19))
     (pin "2" (uuid e97133e3-9571-4a38-915a-3f48ce791e38))
   )
@@ -4065,7 +4110,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 38.862 46.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005ecf4c8a)
-    (property "Reference" "J2" (id 0) (at 40.9448 41.4782 0))
+    (property "Reference" "J18" (id 0) (at 40.9448 41.4782 0))
     (property "Value" "Power In Right" (id 1) (at 40.9448 43.7896 0))
     (property "Footprint" "Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS_P9.5MM" (id 2) (at 38.862 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4077,6 +4122,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "OSTYK51102030" (id 5) (at 38.862 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C707421" (id 6) (at 38.862 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid aa5cbf55-0329-4c60-8123-931347d38698))
@@ -4456,149 +4504,149 @@
     (path "/00000000-0000-0000-0000-00005d4107cf"
       (reference "D5") (unit 1) (value "Zener 5.1V") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00005cfed4b7"
+    (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfc1c"
       (reference "F1") (unit 1) (value "3544-2") (footprint "Keystone_Fuse:FUSE_3544-2")
     )
-    (path "/00000000-0000-0000-0000-00005d532781"
+    (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfb8b"
       (reference "F2") (unit 1) (value "3544-2") (footprint "Keystone_Fuse:FUSE_3544-2")
     )
-    (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfc1c"
+    (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfb98"
       (reference "F3") (unit 1) (value "3544-2") (footprint "Keystone_Fuse:FUSE_3544-2")
     )
-    (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfb8b"
+    (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfba5"
       (reference "F4") (unit 1) (value "3544-2") (footprint "Keystone_Fuse:FUSE_3544-2")
     )
-    (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfb98"
+    (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfbb2"
       (reference "F5") (unit 1) (value "3544-2") (footprint "Keystone_Fuse:FUSE_3544-2")
     )
-    (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfba5"
+    (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfbbf"
       (reference "F6") (unit 1) (value "3544-2") (footprint "Keystone_Fuse:FUSE_3544-2")
     )
-    (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfbb2"
+    (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfbcc"
       (reference "F7") (unit 1) (value "3544-2") (footprint "Keystone_Fuse:FUSE_3544-2")
     )
-    (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfbbf"
+    (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfbd9"
       (reference "F8") (unit 1) (value "3544-2") (footprint "Keystone_Fuse:FUSE_3544-2")
     )
-    (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfbcc"
+    (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e3b01"
       (reference "F9") (unit 1) (value "3544-2") (footprint "Keystone_Fuse:FUSE_3544-2")
     )
-    (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfbd9"
+    (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e3a70"
       (reference "F10") (unit 1) (value "3544-2") (footprint "Keystone_Fuse:FUSE_3544-2")
     )
-    (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e3b01"
+    (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e3a7d"
       (reference "F11") (unit 1) (value "3544-2") (footprint "Keystone_Fuse:FUSE_3544-2")
     )
-    (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e3a70"
+    (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e3a8a"
       (reference "F12") (unit 1) (value "3544-2") (footprint "Keystone_Fuse:FUSE_3544-2")
     )
-    (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e3a7d"
+    (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e3a97"
       (reference "F13") (unit 1) (value "3544-2") (footprint "Keystone_Fuse:FUSE_3544-2")
     )
-    (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e3a8a"
+    (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e3aa4"
       (reference "F14") (unit 1) (value "3544-2") (footprint "Keystone_Fuse:FUSE_3544-2")
     )
-    (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e3a97"
+    (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e3ab1"
       (reference "F15") (unit 1) (value "3544-2") (footprint "Keystone_Fuse:FUSE_3544-2")
     )
-    (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e3aa4"
+    (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e3abe"
       (reference "F16") (unit 1) (value "3544-2") (footprint "Keystone_Fuse:FUSE_3544-2")
     )
-    (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e3ab1"
+    (path "/00000000-0000-0000-0000-00005d532781"
       (reference "F17") (unit 1) (value "3544-2") (footprint "Keystone_Fuse:FUSE_3544-2")
     )
-    (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e3abe"
+    (path "/00000000-0000-0000-0000-00005cfed4b7"
       (reference "F18") (unit 1) (value "3544-2") (footprint "Keystone_Fuse:FUSE_3544-2")
     )
     (path "/00000000-0000-0000-0000-00005d648680/00000000-0000-0000-0000-00005d6541a3"
       (reference "FB1") (unit 1) (value "150 OHM") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00005ecf36b3"
-      (reference "J1") (unit 1) (value "Power In Left") (footprint "Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS_P9.5MM")
-    )
-    (path "/00000000-0000-0000-0000-00005ecf4c8a"
-      (reference "J2") (unit 1) (value "Power In Right") (footprint "Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS_P9.5MM")
-    )
-    (path "/00000000-0000-0000-0000-00005d5b9e67"
-      (reference "J3") (unit 1) (value "Aux Pwr") (footprint "MKDS1_2-3.81:PHOENIX_MKDS1_2-3.81")
-    )
-    (path "/00000000-0000-0000-0000-00005d67a2b5"
-      (reference "J4") (unit 1) (value "GPIO Header") (footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-00005d51f129"
-      (reference "J5") (unit 1) (value "RTC Conn") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-00005d6bd21e"
-      (reference "J6") (unit 1) (value "VIN Select") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-00005d551e96"
-      (reference "J7") (unit 1) (value "OLED Conn") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-00005d448a05"
-      (reference "J8") (unit 1) (value "VIN Voltage") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-00005d420e83"
-      (reference "J9") (unit 1) (value "Expansion Header") (footprint "Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical")
-    )
     (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfad7"
-      (reference "J10") (unit 1) (value "String1") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J1") (unit 1) (value "String1") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfadf"
-      (reference "J11") (unit 1) (value "String2") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J2") (unit 1) (value "String2") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfae7"
-      (reference "J12") (unit 1) (value "String3") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J3") (unit 1) (value "String3") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfaef"
-      (reference "J13") (unit 1) (value "String4") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J4") (unit 1) (value "String4") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfaf7"
-      (reference "J14") (unit 1) (value "String5") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J5") (unit 1) (value "String5") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfaff"
-      (reference "J15") (unit 1) (value "String6") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J6") (unit 1) (value "String6") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfb07"
-      (reference "J16") (unit 1) (value "String7") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J7") (unit 1) (value "String7") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfb0f"
-      (reference "J17") (unit 1) (value "String8") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J8") (unit 1) (value "String8") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e39bc"
-      (reference "J18") (unit 1) (value "String9") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J9") (unit 1) (value "String9") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e39c4"
-      (reference "J19") (unit 1) (value "String10") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J10") (unit 1) (value "String10") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e39cc"
-      (reference "J20") (unit 1) (value "String11") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J11") (unit 1) (value "String11") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e39d4"
-      (reference "J21") (unit 1) (value "String12") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J12") (unit 1) (value "String12") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e39dc"
-      (reference "J22") (unit 1) (value "String13") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J13") (unit 1) (value "String13") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e39e4"
-      (reference "J23") (unit 1) (value "String14") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J14") (unit 1) (value "String14") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e39ec"
-      (reference "J24") (unit 1) (value "String15") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J15") (unit 1) (value "String15") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e39f4"
-      (reference "J25") (unit 1) (value "String16") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J16") (unit 1) (value "String16") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
     )
-    (path "/00000000-0000-0000-0000-00005d469f02/00000000-0000-0000-0000-00005d9f78f3"
-      (reference "J26") (unit 1) (value "DMX1 RJ45") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
+    (path "/00000000-0000-0000-0000-00005ecf36b3"
+      (reference "J17") (unit 1) (value "Power In Left") (footprint "Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS_P9.5MM")
     )
-    (path "/00000000-0000-0000-0000-00005d469f02/00000000-0000-0000-0000-00005d9f7924"
-      (reference "J27") (unit 1) (value "Diff Out") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
-    )
-    (path "/00000000-0000-0000-0000-00005d469f02/00000000-0000-0000-0000-00005d54db51"
-      (reference "J28") (unit 1) (value "DMX2") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal")
+    (path "/00000000-0000-0000-0000-00005ecf4c8a"
+      (reference "J18") (unit 1) (value "Power In Right") (footprint "Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS_P9.5MM")
     )
     (path "/00000000-0000-0000-0000-00005d648680/00000000-0000-0000-0000-00005d65169f"
-      (reference "J29") (unit 1) (value "USB") (footprint "Connector_USB:USB_A_Molex_105057_Vertical")
+      (reference "J19") (unit 1) (value "USB") (footprint "Connector_USB:USB_A_Molex_105057_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005d469f02/00000000-0000-0000-0000-00005d9f78f3"
+      (reference "J20") (unit 1) (value "DMX1 RJ45") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-00005d469f02/00000000-0000-0000-0000-00005d9f7924"
+      (reference "J21") (unit 1) (value "Diff Out") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-00005d469f02/00000000-0000-0000-0000-00005d54db51"
+      (reference "J22") (unit 1) (value "DMX2") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-00005d448a05"
+      (reference "J23") (unit 1) (value "VIN Voltage") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005d420e83"
+      (reference "J24") (unit 1) (value "Expansion Header") (footprint "Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005d51f129"
+      (reference "J25") (unit 1) (value "RTC Conn") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005d551e96"
+      (reference "J26") (unit 1) (value "OLED Conn") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005d67a2b5"
+      (reference "J27") (unit 1) (value "GPIO Header") (footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005d5b9e67"
+      (reference "J28") (unit 1) (value "Aux Pwr") (footprint "MKDS1_2-3.81:PHOENIX_MKDS1_2-3.81")
+    )
+    (path "/00000000-0000-0000-0000-00005d6bd21e"
+      (reference "J29") (unit 1) (value "VIN Select") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005ecaef74"
       (reference "Q1") (unit 1) (value "DMP3056L") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -4696,14 +4744,14 @@
     (path "/00000000-0000-0000-0000-00005d94c2d3"
       (reference "SW1") (unit 1) (value "Enter BTN") (footprint "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm")
     )
+    (path "/00000000-0000-0000-0000-00005d94d363"
+      (reference "SW2") (unit 1) (value "Down BTN") (footprint "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm")
+    )
     (path "/00000000-0000-0000-0000-00005d584d90"
-      (reference "SW2") (unit 1) (value "OLED Select") (footprint "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight")
+      (reference "SW3") (unit 1) (value "OLED Select") (footprint "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight")
     )
     (path "/00000000-0000-0000-0000-00005d585820"
-      (reference "SW2") (unit 2) (value "OLED Select") (footprint "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight")
-    )
-    (path "/00000000-0000-0000-0000-00005d94d363"
-      (reference "SW3") (unit 1) (value "Down BTN") (footprint "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm")
+      (reference "SW3") (unit 2) (value "OLED Select") (footprint "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight")
     )
     (path "/00000000-0000-0000-0000-00005d469f02/00000000-0000-0000-0000-00005f2df31c"
       (reference "SW4") (unit 1) (value "DMX_LOR_Select") (footprint "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight")
