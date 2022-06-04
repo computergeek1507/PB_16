@@ -718,7 +718,7 @@
     (property "Digi-Key_PN" "296-21265-1-ND" (id 12) (at 124.46 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C51386" (id 13) (at 124.46 82.55 0)
+    (property "LCSC" "C24593" (id 13) (at 124.46 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b6ad0dc3-acb3-4fd6-88f7-d490b2112736))
