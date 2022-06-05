@@ -1,0 +1,80 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,0.1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,122.501,-103.7778,90.0,top
+C2,0.1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,181.901,-103.7978,90.0,top
+C3,10uF,CP_Elec_4x5.3,186.751,-96.8178,0.0,top
+D3,VIN1 LED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,72.601,-122.831,-90.0,top
+D4,VIN2 LED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,216.401,-122.831,-90.0,top
+D5,5V LED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,191.101,-102.8178,180.0,top
+F1,3544-2,FUSE_3544-2,94.2226,-144.3386,90.0,top
+F2,3544-2,FUSE_3544-2,100.923033,-144.3536,90.0,top
+F3,3544-2,FUSE_3544-2,107.623466,-144.3536,90.0,top
+F4,3544-2,FUSE_3544-2,114.323899,-144.3536,90.0,top
+F5,3544-2,FUSE_3544-2,121.024332,-144.3486,90.0,top
+F6,3544-2,FUSE_3544-2,127.724765,-144.3486,90.0,top
+F7,3544-2,FUSE_3544-2,134.425198,-144.3486,90.0,top
+F8,3544-2,FUSE_3544-2,141.125631,-144.3486,90.0,top
+F9,3544-2,FUSE_3544-2,147.826064,-144.3486,90.0,top
+F10,3544-2,FUSE_3544-2,154.526497,-144.3486,90.0,top
+F11,3544-2,FUSE_3544-2,161.22693,-144.3486,90.0,top
+F12,3544-2,FUSE_3544-2,167.927363,-144.3486,90.0,top
+F13,3544-2,FUSE_3544-2,174.627796,-144.4136,90.0,top
+F14,3544-2,FUSE_3544-2,181.328229,-144.4136,90.0,top
+F15,3544-2,FUSE_3544-2,188.028662,-144.4136,90.0,top
+F16,3544-2,FUSE_3544-2,194.7291,-144.4136,90.0,top
+J1,String1,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",89.1,-116.6,0.0,top
+J2,String2,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",89.1,-129.6,0.0,top
+J3,String3,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",104.1,-116.6,0.0,top
+J4,String4,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",104.1,-129.6,0.0,top
+J5,String5,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",119.1,-116.6,0.0,top
+J6,String6,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",119.214342,-129.6,0.0,top
+J7,String7,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",134.1,-116.6,0.0,top
+J8,String8,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",134.1,-129.6,0.0,top
+J9,String9,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",149.1,-116.6,0.0,top
+J10,String10,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",149.1,-129.6,0.0,top
+J11,String11,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",164.1,-116.6,0.0,top
+J12,String12,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",164.1,-129.6,0.0,top
+J13,String13,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",179.1,-116.6,0.0,top
+J14,String14,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",179.1,-129.6,0.0,top
+J15,String15,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",194.1,-116.6,0.0,top
+J16,String16,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",194.1,-129.6,0.0,top
+J17,Power In Left,BARRIER_BLOCK_1ROW_2POS_P9.5MM,91.301,-137.4178,180.0,top
+J18,Power In Right,BARRIER_BLOCK_1ROW_2POS_P9.5MM,197.701,-153.5178,0.0,top
+J19,Expansion Header,IDC-Header_2x20_P2.54mm_Vertical,99.941,-87.0078,90.0,top
+J20,v4 Input,OST_302-S241,173.131,-85.9178,90.0,top
+R1,1K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,72.601,-128.392,-90.0,top
+R2,1K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,216.401,-128.392,-90.0,top
+R3,330,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,195.191,-102.8078,180.0,top
+R4,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,100.691,-108.8178,180.0,top
+R5,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,106.161,-108.8178,180.0,top
+R6,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,109.651,-108.8178,180.0,top
+R7,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,113.051,-108.8178,0.0,top
+R8,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,117.231,-108.8178,0.0,top
+R9,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,123.251,-108.8178,0.0,top
+R10,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,127.391,-108.8178,0.0,top
+R11,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,133.301,-108.8178,0.0,top
+R12,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,155.651,-109.3178,180.0,top
+R13,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,164.851,-109.3678,180.0,top
+R14,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,168.251,-109.3678,180.0,top
+R15,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,171.651,-109.3678,0.0,top
+R16,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,175.051,-109.3678,0.0,top
+R17,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,179.151,-109.3678,0.0,top
+R18,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,184.551,-109.3178,0.0,top
+R19,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,188.401,-109.3178,0.0,top
+R20,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,105.031,-79.2778,90.0,top
+R21,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,107.591,-79.2778,90.0,top
+R22,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,110.081,-79.2778,90.0,top
+R23,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,112.641,-79.2778,90.0,top
+R24,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,115.161,-79.2778,90.0,top
+R25,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,117.721,-79.2778,90.0,top
+R26,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,120.241,-79.2778,90.0,top
+R27,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,122.811,-79.2778,90.0,top
+R28,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,125.341,-79.2778,90.0,top
+R29,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,127.881,-79.2778,90.0,top
+R30,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,130.421,-79.2778,90.0,top
+R31,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,132.961,-79.2778,90.0,top
+R32,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,135.481,-79.2778,90.0,top
+R33,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,138.041,-79.2778,90.0,top
+R34,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,140.611,-79.2778,90.0,top
+R35,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,143.131,-79.2778,90.0,top
+U1,74HC245,SOIC-20W_7.5x12.8mm_P1.27mm,114.101,-100.0178,180.0,top
+U2,74HC245,SOIC-20W_7.5x12.8mm_P1.27mm,173.301,-100.0178,180.0,top

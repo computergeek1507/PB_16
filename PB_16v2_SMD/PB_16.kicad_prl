@@ -38,7 +38,6 @@
       8,
       9,
       10,
-      11,
       12,
       13,
       14,
@@ -64,8 +63,8 @@
       35,
       36
     ],
-    "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 1
+    "visible_layers": "fffffdf_ffffffff",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "PB_16.kicad_prl",
