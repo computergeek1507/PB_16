@@ -1,0 +1,18 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,Expansion Header,PinSocket_2x20_P2.54mm_Vertical,171.1,-112.69,-90.0,top
+R1,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,166.03,-106.5875,90.0,bottom
+R2,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,163.488,-106.5875,90.0,bottom
+R3,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,160.946,-106.5875,90.0,bottom
+R4,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,158.404,-106.5875,90.0,bottom
+R5,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,155.862,-106.5875,90.0,bottom
+R6,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,153.32,-106.5875,90.0,bottom
+R7,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,150.778,-106.5875,90.0,bottom
+R8,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,148.236,-106.5875,90.0,bottom
+R9,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,145.694,-106.5875,90.0,bottom
+R10,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,143.152,-106.5875,90.0,bottom
+R11,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,140.61,-106.5875,90.0,bottom
+R12,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,138.068,-106.5875,90.0,bottom
+R13,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,135.526,-106.5875,90.0,bottom
+R14,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,132.984,-106.5875,90.0,bottom
+R15,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,130.442,-106.5875,90.0,bottom
+R16,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,127.9,-106.5875,90.0,bottom
