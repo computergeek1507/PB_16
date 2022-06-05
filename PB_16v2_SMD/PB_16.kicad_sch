@@ -4028,7 +4028,7 @@
     (property "MPN" "RC0805FR-07100KL" (id 5) (at 127.762 45.466 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C17407" (id 6) (at 127.762 45.466 0)
+    (property "LCSC" "C96346" (id 6) (at 127.762 45.466 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a165826f-c22f-496c-9a13-d09e7ada5a88))
