@@ -6,8 +6,8 @@
 
   (title_block
     (title "PB 16")
-    (date "2022-05-26")
-    (rev "v2.1")
+    (date "2022-06-05")
+    (rev "v2.2")
     (company "Scott Hanson")
   )
 
@@ -1288,13 +1288,13 @@
     (property "Datasheet" "~" (id 3) (at 69.977 69.596 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digi-Key_PN" "1276-1007-1-ND" (id 4) (at 69.977 69.596 0)
+    (property "Digi-Key_PN" "1276-1935-2-ND" (id 4) (at 69.977 69.596 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "CL21F104ZBCNNNC" (id 5) (at 69.977 69.596 0)
+    (property "MPN" "CL10B104KB8NNWC" (id 5) (at 69.977 69.596 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C49678" (id 6) (at 69.977 69.596 0)
+    (property "LCSC" "C14663" (id 6) (at 69.977 69.596 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1a4563f7-25ff-4f1a-86aa-191702bfa5ea))
