@@ -1,5 +1,5 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-C1,220uF,CP_Radial_D10.0mm_P5.00mm,186.716,-66.801677,90.0,top
+C1,220uF,CP_Radial_D10.0mm_P5.00mm,185.616,-66.801677,90.0,top
 C2,100uF,CP_Elec_6.3x5.4_Nichicon,217.816,-60.734,0.0,top
 C3,0.1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,193.6466,-85.0588,90.0,top
 C4,0.1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,214.416,-72.434,0.0,top
