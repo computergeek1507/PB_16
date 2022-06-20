@@ -12,7 +12,7 @@ J2,Output 2,OST_302-S241,171.516,-135.734,0.0,top
 J3,Output 3,OST_302-S241,210.316,-135.6565,0.0,top
 J4,RTC Conn,PinHeader_1x05_P2.54mm_Vertical,236.591,-69.334,-90.0,top
 J5,OLED Conn,OLED-SSD1306-128X64-I2C-THT,200.66,-98.044,180.0,top
-J6,Pwr In,"TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",156.216,-60.834,180.0,top
+J6,Pwr In,PHOENIX_MKDS1_2-3.81,154.326853,-60.834,180.0,top
 J7,DMX1,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",145.916,-108.334,-90.0,top
 J8,DMX2,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",145.8735,-121.2515,-90.0,top
 J10,VIN Voltage,PinHeader_1x03_P2.54mm_Vertical,177.116,-65.821041,180.0,top
