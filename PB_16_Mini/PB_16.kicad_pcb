@@ -399,7 +399,7 @@
       (net 1 GND))
     (pad 1 thru_hole circle (at -1.90556 0.050459 90) (size 1.904 1.904) (drill 1.1) (layers *.Cu *.Mask)
       (net 7 VIN1))
-    (model "${GIT_MODELS}/2Pin Blue.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/2Pin Blue.step"
       (offset (xyz 3.5 3.5 0))
       (scale (xyz 0.7 0.7 0.7))
       (rotate (xyz 0 0 90))
@@ -1011,7 +1011,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${GIT_MODELS}/RJ45.step
+    (model ${KIPRJMOD}/../libraries/3D_Models/RJ45.step
       (offset (xyz -3.3 3.75 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1666,7 +1666,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${GIT_MODELS}/RJ45.step
+    (model ${KIPRJMOD}/../libraries/3D_Models/RJ45.step
       (offset (xyz -3.3 3.75 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1875,7 +1875,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${GIT_MODELS}/USB.step
+    (model ${KIPRJMOD}/../libraries/3D_Models/USB.step
       (offset (xyz -3 -1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1915,12 +1915,12 @@
       (net 6 /VIN))
     (pad 1_2 thru_hole circle (at -2.25 0 270) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 7 VIN1))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/MINI Blade Type.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
       (offset (xyz 0 0 9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))

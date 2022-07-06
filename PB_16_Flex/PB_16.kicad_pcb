@@ -1059,7 +1059,7 @@
       (net 47 "OUT31") (tstamp 4098eb0c-ba54-41a5-a7a1-d882edb2af18))
     (pad "24" thru_hole circle locked (at 13.97 -1.27) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask)
       (net 46 "OUT32") (tstamp e24c7193-8011-48a9-98ea-cfad1493de1e))
-    (model "${GIT_MODELS}/TST-112-01-G-D.stp"
+    (model "${KIPRJMOD}/../libraries/3D_Models/TST-112-01-G-D.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -1171,7 +1171,7 @@
       (net 15 "OUT15") (tstamp 09a7adcd-3ee2-4d56-b698-c23d2ff0334a))
     (pad "24" thru_hole circle locked (at 13.97 -1.27) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask)
       (net 14 "OUT16") (tstamp 8e170488-1fa2-4733-bf6c-5b3465f41d2e))
-    (model "${GIT_MODELS}/TST-112-01-G-D.stp"
+    (model "${KIPRJMOD}/../libraries/3D_Models/TST-112-01-G-D.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -4695,7 +4695,7 @@
       (net 1 "GND") (tstamp 41306ddc-48a0-4422-8c2d-5c8efeeba9f8))
     (pad "5" thru_hole circle locked (at 10.07 2.71 90) (size 3 3) (drill 2.3) (layers *.Cu *.Mask)
       (net 1 "GND") (tstamp f0190090-2439-4362-adb9-15e10c7cfa98))
-    (model "${GIT_MODELS}/usb_A.wrl"
+    (model "${KIPRJMOD}/../libraries/3D_Models/usb_A.wrl"
       (offset (xyz 3.5 -6 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5056,7 +5056,7 @@
       (net 66 "Net-(U1-PadP2_35)") (tstamp e3ae7608-5064-4097-808f-fcea005e5c82))
     (pad "P2_36" thru_hole circle locked (at 13.97 21.59 90) (size 1.408 1.408) (drill 0.9) (layers *.Cu *.Mask)
       (net 65 "Net-(U1-PadP2_36)") (tstamp d8edfae1-349f-4481-a45f-c682b2cac9e6))
-    (model "${GIT_MODELS}/PocketBeagle.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/PocketBeagle.step"
       (offset (xyz -17.5 27.5 5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))

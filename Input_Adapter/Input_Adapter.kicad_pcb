@@ -2821,7 +2821,7 @@
       (net 35 "unconnected-(J2-Pad23)") (pinfunction "Pin_23") (pintype "passive+no_connect") (tstamp ec2e3d8a-128c-4be8-b432-9738bca934ae))
     (pad "24" thru_hole circle (at 13.97 -1.27) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask)
       (net 36 "unconnected-(J2-Pad24)") (pinfunction "Pin_24") (pintype "passive+no_connect") (tstamp 08da8f18-02c3-4a28-a400-670f01755980))
-    (model "${GIT_MODELS}/TST-112-01-G-D.stp"
+    (model "${KIPRJMOD}/../libraries/3D_Models/TST-112-01-G-D.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))

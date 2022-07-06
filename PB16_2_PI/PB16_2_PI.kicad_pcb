@@ -612,7 +612,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/RaspberryPiZeroW.IGS"
+    (model "${KIPRJMOD}/../libraries/3D_Models/RaspberryPiZeroW.IGS"
       (offset (xyz 10.55 -24.2 -2.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 90))

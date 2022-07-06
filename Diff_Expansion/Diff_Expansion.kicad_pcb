@@ -1205,7 +1205,7 @@
       (net 1 GND))
     (pad 1 thru_hole rect (at -13.97 1.27) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${GIT_MODELS}/TST-112-01-G-D.stp
+    (model ${KIPRJMOD}/../libraries/3D_Models/TST-112-01-G-D.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -1741,7 +1741,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${GIT_MODELS}/RJ45.step
+    (model ${KIPRJMOD}/../libraries/3D_Models/RJ45.step
       (offset (xyz -3.3 3.7 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1801,7 +1801,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${GIT_MODELS}/RJ45.step
+    (model ${KIPRJMOD}/../libraries/3D_Models/RJ45.step
       (offset (xyz -3.3 3.7 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1861,7 +1861,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${GIT_MODELS}/RJ45.step
+    (model ${KIPRJMOD}/../libraries/3D_Models/RJ45.step
       (offset (xyz -3.3 3.7 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1921,7 +1921,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${GIT_MODELS}/RJ45.step
+    (model ${KIPRJMOD}/../libraries/3D_Models/RJ45.step
       (offset (xyz -3.3 3.7 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

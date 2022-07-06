@@ -521,7 +521,7 @@
       (net 4 "/OLED_Pin_3") (pinfunction "Pin_3") (pintype "passive") (tstamp ef8fe2ac-6a7f-4682-9418-b801a1b10a3b))
     (pad "4" thru_hole circle locked (at -3.8 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 3 "/OLED_Pin_4") (pinfunction "Pin_4") (pintype "passive") (tstamp 44d8279a-9cd1-4db6-856f-0363131605fc))
-    (model "${GIT_MODELS}/OLED-128x64-0.96.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/OLED-128x64-0.96.step"
       (offset (xyz 34.3 -7.2 4))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1441,7 +1441,7 @@
       (net 7 "+3V3") (pinfunction "Pin_23") (pintype "passive") (tstamp b0906e10-2fbc-4309-a8b4-6fc4cd1a5490))
     (pad "24" thru_hole circle locked (at 13.97 -1.27) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask)
       (net 66 "unconnected-(J2-Pad24)") (pinfunction "Pin_24") (pintype "passive") (tstamp 0e8f7fc0-2ef2-4b90-9c15-8a3a601ee459))
-    (model "${GIT_MODELS}/TST-112-01-G-D.stp"
+    (model "${KIPRJMOD}/../libraries/3D_Models/TST-112-01-G-D.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -1535,7 +1535,7 @@
       (net 7 "+3V3") (pinfunction "Pin_23") (pintype "passive") (tstamp 994b6220-4755-4d84-91b3-6122ac1c2c5e))
     (pad "24" thru_hole circle locked (at 13.97 -1.27 270) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask)
       (net 65 "unconnected-(J1-Pad24)") (pinfunction "Pin_24") (pintype "passive") (tstamp 097edb1b-8998-4e70-b670-bba125982348))
-    (model "${GIT_MODELS}/TST-112-01-G-D.stp"
+    (model "${KIPRJMOD}/../libraries/3D_Models/TST-112-01-G-D.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -1629,7 +1629,7 @@
       (net 7 "+3V3") (pinfunction "Pin_23") (pintype "passive") (tstamp 0f31f11f-c374-4640-b9a4-07bbdba8d354))
     (pad "24" thru_hole circle locked (at 13.97 -1.27) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask)
       (net 67 "unconnected-(J3-Pad24)") (pinfunction "Pin_24") (pintype "passive") (tstamp 18b7e157-ae67-48ad-bd7c-9fef6fe45b22))
-    (model "${GIT_MODELS}/TST-112-01-G-D.stp"
+    (model "${KIPRJMOD}/../libraries/3D_Models/TST-112-01-G-D.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -1852,7 +1852,7 @@
       (net 1 "GND") (pinfunction "DGND") (pintype "bidirectional") (tstamp c332fa55-4168-4f55-88a5-f82c7c21040b))
     (pad "M2" thru_hole circle locked (at 28.575 -24.13) (size 4.572 4.572) (drill 3.175) (layers *.Cu *.Mask "F.SilkS") (tstamp bd065eaf-e495-4837-bdb3-129934de1fc7))
     (pad "M3" thru_hole circle locked (at 28.575 24.13) (size 4.572 4.572) (drill 3.175) (layers *.Cu *.Mask "F.SilkS") (tstamp 5bcace5d-edd0-4e19-92d0-835e43cf8eb2))
-    (model "${GIT_MODELS}/BEAGLEBONE_BLACK.STEP"
+    (model "${KIPRJMOD}/../libraries/3D_Models/BEAGLEBONE_BLACK.STEP"
       (offset (xyz 43.2 27.3 -10.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -2290,12 +2290,12 @@
       (net 71 "/VIN") (pinfunction "2") (pintype "passive") (tstamp bc0dbc57-3ae8-4ce5-a05c-2d6003bba475))
     (pad "2_2" thru_hole circle (at 5.95 0) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 71 "/VIN") (pinfunction "2") (pintype "passive") (tstamp 0520f61d-4522-4301-a3fa-8ed0bf060f69))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.iges"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.iges"
       (offset (xyz 0 -2.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/MINI Blade Type.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
       (offset (xyz 0 0 9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -2723,7 +2723,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/iflight 12v BEC.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/iflight 12v BEC.step"
       (offset (xyz 1.8 -8.5 -1))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))

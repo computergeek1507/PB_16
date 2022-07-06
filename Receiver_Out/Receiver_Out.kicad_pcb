@@ -3352,7 +3352,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/PWR Conn.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/PWR Conn.step"
       (offset (xyz 9.5 4.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -3952,12 +3952,12 @@
       (net 15 "/Outputs/VOUT2") (tstamp 9c806721-7d5a-42c8-a49c-4a23e114157e))
     (pad "2_2" thru_hole circle locked (at 5.95 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 15 "/Outputs/VOUT2") (tstamp 014dad1d-7916-4a04-8d91-3e3ad80086e8))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2.35 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/MINI Blade Type.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
       (offset (xyz 0 0 9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -4001,12 +4001,12 @@
       (net 17 "/Outputs/VOUT4") (tstamp 667b11ec-c9da-4fc8-9c2b-5e75e6ae5f5d))
     (pad "2_2" thru_hole circle locked (at 5.95 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 17 "/Outputs/VOUT4") (tstamp eae1f9ea-6aaf-4afc-b5db-baa88c6146d4))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2.35 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/MINI Blade Type.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
       (offset (xyz 0 0 9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -4050,12 +4050,12 @@
       (net 14 "/Outputs/VOUT1") (tstamp a00c722c-e0c7-4642-a53b-5b5303e67f2e))
     (pad "2_2" thru_hole circle locked (at 5.95 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 14 "/Outputs/VOUT1") (tstamp eacf43ef-5c52-4c96-a6bc-f3c697cfe03a))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2.35 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/MINI Blade Type.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
       (offset (xyz 0 0 9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -4099,12 +4099,12 @@
       (net 16 "/Outputs/VOUT3") (tstamp d195ed73-e68f-4b51-afdd-2902bad99af5))
     (pad "2_2" thru_hole circle locked (at 5.95 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 16 "/Outputs/VOUT3") (tstamp 90f3accc-fb6c-4078-b604-516d3d250def))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2.35 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/MINI Blade Type.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
       (offset (xyz 0 0 9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -4910,7 +4910,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/RJ45.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/RJ45.step"
       (offset (xyz -3.3 3.8 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

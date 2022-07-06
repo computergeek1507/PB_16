@@ -334,7 +334,7 @@
       (net 4 "/OLED_Pin_3") (tstamp 173cee02-2453-414c-901f-838b8619489f))
     (pad "4" thru_hole circle locked (at -3.8 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 3 "/OLED_Pin_4") (tstamp f397750e-c7a2-45fa-ab87-de6111051bba))
-    (model "${GIT_MODELS}/OLED-128x64-0.96.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/OLED-128x64-0.96.step"
       (offset (xyz 34.3 -7.2 4))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4313,7 +4313,7 @@
       (net 32 "OUT31") (tstamp e400b632-8263-4b6b-9097-5a848601245f))
     (pad "24" thru_hole circle locked (at 13.97 -1.27) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask)
       (net 31 "OUT32") (tstamp 9a1968d6-4d8d-4e1e-bc0d-1d6eebec9489))
-    (model "${GIT_MODELS}/TST-112-01-G-D.stp"
+    (model "${KIPRJMOD}/../libraries/3D_Models/TST-112-01-G-D.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -4454,7 +4454,7 @@
       (net 10 "OUT15") (tstamp 908f53c9-b482-41f4-b78f-64b54f9e25cf))
     (pad "24" thru_hole circle locked (at 13.97 -1.27) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask)
       (net 9 "OUT16") (tstamp ac08b1f6-0d9c-4899-be70-94dd09078af6))
-    (model "${GIT_MODELS}/TST-112-01-G-D.stp"
+    (model "${KIPRJMOD}/../libraries/3D_Models/TST-112-01-G-D.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -4543,7 +4543,7 @@
       (net 51 "OUT47") (tstamp 7cec2416-22eb-45c4-a256-318589c70622))
     (pad "24" thru_hole circle locked (at 13.97 -1.27) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask)
       (net 50 "OUT48") (tstamp efb60a8c-b912-44da-8e12-0de80507fa2a))
-    (model "${GIT_MODELS}/TST-112-01-G-D.stp"
+    (model "${KIPRJMOD}/../libraries/3D_Models/TST-112-01-G-D.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -4764,7 +4764,7 @@
       (net 1 "GND") (tstamp 3381ab82-6664-4c9f-945d-531907233021))
     (pad "M2" thru_hole circle locked (at 28.575 -24.13) (size 4.572 4.572) (drill 3.175) (layers *.Cu *.Mask "F.SilkS") (tstamp 43c504af-622f-4120-a2e7-18e3883e24eb))
     (pad "M3" thru_hole circle locked (at 28.575 24.13) (size 4.572 4.572) (drill 3.175) (layers *.Cu *.Mask "F.SilkS") (tstamp 837c41ab-6f82-490a-9a96-502802463a08))
-    (model "${GIT_MODELS}/BEAGLEBONE_BLACK.STEP"
+    (model "${KIPRJMOD}/../libraries/3D_Models/BEAGLEBONE_BLACK.STEP"
       (offset (xyz 43.2 27.3 -10.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))

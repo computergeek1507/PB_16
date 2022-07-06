@@ -5089,7 +5089,7 @@
       (net 3 "/VIN") (pinfunction "Pin_1") (pintype "passive") (tstamp ebf88075-73e2-4b25-844b-28376450bdd6))
     (pad "2" thru_hole circle locked (at 1.90444 0.050459 90) (size 1.904 1.904) (drill 1.1) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "Pin_2") (pintype "passive") (tstamp c083c486-b973-42d0-b821-adaa33b07eda))
-    (model "${GIT_MODELS}/2Pin Blue.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/2Pin Blue.step"
       (offset (xyz 3.5 3.5 0))
       (scale (xyz 0.75 0.75 0.75))
       (rotate (xyz 0 0 90))

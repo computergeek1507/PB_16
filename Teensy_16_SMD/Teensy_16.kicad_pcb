@@ -316,12 +316,12 @@
       (net 3 "V_DMX") (pinfunction "2") (pintype "passive") (tstamp d04609a5-dda0-4859-95b5-7b9c98ee48d6))
     (pad "2_2" thru_hole circle locked (at 5.95 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 3 "V_DMX") (pinfunction "2") (pintype "passive") (tstamp eba43cf1-6d26-4220-8888-7152819486ce))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2.35 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/MINI Blade Type.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
       (offset (xyz 0 0 9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -1610,12 +1610,12 @@
       (net 5 "/Output 1-8/VOUT1") (pinfunction "2") (pintype "passive") (tstamp 5d5b0a64-b828-4f15-a96b-3a0ad38c9616))
     (pad "2_2" thru_hole circle locked (at 5.95 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 5 "/Output 1-8/VOUT1") (pinfunction "2") (pintype "passive") (tstamp fb7892a0-29e9-4d08-86e9-ed9ad1c00745))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2.35 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/MINI Blade Type.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
       (offset (xyz 0 0 9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -1669,12 +1669,12 @@
       (net 11 "/Output 1-8/VOUT7") (pinfunction "2") (pintype "passive") (tstamp d3e24f48-830a-418c-af57-c8b94c641cc7))
     (pad "2_2" thru_hole circle locked (at 5.95 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 11 "/Output 1-8/VOUT7") (pinfunction "2") (pintype "passive") (tstamp 22bf7020-c313-444e-b812-8d62167db083))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2.35 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/MINI Blade Type.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
       (offset (xyz 0 0 9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -1728,12 +1728,12 @@
       (net 19 "/Output 9-16/VOUT14") (pinfunction "2") (pintype "passive") (tstamp 169f70c7-a5a0-443e-a23e-d95b9745d0f6))
     (pad "2_2" thru_hole circle locked (at 5.95 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 19 "/Output 9-16/VOUT14") (pinfunction "2") (pintype "passive") (tstamp 9c27bafe-dc9a-4fc8-9304-3713da742e75))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2.35 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/MINI Blade Type.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
       (offset (xyz 0 0 9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -1832,12 +1832,12 @@
       (net 6 "/Output 1-8/VOUT2") (pinfunction "2") (pintype "passive") (tstamp f21adf6a-f285-4b44-adee-f33ac0ad1ce8))
     (pad "2_2" thru_hole circle locked (at 5.95 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 6 "/Output 1-8/VOUT2") (pinfunction "2") (pintype "passive") (tstamp f3628934-f111-4433-a08a-77780e1fa256))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2.35 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/MINI Blade Type.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
       (offset (xyz 0 0 9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -1891,12 +1891,12 @@
       (net 10 "/Output 1-8/VOUT6") (pinfunction "2") (pintype "passive") (tstamp fa7db4f9-3398-4772-8fa3-435b9044520a))
     (pad "2_2" thru_hole circle locked (at 5.95 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 10 "/Output 1-8/VOUT6") (pinfunction "2") (pintype "passive") (tstamp 72556f8f-c552-4b43-94e1-656395d6a1e4))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2.35 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/MINI Blade Type.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
       (offset (xyz 0 0 9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -1950,12 +1950,12 @@
       (net 13 "/Output 1-8/VOUT8") (pinfunction "2") (pintype "passive") (tstamp d18c946f-d9af-4bde-a889-de42a35dba9a))
     (pad "2_2" thru_hole circle locked (at 5.95 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 13 "/Output 1-8/VOUT8") (pinfunction "2") (pintype "passive") (tstamp b38839ce-5ed1-4137-8d01-8e29148f2f0d))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2.35 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/MINI Blade Type.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
       (offset (xyz 0 0 9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -2009,12 +2009,12 @@
       (net 14 "/Output 9-16/VOUT9") (pinfunction "2") (pintype "passive") (tstamp a623a541-6c5f-4a82-a0ec-79f85b6b21ef))
     (pad "2_2" thru_hole circle locked (at 5.95 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 14 "/Output 9-16/VOUT9") (pinfunction "2") (pintype "passive") (tstamp f9180e1a-3c2d-4fe2-9461-17c5e5e7c1b0))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2.35 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/MINI Blade Type.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
       (offset (xyz 0 0 9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -2068,12 +2068,12 @@
       (net 15 "/Output 9-16/VOUT10") (pinfunction "2") (pintype "passive") (tstamp 4acead20-afd3-40c9-9779-362a2fa8e3db))
     (pad "2_2" thru_hole circle locked (at 5.95 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 15 "/Output 9-16/VOUT10") (pinfunction "2") (pintype "passive") (tstamp 7ed6c747-b2e1-4fcd-a83a-251e00b9c400))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2.35 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/MINI Blade Type.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
       (offset (xyz 0 0 9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -2127,12 +2127,12 @@
       (net 21 "/Output 9-16/VOUT16") (pinfunction "2") (pintype "passive") (tstamp 970d452e-0d6e-457f-9ba4-3c0630e216dc))
     (pad "2_2" thru_hole circle locked (at 5.95 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 21 "/Output 9-16/VOUT16") (pinfunction "2") (pintype "passive") (tstamp 57e89710-4035-4fce-b4ab-3eb33fbf297d))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2.35 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/MINI Blade Type.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
       (offset (xyz 0 0 9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -2186,12 +2186,12 @@
       (net 9 "/Output 1-8/VOUT5") (pinfunction "2") (pintype "passive") (tstamp 69dbf79a-0755-4698-b4ab-edc5c3bf8438))
     (pad "2_2" thru_hole circle locked (at 5.95 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 9 "/Output 1-8/VOUT5") (pinfunction "2") (pintype "passive") (tstamp 201da9bb-18a8-4628-9f72-99fe7bd0fa03))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2.35 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/MINI Blade Type.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
       (offset (xyz 0 0 9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -2245,12 +2245,12 @@
       (net 7 "/Output 1-8/VOUT3") (pinfunction "2") (pintype "passive") (tstamp d8d734de-94b6-4db4-b630-c5060091044f))
     (pad "2_2" thru_hole circle locked (at 5.95 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 7 "/Output 1-8/VOUT3") (pinfunction "2") (pintype "passive") (tstamp 3d87904c-d85c-4bbf-97c6-adb08964aa03))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2.35 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/MINI Blade Type.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
       (offset (xyz 0 0 9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -2304,12 +2304,12 @@
       (net 18 "/Output 9-16/VOUT13") (pinfunction "2") (pintype "passive") (tstamp b95cfbfd-3a54-4134-b7e5-41629bc2a09a))
     (pad "2_2" thru_hole circle locked (at 5.95 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 18 "/Output 9-16/VOUT13") (pinfunction "2") (pintype "passive") (tstamp f621dca6-2e8a-4ab7-8a4b-480d0a1e895d))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2.35 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/MINI Blade Type.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
       (offset (xyz 0 0 9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -2363,12 +2363,12 @@
       (net 16 "/Output 9-16/VOUT11") (pinfunction "2") (pintype "passive") (tstamp 9fa9f26f-181c-4272-9534-03061d2c9314))
     (pad "2_2" thru_hole circle locked (at 5.95 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 16 "/Output 9-16/VOUT11") (pinfunction "2") (pintype "passive") (tstamp fde3844e-a48f-4ec9-a1ca-0d79508f5e3f))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2.35 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/MINI Blade Type.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
       (offset (xyz 0 0 9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -2422,12 +2422,12 @@
       (net 8 "/Output 1-8/VOUT4") (pinfunction "2") (pintype "passive") (tstamp 7f9079fb-4bb5-49c4-a614-f2b01b46359a))
     (pad "2_2" thru_hole circle locked (at 5.95 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 8 "/Output 1-8/VOUT4") (pinfunction "2") (pintype "passive") (tstamp f2be5d42-df5c-4a4a-8834-2bf8607644b3))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2.35 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/MINI Blade Type.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
       (offset (xyz 0 0 9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -2864,12 +2864,12 @@
       (net 20 "/Output 9-16/VOUT15") (pinfunction "2") (pintype "passive") (tstamp 0a51dd9b-3906-4808-a2b6-49c2b3782c9a))
     (pad "2_2" thru_hole circle locked (at 5.95 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 20 "/Output 9-16/VOUT15") (pinfunction "2") (pintype "passive") (tstamp 4527f044-2daf-485b-b819-36ca805762b3))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2.35 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/MINI Blade Type.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
       (offset (xyz 0 0 9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -2923,12 +2923,12 @@
       (net 17 "/Output 9-16/VOUT12") (pinfunction "2") (pintype "passive") (tstamp 672cbe39-a10a-45bc-b930-efeb4d296788))
     (pad "2_2" thru_hole circle locked (at 5.95 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 17 "/Output 9-16/VOUT12") (pinfunction "2") (pintype "passive") (tstamp fd23d600-64d7-41d7-a114-849a5c445d5c))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2.35 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/MINI Blade Type.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
       (offset (xyz 0 0 9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -3012,7 +3012,7 @@
       (net 100 "/Pin3") (pinfunction "Pin_3") (pintype "passive") (tstamp dc7fe6ab-e2e1-48c0-b2af-0f1c6ebb04ac))
     (pad "4" thru_hole circle locked (at -3.8 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 99 "/Pin4") (pinfunction "Pin_4") (pintype "passive") (tstamp 059c55b9-3878-4a5d-8c36-f2e1ac20b66c))
-    (model "${GIT_MODELS}/OLED-128x64-0.96.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/OLED-128x64-0.96.step"
       (offset (xyz 34.3 -7.6 4))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3323,12 +3323,12 @@
       (net 101 "VIN_Fuse") (pinfunction "2") (pintype "passive") (tstamp a5efeb95-9dc3-486a-bcda-cc7446645e28))
     (pad "2_2" thru_hole circle locked (at 5.95 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 101 "VIN_Fuse") (pinfunction "2") (pintype "passive") (tstamp dfe2f8d9-6fc7-415d-bc35-fe3109d317f2))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2.35 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${GIT_MODELS}/MINI Blade Type.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
       (offset (xyz 0 0 9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -4016,7 +4016,7 @@
       (net 4 "VIN1") (pinfunction "P1") (pintype "passive") (tstamp 4833e46b-f647-4405-8958-8388c09e9ad1))
     (pad "2" thru_hole circle locked (at 15.2 -8.1 180) (size 4 4) (drill 1.7) (layers *.Cu *.Mask)
       (net 64 "ETH_GND") (pinfunction "P2") (pintype "passive") (tstamp 7ab43dd5-158c-4fb4-89fd-0268b2095c18))
-    (model "${GIT_MODELS}/2 PIN Screw Term.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/2 PIN Screw Term.step"
       (offset (xyz 0.5 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4063,7 +4063,7 @@
       (net 12 "VIN2") (pinfunction "P1") (pintype "passive") (tstamp afb8b546-2d34-49f9-b048-809d9d067ebb))
     (pad "2" thru_hole circle locked (at 15.2 -8.1) (size 4 4) (drill 1.7) (layers *.Cu *.Mask)
       (net 64 "ETH_GND") (pinfunction "P2") (pintype "passive") (tstamp 026d934d-d564-4c37-9113-57bb727fc2e9))
-    (model "${GIT_MODELS}/2 PIN Screw Term.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/2 PIN Screw Term.step"
       (offset (xyz 0.5 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4157,7 +4157,7 @@
       (net 132 "+3.3VA") (pinfunction "Pin_23") (pintype "passive") (tstamp d765feb8-0d2b-4f91-9055-021e050d2c2d))
     (pad "24" thru_hole circle locked (at 13.97 -1.27 180) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask)
       (net 97 "unconnected-(J24-Pad24)") (pinfunction "Pin_24") (pintype "passive+no_connect") (tstamp 46a31d9d-311e-4951-9580-8458ea12a084))
-    (model "${GIT_MODELS}/TST-112-01-G-D.stp"
+    (model "${KIPRJMOD}/../libraries/3D_Models/TST-112-01-G-D.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -4652,7 +4652,7 @@
       (net 2 "/VIN") (pinfunction "Pin_1") (pintype "passive") (tstamp ebf88075-73e2-4b25-844b-28376450bdd6))
     (pad "2" thru_hole circle locked (at 1.90444 0.050459 90) (size 1.904 1.904) (drill 1.1) (layers *.Cu *.Mask)
       (net 64 "ETH_GND") (pinfunction "Pin_2") (pintype "passive") (tstamp c083c486-b973-42d0-b821-adaa33b07eda))
-    (model "${GIT_MODELS}/2Pin Blue.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/2Pin Blue.step"
       (offset (xyz 3.5 3.5 0))
       (scale (xyz 0.75 0.75 0.75))
       (rotate (xyz 0 0 90))

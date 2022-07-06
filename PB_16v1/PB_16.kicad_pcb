@@ -4619,7 +4619,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 0))
     )
-    (model "D:/KiCad/libraries/POCKETBEAGLE/PocketBeagle.step" hide
+    (model "${KIPRJMOD}/../libraries/3D_Models/PocketBeagle.step"
       (offset (xyz -17.4 27.7 10))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))

@@ -281,7 +281,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${GIT_MODELS}/RJ45.step
+    (model ${KIPRJMOD}/../libraries/3D_Models/RJ45.step
       (offset (xyz -3.3 3.7 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -866,7 +866,7 @@
       (net 7 VOUT4))
     (pad 1_2 thru_hole circle (at -2.25 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 2 VIN1))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -906,7 +906,7 @@
       (net 6 VOUT3))
     (pad 1_2 thru_hole circle (at -2.25 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 2 VIN1))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -946,7 +946,7 @@
       (net 5 VOUT2))
     (pad 1_2 thru_hole circle (at -2.25 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 2 VIN1))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -986,7 +986,7 @@
       (net 4 VOUT1))
     (pad 1_2 thru_hole circle (at -2.25 0 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 2 VIN1))
-    (model "${GIT_MODELS}/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.step"
       (offset (xyz 0 -2 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1046,7 +1046,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${GIT_MODELS}/RJ45.step
+    (model ${KIPRJMOD}/../libraries/3D_Models/RJ45.step
       (offset (xyz -3.3 3.7 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1106,7 +1106,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${GIT_MODELS}/RJ45.step
+    (model ${KIPRJMOD}/../libraries/3D_Models/RJ45.step
       (offset (xyz -3.3 3.7 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1185,7 +1185,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${GIT_MODELS}/RJ45.step
+    (model ${KIPRJMOD}/../libraries/3D_Models/RJ45.step
       (offset (xyz -3.3 3.7 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1245,7 +1245,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${GIT_MODELS}/RJ45.step
+    (model ${KIPRJMOD}/../libraries/3D_Models/RJ45.step
       (offset (xyz -3.3 3.7 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
