@@ -214,3 +214,12 @@ outputs:
     comment: 'STEP file generation'
     type: step
     dir: .
+
+  - name: 'dxf_file'
+    type: dxf
+    dir: . 
+    layers: 'User.Drawings'
+    options:
+      output: '%f.%x'
+
+
