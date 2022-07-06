@@ -1,0 +1,40 @@
+name: Generate Files
+on:
+  workflow_dispatch:
+    
+jobs:
+  generate-files:
+    name: Generate Everything
+    runs-on: ubuntu-latest
+    container: setsoft/kicad_auto:dev_k6
+      
+    steps:
+
+    - name: Generate Short SHA Environment Variable
+      run: echo "SHORT_SHA=`echo ${GITHUB_SHA} | cut -c1-8`" >> $GITHUB_ENV
+      
+    - name: Update system repositories, Install Required Libraries and Initialize git-lfs
+      run: |
+        apt update
+        apt -y install git git-lfs zip librsvg2-bin imagemagick
+        git lfs install
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+      with:
+        lfs: true
+        
+    - name: Generate PB_16v1 Files
+      run: |
+        cd PB_16v1
+        rm -rf PB_16v1/
+        kibot -c ../../../.github/workflows/scripts/kibot/config.kibot.yaml -e PB_16.kicad_sch -b PB_16.kicad_pcb -d PB_16v1
+        zip -r -j PB_16v1.zip PB_16v1/
+
+    - name: Upload Export Files as Artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: PB_16v1.zip
+        path: PB_16v1/PB_16v1.zip
+        if-no-files-found: error
+        retention-days: 60
+
