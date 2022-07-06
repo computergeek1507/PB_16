@@ -27,7 +27,7 @@ jobs:
       run: |
         cd PB_16v1
         rm -rf PB_16v1/
-        kibot -c ../../../.github/workflows/scripts/kibot/config.kibot.yaml -e PB_16.kicad_sch -b PB_16.kicad_pcb -d PB_16v1
+        kibot -c ../.github/workflows/scripts/kibot/config.kibot.yaml -e PB_16.kicad_sch -b PB_16.kicad_pcb -d PB_16v1
         zip -r -j PB_16v1.zip PB_16v1/
 
     - name: Upload Export Files as Artifacts
