@@ -219,7 +219,9 @@ outputs:
     type: pcb_print 
     dir: . 
     options:
-      layers: 'F.Mask'
+      pages:
+        layers: 'F.Mask'
+      plot_sheet_reference: false
       format: 'SVG'
       output: '%f.%x'
 
