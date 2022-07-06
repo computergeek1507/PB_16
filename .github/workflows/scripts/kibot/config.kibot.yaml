@@ -215,11 +215,12 @@ outputs:
     type: step
     dir: .
 
-  - name: 'dxf_file'
-    type: dxf
+  - name: 'svg_file'
+    type: pcb_print 
     dir: . 
-    layers: 'User.Drawings'
+    layers: 'F.Mask'
     options:
+      format: 'SVG'
       output: '%f.%x'
 
 
