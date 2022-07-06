@@ -3997,7 +3997,7 @@
       (net 1 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 86572b5c-495b-4d75-8327-b4c87e184435))
     (pad "11" thru_hole circle (at -1.50194 13.97 90) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 98 "/12V") (pinfunction "IN") (pintype "power_in") (tstamp 96148822-82fb-4dbc-a6ae-ae2ce3cd0891))
-    (model "${KICAD6_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_muRata_OKI-78SR_horizontal.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_muRata_OKI-78SR_Horizontal.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
