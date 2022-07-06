@@ -218,8 +218,8 @@ outputs:
   - name: 'svg_file'
     type: pcb_print 
     dir: . 
-    layers: 'F.Mask'
     options:
+      layers: 'F.Mask'
       format: 'SVG'
       output: '%f.%x'
 
