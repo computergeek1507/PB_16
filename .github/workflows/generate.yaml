@@ -34,7 +34,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: PB_16v1.zip
-        path: PB_16v1/**
+        path: PB_16v1/PB_16v1/**
         if-no-files-found: error
         retention-days: 60
 
