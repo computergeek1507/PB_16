@@ -220,7 +220,7 @@ outputs:
     dir: . 
     options:
       pages:
-        layers: 'F.Mask'
+        - layers: 'F.Mask'
       plot_sheet_reference: false
       format: 'SVG'
       output: '%f.%x'
