@@ -2387,7 +2387,7 @@
     (uuid 00000000-0000-0000-0000-00005cecc219)
     (property "Reference" "U2" (id 0) (at 223.266 33.8582 0))
     (property "Value" "LM7805" (id 1) (at 223.266 36.1696 0))
-    (property "Footprint" "OKI-78SR-5:SIP-3_P2.54mm_OKI-78SR-5_1.5-W36-C" (id 2) (at 223.266 34.29 0)
+    (property "Footprint" "Scotts:OKI-78SR" (id 2) (at 223.266 34.29 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" (id 3) (at 223.266 41.275 0)
@@ -2694,7 +2694,7 @@
     (uuid 00000000-0000-0000-0000-00005d551e96)
     (property "Reference" "J26" (id 0) (at 33.2232 28.829 0))
     (property "Value" "OLED" (id 1) (at 33.2232 31.1404 0))
-    (property "Footprint" "OLED-SSD1306-128X64-I2C:OLED-SSD1306-128X64-I2C-THT" (id 2) (at 30.48 36.068 0)
+    (property "Footprint" "Scotts:OLED-SSD1306-128X64-I2C-THT_2HOLE" (id 2) (at 30.48 36.068 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 30.48 36.068 0)
@@ -4761,7 +4761,7 @@
       (reference "J25") (unit 1) (value "RTC Conn") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d551e96"
-      (reference "J26") (unit 1) (value "OLED") (footprint "OLED-SSD1306-128X64-I2C:OLED-SSD1306-128X64-I2C-THT")
+      (reference "J26") (unit 1) (value "OLED") (footprint "Scotts:OLED-SSD1306-128X64-I2C-THT_2HOLE")
     )
     (path "/00000000-0000-0000-0000-0000617ff4f3"
       (reference "J27") (unit 1) (value "Aux Pwr") (footprint "MKDS1_2-3.81:PHOENIX_MKDS1_2-3.81")
@@ -4902,19 +4902,19 @@
       (reference "SW6") (unit 2) (value "DMX_LOR_Select") (footprint "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight")
     )
     (path "/00000000-0000-0000-0000-00005d413c25/00000000-0000-0000-0000-00005e1aa21a"
-      (reference "U1") (unit 1) (value "BEAGLEBONEBLACK") (footprint "beagleboneblack:BEAGLEBONEBLACK")
+      (reference "U1") (unit 1) (value "BEAGLEBONEBLACK") (footprint "Scotts:BEAGLEBONEBLACK")
     )
     (path "/00000000-0000-0000-0000-00005d413c25/00000000-0000-0000-0000-00005e1af788"
-      (reference "U1") (unit 2) (value "BEAGLEBONEBLACK") (footprint "beagleboneblack:BEAGLEBONEBLACK")
+      (reference "U1") (unit 2) (value "BEAGLEBONEBLACK") (footprint "Scotts:BEAGLEBONEBLACK")
     )
     (path "/00000000-0000-0000-0000-00005d413c25/00000000-0000-0000-0000-00005e1b579b"
-      (reference "U1") (unit 3) (value "BEAGLEBONEBLACK") (footprint "beagleboneblack:BEAGLEBONEBLACK")
+      (reference "U1") (unit 3) (value "BEAGLEBONEBLACK") (footprint "Scotts:BEAGLEBONEBLACK")
     )
     (path "/00000000-0000-0000-0000-00005d413c25/00000000-0000-0000-0000-00005e1b9a69"
-      (reference "U1") (unit 4) (value "BEAGLEBONEBLACK") (footprint "beagleboneblack:BEAGLEBONEBLACK")
+      (reference "U1") (unit 4) (value "BEAGLEBONEBLACK") (footprint "Scotts:BEAGLEBONEBLACK")
     )
     (path "/00000000-0000-0000-0000-00005cecc219"
-      (reference "U2") (unit 1) (value "LM7805") (footprint "OKI-78SR-5:SIP-3_P2.54mm_OKI-78SR-5_1.5-W36-C")
+      (reference "U2") (unit 1) (value "LM7805") (footprint "Scotts:OKI-78SR")
     )
     (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfc0f"
       (reference "U3") (unit 1) (value "SN74HCT245N") (footprint "SN74HCT245NSR:SN74HCT245NSR")
