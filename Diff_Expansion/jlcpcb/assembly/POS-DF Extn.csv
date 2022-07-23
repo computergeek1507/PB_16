@@ -1,0 +1,21 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,0.1uF,C_Rect_L7.0mm_W2.0mm_P5.00mm,-93.8582,42.3657,-90,top
+C2,0.1uF,C_Rect_L7.0mm_W2.0mm_P5.00mm,-93.8082,17.7017,-90,top
+C3,0.1uF,C_Rect_L7.0mm_W2.0mm_P5.00mm,-85.1182,24.0557,90,top
+C4,0.1uF,C_Rect_L7.0mm_W2.0mm_P5.00mm,-82.3382,-3.7483,0,top
+D1,5V LED,LED_D3.0mm_Clear,-92.3822,-5.1783,0,top
+J1,RJ45,RJ45_Amphenol_54602-x08_Horizontal,-115.8982,37.9607,-90,top
+J2,RJ45,RJ45_Amphenol_54602-x08_Horizontal,-115.8982,13.0167,-90,top
+J3,RJ45,RJ45_Amphenol_54602-x08_Horizontal,-64.1482,29.3957,90,top
+J4,RJ45,RJ45_Amphenol_54602-x08_Horizontal,-64.1482,4.4517,90,top
+J5,Expansion Header,IDC-Header_2x20_P2.54mm_Vertical,-114.2362,50.4737,90,top
+J6,v4 Input,OST_302-S241,-90.1162,63.2857,0,top
+R1,120 ohm,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,-104.0422,-5.1283,0,top
+RN1,120 ohm,R_Array_SIP8,-107.9282,41.9157,-90,top
+RN2,120 ohm,R_Array_SIP8,-107.9282,17.2317,-90,top
+RN3,120 ohm,R_Array_SIP8,-71.2782,24.0557,90,top
+RN4,120 ohm,R_Array_SIP8,-71.2782,-0.0283,90,top
+U1,AM26C31,DIP-16_W7.62mm,-104.1082,42.1857,0,top
+U2,AM26C31,DIP-16_W7.62mm,-104.1082,17.6917,0,top
+U3,AM26C31,DIP-16_W7.62mm,-74.7382,24.4357,180,top
+U4,AM26C31,DIP-16_W7.62mm,-74.7382,-0.0583,180,top
