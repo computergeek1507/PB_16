@@ -30,6 +30,14 @@ jobs:
         kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e PB_16.kicad_sch -b PB_16.kicad_pcb -d PB_16v1
 #        zip -r -j PB_16v1.zip PB_16v1/
 
+    - name: DRC PB_16v2_SMD Files
+      run: |
+        cd PB_16v2_SMD
+        rm -rf PB_16v2_SMD/
+        kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e PB_16.kicad_sch -b PB_16.kicad_pcb -d PB_16v2_SMD
+#        zip -r -j PB_16v1.zip PB_16v1/
+
+
     - name: Upload Export Files as Artifacts
       uses: actions/upload-artifact@v2
       with:
