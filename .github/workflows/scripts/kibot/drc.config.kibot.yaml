@@ -12,7 +12,7 @@ variants:
     variant: default
 
 preflight:
-  run_erc: true
+  run_erc: false
   update_xml: true
   run_drc: true
   check_zone_fills: true
