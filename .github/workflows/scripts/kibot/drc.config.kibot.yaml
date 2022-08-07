@@ -1,0 +1,87 @@
+# Example KiPlot config file
+kibot:
+  version: 1
+
+global:
+  variant: default
+
+variants:
+  - name: default
+    comment: 'Just a place holder for the rotation filter'
+    type: kibom
+    variant: default
+
+preflight:
+  run_erc: true
+  update_xml: true
+  run_drc: true
+  check_zone_fills: true
+  ignore_unconnected: false
+
+outputs:
+
+  - name: 'bom'
+    comment: 'Bill of Materials'
+    type: bom
+    dir: .
+    options:
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+      format: CSV
+
+  - name: 'print_sch'
+    comment: "Print schematic (PDF)"
+    type: pdf_sch_print
+    dir: .
+    options:
+      output: Schematic.pdf
+
+  - name: 'print_front'
+    comment: "Print F.Cu+Dwgs.User"
+    type: pdf_pcb_print
+    dir: .
+    options:
+      output_name: PCB.pdf
+      separated: true
+    layers:
+      - layer: F.Cu
+        description: 'Front Copper'
+      - layer: B.Cu
+        description: 'Back Copper'
+      - layer: F.SilkS
+        description: 'Front Silk'
+      - layer: B.SilkS
+        description: 'Rear Silk'
+
+  - name: board_top
+    comment: "Top layer view"
+    type: pcbdraw
+    dir: .
+    options:
+      format: png
+
+  - name: board_bottom
+    comment: "Bottom layer view"
+    type: pcbdraw
+    dir: .
+    options:
+      format: png
+      bottom: true
+
+  - name: board_render
+    comment: "render view"
+    type: render_3d
+    dir: .
+
+  - name: 'svg_file'
+    type: pcb_print 
+    dir: . 
+    options:
+      pages:
+        - layers: 'F.Mask'
+      plot_sheet_reference: false
+      format: 'SVG'
+      output: '%f.%x'
+
+
