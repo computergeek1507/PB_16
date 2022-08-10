@@ -6,7 +6,7 @@ jobs:
   drc-files:
     name: DRC Everything
     runs-on: ubuntu-latest
-    container: setsoft/kicad_auto:dev_k6
+    container: setsoft/kicad_auto:ki6.0.5_Debian
       
     steps:
 
@@ -23,11 +23,11 @@ jobs:
       with:
         lfs: true
         
-#    - name: DRC PB_16v1 Files
-#      run: |
-#        cd PB_16v1
-#        rm -rf PB_16v1/
-#        kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e PB_16.kicad_sch -b PB_16.kicad_pcb -d PB_16v1
+    - name: DRC PB_16v1 Files
+      run: |
+        cd PB_16v1
+        rm -rf PB_16v1/
+        kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e PB_16.kicad_sch -b PB_16.kicad_pcb -d PB_16v1
 #        zip -r -j PB_16v1.zip PB_16v1/
 
     - name: DRC PB_16v2_SMD Files
