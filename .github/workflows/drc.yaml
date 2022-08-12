@@ -57,6 +57,12 @@ jobs:
         rm -rf BBB_16_SMD/
         kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e BBB_16.kicad_sch -b BBB_16.kicad_pcb -d BBB_16_SMD
 
+    - name: DRC Receiver_Out_SMD Files
+      run: |
+        cd Receiver_Out_SMD
+        rm -rf Receiver_Out_SMD/
+        kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e Receiver_Out.kicad_sch -b Receiver_Out.kicad_pcb -d Receiver_Out_SMD
+
     - name: Upload Export Files as Artifacts
       uses: actions/upload-artifact@v2
       with:
@@ -66,6 +72,7 @@ jobs:
           PB_16v2_SMD/PB_16v2_SMD/**
           BBB_16/BBB_16/**
           BBB_16_SMD/BBB_16_SMD/**
+          Receiver_Out_SMD/Receiver_Out_SMD/**
         if-no-files-found: error
         retention-days: 60
 
