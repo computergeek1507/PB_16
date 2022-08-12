@@ -69,12 +69,17 @@ jobs:
         rm -rf Receiver_Out/
         kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e Receiver_Out.kicad_sch -b Receiver_Out.kicad_pcb -d Receiver_Out
 
-
     - name: DRC Receiver_Out_SMD Files
       run: |
         cd Receiver_Out_SMD
         rm -rf Receiver_Out_SMD/
         kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e Receiver_Out.kicad_sch -b Receiver_Out.kicad_pcb -d Receiver_Out_SMD
+
+    - name: DRC Input_Adapter Files
+      run: |
+        cd Input_Adapter
+        rm -rf Input_Adapter/
+        kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e Input_Adapter.kicad_sch -b Input_Adapter.kicad_pcb -d Input_Adapter
 
     - name: Upload Export Files as Artifacts
       uses: actions/upload-artifact@v2
@@ -88,6 +93,7 @@ jobs:
           BBB_16_Flex/BBB_16_Flex/**
           Receiver_Out/Receiver_Out/**
           Receiver_Out_SMD/Receiver_Out_SMD/**
+          Input_Adapter/Input_Adapter/**
         if-no-files-found: error
         retention-days: 60
 
