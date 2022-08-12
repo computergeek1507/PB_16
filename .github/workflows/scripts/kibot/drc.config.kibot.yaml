@@ -13,7 +13,7 @@ variants:
 
 preflight:
   run_erc: false
-  update_xml: false
+  update_xml: true
   run_drc: true
   check_zone_fills: true
   ignore_unconnected: false
@@ -77,14 +77,5 @@ outputs:
     type: render_3d
     dir: .
 
-  - name: 'svg_file'
-    type: pcb_print 
-    dir: . 
-    options:
-      pages:
-        - layers: 'F.Mask'
-      plot_sheet_reference: false
-      format: 'SVG'
-      output: '%f.%x'
 
 
