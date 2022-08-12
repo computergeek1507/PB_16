@@ -57,6 +57,12 @@ jobs:
         rm -rf BBB_16_SMD/
         kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e BBB_16.kicad_sch -b BBB_16.kicad_pcb -d BBB_16_SMD
 
+    - name: DRC BBB_16_Expansion Files
+      run: |
+        cd BBB_16_Expansion
+        rm -rf BBB_16_Expansion/
+        kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e BBB_16_Expansion.kicad_sch -b BBB_16_Expansion.kicad_pcb -d BBB_16_Expansion
+
     - name: DRC BBB_16_Flex Files
       run: |
         cd BBB_16_Flex
@@ -90,6 +96,7 @@ jobs:
           PB_16v2_SMD/PB_16v2_SMD/**
           BBB_16/BBB_16/**
           BBB_16_SMD/BBB_16_SMD/**
+          BBB_16_Expansion/BBB_16_Expansion/**
           BBB_16_Flex/BBB_16_Flex/**
           Receiver_Out/Receiver_Out/**
           Receiver_Out_SMD/Receiver_Out_SMD/**
