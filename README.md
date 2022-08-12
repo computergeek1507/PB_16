@@ -1,3 +1,5 @@
+[![DRC Files](https://github.com/computergeek1507/PB_16/actions/workflows/drc.yaml/badge.svg?branch=master)](https://github.com/computergeek1507/PB_16/actions/workflows/drc.yaml)
+
 # Copyright and Disclaimer
 Copyright: Scott Hanson
 
