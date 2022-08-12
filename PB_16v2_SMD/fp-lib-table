@@ -2,5 +2,5 @@
   (lib (name "Converter_DCDC")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Converter_DCDC/Converter_DCDC.pretty")(options "")(descr ""))
   (lib (name "Scotts")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Scotts/Scotts.pretty")(options "")(descr ""))
   (lib (name "digikey-footprints")(type "KiCad")(uri "${KIPRJMOD}/../libraries/digikey/digikey-footprints.pretty")(options "")(descr ""))
-  (lib (name "3544-2")(type "Legacy")(uri "C:/Users/scoot/Documents/PB_16/libraries/Fuse/3544-2.mod")(options "")(descr ""))
+  (lib (name "3544-2")(type "Legacy")(uri "${KIPRJMOD}/../libraries/Fuse/3544-2.mod")(options "")(descr ""))
 )
