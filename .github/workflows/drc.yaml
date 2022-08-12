@@ -1,6 +1,16 @@
 name: DRC Files
 on:
   workflow_dispatch:
+
+  push:
+    paths:
+      - '*.kicad_sch'
+      - '*.kicad_pcb'
+
+  pull_request:
+    paths:
+      - '*.kicad_sch'
+      - '*.kicad_pcb'
     
 jobs:
   drc-files:
