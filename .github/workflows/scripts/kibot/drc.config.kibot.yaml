@@ -17,6 +17,9 @@ preflight:
   run_drc: true
   check_zone_fills: true
   ignore_unconnected: false
+  filters:
+    - error: silk_overlap
+    - error: silk_over_copper
 
 outputs:
 
