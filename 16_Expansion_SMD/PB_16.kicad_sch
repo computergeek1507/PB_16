@@ -2464,6 +2464,54 @@
     (path "/c07e9a13-27eb-452c-a821-5ed6b7e8a309"
       (reference "R19") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
+    (path "/00000000-0000-0000-0000-00005d469293/ae93fc70-c30b-4023-8f7d-3b5f52096571"
+      (reference "R20") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005d469293/b475a6d3-339a-42fc-a5b1-ae9297fee2dc"
+      (reference "R21") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005d469293/4326b102-98aa-41d9-b618-19ce89ade605"
+      (reference "R22") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005d469293/bb437329-f957-4153-8655-da589d440e7a"
+      (reference "R23") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005d469293/be4f7d78-a2be-4647-9950-d10ccf64ea68"
+      (reference "R24") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005d469293/e3eb9b9e-8149-4f0b-a7d3-a15f7b15d4dd"
+      (reference "R25") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005d469293/1ae1b1b5-c46a-415b-933f-1c69834c3724"
+      (reference "R26") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005d469293/d2c1994a-050b-49b7-8e81-6431ea2c084e"
+      (reference "R27") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005d4698de/e98f4cc6-10dc-4d10-b598-761dcc67bd37"
+      (reference "R28") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005d4698de/7b3bfa91-2590-4678-b8b4-b95d78de04e6"
+      (reference "R29") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005d4698de/fefc7889-b833-4259-bd33-7bc888b45074"
+      (reference "R30") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005d4698de/b6608d10-8b10-4ff1-907f-57c62600ab98"
+      (reference "R31") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005d4698de/41aabb30-274e-4e78-a097-66db54b2de2e"
+      (reference "R32") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005d4698de/bf107e97-85f0-47ae-b79a-c293eb08dfa6"
+      (reference "R33") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005d4698de/b9298358-e1db-4409-a5e1-01f5ebd264a3"
+      (reference "R34") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005d4698de/2a19c9bb-f4bf-4951-b2fb-535963442e5e"
+      (reference "R35") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
     (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfc39"
       (reference "RN1") (unit 1) (value "33") (footprint "Resistor_THT:R_Array_SIP8")
     )
