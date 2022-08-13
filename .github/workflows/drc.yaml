@@ -81,6 +81,12 @@ jobs:
         rm -rf 16_Expansion_24pin/
         kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e PB_16.kicad_sch -b PB_16.kicad_pcb -d 16_Expansion_24pin
 
+    - name: DRC 16_Expansion_Dual_SMD Files
+      run: |
+        cd 16_Expansion_Dual_SMD
+        rm -rf 16_Expansion_Dual_SMD/
+        kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e PB_16.kicad_sch -b PB_16.kicad_pcb -d 16_Expansion_Dual_SMD
+
     - name: DRC 16_Expansion_SMD Files
       run: |
         cd 16_Expansion_SMD
@@ -124,6 +130,7 @@ jobs:
           BBB_16_Flex/BBB_16_Flex/**
           16_Expansion/16_Expansion/**
           16_Expansion_24pin/16_Expansion_24pin/**
+          16_Expansion_Dual_SMD/16_Expansion_Dual_SMD/**
           16_Expansion_SMD/16_Expansion_SMD/**
           16_Expansion_SMD_24pin/16_Expansion_SMD_24pin/**
           Receiver_Out/Receiver_Out/**
