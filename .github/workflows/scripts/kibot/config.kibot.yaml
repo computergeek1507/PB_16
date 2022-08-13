@@ -159,6 +159,8 @@ outputs:
     comment: "render view"
     type: render_3d
     dir: .
+    options:
+      ray_tracing: true
 
   - name: 'pick_and_place_file'
     comment: 'Pick and Place Location File'
