@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "302-S241")(type "KiCad")(uri "${KIPRJMOD}/../libraries/302-S241")(options "")(descr ""))
+  (lib (name "Scotts")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Scotts/Scotts.pretty")(options "")(descr ""))
+)

@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Diff_Expansion-rescue)(type Legacy)(uri ${KIPRJMOD}/Diff_Expansion-rescue.lib)(options "")(descr ""))
+  (lib (name "Scotts")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Scotts/ScottS.kicad_sym")(options "")(descr ""))
 )
