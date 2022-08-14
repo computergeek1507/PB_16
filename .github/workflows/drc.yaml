@@ -45,6 +45,24 @@ jobs:
         rm -rf PB_16v2_SMD/
         kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e PB_16.kicad_sch -b PB_16.kicad_pcb -d PB_16v2_SMD
 
+    - name: DRC PB_16_Expansion Files
+      run: |
+        cd PB_16_Expansion
+        rm -rf PB_16_Expansion/
+        kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e PB_16.kicad_sch -b PB_16.kicad_pcb -d PB_16_Expansion
+
+    - name: DRC PB_16_Flex Files
+      run: |
+        cd PB_16_Flex
+        rm -rf PB_16_Flex/
+        kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e PB_16.kicad_sch -b PB_16.kicad_pcb -d PB_16_Flex
+
+    - name: DRC PB_16_Mini Files
+      run: |
+        cd PB_16_Mini
+        rm -rf PB_16_Mini/
+        kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e PB_16.kicad_sch -b PB_16.kicad_pcb -d PB_16_Mini
+
     - name: DRC BBB_16 Files
       run: |
         cd BBB_16
@@ -117,11 +135,29 @@ jobs:
         rm -rf Receiver_Out_SMD/
         kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e Receiver_Out.kicad_sch -b Receiver_Out.kicad_pcb -d Receiver_Out_SMD
 
+    - name: DRC SM_Receiver_Out_SMD Files
+      run: |
+        cd SM_Receiver_Out_SMD
+        rm -rf SM_Receiver_Out_SMD/
+        kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e Receiver_Out.kicad_sch -b Receiver_Out.kicad_pcb -d SM_Receiver_Out_SMD
+
     - name: DRC Input_Adapter Files
       run: |
         cd Input_Adapter
         rm -rf Input_Adapter/
         kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e Input_Adapter.kicad_sch -b Input_Adapter.kicad_pcb -d Input_Adapter
+
+    - name: DRC Four_Out Files
+      run: |
+        cd Four_Out
+        rm -rf Four_Out/
+        kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e Four_Out.kicad_sch -b Four_Out.kicad_pcb -d Four_Out
+
+    - name: DRC PB16_2_PI Files
+      run: |
+        cd PB16_2_PI
+        rm -rf PB16_2_PI/
+        kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e PB16_2_PI.kicad_sch -b PB16_2_PI.kicad_pcb -d PB16_2_PI
 
     - name: Upload Export Files as Artifacts
       uses: actions/upload-artifact@v2
@@ -130,6 +166,9 @@ jobs:
         path: |
           PB_16v1/PB_16v1/**
           PB_16v2_SMD/PB_16v2_SMD/**
+          PB_16_Expansion/PB_16_Expansion/**
+          PB_16_Flex/PB_16_Flex/**
+          PB_16_Mini/PB_16_Mini/**
           BBB_16/BBB_16/**
           BBB_16_SMD/BBB_16_SMD/**
           BBB_16_Expansion/BBB_16_Expansion/**
@@ -142,7 +181,10 @@ jobs:
           Diff_Expansion/Diff_Expansion/**
           Receiver_Out/Receiver_Out/**
           Receiver_Out_SMD/Receiver_Out_SMD/**
+          SM_Receiver_Out_SMD/SM_Receiver_Out_SMD/**
           Input_Adapter/Input_Adapter/**
+          Four_Out/Four_Out/**
+          PB16_2_PI/PB16_2_PI/**
         if-no-files-found: error
         retention-days: 60
 
