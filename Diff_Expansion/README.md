@@ -11,6 +11,8 @@ You may redistribute and modify this documentation under the terms of the CERN O
 
 The Diff Expansion is a four port Differental Reciever output boardfor the PB16. It works with Smart and Dumb Differental Recievers. All the design files are open source and available on github.
 
+To order, upload the "GERBER-Diff_Expansion.zip" file in the "jlcpcb\gerber" folder to jlcpcb.com.
+
 ## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/Diff_Expansion/Diff_Expansion.ods)
 
 ![Image of Diff Expansion](https://github.com/computergeek1507/PB_16/raw/master/Diff_Expansion/Diff_Expansion.png)
