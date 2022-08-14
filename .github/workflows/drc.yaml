@@ -123,6 +123,12 @@ jobs:
         rm -rf Diff_Expansion/
         kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e Diff_Expansion.kicad_sch -b Diff_Expansion.kicad_pcb -d Diff_Expansion
 
+    - name: DRC Multi_Expansion Files
+      run: |
+        cd Multi_Expansion
+        rm -rf Multi_Expansion/
+        kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e Multi_Expansion.kicad_sch -b Multi_Expansion.kicad_pcb -d Multi_Expansion
+
     - name: DRC Receiver_Out Files
       run: |
         cd Receiver_Out
@@ -179,6 +185,7 @@ jobs:
           16_Expansion_SMD/16_Expansion_SMD/**
           16_Expansion_SMD_24pin/16_Expansion_SMD_24pin/**
           Diff_Expansion/Diff_Expansion/**
+          Multi_Expansion/Multi_Expansion/**
           Receiver_Out/Receiver_Out/**
           Receiver_Out_SMD/Receiver_Out_SMD/**
           SM_Receiver_Out_SMD/SM_Receiver_Out_SMD/**

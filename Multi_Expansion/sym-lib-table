@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Multi_Expansion-rescue)(type Legacy)(uri ${KIPRJMOD}/Multi_Expansion-rescue.lib)(options "")(descr ""))
+  (lib (name "Barrier_Blocks")(type "Legacy")(uri "${KIPRJMOD}/../libraries/Barrier_Blocks/Barrier_Blocks.lib")(options "")(descr ""))
 )
