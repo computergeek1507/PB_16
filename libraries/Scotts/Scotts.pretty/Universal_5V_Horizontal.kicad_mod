@@ -137,7 +137,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${GIT_MODELS}/iflight 12v BEC.step"
+  (model "${KIPRJMOD}/../libraries/3D_Models/iflight 12v BEC.step"
     (offset (xyz 1.8 -8.5 -1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

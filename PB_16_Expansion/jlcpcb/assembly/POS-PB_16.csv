@@ -1,0 +1,28 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,0.1uF,C_Rect_L7.0mm_W2.0mm_P5.00mm,233.374956,-95.30755,180.0,top
+C2,220uF,CP_Radial_D10.0mm_P5.00mm,232.875,-67.35,0.0,top
+C3,100uF,CP_Radial_D5.0mm_P2.00mm,245.819888,-87.0,0.0,top
+C4,0.1uF,C_Rect_L7.0mm_W2.0mm_P5.00mm,224.924956,-102.95755,-90.0,top
+C6,0.1uF,C_Rect_L7.0mm_W2.0mm_P5.00mm,206.675556,-50.12655,0.0,top
+D1,Zener 5.1V,D_5W_P10.16mm_Horizontal,246.0,-92.52,-90.0,top
+D2,5V LED,LED_D3.0mm,239.925,-86.25,0.0,top
+F1,500ma,Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm,233.674956,-100.45755,180.0,top
+F2,3544-2,FUSE_3544-2,246.15,-60.05755,-90.0,top
+J1,USB,USB_A_Molex_105057_Vertical,242.26,-100.1,90.0,top
+J2,OLED Conn,PinSocket_1x04_P2.54mm_Vertical,204.574956,-39.30755,90.0,top
+J3,GPIO Header,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,236.1,-107.775,0.0,top
+J4,RTC Conn,PinHeader_1x05_P2.54mm_Vertical,187.774956,-39.40755,-90.0,top
+J5,Power In,PHOENIX_MKDS1_2-3.81,245.975,-48.375,90.0,top
+J6,VIN_Voltage,PinHeader_1x03_P2.54mm_Vertical,232.675,-58.525,90.0,top
+J7,Output Header,IDC-Header_2x20_P2.54mm_Vertical,177.559556,-116.83965,90.0,top
+J8,Output Header,IDC-Header_2x20_P2.54mm_Vertical,177.174956,-52.58255,0.0,top
+J9,Serial Out,PinHeader_1x04_P2.54mm_Vertical,187.904956,-46.95155,90.0,top
+R1,120,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,229.69,-85.95,0.0,top
+R4,4.7K,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,206.474956,-64.30755,0.0,top
+R5,4.7K,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,206.474956,-67.35755,0.0,top
+SW1,OLED Select,SW_CuK_JS202011CQN_DPDT_Straight,218.234956,-38.20755,0.0,top
+SW4,Enter BTN,SW_PUSH_6mm,229.025,-37.95,0.0,top
+SW5,Down BTN,SW_PUSH_6mm,229.025,-47.05755,0.0,top
+U1,Universe5V,Universal_5V_Horizontal,245.65,-75.925,-90.0,top
+U2,POCKETBEAGLE-SC-569,BEAGLE_POCKETBEAGLE-SC-569,207.489656,-76.92025,180.0,top
+U4,24LC256,DIP-8_W7.62mm,206.474956,-53.50755,0.0,top
