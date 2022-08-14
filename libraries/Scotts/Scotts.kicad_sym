@@ -6,7 +6,7 @@
     (property "Value" "Universe5V" (id 1) (at 0 3.175 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 0.635 -3.81 0)
+    (property "Footprint" "Scotts:Universal_5V_Horizontal" (id 2) (at 0.635 -3.81 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 -1.27 0)
