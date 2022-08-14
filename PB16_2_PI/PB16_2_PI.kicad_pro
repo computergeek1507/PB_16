@@ -402,8 +402,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "PB16_2_PI.step",
+      "vrml": "PB16_2_PI.wrl"
     },
     "page_layout_descr_file": ""
   },
