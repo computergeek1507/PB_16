@@ -29,12 +29,12 @@
   (pad "1_2" thru_hole circle (at -2.25 0) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask) (tstamp 4e948e71-7ac2-4b20-83c9-e4f3b9b1e88e))
   (pad "2_1" thru_hole circle (at 2.25 0) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask) (tstamp e2d03125-2e3f-44cb-b237-83f21ef21ed6))
   (pad "2_2" thru_hole circle (at 5.95 0) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask) (tstamp 192371da-f53d-4fbd-b594-b807bc2cef84))
-  (model "${GIT_MODELS}/Mini Blade Fuse Holder.iges"
+  (model "${KIPRJMOD}/../libraries/3D_Models/Mini Blade Fuse Holder.iges"
     (offset (xyz 0 -2.38 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${GIT_MODELS}/MINI Blade Type.step"
+  (model "${KIPRJMOD}/../libraries/3D_Models/MINI Blade Type.step"
     (offset (xyz 0 0 10.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))
