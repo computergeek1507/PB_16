@@ -19,4 +19,45 @@ To order PCBs upload the ["GERBER-BBB_16.zip"](https://github.com/computergeek15
 
 ![Image of BBB16 Out](https://github.com/computergeek1507/PB_16/raw/master/BBB_16/BBB_16.png)
 
+---
+## Changelog
+
+v2.2
+-
+* Updated 5V regulator to "Universal" footprint to support different regulators.
+
+v2.1
+-
+* Added power input ADC circuits.
+
+v2
+-
+* Moved Beaglebone to bottom of PCB.
+* Changed one RJ45 port to differential output.
+* Added Aux Power port.
+* Changed to 24pin Expansion port.
+* Changed power terminals to screw terminals.
+* Removed Audio Breakout Header.
+
+v1.4
+-
+* Fix EEPROM I2C.
+
+v1.3
+-
+* Fix Buttons and GPIO.
+
+v1.2
+-
+* Added Audio Breakout Header.
+* Switch to 33ohm resistors for pixel outputs.
+
+v1
+-
+* First version.
+* BBB on top
+* OLED.
+* Buttons.
+* GPIO port.
+* Side Entry power ports.
 
