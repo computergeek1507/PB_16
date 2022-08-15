@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name "MP1584")(type "Legacy")(uri "C:/Users/scoot/Documents/PB_16/libraries/MP1584/MP1584.lib")(options "")(descr ""))
-  (lib (name "Scotts")(type "KiCad")(uri "C:/Users/scoot/Documents/PB_16/libraries/Scotts/Scotts.kicad_sym")(options "")(descr ""))
+  (lib (name "MP1584")(type "Legacy")(uri "${KIPRJMOD}/../libraries/MP1584/MP1584.lib")(options "")(descr ""))
+  (lib (name "Scotts")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Scotts/Scotts.kicad_sym")(options "")(descr ""))
 )

@@ -1,30 +1,83 @@
-"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"C1";"CP_Radial_D10.0mm_P5.00mm";1;"220uF";;;
-2;"D1";"LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"5V LED";;;
-3;"J5";"OLED-SSD1306-128X64-I2C-THT";1;"OLED Conn";;;
-4;"J4";"PinHeader_1x05_P2.54mm_Vertical";1;"RTC Conn";;;
-5;"R4,R5";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";2;"4.7K";;;
-6;"C3,C4,C5";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";3;"0.1uF";;;
-7;"U3";"SOIC-8_3.9x4.9mm_P1.27mm";1;"24LC256";;;
-8;"R1";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"1K";;;
-9;"J7";"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical";1;"DMX1";;;
-10;"R3,R2";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";2;"120";;;
-11;"U2";"SOIC-8_3.9x4.9mm_P1.27mm";1;"UA9638CP";;;
-12;"J8";"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical";1;"DMX2";;;
-13;"SW1";"SW_PUSH_6mm";1;"PWR_BUTTON";;;
-14;"J2";"OST_302-S241";1;"Output 2";;;
-15;"J1";"OST_302-S241";1;"Output 1";;;
-16;"J3";"OST_302-S241";1;"Output 3";;;
-17;"U1";"BEAGLEBONEBLACK";1;"BEAGLEBONEBLACK";;;
-18;"SW5";"SW_PUSH_6mm";1;"Enter BTN";;;
-19;"SW4";"SW_PUSH_6mm";1;"Back BTN";;;
-20;"SW2";"SW_PUSH_6mm";1;"Up BTN";;;
-21;"SW3";"SW_PUSH_6mm";1;"Down/Test BTN";;;
-22;"C2";"CP_Elec_6.3x5.4_Nichicon";1;"100uF";;;
-23;"F1";"FUSE_3544-2";1;"3544-2";;;
-24;"J10";"PinHeader_1x03_P2.54mm_Vertical";1;"VIN Voltage";;;
-25;"Q1";"SOT-23";1;"DMP3056L";;;
-26;"R6";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"100K";;;
-27;"D2";"D_SOD-123";1;"Zener 10V";;;
-28;"U4";"Universal_5V_Horizontal";1;"Universe5V";;;
-29;"J6";"TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal";1;"Pwr In";;;
+"Source:","D:\PB_16\BBB_16_Expansion\BBB_16_Expansion.kicad_sch"
+"Date:","8/15/2022 1:25:07 PM"
+"Tool:","Eeschema (6.0.7)"
+"Generator:","C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py"
+"Component Count:","38"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Digi-Key_PN","Field4","Field5","Field6","Field7","Field8","LCSC","MPN"
+"","","C1","220uF","BBB_16-rescue:CP-Device","Capacitor_THT:CP_Radial_D10.0mm_P5.00mm","","P5183-ND","","","","","","C88784","ECA-1HM221"
+"","","C2","100uF","BBB_16-rescue:CP-Device","Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon","","493-2105-1-ND","","","","","","C134723","UWX1C101MCL1GB"
+"","","C3","0.1uF","Device:C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~","1276-1007-1-ND","","","","","","C14663","CC0603KRX7R9BB104"
+"","","C4","0.1uF","Device:C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~","1276-1007-1-ND","","","","","","C14663","CC0603KRX7R9BB104"
+"","","C5","0.1uF","Device:C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~","1276-1007-1-ND","","","","","","C14663","CC0603KRX7R9BB104"
+"","","C6","0.1uF","Device:C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~","1276-1007-1-ND","","","","","","C14663","CC0603KRX7R9BB104"
+"","","C7","10uF","Device:C","Capacitor_SMD:CP_Elec_4x5.3","~","493-2173-1-ND","","","","","","C72485","UWT1C100MCL1GB"
+"","","D1","5V LED","Device:LED","LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder","~","160-1423-1-ND","","","","","","C2297","LTST-C171GKT"
+"","","D2","Zener 10V","Device:D_Zener_Small","Diode_SMD:D_SOD-123","~","MMSZ5240B-FDICT-ND","","","","","","C173431","MMSZ5240B-7-F"
+"","","F1","3544-2","PB_16-rescue:3544-2-Keystone_Fuse","3544-2:FUSE_3544-2","None","36-3544-2-ND","3544-2","None","Unavailable","Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses","Keystone Electronics","C492610","3544-2"
+"","","J1","Output 1","Connector_Generic:Conn_02x12_Odd_Even","302-S241:OST_302-S241","~","ED10525-ND","","","","","","C221083","Z-S311024S1GK1A"
+"","","J2","Output 2","Connector_Generic:Conn_02x12_Odd_Even","302-S241:OST_302-S241","~","ED10525-ND","","","","","","C221083","Z-S311024S1GK1A"
+"","","J3","Output 3","Connector_Generic:Conn_02x12_Odd_Even","302-S241:OST_302-S241","~","ED10525-ND","","","","","","C221083","Z-S311024S1GK1A"
+"","","J4","RTC Conn","Connector:Conn_01x05_Male","Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical","~","732-5318-ND","","","","","","C358687","MTP125-1105S1"
+"","","J5","OLED Conn","Connector:Conn_01x04_Female","OLED-SSD1306-128X64-I2C:OLED-SSD1306-128X64-I2C-THT","~","S7002-ND","","","","","","C225501","A2541HWV-4P"
+"","","J6","Pwr In","Connector:Screw_Terminal_01x02","MKDS1_2-3.81:PHOENIX_MKDS1_2-3.81","~","277-1947-ND","","","","","","C69811","1727010"
+"","","J7","DMX1","Connector:Screw_Terminal_01x03","Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.81_1x03_P3.81mm_Vertical","~","2057-EBWA-03-B-ND","","","","","","C36780","EBWA-03-B"
+"","","J8","DMX2","Connector:Screw_Terminal_01x03","Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.81_1x03_P3.81mm_Vertical","~","2057-EBWA-03-B-ND","","","","","","C36780","EBWA-03-B"
+"","","J10","VIN Voltage","Connector:Conn_01x03_Male","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","~","732-5316-ND","","","","","","C49257","61300311121"
+"","","Q1","DMP3056L","Device:Q_PMOS_GSD","Package_TO_SOT_SMD:SOT-23","~","DMP3056L-7DICT-ND","","","","","","C150724","DMP3056L-7"
+"","","R1","1K","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","311-1.00KCRCT-ND","","","","","","C17513","RC0805FR-071KL"
+"","","R2","120","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","311-120ARCT-ND","","","","","","C17437","RC0805JR-07120RL"
+"","","R3","120","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","311-120ARCT-ND","","","","","","C17437","RC0805JR-07120RL"
+"","","R4","4.7K","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","311-4.7KARCT-ND","","","","","","C17673","RC0805JR-074K7L"
+"","","R5","4.7K","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","311-4.7KARCT-ND","","","","","","C17673","RC0805JR-074K7L"
+"","","R6","100K","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","YAG1235CT-ND","","","","","","C25803","RT0603BRD07100KL"
+"","","R7","4.7K","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","311-4.7KARCT-ND","","","","","","C17673","RC0805JR-074K7L"
+"","","R8","4.7K","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","311-4.7KARCT-ND","","","","","","C17673","RC0805JR-074K7L"
+"","","SW1","PWR_BUTTON","Switch:SW_Push","Button_Switch_THT:SW_PUSH_6mm","~","450-1650-ND","","","","","","C428628","1825910-6"
+"","","SW2","Up BTN","Switch:SW_SPST","Button_Switch_THT:SW_PUSH_6mm","~","450-1650-ND","","","","","","C428628","1825910-6"
+"","","SW3","Down/Test BTN","Switch:SW_SPST","Button_Switch_THT:SW_PUSH_6mm","~","450-1650-ND","","","","","","C428628","1825910-6"
+"","","SW4","Back BTN","Switch:SW_SPST","Button_Switch_THT:SW_PUSH_6mm","~","450-1650-ND","","","","","","C428628","1825910-6"
+"","","SW5","Enter BTN","Switch:SW_SPST","Button_Switch_THT:SW_PUSH_6mm","~","450-1650-ND","","","","","","C428628","1825910-6"
+"","","U1","BEAGLEBONEBLACK","beagleboneblack:BEAGLEBONEBLACK","beagleboneblack:BEAGLEBONEBLACK","","","","","","","","",""
+"","","U2","SP3485EN","Interface_UART:SP3485EN","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.icbase.com/pdf/SPX/SPX00480106.pdf","1016-1171-5-ND","","","","","","C6855","SP485EEN-L"
+"","","U3","24LC256","Memory_EEPROM:24LC256","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://ww1.microchip.com/downloads/en/devicedoc/21203m.pdf","24LC256T-I/SNCT-ND","","","","","","C6482","24LC256T-I/SN"
+"","","U4","Universe5V","Scotts:Universe5V","Scotts:Universal_5V_Horizontal","http://www.fairchildsemi.com/ds/LM/LM7805.pdf","811-2196-5-ND","","","","","","","OKI-78SR-5/1.5-W36-C"
+"","","U5","SP3485EN","Interface_UART:SP3485EN","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.icbase.com/pdf/SPX/SPX00480106.pdf","1016-1171-5-ND","","","","","","C6855","SP485EEN-L"
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Digi-Key_PN","Field4","Field5","Field6","Field7","Field8","LCSC","MPN"
+"1","1","C1","220uF","BBB_16-rescue:CP-Device","Capacitor_THT:CP_Radial_D10.0mm_P5.00mm","","P5183-ND","","","","","","C88784","ECA-1HM221"
+"2","1","C2","100uF","BBB_16-rescue:CP-Device","Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon","","493-2105-1-ND","","","","","","C134723","UWX1C101MCL1GB"
+"3","4","C3, C4, C5, C6","0.1uF","Device:C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~","1276-1007-1-ND","","","","","","C14663","CC0603KRX7R9BB104"
+"4","1","C7","10uF","Device:C","Capacitor_SMD:CP_Elec_4x5.3","~","493-2173-1-ND","","","","","","C72485","UWT1C100MCL1GB"
+"5","1","D1","5V LED","Device:LED","LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder","~","160-1423-1-ND","","","","","","C2297","LTST-C171GKT"
+"6","1","D2","Zener 10V","Device:D_Zener_Small","Diode_SMD:D_SOD-123","~","MMSZ5240B-FDICT-ND","","","","","","C173431","MMSZ5240B-7-F"
+"7","1","F1","3544-2","PB_16-rescue:3544-2-Keystone_Fuse","3544-2:FUSE_3544-2","None","36-3544-2-ND","3544-2","None","Unavailable","Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses","Keystone Electronics","C492610","3544-2"
+"8","1","J1","Output 1","Connector_Generic:Conn_02x12_Odd_Even","302-S241:OST_302-S241","~","ED10525-ND","","","","","","C221083","Z-S311024S1GK1A"
+"9","1","J2","Output 2","Connector_Generic:Conn_02x12_Odd_Even","302-S241:OST_302-S241","~","ED10525-ND","","","","","","C221083","Z-S311024S1GK1A"
+"10","1","J3","Output 3","Connector_Generic:Conn_02x12_Odd_Even","302-S241:OST_302-S241","~","ED10525-ND","","","","","","C221083","Z-S311024S1GK1A"
+"11","1","J4","RTC Conn","Connector:Conn_01x05_Male","Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical","~","732-5318-ND","","","","","","C358687","MTP125-1105S1"
+"12","1","J5","OLED Conn","Connector:Conn_01x04_Female","OLED-SSD1306-128X64-I2C:OLED-SSD1306-128X64-I2C-THT","~","S7002-ND","","","","","","C225501","A2541HWV-4P"
+"13","1","J6","Pwr In","Connector:Screw_Terminal_01x02","MKDS1_2-3.81:PHOENIX_MKDS1_2-3.81","~","277-1947-ND","","","","","","C69811","1727010"
+"14","1","J7","DMX1","Connector:Screw_Terminal_01x03","Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.81_1x03_P3.81mm_Vertical","~","2057-EBWA-03-B-ND","","","","","","C36780","EBWA-03-B"
+"15","1","J8","DMX2","Connector:Screw_Terminal_01x03","Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.81_1x03_P3.81mm_Vertical","~","2057-EBWA-03-B-ND","","","","","","C36780","EBWA-03-B"
+"16","1","J10","VIN Voltage","Connector:Conn_01x03_Male","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","~","732-5316-ND","","","","","","C49257","61300311121"
+"17","1","Q1","DMP3056L","Device:Q_PMOS_GSD","Package_TO_SOT_SMD:SOT-23","~","DMP3056L-7DICT-ND","","","","","","C150724","DMP3056L-7"
+"18","1","R1","1K","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","311-1.00KCRCT-ND","","","","","","C17513","RC0805FR-071KL"
+"19","2","R2, R3","120","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","311-120ARCT-ND","","","","","","C17437","RC0805JR-07120RL"
+"20","4","R4, R5, R7, R8","4.7K","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","311-4.7KARCT-ND","","","","","","C17673","RC0805JR-074K7L"
+"21","1","R6","100K","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","YAG1235CT-ND","","","","","","C25803","RT0603BRD07100KL"
+"22","1","SW1","PWR_BUTTON","Switch:SW_Push","Button_Switch_THT:SW_PUSH_6mm","~","450-1650-ND","","","","","","C428628","1825910-6"
+"23","1","SW2","Up BTN","Switch:SW_SPST","Button_Switch_THT:SW_PUSH_6mm","~","450-1650-ND","","","","","","C428628","1825910-6"
+"24","1","SW3","Down/Test BTN","Switch:SW_SPST","Button_Switch_THT:SW_PUSH_6mm","~","450-1650-ND","","","","","","C428628","1825910-6"
+"25","1","SW4","Back BTN","Switch:SW_SPST","Button_Switch_THT:SW_PUSH_6mm","~","450-1650-ND","","","","","","C428628","1825910-6"
+"26","1","SW5","Enter BTN","Switch:SW_SPST","Button_Switch_THT:SW_PUSH_6mm","~","450-1650-ND","","","","","","C428628","1825910-6"
+"27","1","U1","BEAGLEBONEBLACK","beagleboneblack:BEAGLEBONEBLACK","beagleboneblack:BEAGLEBONEBLACK","","","","","","","","",""
+"28","2","U2, U5","SP3485EN","Interface_UART:SP3485EN","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.icbase.com/pdf/SPX/SPX00480106.pdf","1016-1171-5-ND","","","","","","C6855","SP485EEN-L"
+"29","1","U3","24LC256","Memory_EEPROM:24LC256","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://ww1.microchip.com/downloads/en/devicedoc/21203m.pdf","24LC256T-I/SNCT-ND","","","","","","C6482","24LC256T-I/SN"
+"30","1","U4","Universe5V","Scotts:Universe5V","Scotts:Universal_5V_Horizontal","http://www.fairchildsemi.com/ds/LM/LM7805.pdf","811-2196-5-ND","","","","","","","OKI-78SR-5/1.5-W36-C"
