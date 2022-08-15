@@ -1,7 +1,7 @@
 (sym_lib_table
   (lib (name BBB_16-rescue)(type Legacy)(uri ${KIPRJMOD}/BBB_16-rescue.lib)(options "")(descr ""))
-  (lib (name AM26C31)(type Legacy)(uri ${KIPRJMOD}/libraries/AM26C31/AM26C31.lib)(options "")(descr ""))
-  (lib (name AM26C32IN)(type Legacy)(uri ${KIPRJMOD}/libraries/AM26C32IN/AM26C32IN.lib)(options "")(descr ""))
-  (lib (name Barrier_Blocks)(type Legacy)(uri ${KIPRJMOD}/libraries/Barrier_Blocks/Barrier_Blocks.lib)(options "")(descr ""))
-  (lib (name dk_DC-DC-Converters)(type Legacy)(uri ${KIPRJMOD}/libraries/OKI-78SR-5/dk_DC-DC-Converters.lib)(options "")(descr ""))
+  (lib (name AM26C31)(type Legacy)(uri ${KIPRJMOD}/../libraries/AM26C31/AM26C31.lib)(options "")(descr ""))
+  (lib (name AM26C32IN)(type Legacy)(uri ${KIPRJMOD}/../libraries/AM26C32IN/AM26C32IN.lib)(options "")(descr ""))
+  (lib (name Barrier_Blocks)(type Legacy)(uri ${KIPRJMOD}/../libraries/Barrier_Blocks/Barrier_Blocks.lib)(options "")(descr ""))
+  (lib (name "Scotts")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Scotts/Scotts.kicad_sym")(options "")(descr ""))
 )

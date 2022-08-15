@@ -6,8 +6,8 @@
 
   (title_block
     (title "BBB 16")
-    (date "2021-11-04")
-    (rev "v2.1")
+    (date "2022-08-14")
+    (rev "v2.2")
     (company "Scott Hanson")
   )
 
@@ -968,7 +968,7 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 150.876 102.108 0) (mirror x)
+  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 150.876 102.108 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfad7)
     (property "Reference" "J1" (id 0) (at 149.352 97.536 0)
@@ -994,7 +994,7 @@
     (pin "3" (uuid 4e910435-4332-48d2-b5ae-3720468cdb1c))
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 162.052 102.108 0) (mirror x)
+  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 162.052 102.108 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfadf)
     (property "Reference" "J2" (id 0) (at 160.528 97.282 0)
@@ -1020,7 +1020,7 @@
     (pin "3" (uuid a883e621-b1dd-458a-81a9-aa39c913ae7b))
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 173.99 101.6 0) (mirror x)
+  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 173.99 101.6 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfae7)
     (property "Reference" "J3" (id 0) (at 172.466 96.774 0)
@@ -1046,7 +1046,7 @@
     (pin "3" (uuid dd4eb669-c7ce-455b-852f-934c4d14acea))
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 185.42 101.346 0) (mirror x)
+  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 185.42 101.346 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfaef)
     (property "Reference" "J4" (id 0) (at 184.404 96.52 0)
@@ -1072,7 +1072,7 @@
     (pin "3" (uuid dbd72087-ee6e-48ff-8bba-ee652a08c2ca))
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 196.85 101.092 0) (mirror x)
+  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 196.85 101.092 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfaf7)
     (property "Reference" "J5" (id 0) (at 195.326 96.266 0)
@@ -1098,7 +1098,7 @@
     (pin "3" (uuid 03b737e7-d60f-4465-84a9-6cdca11ac760))
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 208.28 101.346 0) (mirror x)
+  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 208.28 101.346 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfaff)
     (property "Reference" "J6" (id 0) (at 206.756 96.266 0)
@@ -1124,7 +1124,7 @@
     (pin "3" (uuid 52c13093-3079-4edc-a617-88ba988f97ac))
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 219.71 101.092 0) (mirror x)
+  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 219.71 101.092 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfb07)
     (property "Reference" "J7" (id 0) (at 218.44 96.266 0)
@@ -1150,7 +1150,7 @@
     (pin "3" (uuid 6e4827ff-8cda-46f8-ac61-d58c0feab551))
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 231.14 101.092 0) (mirror x)
+  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 231.14 101.092 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfb0f)
     (property "Reference" "J8" (id 0) (at 229.87 96.266 0)
@@ -1176,7 +1176,7 @@
     (pin "3" (uuid ad3ae0e8-cd1f-4c18-bad2-924f72c1ef66))
   )
 
-  (symbol (lib_id "power:GND") (at 145.796 104.648 0)
+  (symbol (lib_id "power:GND") (at 145.796 104.648 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfb15)
     (property "Reference" "#PWR012" (id 0) (at 145.796 110.998 0)
@@ -1192,7 +1192,7 @@
     (pin "1" (uuid e1f999f1-8d41-45ed-9099-b7881ce387fd))
   )
 
-  (symbol (lib_id "power:GND") (at 156.972 104.648 0)
+  (symbol (lib_id "power:GND") (at 156.972 104.648 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfb1b)
     (property "Reference" "#PWR013" (id 0) (at 156.972 110.998 0)
@@ -1208,7 +1208,7 @@
     (pin "1" (uuid 7b084592-fba5-4ea6-a9fc-752acbc9a8ab))
   )
 
-  (symbol (lib_id "power:GND") (at 168.91 104.14 0)
+  (symbol (lib_id "power:GND") (at 168.91 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfb21)
     (property "Reference" "#PWR014" (id 0) (at 168.91 110.49 0)
@@ -1224,7 +1224,7 @@
     (pin "1" (uuid 2d718a4b-0d60-4ffe-b3dd-9c1a73541613))
   )
 
-  (symbol (lib_id "power:GND") (at 180.34 103.886 0)
+  (symbol (lib_id "power:GND") (at 180.34 103.886 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfb27)
     (property "Reference" "#PWR015" (id 0) (at 180.34 110.236 0)
@@ -1240,7 +1240,7 @@
     (pin "1" (uuid d7a3538d-20e8-441d-a5e9-5b822e4f4836))
   )
 
-  (symbol (lib_id "power:GND") (at 191.77 103.632 0)
+  (symbol (lib_id "power:GND") (at 191.77 103.632 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfb2d)
     (property "Reference" "#PWR016" (id 0) (at 191.77 109.982 0)
@@ -1256,7 +1256,7 @@
     (pin "1" (uuid badbc3bf-3450-4598-86a2-ab198c17af11))
   )
 
-  (symbol (lib_id "power:GND") (at 203.2 103.886 0)
+  (symbol (lib_id "power:GND") (at 203.2 103.886 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfb33)
     (property "Reference" "#PWR017" (id 0) (at 203.2 110.236 0)
@@ -1272,7 +1272,7 @@
     (pin "1" (uuid aedae82a-4520-4091-a372-08dc14b42009))
   )
 
-  (symbol (lib_id "power:GND") (at 214.63 103.632 0)
+  (symbol (lib_id "power:GND") (at 214.63 103.632 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfb39)
     (property "Reference" "#PWR018" (id 0) (at 214.63 109.982 0)
@@ -1288,7 +1288,7 @@
     (pin "1" (uuid 1cad75f8-fc4a-4fd6-bb4b-551259100bc2))
   )
 
-  (symbol (lib_id "power:GND") (at 226.06 103.632 0)
+  (symbol (lib_id "power:GND") (at 226.06 103.632 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfb3f)
     (property "Reference" "#PWR019" (id 0) (at 226.06 109.982 0)
@@ -1304,7 +1304,7 @@
     (pin "1" (uuid 2e3e962d-e869-4aac-86ef-a386f6ddb73a))
   )
 
-  (symbol (lib_id "BBB_16-rescue:3544-2-Keystone_Fuse") (at 157.226 80.772 270)
+  (symbol (lib_id "BBB_16-rescue:3544-2-Keystone_Fuse") (at 157.226 80.772 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfb8b)
     (property "Reference" "F2" (id 0) (at 160.528 79.6036 90)
@@ -1346,7 +1346,7 @@
     (pin "2_2" (uuid dfcc1e44-748d-4d82-846a-20b2f4079a97))
   )
 
-  (symbol (lib_id "BBB_16-rescue:3544-2-Keystone_Fuse") (at 168.91 81.026 270)
+  (symbol (lib_id "BBB_16-rescue:3544-2-Keystone_Fuse") (at 168.91 81.026 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfb98)
     (property "Reference" "F3" (id 0) (at 172.212 79.8576 90)
@@ -1388,7 +1388,7 @@
     (pin "2_2" (uuid c10b2da7-5f0d-44e9-b055-a68ed9eaf19b))
   )
 
-  (symbol (lib_id "BBB_16-rescue:3544-2-Keystone_Fuse") (at 180.34 81.28 270)
+  (symbol (lib_id "BBB_16-rescue:3544-2-Keystone_Fuse") (at 180.34 81.28 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfba5)
     (property "Reference" "F4" (id 0) (at 183.642 80.1116 90)
@@ -1430,7 +1430,7 @@
     (pin "2_2" (uuid edebc783-2af4-432b-912c-e0a29f39d623))
   )
 
-  (symbol (lib_id "BBB_16-rescue:3544-2-Keystone_Fuse") (at 191.77 81.026 270)
+  (symbol (lib_id "BBB_16-rescue:3544-2-Keystone_Fuse") (at 191.77 81.026 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfbb2)
     (property "Reference" "F5" (id 0) (at 195.072 79.8576 90)
@@ -1472,7 +1472,7 @@
     (pin "2_2" (uuid 8962d548-b48c-4fae-b6b2-8cd84246280c))
   )
 
-  (symbol (lib_id "BBB_16-rescue:3544-2-Keystone_Fuse") (at 203.2 80.772 270)
+  (symbol (lib_id "BBB_16-rescue:3544-2-Keystone_Fuse") (at 203.2 80.772 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfbbf)
     (property "Reference" "F6" (id 0) (at 206.502 79.6036 90)
@@ -1514,7 +1514,7 @@
     (pin "2_2" (uuid 9dff9568-3c9e-48cf-858c-7a3107ec6848))
   )
 
-  (symbol (lib_id "BBB_16-rescue:3544-2-Keystone_Fuse") (at 214.63 80.772 270)
+  (symbol (lib_id "BBB_16-rescue:3544-2-Keystone_Fuse") (at 214.63 80.772 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfbcc)
     (property "Reference" "F7" (id 0) (at 217.932 79.6036 90)
@@ -1556,7 +1556,7 @@
     (pin "2_2" (uuid f13b08a6-d644-493d-85aa-91d20b53c51a))
   )
 
-  (symbol (lib_id "BBB_16-rescue:3544-2-Keystone_Fuse") (at 226.06 80.772 270)
+  (symbol (lib_id "BBB_16-rescue:3544-2-Keystone_Fuse") (at 226.06 80.772 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfbd9)
     (property "Reference" "F8" (id 0) (at 229.362 79.6036 90)
@@ -1598,7 +1598,7 @@
     (pin "2_2" (uuid 238becd0-1186-42b9-bfd2-77250f983be2))
   )
 
-  (symbol (lib_id "power:GND") (at 137.16 110.744 0)
+  (symbol (lib_id "power:GND") (at 137.16 110.744 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfbe1)
     (property "Reference" "#PWR011" (id 0) (at 137.16 117.094 0)
@@ -1614,7 +1614,7 @@
     (pin "1" (uuid a92c3123-a220-4612-806a-2666e87b40ad))
   )
 
-  (symbol (lib_id "power:+5V") (at 74.422 108.966 0)
+  (symbol (lib_id "power:+5V") (at 74.422 108.966 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfbe7)
     (property "Reference" "#PWR08" (id 0) (at 74.422 112.776 0)
@@ -1630,7 +1630,7 @@
     (pin "1" (uuid e2f74d9b-9dc5-4af4-9b59-59867d4d27d5))
   )
 
-  (symbol (lib_id "power:GND") (at 74.422 131.826 0)
+  (symbol (lib_id "power:GND") (at 74.422 131.826 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfbed)
     (property "Reference" "#PWR09" (id 0) (at 74.422 138.176 0)
@@ -1646,7 +1646,7 @@
     (pin "1" (uuid d3bdca8f-4c77-44d4-b897-8e120a252b32))
   )
 
-  (symbol (lib_id "BBB_16-rescue:C-Device") (at 134.112 107.696 0)
+  (symbol (lib_id "BBB_16-rescue:C-Device") (at 134.112 107.696 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfbf5)
     (property "Reference" "C3" (id 0) (at 137.033 106.5276 0)
@@ -1671,7 +1671,7 @@
     (pin "2" (uuid 62893ef1-b01d-4ad9-9542-ea2e93d0de9a))
   )
 
-  (symbol (lib_id "power:+5V") (at 134.112 103.886 0)
+  (symbol (lib_id "power:+5V") (at 134.112 103.886 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfbfb)
     (property "Reference" "#PWR010" (id 0) (at 134.112 107.696 0)
@@ -1687,7 +1687,7 @@
     (pin "1" (uuid 923bc4f0-989d-4046-9a51-0edead6f42f8))
   )
 
-  (symbol (lib_id "BBB_16-rescue:R_Pack04_SIP-Device") (at 208.28 129.032 0) (mirror x)
+  (symbol (lib_id "BBB_16-rescue:R_Pack04_SIP-Device") (at 208.28 129.032 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfc06)
     (property "Reference" "RN2" (id 0) (at 207.2132 134.239 90)
@@ -1718,7 +1718,7 @@
     (pin "8" (uuid ad2c922a-f5b0-49cd-8557-f4e48df02ff1))
   )
 
-  (symbol (lib_id "BBB_16-rescue:SN74HCT245N-SN74HCT245N") (at 74.422 108.966 0)
+  (symbol (lib_id "BBB_16-rescue:SN74HCT245N-SN74HCT245N") (at 74.422 108.966 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfc0f)
     (property "Reference" "U3" (id 0) (at 101.854 100.33 0)
@@ -1761,7 +1761,7 @@
     (pin "9" (uuid f826c15e-2802-4c5f-84c9-84d0aa8b331d))
   )
 
-  (symbol (lib_id "BBB_16-rescue:3544-2-Keystone_Fuse") (at 145.796 81.026 270)
+  (symbol (lib_id "BBB_16-rescue:3544-2-Keystone_Fuse") (at 145.796 81.026 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfc1c)
     (property "Reference" "F1" (id 0) (at 149.098 79.8576 90)
@@ -1803,7 +1803,7 @@
     (pin "2_2" (uuid 992d8d26-507a-4fc0-9439-b53692caa65e))
   )
 
-  (symbol (lib_id "BBB_16-rescue:R_Pack04_SIP-Device") (at 163.322 138.176 0) (mirror x)
+  (symbol (lib_id "BBB_16-rescue:R_Pack04_SIP-Device") (at 163.322 138.176 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4cfc39)
     (property "Reference" "RN1" (id 0) (at 162.2552 143.383 90)

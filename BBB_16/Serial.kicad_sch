@@ -6,8 +6,8 @@
 
   (title_block
     (title "BBB 16")
-    (date "2021-11-04")
-    (rev "v2.1")
+    (date "2022-08-14")
+    (rev "v2.2")
     (company "Scott Hanson")
   )
 
@@ -878,7 +878,7 @@
     )
   )
 
-  (symbol (lib_id "BBB_16-rescue:R-Device") (at 165.1 85.09 0)
+  (symbol (lib_id "BBB_16-rescue:R-Device") (at 165.1 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d49e88a)
     (property "Reference" "R2" (id 0) (at 166.878 83.9216 0)
@@ -903,7 +903,7 @@
     (pin "2" (uuid 6d83fe2f-8dba-4eb2-8a2c-d856042319d5))
   )
 
-  (symbol (lib_id "power:GND") (at 152.4 87.63 0)
+  (symbol (lib_id "power:GND") (at 152.4 87.63 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d49e8a0)
     (property "Reference" "#PWR033" (id 0) (at 152.4 93.98 0)
@@ -919,7 +919,7 @@
     (pin "1" (uuid 881b305f-f9af-418b-9b14-a065b79e7f12))
   )
 
-  (symbol (lib_id "BBB_16-rescue:C-Device") (at 176.022 37.846 0)
+  (symbol (lib_id "BBB_16-rescue:C-Device") (at 176.022 37.846 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d49e8b4)
     (property "Reference" "C5" (id 0) (at 170.688 37.338 0)
@@ -944,7 +944,7 @@
     (pin "2" (uuid 01a71869-d827-4d66-9b01-370f74f00450))
   )
 
-  (symbol (lib_id "power:GND") (at 176.022 41.656 0)
+  (symbol (lib_id "power:GND") (at 176.022 41.656 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d49e8ba)
     (property "Reference" "#PWR037" (id 0) (at 176.022 48.006 0)
@@ -960,7 +960,7 @@
     (pin "1" (uuid 7706110d-f78c-4e82-a3c4-6a7b206d97b4))
   )
 
-  (symbol (lib_id "Connector:RJ45") (at 111.252 47.244 0)
+  (symbol (lib_id "Connector:RJ45") (at 111.252 47.244 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d49e8dc)
     (property "Reference" "J20" (id 0) (at 112.6998 30.3022 0))
@@ -987,7 +987,7 @@
     (pin "8" (uuid 7f7c65f1-87c6-42b7-a52c-43677ff54b30))
   )
 
-  (symbol (lib_id "power:GND") (at 123.19 38.354 0)
+  (symbol (lib_id "power:GND") (at 123.19 38.354 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d49e8e6)
     (property "Reference" "#PWR034" (id 0) (at 123.19 44.704 0)
@@ -1029,6 +1029,11 @@
     (pin "4" (uuid a6500c2c-eae5-43ba-9ae9-1056c5f98e4b))
     (pin "7" (uuid b7e42960-c16d-4fae-b99b-fc2dbbf701c2))
     (pin "8" (uuid 10376b05-7298-4702-ab3c-90e2d2643150))
+    (pin "1" (uuid 612857ea-7325-4042-b2ac-db8e4ff2af13))
+    (pin "3" (uuid ef8539fa-def0-4419-bb3f-9dc531ecec8c))
+    (pin "4" (uuid a6500c2c-eae5-43ba-9ae9-1056c5f98e4b))
+    (pin "5" (uuid 049ab3cc-5de0-483e-bd3b-6289efd43c8e))
+    (pin "6" (uuid 3fcc7461-0d7f-453f-8da6-29d4224fee18))
   )
 
   (symbol (lib_id "Interface_LineDriver:UA9638CP") (at 189.23 85.09 0) (mirror y) (unit 2)
@@ -1053,13 +1058,18 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a12d8c7c-622f-4ba4-bfb2-65cbd2da79cd))
+    (pin "2" (uuid 491d6e80-0620-4cc3-bc7f-859772031a38))
+    (pin "4" (uuid ea4ec003-644e-4cba-9db8-e13c0f6a4178))
+    (pin "7" (uuid d777253d-d7ec-43a6-b603-23fc7b036948))
+    (pin "8" (uuid d05f8e63-4132-4806-9686-4694ac046167))
+    (pin "1" (uuid a12d8c7c-622f-4ba4-bfb2-65cbd2da79cd))
     (pin "3" (uuid 1c3627f9-1535-4f55-a7b1-ecb389a7d580))
     (pin "4" (uuid ea4ec003-644e-4cba-9db8-e13c0f6a4178))
     (pin "5" (uuid 4cbc5e3b-1f61-4f63-88eb-61e71d1c76cc))
     (pin "6" (uuid 2357565c-e5d9-4c07-966c-18b4fc5556d8))
   )
 
-  (symbol (lib_id "BBB_16-rescue:R-Device") (at 147.32 54.61 0)
+  (symbol (lib_id "BBB_16-rescue:R-Device") (at 147.32 54.61 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4e605d)
     (property "Reference" "R1" (id 0) (at 149.098 53.4416 0)
@@ -1084,7 +1094,7 @@
     (pin "2" (uuid 4a8767ee-61ff-43be-93b5-e22a20cbe553))
   )
 
-  (symbol (lib_id "power:GND") (at 191.77 95.25 0)
+  (symbol (lib_id "power:GND") (at 191.77 95.25 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4ee143)
     (property "Reference" "#PWR038" (id 0) (at 191.77 101.6 0)
@@ -1100,7 +1110,7 @@
     (pin "1" (uuid 0e120149-4607-4517-85ac-7f794affc6cb))
   )
 
-  (symbol (lib_id "power:GND") (at 167.894 65.024 0)
+  (symbol (lib_id "power:GND") (at 167.894 65.024 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4ee651)
     (property "Reference" "#PWR035" (id 0) (at 167.894 71.374 0)
@@ -1116,7 +1126,7 @@
     (pin "1" (uuid 6e1db7e3-4b71-4806-8c9e-112e2d4ec47d))
   )
 
-  (symbol (lib_id "power:+5V") (at 191.77 74.93 0)
+  (symbol (lib_id "power:+5V") (at 191.77 74.93 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4eece5)
     (property "Reference" "#PWR036" (id 0) (at 191.77 78.74 0)
@@ -1132,7 +1142,7 @@
     (pin "1" (uuid 6c6a44be-0ef2-449c-8cdc-7ddce84a84de))
   )
 
-  (symbol (lib_id "power:+5V") (at 167.894 33.528 0)
+  (symbol (lib_id "power:+5V") (at 167.894 33.528 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d4ef35c)
     (property "Reference" "#PWR032" (id 0) (at 167.894 37.338 0)
@@ -1191,6 +1201,9 @@
     (pin "1" (uuid b2c9f241-b63c-44dc-8518-faa80e7799ba))
     (pin "2" (uuid 6e07982e-4c8a-44e4-a1ee-7d0cb5eff10f))
     (pin "3" (uuid cc6d58f1-ea06-4275-aa12-42b0eb94058e))
+    (pin "4" (uuid 40cb4365-bb0c-4635-81b1-a81242bc022d))
+    (pin "5" (uuid 90d6b85c-af68-486d-a035-1e5f007fb04f))
+    (pin "6" (uuid a883a28a-36f8-4a32-a325-a7783acbe271))
   )
 
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 142.24 59.944 0) (mirror y) (unit 2)
@@ -1210,6 +1223,9 @@
     (property "MPN" "JS202011CQN" (id 5) (at 142.24 59.944 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 67447c47-d7e2-4f4d-a408-4704c759ef12))
+    (pin "2" (uuid 61f41969-7bfd-47eb-a128-e21b5801f04d))
+    (pin "3" (uuid 8eb23156-cf2d-448d-b539-a0e311b0e628))
     (pin "4" (uuid eb9a5e38-4106-4cce-8c42-54e4327ee52e))
     (pin "5" (uuid 03aa4aa5-9304-4fcf-ae13-ebe5663e1854))
     (pin "6" (uuid 1437cf69-ba02-4bd4-b13f-2f0e1f494f96))

@@ -11,7 +11,7 @@ You may redistribute and modify this documentation under the terms of the CERN O
 
 The "Receiver Out SMD" is a 4 port Differental Reciver output board for the PB16. This design is surface mount based and is harder to solder. All the design files are open source and available on github.
 
-To order PCBs upload the gerber.zip file to jlcpcb.com. Enable the SMD service, 'Receiver_Out_SMD.csv' is the SMD BOM and 'Receiver_Out-all-pos.csv' is the SMD CPL position file.
+To order PCBs upload the "GERBER-Receiver_Out.zip" file in the "jlcpcb\gerber" folder. Enable the SMD service, 'BOM-Receiver_Out.csv' is the SMD BOM and 'POS-Receiver_Out.csv' is the SMD CPL position file.
 
 ## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/Receiver_Out_SMD/Receiver_Out_BOM.ods)
 

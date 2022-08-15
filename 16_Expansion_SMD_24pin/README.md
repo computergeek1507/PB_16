@@ -11,7 +11,7 @@ You may redistribute and modify this documentation under the terms of the CERN O
 
 The "16 Expansion SMD 24pin" ia a 16 port output board for the BBB16v2.  All the design files are open source and available on github.
 
-To order PCBs upload the gerber.zip file to jlcpcb.com. Enable the SMD service, '16_Expansion_SMD_BOM.csv' is the SMD BOM and '16_Expansion-all-pos.csv' is the SMD CPL position file.
+To order PCBs upload the "GERBER-PB_16.zip" file in the "jlcpcb\gerber" folder. Enable the SMD service, 'BOM-PB_16.csv' is the SMD BOM and 'POS-PB_16.csv' is the SMD CPL position file.
 
 ## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/16_Expansion_SMD_24pin/16_Expansion_BOM.ods)
 
