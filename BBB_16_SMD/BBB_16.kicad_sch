@@ -4458,16 +4458,16 @@
     (path "/00000000-0000-0000-0000-00005d469f02/00000000-0000-0000-0000-00005d49e8e6"
       (reference "#PWR034") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005d469f02/00000000-0000-0000-0000-00005d4ee651"
+    (path "/00000000-0000-0000-0000-00005d469f02/47b2e16d-15b1-4f65-a45e-6958921bc4e2"
       (reference "#PWR035") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005d469f02/00000000-0000-0000-0000-00005d4eece5"
-      (reference "#PWR036") (unit 1) (value "+5V") (footprint "")
+    (path "/00000000-0000-0000-0000-00005d469f02/e3fa1753-8061-4d3c-94ee-e97a082760ba"
+      (reference "#PWR036") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005d469f02/00000000-0000-0000-0000-00005d49e8ba"
       (reference "#PWR037") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005d469f02/00000000-0000-0000-0000-00005d4ee143"
+    (path "/00000000-0000-0000-0000-00005d469f02/74d0def1-6d1b-44b5-bd76-1f46aa713d08"
       (reference "#PWR038") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005d52158e"
@@ -4475,6 +4475,12 @@
     )
     (path "/00000000-0000-0000-0000-00005d661937"
       (reference "#PWR040") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005d469f02/3ad8c5ad-145d-45f4-b072-549b470dd006"
+      (reference "#PWR041") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005d469f02/9ccd3158-f790-4eb1-bef7-d76c58f82db0"
+      (reference "#PWR042") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060f51154/00000000-0000-0000-0000-000060f5d4dc"
       (reference "#PWR043") (unit 1) (value "GND") (footprint "")
@@ -4917,6 +4923,9 @@
     (path "/00000000-0000-0000-0000-00005d4698de/2002eec2-b841-4e16-9623-ccf0f6e9abcc"
       (reference "R34") (unit 1) (value "33") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
+    (path "/00000000-0000-0000-0000-00005d469f02/d5067e1a-2ef8-4aa6-87ed-315cc0686060"
+      (reference "R35") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
     (path "/00000000-0000-0000-0000-0000613e2807"
       (reference "SW1") (unit 1) (value "Left BTN") (footprint "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm")
     )
@@ -4959,11 +4968,8 @@
     (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e3af4"
       (reference "U4") (unit 1) (value "SN74HCT245N") (footprint "SN74HCT245NSR:SN74HCT245NSR")
     )
-    (path "/00000000-0000-0000-0000-00005d469f02/00000000-0000-0000-0000-00005d4e3325"
-      (reference "U5") (unit 1) (value "UA9638CP") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
-    )
-    (path "/00000000-0000-0000-0000-00005d469f02/00000000-0000-0000-0000-00005d4e511a"
-      (reference "U5") (unit 2) (value "UA9638CP") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    (path "/00000000-0000-0000-0000-00005d469f02/79e8ba74-f032-431b-acba-d2a9a79e114e"
+      (reference "U5") (unit 1) (value "AM26C31") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-00005d915a6b"
       (reference "U6") (unit 1) (value "24L256") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
