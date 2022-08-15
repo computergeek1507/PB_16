@@ -7,7 +7,7 @@
   (title_block
     (title "BBB 16 SMD")
     (date "2022-08-14")
-    (rev "v3")
+    (rev "v2.1")
     (company "Scott Hanson")
   )
 
@@ -4729,52 +4729,52 @@
       (reference "H5") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.7mm")
     )
     (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfad7"
-      (reference "J1") (unit 1) (value "String1") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J1") (unit 1) (value "String1") (footprint "Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfadf"
-      (reference "J2") (unit 1) (value "String2") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J2") (unit 1) (value "String2") (footprint "Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfae7"
-      (reference "J3") (unit 1) (value "String3") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J3") (unit 1) (value "String3") (footprint "Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfaef"
-      (reference "J4") (unit 1) (value "String4") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J4") (unit 1) (value "String4") (footprint "Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfaf7"
-      (reference "J5") (unit 1) (value "String5") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J5") (unit 1) (value "String5") (footprint "Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfaff"
-      (reference "J6") (unit 1) (value "String6") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J6") (unit 1) (value "String6") (footprint "Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfb07"
-      (reference "J7") (unit 1) (value "String7") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J7") (unit 1) (value "String7") (footprint "Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d469293/00000000-0000-0000-0000-00005d4cfb0f"
-      (reference "J8") (unit 1) (value "String8") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J8") (unit 1) (value "String8") (footprint "Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e39bc"
-      (reference "J9") (unit 1) (value "String9") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J9") (unit 1) (value "String9") (footprint "Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e39c4"
-      (reference "J10") (unit 1) (value "String10") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J10") (unit 1) (value "String10") (footprint "Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e39cc"
-      (reference "J11") (unit 1) (value "String11") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J11") (unit 1) (value "String11") (footprint "Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e39d4"
-      (reference "J12") (unit 1) (value "String12") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J12") (unit 1) (value "String12") (footprint "Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e39dc"
-      (reference "J13") (unit 1) (value "String13") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J13") (unit 1) (value "String13") (footprint "Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e39e4"
-      (reference "J14") (unit 1) (value "String14") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J14") (unit 1) (value "String14") (footprint "Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e39ec"
-      (reference "J15") (unit 1) (value "String15") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J15") (unit 1) (value "String15") (footprint "Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d4698de/00000000-0000-0000-0000-00005d4e39f4"
-      (reference "J16") (unit 1) (value "String16") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical")
+      (reference "J16") (unit 1) (value "String16") (footprint "Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060f1e50a"
       (reference "J17") (unit 1) (value "Power In Left") (footprint "Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS_P9.5MM")
