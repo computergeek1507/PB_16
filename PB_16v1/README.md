@@ -41,3 +41,40 @@ Assembly Instructions are included in the manual below.
 ## [Interactive BOM](https://computergeek1507.github.io/PB_16/PB_16v1/bom/ibom)
 
 ## [Ordering Instructions](https://github.com/computergeek1507/PB_16/blob/master/JLC_PCB.md)
+
+---
+## Changelog
+
+v1 rev H 
+- 
+* Updated 5V regulator to "Universal" footprint to support different regulators.
+* Added Chewi Logo.
+
+v1 rev G 
+- 
+* Moved to barrier block screws connectors for Power Inputs.
+* Fix AUX power pin holes too small.
+
+v1 rev F
+-
+* Added Serial Selector for LOR/DMX, EEPROM, Push Buttons.
+
+v1 rev E
+-
+* Increased AUX power input terminal footprint to 3.81mm. (Pin Holes were too small)
+
+v1 rev D
+-
+* Added OLED wiring selector switch and AUX power input.
+
+v1 rev C
+-
+* Added LEDs and GPIO Header. (First functional PCBs)
+
+v1 rev B
+-
+* Added Expansion, DMX2 RJ45, and OLED Headers. (non-functioning due to wiring issues)
+
+v1 rev A
+-
+* Initial Version. (First non-functioning Prototype PCBs)
