@@ -1,0 +1,94 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,220uF,CP_Radial_D10.0mm_P5.00mm,0.5616,31.9509,180.0,top
+C2,100uF,CP_Elec_6.3x5.4_Nichicon,-12.2384,33.5509,0.0,top
+C3,0.1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,-68.8158,27.7949,-90.0,top
+C4,0.1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,-17.41784,27.8037,-90.0,top
+C5,0.1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,-91.2184,53.3009,0.0,top
+C6,0.1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,-10.1084,50.6709,0.0,top
+C7,0.1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,-21.6434,36.6759,-90.0,top
+C8,0.1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,-90.5934,34.9434,0.0,top
+D1,Zener 10V,D_SOD-123,4.4616,22.4509,0.0,top
+D2,5V LED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,-37.0934,30.8259,0.0,top
+D3,VIN1 LED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,-127.9184,1.2455,-90.0,top
+D4,VIN2 LED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,5.2034,3.3689,-90.0,top
+F1,3544-2,FUSE_3544-2,-105.2384,-14.7491,90.0,top
+F2,3544-2,FUSE_3544-2,-98.931734,-14.7491,90.0,top
+F3,3544-2,FUSE_3544-2,-92.625068,-14.7501,90.0,top
+F4,3544-2,FUSE_3544-2,-86.318402,-14.7501,90.0,top
+F5,3544-2,FUSE_3544-2,-80.011736,-14.7451,90.0,top
+F6,3544-2,FUSE_3544-2,-73.70507,-14.7451,90.0,top
+F7,3544-2,FUSE_3544-2,-67.398404,-14.7451,90.0,top
+F8,3544-2,FUSE_3544-2,-61.091738,-14.7451,90.0,top
+F9,3544-2,FUSE_3544-2,-54.785072,-14.7451,90.0,top
+F10,3544-2,FUSE_3544-2,-48.478406,-14.7451,90.0,top
+F11,3544-2,FUSE_3544-2,-42.17174,-14.7451,90.0,top
+F12,3544-2,FUSE_3544-2,-35.865074,-14.7413,90.0,top
+F13,3544-2,FUSE_3544-2,-29.558408,-14.8101,90.0,top
+F14,3544-2,FUSE_3544-2,-23.251742,-14.8101,90.0,top
+F15,3544-2,FUSE_3544-2,-16.945076,-14.8101,90.0,top
+F16,3544-2,FUSE_3544-2,-10.6384,-14.8101,90.0,top
+F17,3544-2,FUSE_3544-2,10.3088,0.7509,90.0,top
+J1,String1,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-112.0172,13.0035,0.0,top
+J2,String2,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-112.0172,0.0035,0.0,top
+J3,String3,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-97.0172,13.0035,0.0,top
+J4,String4,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-97.0172,0.0035,0.0,top
+J5,String5,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-82.0172,13.0035,0.0,top
+J6,String6,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-81.902858,0.0035,0.0,top
+J7,String7,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-67.0172,13.0035,0.0,top
+J8,String8,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-67.0172,0.0035,0.0,top
+J9,String9,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-52.0172,13.0035,0.0,top
+J10,String10,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-52.0172,0.0035,0.0,top
+J11,String11,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-37.0172,13.0035,0.0,top
+J12,String12,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-37.0172,0.0035,0.0,top
+J13,String13,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-22.0172,13.0035,0.0,top
+J14,String14,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-22.0172,0.0035,0.0,top
+J15,String15,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-7.0172,13.0035,0.0,top
+J16,String16,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-7.0172,0.0035,0.0,top
+J17,Power In Left,BARRIER_BLOCK_1ROW_2POS_P9.5MM,-128.9384,-23.2491,0.0,top
+J18,Power In Right,BARRIER_BLOCK_1ROW_2POS_P9.5MM,-7.9384,-23.2491,0.0,top
+J19,Aux Pwr,PHOENIX_MKDS1_2-3.81,9.0616,32.0509,90.0,top
+J20,VIN Select,PinHeader_1x03_P2.54mm_Vertical,11.1616,23.7905,0.0,top
+J21,VIN Voltage,PinHeader_1x03_P2.54mm_Vertical,0.0616,23.4841,-90.0,top
+J22,OLED Conn,PinSocket_1x04_P2.54mm_Vertical,-5.9884,67.3759,90.0,top
+J23,Diff Out,RJ45_Amphenol_54602-x08_Horizontal,-100.7684,63.8084,-90.0,top
+J24,Diff Out,RJ45_Amphenol_54602-x08_Horizontal,-100.7434,45.3134,-90.0,top
+Q1,DMP3056L,SOT-23,3.7616,19.5509,-90.0,top
+R1,330,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-40.9934,30.8259,0.0,top
+R2,2K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-127.9184,-3.1741,-90.0,top
+R3,2K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,5.2034,-1.0507,-90.0,top
+R4,4.7K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-15.8184,53.1509,-90.0,top
+R5,4.7K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-14.1184,53.1509,-90.0,top
+R6,100K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,4.0616,24.7509,0.0,top
+R7,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-95.25932,35.3509,90.0,top
+R8,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-95.25932,38.7478,-90.0,top
+R9,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-95.25932,42.6728,90.0,top
+R10,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-95.25932,46.0509,-90.0,top
+R11,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-95.5434,61.5509,90.0,top
+R12,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-95.5434,54.7759,90.0,top
+R13,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-95.5434,58.1759,-90.0,top
+R14,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-95.5434,64.9259,-90.0,top
+R15,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-101.3184,20.0259,180.0,top
+R16,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-93.6184,20.0259,180.0,top
+R17,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-87.1934,20.0259,180.0,top
+R18,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-80.9684,20.0259,180.0,top
+R19,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-77.5934,20.0259,180.0,top
+R20,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-73.7684,20.0259,0.0,top
+R21,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-69.4934,20.0259,0.0,top
+R22,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-64.4434,20.0259,0.0,top
+R23,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-42.7184,20.0259,180.0,top
+R24,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-35.6684,20.0259,180.0,top
+R25,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-31.8684,20.0259,180.0,top
+R26,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-28.2934,20.0259,0.0,top
+R27,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-24.8184,20.0259,0.0,top
+R28,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-20.9934,20.0509,0.0,top
+R29,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-16.9684,20.0259,0.0,top
+R30,33,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-12.0934,20.0259,0.0,top
+SW1,Enter BTN,SW_Push_1P1T_NO_6x6mm_H9.5mm,-0.8434,54.1259,90.0,top
+SW2,Down BTN,SW_Push_1P1T_NO_6x6mm_H9.5mm,7.6816,54.2009,90.0,top
+U1,Raspberry Pi Zero W,Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles,-25.4934,43.6259,90.0,bottom
+U2,SN74HCT245N,SN74HCT245NSR,-76.9184,28.1759,-90.0,top
+U3,SN74HCT245N,SN74HCT245NSR,-25.64744,27.95102,-90.0,top
+U4,AM26C31,SOIC-16_3.9x9.9mm_P1.27mm,-89.60932,59.9504,180.0,top
+U5,AM26C31,SOIC-16_3.9x9.9mm_P1.27mm,-88.9434,41.0758,180.0,top
+U6,24LC256,SOIC-8_3.9x4.9mm_P1.27mm,-8.1684,54.1809,180.0,top
+U7,Universe5V,Universal_5V_Horizontal,-8.1179,40.3109,90.0,top

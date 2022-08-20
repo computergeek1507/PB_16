@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/../libraries/MCU_RaspberryPi_and_Boards/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
+  (lib (name "Barrier_Blocks")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Barrier_Blocks/Barrier_Blocks.pretty")(options "")(descr ""))
+  (lib (name "OLED-SSD1306-128X64-I2C")(type "KiCad")(uri "${KIPRJMOD}/../libraries/OLED-SSD1306-128X64-I2C")(options "")(descr ""))
+  (lib (name "SN74HCT245NSR")(type "KiCad")(uri "${KIPRJMOD}/../libraries/SN74HCT245NSR/footprints.pretty")(options "")(descr ""))
+  (lib (name "Scotts")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Scotts/Scotts.pretty")(options "")(descr ""))
+)
