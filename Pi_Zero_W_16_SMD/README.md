@@ -13,7 +13,7 @@ The Pi Zero W 16 is a surface mount(SMD) controller with 16 local pixel ports an
 
 ## [Interactive BOM](https://computergeek1507.github.io/PB_16/Pi_Zero_W_16_SMD/bom/ibom)
 
-[Image of PB Pi Zero W 16](https://github.com/computergeek1507/PB_16/raw/master/Pi_Zero_W_16_SMD/Pi_Zero_W_16.png)
+![Image of PB Pi Zero W 16](https://github.com/computergeek1507/PB_16/raw/master/Pi_Zero_W_16_SMD/Pi_Zero_W_16.png)
 
 
 
