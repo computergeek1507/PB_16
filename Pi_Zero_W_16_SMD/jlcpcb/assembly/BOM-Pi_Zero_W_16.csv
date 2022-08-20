@@ -6,7 +6,6 @@ SN74HCT245N,"U2,U3",SN74HCT245NSR,C133641
 DMP3056L,Q1,SOT-23,C150724
 AM26C31,"U4,U5",SOIC-16_3.9x9.9mm_P1.27mm,C157476
 Zener 10V,D1,D_SOD-123,C173431
-String1,"J1,J10,J11,J12,J13,J14,J15,J16,J2,J3,J4,J5,J6,J7,J8,J9","PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",C192778
 OLED Conn,J22,PinSocket_1x04_P2.54mm_Vertical,C225501
 120,"R10,R11,R12,R13,R14,R7,R8,R9",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C22787
 5V LED,"D2,D3,D4",LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C2286
@@ -22,5 +21,6 @@ VIN Select,"J20,J21",PinHeader_1x03_P2.54mm_Vertical,C49257
 24LC256,U6,SOIC-8_3.9x4.9mm_P1.27mm,C6482
 Aux Pwr,J19,PHOENIX_MKDS1_2-3.81,C69811
 Power In Left,"J17,J18",BARRIER_BLOCK_1ROW_2POS_P9.5MM,C707421
+String1,"J1,J10,J11,J12,J13,J14,J15,J16,J2,J3,J4,J5,J6,J7,J8,J9",PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,C8389
 Universe5V,U7,Universal_5V_Horizontal,
-Raspberry Pi Zero W,U1,Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles,
+Raspberry Pi Zero,U1,Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles,
