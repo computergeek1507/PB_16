@@ -165,6 +165,12 @@ jobs:
         rm -rf PB16_2_PI/
         kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e PB16_2_PI.kicad_sch -b PB16_2_PI.kicad_pcb -d PB16_2_PI
 
+    - name: DRC Pi_Zero_W_16_SMD Files
+      run: |
+        cd Pi_Zero_W_16_SMD
+        rm -rf Pi_Zero_W_16_SMD/
+        kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e Pi_Zero_W_16.kicad_sch -b Pi_Zero_W_16.kicad_pcb -d Pi_Zero_W_16_SMD
+
     - name: Upload Export Files as Artifacts
       uses: actions/upload-artifact@v2
       with:
@@ -192,6 +198,7 @@ jobs:
           Input_Adapter/Input_Adapter/**
           Four_Out/Four_Out/**
           PB16_2_PI/PB16_2_PI/**
+          Pi_Zero_W_16_SMD/Pi_Zero_W_16_SMD/**
         if-no-files-found: error
         retention-days: 60
 
