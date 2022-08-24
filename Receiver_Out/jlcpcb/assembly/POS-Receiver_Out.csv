@@ -1,0 +1,27 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,10uF,CP_Radial_D5.0mm_P2.00mm,-122.1662,8.5357,90.0,top
+C2,10uF,CP_Radial_D5.0mm_P2.00mm,-122.1162,17.8857,-90.0,top
+C3,0.1uF,C_Rect_L7.0mm_W2.0mm_P5.00mm,-99.4162,36.0857,0.0,top
+C4,0.1uF,C_Rect_L7.0mm_W2.0mm_P5.00mm,-103.0162,26.5357,90.0,top
+D1,SB5100-T,D_DO-201AD_P12.70mm_Horizontal,-119.2162,-21.3143,90.0,top
+D2,VIN LED,LED_D3.0mm_Clear,-77.5162,13.6357,0.0,top
+D3,5V LED,LED_D3.0mm_Clear,-77.5162,19.2857,0.0,top
+F1,3544-2,FUSE_3544-2,-111.8082,-14.6851,90.0,top
+F2,3544-2,FUSE_3544-2,-106.2202,-14.7001,90.0,top
+F3,3544-2,FUSE_3544-2,-100.6322,-14.7001,90.0,top
+F4,3544-2,FUSE_3544-2,-95.0442,-14.7001,90.0,top
+J1,String1,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-114.8172,13.0035,0.0,top
+J2,String2,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-114.8172,0.0035,0.0,top
+J3,String3,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-99.8172,13.0035,0.0,top
+J4,String4,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-99.8172,0.0035,0.0,top
+J5,Power In,TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal,-81.2162,-1.9143,90.0,top
+J6,VIN_Voltage,PinHeader_1x03_P2.54mm_Vertical,-125.9662,-3.7643,180.0,top
+J7,RJ45,RJ45_Amphenol_54602-x08_Horizontal,-111.3662,42.6857,180.0,top
+R1,1K,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,-88.6162,13.6357,0.0,top
+R2,120,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,-88.5662,19.2857,0.0,top
+RN1,33,R_Array_SIP8,-109.3162,20.7899,0.0,top
+RN2,120,R_Array_SIP8,-104.4162,36.3857,180.0,top
+TB1,Power In,BARRIER_BLOCK_1ROW_2POS,-81.8162,0.9857,90.0,top
+U1,74HC125,DIP-14_W7.62mm_LongPads,-99.4162,25.2857,90.0,top
+U2,L7805,TO-220-3_Vertical,-128.3662,11.4357,90.0,top
+U3,AM26C32IN,DIP-16_W7.62mm_LongPads,-106.4162,33.0357,-90.0,top

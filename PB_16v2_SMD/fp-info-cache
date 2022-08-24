@@ -1,4 +1,4 @@
-21109598390589041
+21111276685996989
 3544-2
 FUSE_3544-2
 
@@ -78777,6 +78777,13 @@ Header 1x19
 0
 4
 4
+Scotts
+PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical
+Generic Phoenix Contact connector footprint for: MCV_1,5/3-G-3.81; number of pins: 03; pin pitch: 3.81mm; Vertical || order number: 1803439 8A 160V
+phoenix_contact connector MCV_01x03_G_3.81mm
+0
+3
+3
 Scotts
 RJ45_Amphenol_54602-x08_Horizontal
 8 Pol Shallow Latch Connector, Modjack, RJ45 (https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf)
