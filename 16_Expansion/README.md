@@ -9,7 +9,7 @@ You may redistribute and modify this documentation under the terms of the CERN O
 
 # 16 Expansion
 
-The "16 Expansion" ia a 16 port output board for the PB16.  All the design files are open source and available on github.
+The "16 Expansion" is a 16 port output board for the PB16.  All the design files are open source and available on github.
 
 ## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/16_Expansion/16_Expansion_BOM.ods)
 
