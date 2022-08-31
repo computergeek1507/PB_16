@@ -5,8 +5,8 @@
   (paper "A4")
 
   (title_block
-    (title "Pi_Zero_24_Diff")
-    (date "2022-08-20")
+    (title "Pi Zero 24 Diff")
+    (date "2022-08-31")
     (rev "v1")
     (company "Scott Hanson")
   )

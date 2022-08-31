@@ -1,4 +1,4 @@
-20371351299270885
+20379708561280179
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57525,6 +57525,20 @@ raspberry pi 3b through hole
 0
 40
 40
+MCU_RaspberryPi_and_Boards
+Raspberry_Pi_Hat_Socketed_THT_FaceDown_MountingHoles
+Raspberry Pi 3B using through hole straight pin socket, 2x20, 2.54mm pitch, https://www.raspberrypi.org/documentation/hardware/raspberrypi/mechanical/rpi_MECH_3b_1p2.pdf
+raspberry pi 3b through hole
+0
+40
+40
+MKDS1_2-3.81
+PHOENIX_MKDS1_2-3.81
+
+
+0
+2
+2
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -60173,6 +60187,13 @@ Header 1x19
 4
 OLED-SSD1306-128X64-I2C
 OLED-SSD1306-128X64-I2C-THT
+
+Header 1x19
+0
+4
+4
+OLED-SSD1306-128X64-I2C
+OLED-SSD1306-128X64-I2C-THT_2HOLE
 
 Header 1x19
 0
@@ -78855,6 +78876,13 @@ FUSE_3544-2
 4
 4
 Scotts
+MountingHole_3.7mm
+Mounting Hole 3.7mm, no annular
+mounting hole 3.7mm no annular
+0
+0
+0
+Scotts
 OKI-78SR
 Multiple Voltage Regulator
 Scott
@@ -78868,6 +78896,13 @@ Header 1x19
 0
 4
 4
+Scotts
+PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical
+Generic Phoenix Contact connector footprint for: MCV_1,5/3-G-3.81; number of pins: 03; pin pitch: 3.81mm; Vertical || order number: 1803439 8A 160V
+phoenix_contact connector MCV_01x03_G_3.81mm
+0
+3
+3
 Scotts
 RJ45_Amphenol_54602-x08_Horizontal
 8 Pol Shallow Latch Connector, Modjack, RJ45 (https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf)
