@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/../libraries/MCU_RaspberryPi_and_Boards/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
+  (lib (name "OLED-SSD1306-128X64-I2C")(type "KiCad")(uri "${KIPRJMOD}/../libraries/OLED-SSD1306-128X64-I2C")(options "")(descr ""))
+  (lib (name "Scotts")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Scotts/Scotts.pretty")(options "")(descr "My Crazy Library"))
+  (lib (name "MKDS1_2-3.81")(type "KiCad")(uri "${KIPRJMOD}/../libraries/MKDS1_2-3.81/MKDS1_2-3.81.pretty")(options "")(descr ""))
+  (lib (name "302-S241")(type "KiCad")(uri "${KIPRJMOD}/../libraries/302-S241")(options "")(descr ""))
+)
