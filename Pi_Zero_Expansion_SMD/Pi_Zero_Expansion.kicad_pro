@@ -402,8 +402,7 @@
         "microvia_drill": 0.1,
         "name": "5v",
         "nets": [
-          "+5V",
-          "Net-(C5-Pad1)"
+          "+5V"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",

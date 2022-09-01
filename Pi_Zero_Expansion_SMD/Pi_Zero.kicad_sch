@@ -5,8 +5,8 @@
   (paper "A4")
 
   (title_block
-    (title "Pi_Zero_Expansion")
-    (date "2022-08-20")
+    (title "Pi Zero Expansion")
+    (date "2022-09-01")
     (rev "v1")
     (company "Scott Hanson")
   )
@@ -806,10 +806,10 @@
   (symbol (lib_id "Connector:Raspberry_Pi_2_3") (at 177.8 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b16bcf26-c2b5-4c1e-a018-18cd2b334f79)
-    (property "Reference" "U7" (id 0) (at 184.8994 72.39 0)
+    (property "Reference" "U3" (id 0) (at 184.8994 73.7702 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Raspberry Pi Zero" (id 1) (at 184.8994 74.93 0)
+    (property "Value" "Raspberry Pi Zero" (id 1) (at 184.8994 76.3071 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Scotts:Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles" (id 2) (at 177.8 107.95 0)

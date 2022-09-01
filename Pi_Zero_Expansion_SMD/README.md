@@ -7,13 +7,13 @@ You may redistribute and modify this documentation under the terms of the CERN O
 
 **Under CERN OHL-S-v2, derivative work must be publicy released as defined in subsection 3.3**
 
-# Pi Zero W 16
+# Pi Zero Expansion 
 
-The Pi Zero W 16 is a surface mount(SMD) controller with 16 local pixel ports and two remote receiver port(8 remote ports). A total of 24 pixel outputs. All the design files are open source and available on github.
+The Pi Zero Expansion is a surface mount(SMD) controller with a single Expansion port. A total of 16 pixel outputs. All the design files are open source and available on github.
 
 ## [Interactive BOM](https://computergeek1507.github.io/PB_16/Pi_Zero_Expansion_SMD/bom/ibom)
 
-![Image of PB Pi Zero W 16](https://github.com/computergeek1507/PB_16/raw/master/Pi_Zero_Expansion_SMD/Pi_Zero_Expansion.png)
+![Image of Pi Zero Expansion](https://github.com/computergeek1507/PB_16/raw/master/Pi_Zero_Expansion_SMD/Pi_Zero_Expansion.png)
 
 
 
