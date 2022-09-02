@@ -3,4 +3,7 @@
   (lib (name "TPD4S009DBVR")(type "Legacy")(uri "${KIPRJMOD}/../libraries/TPD4S009DBVR/TPD4S009DBVR.lib")(options "")(descr ""))
   (lib (name "dk_DC-DC-Converters")(type "Legacy")(uri "${KIPRJMOD}/../libraries/digikey/digikey-symbols/dk_DC-DC-Converters.lib")(options "")(descr ""))
   (lib (name "Scotts")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Scotts/ScottS.kicad_sym")(options "")(descr ""))
+  (lib (name "POCKETBEAGLE")(type "Legacy")(uri "${KIPRJMOD}/../libraries/POCKETBEAGLE/POCKETBEAGLE-SC-569.lib")(options "")(descr ""))
+  (lib (name "AM26C31")(type "Legacy")(uri "${KIPRJMOD}/../libraries/AM26C31/AM26C31.lib")(options "")(descr ""))
+  (lib (name "dk_PMIC-Power-Distribution-Switches-Load-Drivers")(type "Legacy")(uri "${KIPRJMOD}/../libraries/digikey/digikey-symbols/dk_PMIC-Power-Distribution-Switches-Load-Drivers.lib")(options "")(descr ""))
 )
