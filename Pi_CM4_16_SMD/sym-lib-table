@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "Pi_CM4_16-rescue")(type "Legacy")(uri "${KIPRJMOD}/Pi_CM4_16-rescue.lib")(options "")(descr ""))
+  (lib (name "Scotts")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Scotts/Scotts.kicad_sym")(options "")(descr ""))
+  (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/../libraries/CM4IO/CM4IO.kicad_sym")(options "")(descr ""))
+  (lib (name "AM26C31")(type "Legacy")(uri "${KIPRJMOD}/../libraries/AM26C31/AM26C31.lib")(options "")(descr ""))
+)

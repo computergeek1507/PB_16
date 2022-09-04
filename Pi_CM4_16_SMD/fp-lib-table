@@ -1,0 +1,11 @@
+(fp_lib_table
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/../libraries/MCU_RaspberryPi_and_Boards/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
+  (lib (name "Barrier_Blocks")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Barrier_Blocks/Barrier_Blocks.pretty")(options "")(descr ""))
+  (lib (name "OLED-SSD1306-128X64-I2C")(type "KiCad")(uri "${KIPRJMOD}/../libraries/OLED-SSD1306-128X64-I2C")(options "")(descr ""))
+  (lib (name "SN74HCT245NSR")(type "KiCad")(uri "${KIPRJMOD}/../libraries/SN74HCT245NSR/footprints.pretty")(options "")(descr ""))
+  (lib (name "Scotts")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Scotts/Scotts.pretty")(options "")(descr ""))
+  (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/../libraries/CM4IO/CM4IO.pretty")(options "")(descr ""))
+  (lib (name "ARJM11C7-502-AB-ER2-T")(type "KiCad")(uri "${KIPRJMOD}/../libraries/ARJM11C7-502-AB-ER2-T")(options "")(descr ""))
+  (lib (name "USB-C-Power")(type "KiCad")(uri "${KIPRJMOD}/../libraries/USB-C-Power/USB-C-Power.pretty")(options "")(descr ""))
+  (lib (name "MKDS1_2-3.81")(type "KiCad")(uri "${KIPRJMOD}/../libraries/MKDS1_2-3.81/MKDS1_2-3.81.pretty")(options "")(descr ""))
+)
