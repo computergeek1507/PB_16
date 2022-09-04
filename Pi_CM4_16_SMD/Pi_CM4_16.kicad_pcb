@@ -4948,7 +4948,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "C:/Users/scoot/Documents/PB_16/libraries/3D_Models/usb_A_vert2.wrl"
+    (model "${KIPRJMOD}/../libraries/3D_Models/usb_A_vert2.wrl"
       (offset (xyz 3.5 2 0.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -5176,7 +5176,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "C:/Users/scoot/Documents/PB_16/libraries/3D_Models/1040310811.stp"
+    (model "${KIPRJMOD}/../libraries/3D_Models/1040310811.stp"
       (offset (xyz 44.5 -2 0.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -6247,7 +6247,7 @@
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp d3064e20-d565-471a-859d-38ee625225b8))
     (pad "S2" thru_hole circle locked (at 7.875 -3.05 270) (size 2.355 2.355) (drill 1.57) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp e2998d1d-5eec-4af7-943f-9f5f361f73f0))
-    (model "C:/Users/scoot/Documents/PB_16/libraries/A70-112-331N126/A70-112-331N126.step"
+    (model "${KIPRJMOD}/../libraries/A70-112-331N126/A70-112-331N126.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -9388,7 +9388,7 @@
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 4b8a8ca8-b3d9-4ef2-9f55-e31b72ab3522))
     (pad "S1" thru_hole roundrect (at 4.32 -4.18 180) (size 1 2.2) (drill oval 0.6 1.7) (layers *.Cu *.Mask) (roundrect_rratio 0.5)
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 4d4cf068-5e97-4372-8515-ad41a43f0e83))
-    (model "C:/Users/scoot/Documents/PB_16/libraries/3D_Models/USB4105--3DModel-STEP-56544.STEP"
+    (model "${KIPRJMOD}/../libraries/3D_Models/USB4105--3DModel-STEP-56544.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -10345,17 +10345,17 @@
       (net 208 "unconnected-(Module5-Pad199)") (pinfunction "HDMI0_SDA") (pintype "bidirectional") (tstamp 23bc45a9-bad6-45f9-be7c-b044227c1890))
     (pad "200" smd rect locked (at 35 -11.7) (size 0.2 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 209 "unconnected-(Module5-Pad200)") (pinfunction "HDMI0_SCL") (pintype "open_collector") (tstamp 6e928445-cd2b-4ebd-8fb0-e75e69dbd7c0))
-    (model "C:/Users/scoot/Documents/PB_16/libraries/3D_Models/DF40C-100DS.stp"
+    (model "${KIPRJMOD}/../libraries/3D_Models/DF40C-100DS.stp"
       (offset (xyz -0.46 15.38 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
-    (model "C:/Users/scoot/Documents/PB_16/libraries/3D_Models/DF40C-100DS.stp"
+    (model "${KIPRJMOD}/../libraries/3D_Models/DF40C-100DS.stp"
       (offset (xyz 33.46 15.38 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
-    (model "C:/Users/scoot/Documents/PB_16/libraries/3D_Models/CM4-step.stp"
+    (model "${KIPRJMOD}/../libraries/3D_Models/CM4-step.stp"
       (offset (xyz 51.5 -3 2))
       (scale (xyz 0.97 0.97 0.97))
       (rotate (xyz 0 0 -90))
