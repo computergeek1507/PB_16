@@ -3375,7 +3375,7 @@
       (reference "J2") (unit 1) (value "USB_C_OTG") (footprint "USB-C-Power:TYPE-C-31-M-12")
     )
     (path "/841db73c-9289-40b0-ad83-c6fd49156ebe/7d9fa050-3986-4ae3-bc56-473548abcb66"
-      (reference "J3") (unit 1) (value "ARJM11C7-502-AB-ER2-T") (footprint "ABRACON_ARJM11C7-502-AB-ER2-T")
+      (reference "J3") (unit 1) (value "ARJM11C7-502-AB-ER2-T") (footprint "ARJM11C7-502-AB-ER2-T:ABRACON_ARJM11C7-502-AB-ER2-T")
     )
     (path "/00000000-0000-0000-0000-00005d6bd21e"
       (reference "J5") (unit 1) (value "VIN Select") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")

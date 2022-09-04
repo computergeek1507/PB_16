@@ -1756,7 +1756,7 @@
     (property "Value" "ARJM11C7-502-AB-ER2-T" (id 1) (at 217.805 123.1899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "ABRACON_ARJM11C7-502-AB-ER2-T" (id 2) (at 205.74 121.92 0)
+    (property "Footprint" "ARJM11C7-502-AB-ER2-T:ABRACON_ARJM11C7-502-AB-ER2-T" (id 2) (at 205.74 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 205.74 121.92 0)
