@@ -1,0 +1,11 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,0.1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,85.05,-68.25,180.0,top
+J1,Raspberry_Pi_2_3,PinSocket_2x20_P2.54mm_Vertical,86.92,-65.59,-90.0,bottom
+J2,PWR_IN,"TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",83.395,-42.1,-90.0,top
+J3,OLED,PinSocket_1x04_P2.54mm_Vertical,107.0,-69.4,-90.0,top
+J4,v3 Output Header,IDC-Header_2x20_P2.54mm_Vertical,134.0,-54.4,-90.0,top
+J5,v4 Output Header,IDC-Header_2x12_P2.54mm_Vertical,122.7,-43.85,-90.0,top
+J6,GPIO,PinSocket_1x04_P2.54mm_Vertical,135.2,-69.625,-90.0,top
+R1,4.7K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,90.3,-69.3,-90.0,top
+R2,4.7K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,92.3,-69.2875,-90.0,top
+U1,24LC256,SOIC-8_3.9x4.9mm_P1.27mm,83.4,-71.75,0.0,top

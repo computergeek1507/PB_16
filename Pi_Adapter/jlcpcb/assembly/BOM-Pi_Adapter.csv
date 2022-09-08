@@ -1,0 +1,10 @@
+Comment,Designator,Footprint,LCSC
+0.1uF,C1,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C14663
+v4 Output Header,J5,IDC-Header_2x12_P2.54mm_Vertical,C221083
+4.7K,"R1,R2",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C23162
+24LC256,U1,SOIC-8_3.9x4.9mm_P1.27mm,C6482
+PWR_IN,J2,"TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",
+GPIO,J6,PinSocket_1x04_P2.54mm_Vertical,
+v3 Output Header,J4,IDC-Header_2x20_P2.54mm_Vertical,
+OLED,J3,PinSocket_1x04_P2.54mm_Vertical,
+Raspberry_Pi_2_3,J1,PinSocket_2x20_P2.54mm_Vertical,
