@@ -3,19 +3,19 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "(6.0.5)"
+      "Version": "(6.0.7)"
     },
-    "CreationDate": "2022-06-02T22:10:04-04:00"
+    "CreationDate": "2022-09-14T00:03:11-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Input_Adapter",
       "GUID": "496e7075-745f-4416-9461-707465722e6b",
-      "Revision": "v2"
+      "Revision": "v3"
     },
     "Size": {
-      "X": 61.2,
-      "Y": 96.5
+      "X": 61.1,
+      "Y": 99.6
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
