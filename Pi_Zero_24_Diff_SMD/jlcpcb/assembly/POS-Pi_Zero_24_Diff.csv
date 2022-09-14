@@ -1,0 +1,55 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C2,0.1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,-91.4784,58.1609,180.0,top
+C3,220uF,CP_Radial_D10.0mm_P5.00mm,-8.1184,40.9509,0.0,top
+C4,0.1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,-61.0184,22.5009,0.0,top
+C5,0.1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,-61.0584,3.16415,0.0,top
+C6,0.1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,-61.0084,-16.63585,0.0,top
+C7,0.1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,-33.9184,-2.4491,180.0,top
+C8,0.1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,-33.9684,16.8009,180.0,top
+C9,0.1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,-33.52748,35.7039,180.0,top
+D2,5V LED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,-7.7684,48.9009,180.0,top
+J2,Pwr In,PHOENIX_MKDS1_2-3.81,-5.1184,27.7509,90.0,top
+J4,OLED Conn,PinSocket_1x04_P2.54mm_Vertical,-95.8864,23.4709,180.0,top
+J5,Diff Out 1,RJ45_Amphenol_54602-x08_Horizontal,-71.0684,33.3809,-90.0,top
+J6,Diff Out 2,RJ45_Amphenol_54602-x08_Horizontal,-71.0584,13.9109,-90.0,top
+J7,Diff Out 3,RJ45_Amphenol_54602-x08_Horizontal,-71.0584,-5.59035,-90.0,top
+J8,Diff Out 4,RJ45_Amphenol_54602-x08_Horizontal,-24.22748,-14.2186,90.0,top
+J9,Diff Out 5,RJ45_Amphenol_54602-x08_Horizontal,-24.22748,5.28265,90.0,top
+J10,Diff Out 6,RJ45_Amphenol_54602-x08_Horizontal,-24.22748,24.7839,90.0,top
+R2,4.7K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-86.6684,53.9009,90.0,top
+R3,4.7K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-88.5184,54.9009,90.0,top
+R4,330,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-3.8684,48.9009,180.0,top
+R5,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-65.8684,23.5704,90.0,top
+R6,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-65.8684,26.9704,-90.0,top
+R7,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-65.8684,30.3704,90.0,top
+R8,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-65.8684,33.7829,-90.0,top
+R9,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-65.8584,4.11415,90.0,top
+R10,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-65.8584,7.46415,-90.0,top
+R11,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-65.8584,10.85165,90.0,top
+R12,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-65.8584,14.21415,-90.0,top
+R13,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-65.8584,-15.73585,90.0,top
+R14,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-65.8584,-12.34835,-90.0,top
+R15,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-65.8584,-8.93585,90.0,top
+R16,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-65.8584,-5.53585,-90.0,top
+R17,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-29.3684,-4.2116,-90.0,top
+R18,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-29.3684,-7.5991,90.0,top
+R19,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-29.3684,-10.9991,-90.0,top
+R20,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-29.3684,-14.3991,90.0,top
+R21,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-29.3684,14.8009,-90.0,top
+R22,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-29.3684,11.4009,90.0,top
+R23,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-29.3684,8.0509,-90.0,top
+R24,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-29.3684,4.6509,90.0,top
+R25,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-29.3684,34.5884,-90.0,top
+R26,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-29.3684,31.1884,90.0,top
+R27,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-29.3684,27.8134,-90.0,top
+R28,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,-29.3684,24.4384,90.0,top
+SW2,Down BTN,SW_Push_1P1T_NO_6x6mm_H9.5mm,-82.8434,45.1259,-90.0,top
+SW3,Enter BTN,SW_Push_1P1T_NO_6x6mm_H9.5mm,-90.3684,45.0509,-90.0,top
+U2,24LC256,SOIC-8_3.9x4.9mm_P1.27mm,-93.4184,54.6509,270.0,top
+U3,Raspberry Pi Zero,Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles,-20.5184,44.1459,90.0,bottom
+U4,AM26C31,SOIC-16_3.9x9.9mm_P1.27mm,-59.4184,28.6829,90.0,top
+U5,AM26C31,SOIC-16_3.9x9.9mm_P1.27mm,-59.4084,9.21415,90.0,top
+U6,AM26C31,SOIC-16_3.9x9.9mm_P1.27mm,-59.4084,-10.58585,90.0,top
+U7,AM26C31,SOIC-16_3.9x9.9mm_P1.27mm,-35.5684,-8.7991,270.0,top
+U8,AM26C31,SOIC-16_3.9x9.9mm_P1.27mm,-35.6184,10.5009,270.0,top
+U9,AM26C31,SOIC-16_3.9x9.9mm_P1.27mm,-35.6184,29.6009,270.0,top
