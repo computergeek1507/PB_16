@@ -6303,7 +6303,7 @@
     (fp_line (start 51.29 -30.94) (end 51.2918 -53.6956) (layer "F.SilkS") (width 0.12) (tstamp e27a3211-bfdc-4d61-bce2-6ac9cdb99b60))
     (fp_line (start 1.33 -1.27) (end 1.33 -49.59) (layer "F.SilkS") (width 0.12) (tstamp e8a4982c-5945-4fe0-891e-bc335a0dfa3f))
     (fp_arc (start 51.29 5.37) (mid 50.393747 7.533747) (end 48.23 8.43) (layer "F.SilkS") (width 0.12) (tstamp 5407f733-370b-43dc-b0b7-bcbd4c8230e1))
-    (fp_arc (start 48.791498 -56.703978) (mid 50.585435 -55.651745) (end 51.2918 -53.6956) (layer "F.SilkS") (width 0.12) (tstamp b732cc50-0fc0-462d-9a1e-3f2e21bf5b03))
+    (fp_arc (start 48.791498 -56.703978) (mid 50.585472 -55.651753) (end 51.2918 -53.6956) (layer "F.SilkS") (width 0.12) (tstamp b732cc50-0fc0-462d-9a1e-3f2e21bf5b03))
     (fp_arc (start -4.832612 -53.6956) (mid -4.126227 -55.65172) (end -2.33231 -56.703978) (layer "F.SilkS") (width 0.12) (tstamp be9ef0fd-d4b4-4417-94cd-667047c78598))
     (fp_arc (start -1.77 8.43) (mid -3.933747 7.533747) (end -4.83 5.37) (layer "F.SilkS") (width 0.12) (tstamp cf37ca1a-dcd1-4867-b763-c64780e6daa4))
     (fp_line (start 1.76 1.8) (end 1.76 -50) (layer "F.CrtYd") (width 0.05) (tstamp 0a7544f5-5161-4eb8-9d0e-92ecb292b2b0))
@@ -6414,10 +6414,10 @@
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp ddbf1831-bd5c-4862-80a4-a697cd270798))
     (pad "40" thru_hole oval locked (at -2.54 -48.26) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 "unconnected-(J1-Pad40)") (pinfunction "GPIO21/SCLK1") (pintype "bidirectional+no_connect") (tstamp 44c8d76e-892e-4829-bd98-8a20675ac743))
-    (model "${KISYS3DMOD}/Module.3dshapes/Raspberry_Pi_3B_Socketed_THT_FaceDown_MountingHoles.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x20_P2.54mm_Vertical.wrl"
+      (offset (xyz 0 0 -2))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 180 0))
     )
   )
 
