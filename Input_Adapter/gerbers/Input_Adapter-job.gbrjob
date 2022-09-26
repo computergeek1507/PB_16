@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "(6.0.7)"
     },
-    "CreationDate": "2022-09-14T00:03:11-04:00"
+    "CreationDate": "2022-09-25T23:52:59-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Input_Adapter",
       "GUID": "496e7075-745f-4416-9461-707465722e6b",
-      "Revision": "v3"
+      "Revision": "v4"
     },
     "Size": {
       "X": 61.1,
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.0,
-      "PadToTrack": 0.0,
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.35,
       "TrackToRegion": 0.254,

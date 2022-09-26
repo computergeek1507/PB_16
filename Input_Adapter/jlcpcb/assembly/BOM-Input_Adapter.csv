@@ -1,7 +1,8 @@
 Comment,Designator,Footprint,LCSC
 Raspberry_Pi_2_3,J1,Raspberry_Pi_Hat_Socketed_THT_FaceDown_MountingHoles,C124383
-GPIO,J4,JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical,C144397
+Wally,J4,JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical,C144397
 10uF,"C1,C2",C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C15850
 Expansion Header,J2,OST_302-S241,C221083
 Expansion Header,J3,IDC-Header_2x20_P2.54mm_Vertical,C358750
 AMS1117-3.3,U1,SOT-223-3_TabPin2,C6186
+Kulp,J5,PinHeader_2x08_P2.54mm_Vertical,C706898

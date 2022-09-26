@@ -1,8 +1,9 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 C1,10uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,119.39,-109.92,90.0,top
 C2,10uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,113.49,-113.42,180.0,top
-J1,Raspberry_Pi_2_3,Raspberry_Pi_Hat_Socketed_THT_FaceDown_MountingHoles,106.2,-116.4,0.0,top
+J1,Raspberry_Pi_2_3,Raspberry_Pi_Hat_Socketed_THT_FaceDown_MountingHoles,106.2,-116.4,0.0,bottom
 J2,Expansion Header,OST_302-S241,129.6,-54.2,0.0,top
 J3,Expansion Header,IDC-Header_2x20_P2.54mm_Vertical,105.27,-45.3025,90.0,top
-J4,GPIO,JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical,148.5,-36.2,180.0,top
+J4,Wally,JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical,148.5,-36.2,180.0,top
+J5,Kulp,PinHeader_2x08_P2.54mm_Vertical,109.775,-36.715,90.0,top
 U1,AMS1117-3.3,SOT-223-3_TabPin2,114.59,-107.92,270.0,top

@@ -381,7 +381,8 @@
         "nets": [
           "+3V3",
           "+5V",
-          "GND"
+          "GND",
+          "Net-(J5-Pad1)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
