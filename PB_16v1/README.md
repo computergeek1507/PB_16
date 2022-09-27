@@ -47,34 +47,42 @@ Assembly Instructions are included in the manual below.
 
 v1 rev H 
 - 
+* 2022-05-29
 * Updated 5V regulator to "Universal" footprint to support different regulators.
 * Added Chewi Logo.
 
 v1 rev G 
-- 
+-
+* 2020-05-09
 * Moved to barrier block screws connectors for Power Inputs.
 * Fix AUX power pin holes too small.
 
 v1 rev F
 -
+* 2019-10-07
 * Added Serial Selector for LOR/DMX, EEPROM, Push Buttons.
 
 v1 rev E
 -
+* 2019-09-19
 * Increased AUX power input terminal footprint to 3.81mm. (Pin Holes were too small)
 
 v1 rev D
 -
+* 2019-08-24
 * Added OLED wiring selector switch and AUX power input.
 
 v1 rev C
 -
+* 2019-08-12
 * Added LEDs and GPIO Header. (First functional PCBs)
 
-v1 rev B
+v1 rev B(v1.1)
 -
+* 2019-07-31
 * Added Expansion, DMX2 RJ45, and OLED Headers. (non-functioning due to wiring issues)
 
-v1 rev A
+v1 rev A(v1.0)
 -
+* 2019-06-19(SEH B-Day)
 * Initial Version. (First non-functioning Prototype PCBs)
