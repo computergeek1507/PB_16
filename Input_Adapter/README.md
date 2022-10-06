@@ -24,6 +24,7 @@ Experience Lights Input Extender Pin to Controller GPIO Map
 |K16A-B GPIO |P8-33    |P8-31    |P8-32    |P9-19    |P8-14    |P8-17    |
 |K8-B GPIO   |P8-12    |P8-11    |P9-23    |P9-15    |P9-16    |P9-14    |
 |K8-PB GPIO  |P2-05    |P2-07    |P2-09    |P2-17    |P1-04    |P1-06    |
+|BBB16v2 GPIO|P8-35    |P8-33    |P8-31    |P8-30    |P2-29    |P8-28    |
 |F8-PBv2 GPIO|P2-05    |P2-07    |P2-09    |P2-11    |P2-17    |P2-20    |
 
 ![Image of Input Adapter](https://github.com/computergeek1507/PB_16/raw/master/Input_Adapter/Input_Adapter.png)
