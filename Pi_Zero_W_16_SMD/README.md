@@ -9,6 +9,8 @@ You may redistribute and modify this documentation under the terms of the CERN O
 
 # Pi Zero W 16
 
+**Never Built or tested**
+
 The Pi Zero W 16 is a surface mount(SMD) controller with 16 local pixel ports and two remote receiver port(8 remote ports). A total of 24 pixel outputs. All the design files are open source and available on github.
 
 ## [Interactive BOM](https://computergeek1507.github.io/PB_16/Pi_Zero_W_16_SMD/bom/ibom)
