@@ -9,6 +9,8 @@ You may redistribute and modify this documentation under the terms of the CERN O
 
 # Pi Zero 24 Diff
 
+**Never Built or tested**
+
 The Pi Zero 24 Diff is a surface mount(SMD) controller with 6 remote receiver port. A total of 24 pixel outputs. All the design files are open source and available on github.
 
 ## [Interactive BOM](https://computergeek1507.github.io/PB_16/Pi_Zero_24_Diff_SMD/bom/ibom)
