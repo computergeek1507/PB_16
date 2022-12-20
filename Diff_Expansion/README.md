@@ -13,7 +13,7 @@ The Diff Expansion is a four port Differental Reciever output boardfor the PB16.
 
 To order, upload the "GERBER-Diff_Expansion.zip" file in the "jlcpcb\gerber" folder to jlcpcb.com.
 
-## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/Diff_Expansion/Diff_Expansion.ods)
+## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/Diff_Expansion/Diff_Expansion_BOM.ods)
 
 ![Image of Diff Expansion](https://github.com/computergeek1507/PB_16/raw/master/Diff_Expansion/Diff_Expansion.png)
 
