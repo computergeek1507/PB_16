@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "Scotts")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Scotts/Scotts.kicad_sym")(options "")(descr ""))
+  (lib (name "Barrier_Blocks")(type "Legacy")(uri "${KIPRJMOD}/../libraries/Barrier_Blocks/Barrier_Blocks.lib")(options "")(descr ""))
+  (lib (name "AM26C32IN")(type "Legacy")(uri "${KIPRJMOD}/../libraries/AM26C32IN/AM26C32IN.lib")(options "")(descr ""))
+)

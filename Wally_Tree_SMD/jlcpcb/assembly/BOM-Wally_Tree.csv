@@ -1,0 +1,20 @@
+Comment,Designator,Footprint,LCSC
+WS2811,U2,SOP-8_3.76x4.96mm_P1.27mm,C114581
+0.1uF,"C2,C3,C4",C_0402_1005Metric,C1525
+DMN2041L,Q1,SOT-23,C154903
+10uF,C1,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C15850
+String1,J3,PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,C192778
+330,"R2,R3,R4,R5,R6",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C22787
+5V LED,D3,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C2286
+33ohm,"R1,R8",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C23140
+10K,R7,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C25804
+RJ45,J7,RJ45_Amphenol_54602-x08_Horizontal,C305972
+Power In,TB1,BARRIER_BLOCK_1ROW_2POS,C306200
+3544-2,F1,FUSE_3544-2,C492610
+AM26C32IN,U3,SOIC-16_3.9x9.9mm_P1.27mm,C6180
+74LVC1G126,"U1,U4",TSOP-5_1.65x3.05mm_P0.95mm,C7834
+Power Injection,"J1,J2","TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",C8404
+MountingHole,H4,MountingHole_3.7mm,
+MountingHole,H3,MountingHole_3.7mm,
+MountingHole,H2,MountingHole_3.7mm,
+MountingHole,H1,MountingHole_3.7mm,
