@@ -53,7 +53,7 @@ J18,Power In Right,BARRIER_BLOCK_1ROW_2POS_P9.5MM,-3.6468,-23.9139,0.0,top
 J19,USB,USB_A_Molex_105057_Vertical,-2.4674,65.9899,90.0,top
 J20,DMX1 RJ45,RJ45_Amphenol_54602-x08_Horizontal,-115.8162,43.7357,180.0,top
 J21,DMX2 RJ45,RJ45_Amphenol_54602-x08_Horizontal,-95.9662,43.7357,180.0,top
-J22,DMX2,"TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal",-124.3162,20.3857,90.0,top
+J22,DMX2,"TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal",-124.8162,35.3857,-90.0,top
 J23,VIN Voltage,PinHeader_1x03_P2.54mm_Vertical,6.5336,21.7443,-90.0,top
 J24,Expansion Header,IDC-Header_2x20_P2.54mm_Vertical,-76.5546,75.1149,-90.0,top
 J25,RTC Conn,PinHeader_1x05_P2.54mm_Vertical,-18.7346,76.0249,-90.0,top
