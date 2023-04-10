@@ -16,7 +16,7 @@ jobs:
   drc-files:
     name: DRC Everything
     runs-on: ubuntu-latest
-    container: setsoft/kicad_auto:dev_k6
+    container: setsoft/kicad_auto:k7
       
     steps:
 
