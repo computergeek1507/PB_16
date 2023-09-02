@@ -1,0 +1,39 @@
+{
+    "name": "PB16v2",
+    "longName": "PB16v2 (2 Serial)",
+    "outputs": [
+        {  "pin": "P2-34" },
+        {  "pin": "P2-32" },
+        {  "pin": "P2-30" },
+        {  "pin": "P2-28" },
+        {  "pin": "P2-24" },
+        {  "pin": "P2-22" },
+        {  "pin": "P2-20" },
+        {  "pin": "P2-18" },
+        {  "pin": "P2-07" },
+        {  "pin": "P2-08" },
+        {  "pin": "P2-05" },
+        {  "pin": "P2-06" },
+        {  "pin": "P2-04" },
+        {  "pin": "P2-03" },
+        {  "pin": "P2-02" },
+        {  "pin": "P2-01" },
+        {  "pin": "P2-33" },
+        {  "pin": "P2-35" },
+        {  "pin": "P2-29" },
+        {  "pin": "P2-31" }
+    ],
+    "groups": [
+        {
+            "start": 1,
+            "count": 16
+        },
+        {
+            "start": 17,
+            "count": 4,
+            "type": "differential"
+        }
+    ],
+    "serial": [
+    ]
+}

@@ -1,0 +1,72 @@
+#! /usr/bin/php
+<?php
+
+// argv[1] - id of the board
+// argv[2] - board version
+// argv[3] - path to directory containing files
+
+if (!$argv[1]) {
+    echo "Need board ID\n";
+    exit(1);
+}
+if (!$argv[2]) {
+    echo "Need path to eeprom contents\n";
+    exit(1);
+}
+$boardId = $argv[1];
+$boardVer = $argv[2];
+$origeedir = $argv[3];
+
+$serialNum = date("ymdHis");
+$serialNum = pack("a16", $serialNum);
+
+$fBaseName = tempnam("/tmp", $boardId);
+
+$eedir = $fBaseName . ".dir";
+exec(sprintf("rm -rf %s", $eedir));
+mkdir($eedir);
+exec(sprintf("cp -a %s/* %s", $origeedir, $eedir));
+
+$zip_file = $fBaseName . ".tgz";
+exec("cd $eedir ; find . -name \"._*\" -exec rm {} \;", $output, $result);
+if ($result != 0) {
+    var_dump($output);
+}
+exec("cd $eedir ; tar -czf $zip_file * 2>&1", $output, $result);
+if ($result != 0) {
+    var_dump($output);
+}
+
+$fp = fopen($boardId . "-eeprom.bin", "w+");
+$header = pack("a6", "FPP02");
+fwrite($fp, $header);
+$cape = pack("a26", $boardId);
+fwrite($fp, $cape);
+$capev = pack("a10", $boardVer);
+fwrite($fp, $capev);
+fwrite($fp, $serialNum);
+
+fwrite($fp, pack("a6", "34"));
+fwrite($fp, pack("a2", "97"));
+fwrite($fp, pack("a12", "cs"));
+fwrite($fp, pack("a22", " "));
+
+$zipLen = filesize($zip_file);
+$zipLenStr = sprintf("%d", $zipLen);
+fwrite($fp, pack("a6", $zipLenStr));
+fwrite($fp, pack("a2", "2"));
+fwrite($fp, pack("a64", "tmp/cape-info.tgz"));
+$zipData = file_get_contents($zip_file);
+fwrite($fp, $zipData);
+fwrite($fp, pack("a6", "0"));
+
+fclose($fp);
+
+unlink($zip_file);
+unlink("$fBaseName");
+exec(sprintf("rm -rf %s", $eedir));
+
+
+
+?>
+

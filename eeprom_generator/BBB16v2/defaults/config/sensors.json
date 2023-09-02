@@ -1,0 +1,22 @@
+{
+    "sensors": [
+        {
+            "label": "VIN1: ",
+            "type": "ain",
+            "address": "0",
+            "valueType": "Voltage",
+            "postfix": "V",
+            "min": 0,
+            "max": 27.9
+        },
+        {
+            "label": "VIN2: ",
+            "type": "ain",
+            "address": "1",
+            "valueType": "Voltage",
+            "postfix": "V",
+            "min": 0,
+            "max": 27.9
+        }
+    ]
+}

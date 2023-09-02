@@ -1,0 +1,18 @@
+{
+	"channelOutputs": [
+		{
+			"enabled": 0,
+			"type": "DMX-Open",
+			"startChannel": 1,
+			"channelCount": 512,
+			"device": "ttyS1"
+		},
+		{
+			"enabled": 0,
+			"type": "DMX-Open",
+			"startChannel": 1,
+			"channelCount": 512,
+			"device": "ttyS2"
+		}
+	]
+}

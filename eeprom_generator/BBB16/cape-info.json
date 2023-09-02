@@ -1,0 +1,30 @@
+{
+	"cs" : "vOSJetLzyCe1J0DP3sDybg",
+	"defaultSettings" : 
+	{
+		"LEDDisplayType" : "2",
+		"showAllOptions" : "0"
+	},
+	"description" : "BBB16 is a cape for the PocketBeagle that provides 16 direct ws281x string outputs, a Differential Output, and 2 DMX outputs.  It also provides an expansion port for an additional 16 strings.",
+	"designer" : "Scott Hanson",
+	"id" : "BBB16",
+	"name" : "BBB16",
+        "disableOutputs": [
+            {
+                "file": "config\/channeloutputs.json",
+                "type": "LEDPanelMatrix"
+            }
+        ],
+        "provides": [
+        	"strings"
+    	],
+	"serialNumber" : "D200904151915",
+	"version" : "1.0",
+	"vendor": {
+		"name": "Scott Nation",
+		"url": "http:\/\/scottnation.com",
+		"image": "http:\/\/scottnation.com\/logo.png",
+		"email": "scott@scottnation.com"
+	}
+
+}

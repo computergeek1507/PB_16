@@ -1,0 +1,28 @@
+{
+	"cs" : "ki8ZS6i9MDHC1iOfCGy2xA",
+	"defaultSettings" : 
+	{
+		"LEDDisplayType" : "2",
+		"showAllOptions" : "0"
+	},
+	"description" : "BBB16v2 is a cape for the Beaglebone that provides 16 direct ws281x string outputs, a Differential Output, and 2 DMX outputs. It also provides an expansion port for an additional 16 strings.",
+	"designer" : "Scott Hanson",
+	"disableOutputs" : 
+	[
+		{
+			"file" : "config/channeloutputs.json",
+			"type" : "LEDPanelMatrix"
+		}
+	],
+	"id" : "BBB16v2",
+	"name" : "BBB16v2",
+	"serialNumber" : "T210112243641",
+	"version" : "2.0",
+
+	"vendor": {
+		"name": "Scott Nation",
+		"url": "http:\/\/scottnation.com",
+		"image": "http:\/\/scottnation.com\/logo.png",
+		"email": "scott@scottnation.com"
+	}
+}

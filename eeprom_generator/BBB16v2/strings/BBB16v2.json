@@ -1,0 +1,40 @@
+{
+    "name": "BBB16v2",
+    "longName": "BBB16v2 (2 Serial)",
+    "outputs": [
+        {  "pin": "P8-46" },
+        {  "pin": "P8-44" },
+        {  "pin": "P8-42" },
+        {  "pin": "P8-40" },
+        {  "pin": "P8-38" },
+        {  "pin": "P8-36" },
+        {  "pin": "P8-34" },
+        {  "pin": "P8-32" },
+        {  "pin": "P8-17" },
+        {  "pin": "P8-18" },
+        {  "pin": "P8-13" },
+        {  "pin": "P8-14" },
+        {  "pin": "P8-09" },
+        {  "pin": "P8-10" },
+        {  "pin": "P8-07" },
+        {  "pin": "P8-08" },
+        
+        {  "pin": "P8-45" },
+        {  "pin": "P8-43" },
+        {  "pin": "P8-41" },
+        {  "pin": "P8-39" }
+    ],
+    "groups": [
+        {
+            "start": 1,
+            "count": 16
+        },
+        {
+            "start": 17,
+            "count": 4,
+            "type": "differential"
+        }
+    ],
+    "serial": [
+    ]
+}

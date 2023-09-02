@@ -1,0 +1,28 @@
+[
+    {
+        "pin": "P1-06",
+        "enabled": true,
+        "mode": "gpio_pu",
+        "rising": {
+            "command": "OLED Navigation",
+            "multisyncCommand": false,
+            "multisyncHosts": "",
+            "args": [
+                "Enter"
+            ]
+        }
+    },
+    {
+        "pin": "P1-08",
+        "enabled": true,
+        "mode": "gpio_pu",
+        "rising": {
+            "command": "OLED Navigation",
+            "multisyncCommand": false,
+            "multisyncHosts": "",
+            "args": [
+                "Test/Down"
+            ]
+        }
+    }
+]

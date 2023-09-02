@@ -1,0 +1,30 @@
+{
+	"cs" : "vOSJetLzyCe1J0DP3sDybg",
+	"defaultSettings" : 
+	{
+		"LEDDisplayType" : "2",
+		"showAllOptions" : "0"
+	},
+	"description" : "BBB16 Expansion is a cape for the PocketBeagle that provides 48 Outputs that can be used with Expansion Boards, and 2 DMX outputs.",
+	"designer" : "Scott Hanson",
+	"id" : "BBB16-Exp",
+	"name" : "BBB16-Exp",
+    "disableOutputs": [
+        {
+            "file": "config\/channeloutputs.json",
+            "type": "LEDPanelMatrix"
+        }
+	],
+	"provides": [
+        "strings"
+    ],
+	"serialNumber" : "D200904151915",
+	"version" : "1.0",
+	"vendor": {
+		"name": "Scott Nation",
+		"url": "http:\/\/scottnation.com",
+		"image": "http:\/\/scottnation.com\/logo.png",
+		"email": "scott@scottnation.com"
+	}
+
+}
