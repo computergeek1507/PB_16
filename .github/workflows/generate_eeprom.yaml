@@ -1,0 +1,37 @@
+name: Generate EPPROMS
+on:
+  workflow_dispatch:
+    
+jobs:
+  generate-eeproms:
+    name: Generate EPPROMS
+    runs-on: ubuntu-latest
+      
+    steps:
+
+    - name: Generate Short SHA Environment Variable
+      run: echo "SHORT_SHA=`echo ${GITHUB_SHA} | cut -c1-8`" >> $GITHUB_ENV
+      
+    - name: Update system repositories, Install Required Libraries and Initialize git-lfs
+      run: |
+        apt update
+        apt -y install git git-lfs zip
+        git lfs install
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+      with:
+        lfs: true
+        
+    - name: Generate Files
+      run: |
+        cd eeprom_generator
+        make
+
+    - name: Upload Export Files as Artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: EEPROMs
+        path: eeprom_generator/*.bin
+        if-no-files-found: error
+        retention-days: 60
+
