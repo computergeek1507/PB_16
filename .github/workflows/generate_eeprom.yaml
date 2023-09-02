@@ -15,7 +15,7 @@ jobs:
     - name: Generate Files
       run: |
         cd eeprom_generator
-        make
+        sudo make
 
     - name: Upload Export Files as Artifacts
       uses: actions/upload-artifact@v2
