@@ -12,9 +12,6 @@ BBB16-eeprom.bin: BBB16/*
 BBB16v2-eeprom.bin: BBB16v2/*
 	./create_cape_eeprom BBB16v2 2.0 BBB16v2
 
-BBB16-eeprom.bin: BBB16/*
-	./create_cape_eeprom BBB16 1.0 BBB16
-
 BBB16-Exp-eeprom.bin: BBB16-Exp/*
 	./create_cape_eeprom BBB16-Exp 1.0 BBB16-Exp
 
