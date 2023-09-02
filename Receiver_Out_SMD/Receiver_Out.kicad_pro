@@ -502,7 +502,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Receiver_Out.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
