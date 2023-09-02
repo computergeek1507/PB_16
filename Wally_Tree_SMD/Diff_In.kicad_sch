@@ -801,7 +801,7 @@
     (property "MPN" "A-2014-2-4-R" (id 5) (at 136.525 67.564 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC_PN" "C305972" (id 6) (at 136.525 67.564 0)
+    (property "LCSC_PN" "C2938579" (id 6) (at 136.525 67.564 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 69b11084-4e9b-494d-b5af-a5dea9aefd09))

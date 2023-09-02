@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name "Scotts")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Scotts/Scotts.pretty")(options "")(descr ""))
+  (lib (name "Keystone_Fuse")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Scotts/Scotts.pretty")(options "")(descr ""))
+  (lib (name "Barrier_Blocks")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Barrier_Blocks")(options "")(descr ""))
 )
