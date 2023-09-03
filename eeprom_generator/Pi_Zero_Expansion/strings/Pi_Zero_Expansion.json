@@ -1,0 +1,31 @@
+{
+    "name": "Pi_Zero_Expansion",
+    "longName": "Pi_Zero_Expansion",
+    "driver": "DPIPixels",
+    "numSerial": 0,
+    "outputs": [
+        {  "pin": "P1-32" },
+        {  "pin": "P1-26" },
+        {  "pin": "P1-23" },
+        {  "pin": "P1-24" },
+        {  "pin": "P1-21" },
+        {  "pin": "P1-22" },
+        {  "pin": "P1-19" },
+        {  "pin": "P1-18" },
+        {  "pin": "P1-16" },
+        {  "pin": "P1-15" },
+        {  "pin": "P1-13" },
+        {  "pin": "P1-12" },
+        {  "pin": "P1-11" },
+        {  "pin": "P1-10" },
+        {  "pin": "P1-8" },
+        {  "pin": "P1-7" }
+    ],
+    "groups": [
+        {
+            "start": 1,
+            "count": 16,
+            "type": "differential"
+        }
+    ]
+}

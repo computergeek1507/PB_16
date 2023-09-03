@@ -1,0 +1,45 @@
+{
+	"cs" : "ki8ZS6i9MDHC1iOfCGy2xA",
+	"defaultSettings" : 
+	{
+		"LEDDisplayType" : "2",
+		"showAllOptions" : "0"
+	},
+	"provides": [
+		"strings"
+	],
+	"description" : "Falcon v3 Expansion breakout adapter for a Raspberry Pi.",
+	"designer" : "Scott Hanson",
+
+	"id" : "Pi_Expansion",
+	"name" : "Pi_Expansion",
+	"serialNumber" : "T210112243641",
+	"version" : "1.0",
+
+	"vendor": {
+		"name": "Scott Nation",
+		"url": "http:\/\/scottnation.com",
+		"image": "http:\/\/scottnation.com\/logo.png",
+		"email": "scott@scottnation.com"
+	},
+	"disableOutputs" :
+	[
+		{
+			"file" : "config/co-pixelStrings.json",
+			"type" : "RPIWS281X"
+		},
+		{
+			"file" : "config/co-pixelStrings.json",
+			"type" : "spixels"
+		},
+		{
+			"file" : "config/channeloutputs.json",
+			"type" : "LEDPanelMatrix",
+			"subType" : "RGBMatrix"
+		},
+		{
+			"file" : "config/co-other.json",
+			"type" : "SPIws2801"
+		}
+	]
+}
