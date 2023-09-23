@@ -377,7 +377,7 @@
   )
 
   (no_connect (at 153.162 73.406) (uuid e41bf88b-5f38-496c-a463-87f6ec2ef8d7))
-  (no_connect (at 167.386 104.14) (uuid e41bf88b-5f38-496c-a463-87f6ec2ef8d7))
+  (no_connect (at 167.386 104.14) (uuid e41bf88b-5f38-496c-a463-87f6ec2ef8d8))
 
   (wire (pts (xy 132.842 83.566) (xy 132.842 81.026))
     (stroke (width 0) (type default) (color 0 0 0 0))
