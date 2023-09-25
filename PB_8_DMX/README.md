@@ -13,8 +13,6 @@ The PB 8 DMX Controller is designed as an open source DIY hobbyist controller. A
 
 To order your own PCB upload the gerber.zip file to your favorite PCB manufacture of choice, I personally use [jlcpcb.com](https://jlcpcb.com/).
 
-Assembly Instructions are included in the manual below.
-
 ### Features
 * Powered by FPP Falcon Player
 * Standalone/Master/Remote/Bridge Support
@@ -24,6 +22,8 @@ Assembly Instructions are included in the manual below.
 * Adafruit Real Time Clock Header Connector
 * 2 pin GPIO Header for Push Button or Relay Support
 * 5v - 24v Vin Support
+
+![Image of Controller](https://github.com/computergeek1507/PB_16/blob/master/PB_8_DMX/PB_8_DMX.png)
 
 ## [Gerbers](https://github.com/computergeek1507/PB_16/raw/master/jlcpcb/production_files/GERBER-PB_8_DMX.zip)
 
