@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PB_8_DMX-rescue")(type "Legacy")(uri "${KIPRJMOD}/PB_8_DMX-rescue.lib")(options "")(descr ""))
+  (lib (name "Scotts")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Scotts/Scotts.kicad_sym")(options "")(descr ""))
+)
