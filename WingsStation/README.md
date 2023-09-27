@@ -9,7 +9,7 @@ You may redistribute and modify this documentation under the terms of the CERN O
 
 # Button Station SMD
 
-The "Button Station SMD" is a 4 port Selfy Station that reacts to Button Presses. The Firmware is a work in progress and only works in "Dumb" mode. This design is surface mount based and is harder to solder. All the design files are open source and available on github.
+The "Button Station SMD" is a 4 port Selfy Station that reacts to Button Presses. The Firmware is a work in progress. This design is surface mount based and is harder to solder. All the design files are open source and available on github.
 
 **WIP** Work in progress, firmware and PCB may change.
 

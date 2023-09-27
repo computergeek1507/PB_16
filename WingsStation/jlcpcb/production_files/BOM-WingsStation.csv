@@ -9,11 +9,10 @@ VIN LED,"D2,D4",LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C2286
 220,R11,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C22962
 33ohm,"R10,R7,R8,R9",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C23140
 10K,"R12,R13,R14,R16,R17,R18,R19,R2,R3,R4,R5,R6",R_0603_1608Metric,C25804
-Fuse_Small,F5,Fuse_0805_2012Metric,C261938
+Button_Fuse,F5,Fuse_0805_2012Metric,C261938
 RJ45,J7,RJ45_Amphenol_54602-x08_Horizontal,C2938579
 Power In,TB1,BARRIER_BLOCK_1ROW_2POS,C306200
 SD Card,J11,PinHeader_1x06_P2.54mm_Vertical,C37208
-SWD,J10,1x02_Horizontal_SMD,C492401
 VIN_Voltage,"J6,J9",PinHeader_1x03_P2.54mm_Vertical,C49257
 3544-2,"F1,F2,F3,F4",FUSE_3544-2,C492610
 AMS1117-5.0,U2,SOT-223-3_TabPin2,C6187
@@ -22,3 +21,8 @@ Pico,U1,RPi_Pico_SMD_TH,C7203002
 B5819W,D1,D_SOD-123,C8598
 AZ23C3V3,"D3,D5,D6",SOT-23,C968007
 Buttons,J8,"PhoenixContact_MCV_1,5_8-G-5.08_1x08_P5.08mm_Vertical",
+MountingHole,H3,MountingHole_3.7mm,
+MountingHole,H4,MountingHole_3.7mm,
+MountingHole,H2,MountingHole_3.7mm,
+MountingHole,H1,MountingHole_3.7mm,
+SWD,J10,1x03_Horizontal_SMD,
