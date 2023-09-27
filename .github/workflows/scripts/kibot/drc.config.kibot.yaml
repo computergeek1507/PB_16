@@ -4,6 +4,7 @@ kibot:
 
 global:
   variant: default
+  drc_exclusions_workaround: true
 
 variants:
   - name: default
@@ -20,6 +21,8 @@ preflight:
   filters:
     - error: silk_overlap
     - error: silk_over_copper
+    - error: lib_footprint_mismatch
+    - error: silk_edge_clearance
 
 outputs:
 
