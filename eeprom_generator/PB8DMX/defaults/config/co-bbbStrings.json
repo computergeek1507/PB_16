@@ -1,0 +1,63 @@
+{
+	"channelOutputs": [
+		{
+			"type": "BBBSerial",
+			"enabled": 1,
+			"pinoutVersion": "1.x",
+			"subType": "DMX",
+			"startChannel": 1,
+			"channelCount": 16,
+			"device": "PB8DMX",
+			"outputs": [
+				{
+					"outputNumber": 0,
+					"startChannel": 1,
+					"outputType": "DMX",
+					"channelCount": 16
+				},
+				{
+					"outputNumber": 1,
+					"startChannel": 1,
+					"outputType": "DMX",
+					"channelCount": 16
+				},
+				{
+					"outputNumber": 2,
+					"startChannel": 1,
+					"outputType": "DMX",
+					"channelCount": 16
+				},
+				{
+					"outputNumber": 3,
+					"startChannel": 1,
+					"outputType": "DMX",
+					"channelCount": 16
+				},
+				{
+					"outputNumber": 4,
+					"startChannel": 1,
+					"outputType": "DMX",
+					"channelCount": 16
+				},
+				{
+					"outputNumber": 5,
+					"startChannel": 1,
+					"outputType": "DMX",
+					"channelCount": 16
+				},
+				{
+					"outputNumber": 6,
+					"startChannel": 1,
+					"outputType": "DMX",
+					"channelCount": 16
+				},
+				{
+					"outputNumber": 7,
+					"startChannel": 1,
+					"outputType": "DMX",
+					"channelCount": 16
+				}
+			]
+		}
+	]
+}

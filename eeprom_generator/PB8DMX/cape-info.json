@@ -1,0 +1,31 @@
+{
+	"cs" : "vOSJetLzyCe1J0DP3sDybg",
+	"defaultSettings" : 
+	{
+		"LEDDisplayType" : "2",
+		"showAllOptions" : "0"
+	},
+	"description" : "PB 8 DMX is a cape for the PocketBeagle that provides 8 DMX outputs.",
+	"designer" : "Scott Hanson",
+	"id" : "PB8DMX",
+	"name" : "PB8DMX",
+        "disableOutputs": [
+            {
+                "file": "config\/channeloutputs.json",
+                "type": "LEDPanelMatrix"
+            }
+        ],
+	"provides": [
+        	"strings"
+    	],
+	"serialNumber" : "D200904151915",
+	"version" : "1.0",
+	"vendor": {
+		"name": "Scott Nation",
+		"url": "http:\/\/scottnation.com",
+		"image": "http:\/\/scottnation.com\/logo.png",
+		"email": "scott@scottnation.com"
+	}
+
+}
+

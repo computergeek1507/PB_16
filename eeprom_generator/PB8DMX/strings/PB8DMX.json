@@ -1,0 +1,16 @@
+{
+    "name": "PB8DMX",
+    "longName": "PB8 DMX",
+    "numSerial": 8,
+    "serial": [
+        {  "pin": "P1-29" },
+        {  "pin": "P2-34" },
+        {  "pin": "P2-30" },
+        {  "pin": "P1-33" },
+        
+        {  "pin": "P2-32" },
+        {  "pin": "P1-36" },
+        {  "pin": "P2-28" },
+        {  "pin": "P1-31" }
+    ]
+}

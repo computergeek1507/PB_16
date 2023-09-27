@@ -1,4 +1,4 @@
-all: PB16-eeprom.bin PB16v2-eeprom.bin BBB16-eeprom.bin BBB16v2-eeprom.bin BBB16-Exp-eeprom.bin BBB16-Flex-eeprom.bin Pi_Expansion-eeprom.bin Pi_Zero_24_Diff-eeprom.bin Pi_Zero_Expansion-eeprom.bin Pi_Zero_W_16-eeprom.bin PB16_2_PI-eeprom.bin
+all: PB16-eeprom.bin PB16v2-eeprom.bin BBB16-eeprom.bin BBB16v2-eeprom.bin BBB16-Exp-eeprom.bin BBB16-Flex-eeprom.bin Pi_Expansion-eeprom.bin Pi_Zero_24_Diff-eeprom.bin Pi_Zero_Expansion-eeprom.bin Pi_Zero_W_16-eeprom.bin PB16_2_PI-eeprom.bin PB8DMX-eeprom.bin
 
 PB16-eeprom.bin: PB16/*
 	./create_cape_eeprom PB16 1.0 PB16
@@ -32,6 +32,9 @@ Pi_Zero_W_16-eeprom.bin: Pi_Zero_W_16/*
 
 PB16_2_PI-eeprom.bin: PB16_2_PI/*
 	./create_cape_eeprom PB16_2_PI 1.0 PB16_2_PI
+
+PB8DMX-eeprom.bin: PB8DMX/*
+	./create_cape_eeprom PB8DMX 1.0 PB8DMX
 
 clean:
 	rm *.bin
