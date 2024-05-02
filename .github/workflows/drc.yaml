@@ -16,7 +16,7 @@ jobs:
   drc-files:
     name: DRC Everything
     runs-on: ubuntu-latest
-    container: setsoft/kicad_auto:ki7
+    container: ghcr.io/inti-cmnb/kicad8_auto:1.6.5
       
     steps:
 
