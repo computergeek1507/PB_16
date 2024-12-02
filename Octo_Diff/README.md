@@ -13,6 +13,6 @@ The Octo Diff Out is a dual Differental Reciever output board for the PB16. It w
 
 ## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/Octo_Diff/Octo_Diff_BOM.ods)
 
-![Image of Octo Diff Out](https://github.com/computergeek1507/PB_16/raw/master/Octo_Diff/Octo_Diff.png)
+![Image of Octo Diff Out](https://github.com/computergeek1507/PB_16/raw/master/Octo_Diff/Quad_Diff_Out.png)
 
 
