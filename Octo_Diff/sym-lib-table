@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Quad_Diff_Out-rescue")(type "KiCad")(uri "${KIPRJMOD}/Quad_Diff_Out-rescue.kicad_sym")(options "")(descr ""))
+)
