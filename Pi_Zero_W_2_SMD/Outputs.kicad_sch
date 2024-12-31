@@ -5,8 +5,8 @@
 	(uuid "a819bf9a-0c8b-443a-b488-e5f1395d77ad")
 	(paper "A4")
 	(title_block
-		(title "Pi_Zero_W_16")
-		(date "2022-08-20")
+		(title "Pi Zero W 2")
+		(date "2024-12-30")
 		(rev "v1")
 		(company "Scott Hanson")
 	)
@@ -1869,7 +1869,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.885 126.365) (xy 95.885 127)
+			(xy 93.98 128.27) (xy 93.98 127)
 		)
 		(stroke
 			(width 0)
@@ -1906,16 +1906,6 @@
 			(type default)
 		)
 		(uuid "58b5c12b-6c57-4a24-a9a7-8216c3f876c5")
-	)
-	(wire
-		(pts
-			(xy 92.075 96.52) (xy 90.17 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "624c6565-c4fd-4d29-87af-f77dd1ba0898")
 	)
 	(wire
 		(pts
@@ -1959,13 +1949,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.885 127) (xy 93.98 127)
+			(xy 93.98 118.11) (xy 93.98 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8746a5be-f2bd-40e6-91bd-3eb403deec82")
+		(uuid "8d6fbb1f-88c0-4d64-b6d0-d0cf6f07c55b")
 	)
 	(wire
 		(pts
@@ -1989,6 +1979,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 87.63) (xy 90.17 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0d8969f-a07c-4027-8fde-fc6578868398")
+	)
+	(wire
+		(pts
 			(xy 185.42 119.38) (xy 185.42 116.84)
 		)
 		(stroke
@@ -2006,26 +2006,6 @@
 			(type default)
 		)
 		(uuid "bba6de82-fb3e-46d3-b377-48d1c14c5cc3")
-	)
-	(wire
-		(pts
-			(xy 97.155 126.365) (xy 95.885 126.365)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c00ffb3b-f3c3-4e06-84d6-7a112a7b5109")
-	)
-	(wire
-		(pts
-			(xy 93.345 95.885) (xy 92.075 95.885)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cce1404b-fc30-47cc-b852-e0061990f2bb")
 	)
 	(wire
 		(pts
@@ -2049,7 +2029,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.075 95.885) (xy 92.075 96.52)
+			(xy 90.17 97.79) (xy 90.17 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2591,7 +2571,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.345 95.885 0)
+		(at 90.17 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2599,7 +2579,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d4e3ac6")
 		(property "Reference" "#PWR035"
-			(at 93.345 102.235 0)
+			(at 90.17 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,7 +2588,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 97.155 0)
+			(at 93.345 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,7 +2596,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.345 95.885 0)
+			(at 90.17 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,7 +2605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.345 95.885 0)
+			(at 90.17 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2634,7 +2614,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.345 95.885 0)
+			(at 90.17 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2882,7 +2862,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 90.17 88.9 0)
+		(at 90.17 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2890,7 +2870,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d4e3ae0")
 		(property "Reference" "#PWR030"
-			(at 90.17 92.71 0)
+			(at 90.17 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2899,7 +2879,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 92.71 86.868 0)
+			(at 92.71 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2907,7 +2887,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 88.9 0)
+			(at 90.17 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2916,7 +2896,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 88.9 0)
+			(at 90.17 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2925,7 +2905,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 88.9 0)
+			(at 90.17 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2990,6 +2970,15 @@
 			)
 		)
 		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 114.3 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7484"
 			(at 114.3 133.35 0)
 			(effects
 				(font
@@ -3067,6 +3056,15 @@
 			)
 		)
 		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 107.95 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7484"
 			(at 107.95 102.87 0)
 			(effects
 				(font
@@ -3593,6 +3591,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C6855"
+			(at 203.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7f068d6-1f44-4cc4-991b-79cdc0675d49")
 		)
@@ -3851,6 +3858,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 185.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 185.42 114.3 0)
 			(effects
 				(font
@@ -4119,7 +4135,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.155 126.365 0)
+		(at 93.98 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4127,7 +4143,7 @@
 		(dnp no)
 		(uuid "99b18b5a-fb5d-42ef-8a66-e63807583e29")
 		(property "Reference" "#PWR040"
-			(at 97.155 132.715 0)
+			(at 93.98 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4136,7 +4152,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 127.635 0)
+			(at 97.155 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,7 +4160,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.155 126.365 0)
+			(at 93.98 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4153,7 +4169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.155 126.365 0)
+			(at 93.98 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,7 +4178,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.155 126.365 0)
+			(at 93.98 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4249,7 +4265,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 93.98 119.38 0)
+		(at 93.98 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4257,7 +4273,7 @@
 		(dnp no)
 		(uuid "b2ce3d53-959a-44d0-a8b8-acfc22e38b8a")
 		(property "Reference" "#PWR037"
-			(at 93.98 123.19 0)
+			(at 93.98 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4266,7 +4282,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 96.52 117.348 0)
+			(at 96.52 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4274,7 +4290,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 119.38 0)
+			(at 93.98 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4283,7 +4299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 119.38 0)
+			(at 93.98 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4292,7 +4308,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 119.38 0)
+			(at 93.98 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,6 +4457,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 218.44 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22790"
 			(at 218.44 114.3 0)
 			(effects
 				(font

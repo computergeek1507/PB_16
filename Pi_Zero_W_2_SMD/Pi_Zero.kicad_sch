@@ -5,8 +5,8 @@
 	(uuid "cdea6ba1-cc65-46ec-9776-a403fa76c4fe")
 	(paper "A4")
 	(title_block
-		(title "Pi_Zero_W_16")
-		(date "2022-08-20")
+		(title "Pi Zero W 2")
+		(date "2024-12-30")
 		(rev "v1")
 		(company "Scott Hanson")
 	)
@@ -1773,8 +1773,92 @@
 		(uuid "fadffc69-973d-474e-94b4-ea84d937b072")
 	)
 	(no_connect
+		(at 198.12 118.11)
+		(uuid "08f44696-2d78-4ca1-9144-f4350d391854")
+	)
+	(no_connect
+		(at 198.12 120.65)
+		(uuid "12487dd0-55aa-4207-aaa0-e540daa55b3a")
+	)
+	(no_connect
+		(at 157.48 92.71)
+		(uuid "1536d472-8b31-421c-a3be-3b075c5ae481")
+	)
+	(no_connect
+		(at 157.48 95.25)
+		(uuid "1ff2c6b6-faf4-453a-8f6a-9b4031ec3aec")
+	)
+	(no_connect
+		(at 198.12 115.57)
+		(uuid "21338e2a-bf6e-452f-a053-beab42566760")
+	)
+	(no_connect
+		(at 157.48 120.65)
+		(uuid "2eb0e513-6526-4d57-89ff-46f58824acb4")
+	)
+	(no_connect
+		(at 198.12 100.33)
+		(uuid "47c7a0f9-db17-420c-93da-eeafbcb6c936")
+	)
+	(no_connect
+		(at 157.48 125.73)
+		(uuid "49bca85a-08aa-414a-b3b6-a59651f3354a")
+	)
+	(no_connect
+		(at 157.48 107.95)
+		(uuid "745e7c8b-ea4a-4168-a740-d3bec5ce1b93")
+	)
+	(no_connect
+		(at 157.48 105.41)
+		(uuid "75d7381b-0893-4e78-9977-6b0d61526fe5")
+	)
+	(no_connect
+		(at 198.12 102.87)
+		(uuid "95390fdf-72c8-433a-a4b5-e45243d24c62")
+	)
+	(no_connect
+		(at 157.48 115.57)
+		(uuid "97faaa02-7265-4d3b-aeaa-4084047a2322")
+	)
+	(no_connect
+		(at 157.48 113.03)
+		(uuid "a7c14e44-38a3-4adc-a9dd-16b4f182c083")
+	)
+	(no_connect
+		(at 198.12 105.41)
+		(uuid "a82f5ed6-5bd4-45fb-868c-c5f80209c68d")
+	)
+	(no_connect
 		(at 182.88 74.93)
 		(uuid "aade1ef5-923d-4b95-aa05-8026be1d6f44")
+	)
+	(no_connect
+		(at 157.48 87.63)
+		(uuid "b5fdd390-8cda-4fe1-8206-15ab6f328c89")
+	)
+	(no_connect
+		(at 198.12 128.27)
+		(uuid "c0c352db-9e74-4cb1-8308-68a619ad077f")
+	)
+	(no_connect
+		(at 198.12 113.03)
+		(uuid "c6484e26-0f07-475e-8087-f0d9d56593d2")
+	)
+	(no_connect
+		(at 157.48 123.19)
+		(uuid "c8db59a2-1e82-47af-bf41-363c27faaa94")
+	)
+	(no_connect
+		(at 198.12 125.73)
+		(uuid "cd06a807-25a1-4f22-a65f-d9d7c7e9fd0d")
+	)
+	(no_connect
+		(at 157.48 118.11)
+		(uuid "e5e851c2-ff7d-478d-87ab-58ee6eb71985")
+	)
+	(no_connect
+		(at 198.12 110.49)
+		(uuid "f4f7bb9a-d588-439a-a4b5-6cbc2b1a873b")
 	)
 	(wire
 		(pts

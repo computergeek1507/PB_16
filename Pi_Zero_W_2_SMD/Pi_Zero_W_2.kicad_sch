@@ -5,8 +5,8 @@
 	(uuid "13bbfffc-affb-4b43-9eb1-f2ed90a8a919")
 	(paper "A4")
 	(title_block
-		(title "Pi_Zero_W_2")
-		(date "2022-08-20")
+		(title "Pi Zero W 2")
+		(date "2024-12-30")
 		(rev "v1")
 		(company "Scott Hanson")
 	)
@@ -7541,7 +7541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key_PN" "ED2953-ND"
+		(property "Digi-Key_PN" ""
 			(at 38.735 46.99 0)
 			(effects
 				(font
@@ -7550,7 +7550,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "OSTYK51102030"
+		(property "MPN" ""
 			(at 38.735 46.99 0)
 			(effects
 				(font
@@ -7559,7 +7559,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C707421"
+		(property "LCSC" "C306200"
 			(at 40.8178 41.4782 0)
 			(effects
 				(font
