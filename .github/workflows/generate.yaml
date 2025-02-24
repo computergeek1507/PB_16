@@ -31,7 +31,7 @@ jobs:
 #        zip -r -j PB_16v1.zip PB_16v1/
 
     - name: Upload Export Files as Artifacts
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: PB_16v1
         path: PB_16v1/PB_16v1/**
