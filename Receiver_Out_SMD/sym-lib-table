@@ -1,3 +1,6 @@
 (sym_lib_table
-  (lib (name Receiver_Out-rescue)(type Legacy)(uri ${KIPRJMOD}/Receiver_Out-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "Receiver_Out-rescue")(type "Legacy")(uri "${KIPRJMOD}/Receiver_Out-rescue.lib")(options "")(descr ""))
+  (lib (name "CH32V003")(type "KiCad")(uri "${KIPRJMOD}/../libraries/ch32/CH32V003.kicad_sym")(options "")(descr ""))
+  (lib (name "Scotts")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Scotts/Scotts.kicad_sym")(options "")(descr ""))
 )

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Receiver Out SMD")
-		(date "2024-12-02")
-		(rev "v2")
+		(date "2025-02-23")
+		(rev "v3")
 		(company "Scott Hanson")
 	)
 	(lib_symbols
@@ -789,252 +789,6 @@
 				)
 			)
 		)
-		(symbol "Receiver_Out-rescue:3544-2-Keystone_Fuse"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at -5.08 3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "3544-2-Keystone_Fuse"
-				(at -5.08 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "FUSE_3544-2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Field4" "3544-2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Field5" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Field6" "Unavailable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Field7" "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Field8" "Keystone Electronics"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "3544-2-Keystone_Fuse_0_0"
-				(polyline
-					(pts
-						(xy -12.7 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -5.08 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy -5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -12.7 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Receiver_Out-rescue:C-Device"
 			(pin_numbers hide)
 			(pin_names
@@ -1156,6 +910,226 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Scotts:3544-2"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F?"
+				(at -3.81 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "3544-2"
+				(at -3.81 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Scotts:FUSE_3544-2"
+				(at -1.27 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digi-Key_PN" "36-3544-2-ND"
+				(at -201.676 -44.704 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "3544-2"
+				(at -201.676 -44.704 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C492610"
+				(at 5.08 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "FUSE_3544-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3544-2_0_0"
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "~"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1697,7 +1671,6 @@
 	)
 	(label "VOUT3"
 		(at 168.91 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1708,7 +1681,6 @@
 	)
 	(label "VOUT1"
 		(at 146.05 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1719,7 +1691,6 @@
 	)
 	(label "DOUT1"
 		(at 143.51 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1730,7 +1701,6 @@
 	)
 	(label "DOUT4"
 		(at 177.8 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1741,7 +1711,6 @@
 	)
 	(label "DOUT3"
 		(at 166.37 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1752,7 +1721,6 @@
 	)
 	(label "VOUT4"
 		(at 180.34 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1763,7 +1731,6 @@
 	)
 	(label "DOUT2"
 		(at 154.94 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1774,7 +1741,6 @@
 	)
 	(label "VOUT2"
 		(at 157.48 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1827,7 +1793,7 @@
 	)
 	(global_label "VIN1"
 		(shape input)
-		(at 180.34 68.58 90)
+		(at 180.34 81.28 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1837,7 +1803,7 @@
 		)
 		(uuid "2647c6e5-4b66-4ce9-a25d-bf1333961799")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
+			(at 0 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1848,7 +1814,7 @@
 	)
 	(global_label "VIN1"
 		(shape input)
-		(at 146.05 68.58 90)
+		(at 146.05 81.28 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1858,7 +1824,7 @@
 		)
 		(uuid "2a3f06c6-29c6-4d7b-842c-1c6eb5f9bac9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0.254 0.254 0)
+			(at 0.254 12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,7 +1835,7 @@
 	)
 	(global_label "VIN1"
 		(shape input)
-		(at 157.48 68.58 90)
+		(at 157.48 81.28 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1879,7 +1845,7 @@
 		)
 		(uuid "2b3a45a6-d57f-48f3-8096-5ebf0f9ba60d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0.254 0.508 0)
+			(at 0.254 13.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1932,7 +1898,7 @@
 	)
 	(global_label "VIN1"
 		(shape input)
-		(at 168.91 68.58 90)
+		(at 168.91 81.28 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1942,7 +1908,7 @@
 		)
 		(uuid "e83b3ce2-c9c9-4920-9233-18cd6a8458b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0.254 0)
+			(at 0 12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2612,8 +2578,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Receiver_Out-rescue:3544-2-Keystone_Fuse")
-		(at 157.48 81.28 270)
+		(lib_id "Scotts:3544-2")
+		(at 157.48 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2621,7 +2587,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d4cfb8b")
 		(property "Reference" "F2"
-			(at 160.782 80.1116 90)
+			(at 160.782 86.4616 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2630,7 +2596,7 @@
 			)
 		)
 		(property "Value" "3544-2"
-			(at 160.782 82.423 90)
+			(at 160.782 88.773 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2638,8 +2604,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keystone_Fuse:FUSE_3544-2"
-			(at 157.48 81.28 0)
+		(property "Footprint" "Scotts:FUSE_3544-2"
+			(at 161.29 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2649,7 +2615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 81.28 0)
+			(at 157.48 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2625,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 81.28 0)
+			(at 157.48 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2668,7 +2634,7 @@
 			)
 		)
 		(property "Field4" "3544-2"
-			(at 157.48 81.28 0)
+			(at 157.48 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,7 +2644,7 @@
 			)
 		)
 		(property "Field5" "None"
-			(at 157.48 81.28 0)
+			(at 157.48 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2688,7 +2654,7 @@
 			)
 		)
 		(property "Field6" "Unavailable"
-			(at 157.48 81.28 0)
+			(at 157.48 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2698,7 +2664,7 @@
 			)
 		)
 		(property "Field7" "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses"
-			(at 157.48 81.28 0)
+			(at 157.48 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,7 +2674,7 @@
 			)
 		)
 		(property "Field8" "Keystone Electronics"
-			(at 157.48 81.28 0)
+			(at 157.48 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2718,7 +2684,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "36-3544-2-ND"
-			(at 74.422 -119.38 0)
+			(at 112.776 -114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2727,7 +2693,7 @@
 			)
 		)
 		(property "MPN" "3544-2"
-			(at 74.422 -119.38 0)
+			(at 112.776 -114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2736,7 +2702,16 @@
 			)
 		)
 		(property "LCSC_PN" "C492610"
-			(at 157.48 81.28 0)
+			(at 157.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C492610"
+			(at 161.29 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2766,8 +2741,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Receiver_Out-rescue:3544-2-Keystone_Fuse")
-		(at 168.91 81.28 270)
+		(lib_id "Scotts:3544-2")
+		(at 168.91 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2775,7 +2750,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d4cfb98")
 		(property "Reference" "F3"
-			(at 172.212 80.1116 90)
+			(at 172.212 86.4616 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2784,7 +2759,7 @@
 			)
 		)
 		(property "Value" "3544-2"
-			(at 172.212 82.423 90)
+			(at 172.212 88.773 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2792,8 +2767,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keystone_Fuse:FUSE_3544-2"
-			(at 168.91 81.28 0)
+		(property "Footprint" "Scotts:FUSE_3544-2"
+			(at 172.72 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2803,7 +2778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 81.28 0)
+			(at 168.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,7 +2788,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 81.28 0)
+			(at 168.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +2797,7 @@
 			)
 		)
 		(property "Field4" "3544-2"
-			(at 168.91 81.28 0)
+			(at 168.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,7 +2807,7 @@
 			)
 		)
 		(property "Field5" "None"
-			(at 168.91 81.28 0)
+			(at 168.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,7 +2817,7 @@
 			)
 		)
 		(property "Field6" "Unavailable"
-			(at 168.91 81.28 0)
+			(at 168.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2852,7 +2827,7 @@
 			)
 		)
 		(property "Field7" "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses"
-			(at 168.91 81.28 0)
+			(at 168.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2862,7 +2837,7 @@
 			)
 		)
 		(property "Field8" "Keystone Electronics"
-			(at 168.91 81.28 0)
+			(at 168.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2872,7 +2847,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "36-3544-2-ND"
-			(at 85.598 -129.794 0)
+			(at 124.206 -114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2881,7 +2856,7 @@
 			)
 		)
 		(property "MPN" "3544-2"
-			(at 85.598 -129.794 0)
+			(at 124.206 -114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2890,7 +2865,16 @@
 			)
 		)
 		(property "LCSC_PN" "C492610"
-			(at 168.91 81.28 0)
+			(at 168.91 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C492610"
+			(at 172.72 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2920,8 +2904,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Receiver_Out-rescue:3544-2-Keystone_Fuse")
-		(at 180.34 81.28 270)
+		(lib_id "Scotts:3544-2")
+		(at 180.34 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2929,7 +2913,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d4cfba5")
 		(property "Reference" "F4"
-			(at 183.642 80.1116 90)
+			(at 183.642 86.4616 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2938,7 +2922,7 @@
 			)
 		)
 		(property "Value" "3544-2"
-			(at 183.642 82.423 90)
+			(at 183.642 88.773 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2946,8 +2930,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keystone_Fuse:FUSE_3544-2"
-			(at 180.34 81.28 0)
+		(property "Footprint" "Scotts:FUSE_3544-2"
+			(at 184.15 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2957,7 +2941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 81.28 0)
+			(at 180.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2967,7 +2951,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 81.28 0)
+			(at 180.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2976,7 +2960,7 @@
 			)
 		)
 		(property "Field4" "3544-2"
-			(at 180.34 81.28 0)
+			(at 180.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,7 +2970,7 @@
 			)
 		)
 		(property "Field5" "None"
-			(at 180.34 81.28 0)
+			(at 180.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2996,7 +2980,7 @@
 			)
 		)
 		(property "Field6" "Unavailable"
-			(at 180.34 81.28 0)
+			(at 180.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3006,7 +2990,7 @@
 			)
 		)
 		(property "Field7" "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses"
-			(at 180.34 81.28 0)
+			(at 180.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3016,7 +3000,7 @@
 			)
 		)
 		(property "Field8" "Keystone Electronics"
-			(at 180.34 81.28 0)
+			(at 180.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3026,7 +3010,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "36-3544-2-ND"
-			(at 96.774 -138.938 0)
+			(at 135.636 -114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3035,7 +3019,7 @@
 			)
 		)
 		(property "MPN" "3544-2"
-			(at 96.774 -138.938 0)
+			(at 135.636 -114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3044,7 +3028,16 @@
 			)
 		)
 		(property "LCSC_PN" "C492610"
-			(at 180.34 81.28 0)
+			(at 180.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C492610"
+			(at 184.15 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3300,8 +3293,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Receiver_Out-rescue:3544-2-Keystone_Fuse")
-		(at 146.05 81.28 270)
+		(lib_id "Scotts:3544-2")
+		(at 146.05 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3309,7 +3302,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d4cfc1c")
 		(property "Reference" "F1"
-			(at 149.352 80.1116 90)
+			(at 149.352 86.4616 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3318,7 +3311,7 @@
 			)
 		)
 		(property "Value" "3544-2"
-			(at 149.352 82.423 90)
+			(at 149.352 88.773 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3326,8 +3319,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keystone_Fuse:FUSE_3544-2"
-			(at 146.05 81.28 0)
+		(property "Footprint" "Scotts:FUSE_3544-2"
+			(at 149.86 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,7 +3330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 81.28 0)
+			(at 146.05 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3347,7 +3340,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 81.28 0)
+			(at 146.05 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,7 +3349,7 @@
 			)
 		)
 		(property "Field4" "3544-2"
-			(at 146.05 81.28 0)
+			(at 146.05 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3366,7 +3359,7 @@
 			)
 		)
 		(property "Field5" "None"
-			(at 146.05 81.28 0)
+			(at 146.05 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3376,7 +3369,7 @@
 			)
 		)
 		(property "Field6" "Unavailable"
-			(at 146.05 81.28 0)
+			(at 146.05 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3386,7 +3379,7 @@
 			)
 		)
 		(property "Field7" "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses"
-			(at 146.05 81.28 0)
+			(at 146.05 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3396,7 +3389,7 @@
 			)
 		)
 		(property "Field8" "Keystone Electronics"
-			(at 146.05 81.28 0)
+			(at 146.05 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3406,7 +3399,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "36-3544-2-ND"
-			(at 62.484 -105.918 0)
+			(at 101.346 -114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3415,7 +3408,7 @@
 			)
 		)
 		(property "MPN" "3544-2"
-			(at 62.484 -105.918 0)
+			(at 101.346 -114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3424,7 +3417,16 @@
 			)
 		)
 		(property "LCSC_PN" "C492610"
-			(at 146.05 81.28 0)
+			(at 146.05 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C492610"
+			(at 149.86 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3543,7 +3545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 140.97 142.24 0)
 			(effects
 				(font
@@ -3637,7 +3639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 152.4 134.62 0)
 			(effects
 				(font
@@ -3731,7 +3733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 175.26 124.46 0)
 			(effects
 				(font
@@ -3825,7 +3827,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 161.29 129.54 0)
 			(effects
 				(font
@@ -4085,6 +4087,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digi-Key_PN" "1727-4099-1-ND"
