@@ -13,6 +13,11 @@ volatile bool test_en = false;
 
 volatile int mode = 0; 
 
+unsigned long previousMillis = 0;
+
+// constants won't change:
+const long interval = 1000;
+
 OneButton  button = OneButton (
   PIN_PA2,  // Input pin for the button
   true,        // Button is active LOW
@@ -68,7 +73,8 @@ void LongPress(void * /*oneButton*/)
     PORTB.PIN3CTRL = 0;
     digitalWrite(PIN_PC1, LOW);
   }
-  else {    
+  else 
+  {    
     digitalWrite(PIN_PC1, HIGH);
     digitalWrite(PIN_PA1, HIGH);
     FAB_PORT(B, 0x00); // all pins low
@@ -88,18 +94,6 @@ void setup()
 {
   pinMode(PIN_PC1, OUTPUT);
   pinMode(PIN_PA1, OUTPUT);
-	// Turn off first 1000 LEDs
-	//myLeds1.clear(numPixels);
-  //myLeds2.clear(numPixels);
-  //myLeds3.clear(numPixels);
-  //myLeds4.clear(numPixels);
-
-	// Configure a strobe signal to Port B5 for people who
-	// use oscilloscopes to look at the signal sent to the LEDs
-	// Port B5 corresponds to the Arduino Uno pin13 (LED).
-	//DDRB |= 1U << 5;
-	//PORTB &= ~(1U << 5);
-
   //digitalWrite(PIN_PC1, HIGH);
 
   // button.attachPress(ShortPress, &button);
@@ -120,22 +114,30 @@ void setup()
 void loop()
 {
   button.tick();
-  if(test_en)
+
+  unsigned long currentMillis = millis();
+
+  if (currentMillis - previousMillis >= interval) 
   {
-      switch(mode) {
-        case 0:
+    previousMillis = currentMillis;
+    if(test_en)
+    {
+        switch(mode) {
+          case 0:
             color1N(127,0,0);
             mode = 1;
-          break;
-        case 1:
-          color1N(0,127,0);
-          mode = 2;
-          break;
-        case 2:
-          color1N(0,0,127);
-          mode = 0;
-          break;        
-      }
-      delay(1000);
+            break;
+          case 1:
+            color1N(0,127,0);
+            mode = 2;
+            break;
+          case 2:
+            color1N(0,0,127);
+            mode = 0;
+            break;        
+        }
+        //delay(1000);
+    }
   }
+  delay(10);
 }
