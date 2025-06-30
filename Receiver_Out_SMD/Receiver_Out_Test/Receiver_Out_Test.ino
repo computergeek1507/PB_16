@@ -9,11 +9,11 @@ ws2812b<B,1> myLeds3;
 ws2812b<B,2> myLeds4;
 //ws2812b8s<B,0,7> strip_split8;//maybe?
 
-volatile bool test_en = false; 
+volatile bool test_en = false;
 
-volatile int mode = 0; 
+volatile int mode = 0;
 
-unsigned long previousMillis = 0;
+volatile unsigned long previousMillis = 0;
 
 // constants won't change:
 const long interval = 1000;
@@ -34,26 +34,27 @@ OneButton  button = OneButton (
 ////////////////////////////////////////////////////////////////////////////////
 void color1N(uint8_t red, uint8_t green, uint8_t blue)
 {
-	rgb pix[1];
+  rgb pix[1];
 
-	pix[0].r = red;
-	pix[0].g = green;
-	pix[0].b = blue;
+  pix[0].r = red;
+  pix[0].g = green;
+  pix[0].b = blue;
 
-	// Disable interupts, save the old interupt state
-	const uint8_t oldSREG = SREG;
-	cli();
+  // Disable interupts, save the old interupt state
+  const uint8_t oldSREG = SREG;
+  cli();
 
-	// Display the LEDs
-	for (uint16_t i = 0; i < numPixels; i++) {
-		myLeds1.sendPixels(1, pix);
+  // Display the LEDs
+  for (uint16_t i = 0; i < numPixels; i++)
+  {
+    myLeds1.sendPixels(1, pix);
     myLeds2.sendPixels(1, pix);
     myLeds3.sendPixels(1, pix);
     myLeds4.sendPixels(1, pix);
-	}
+  }
 
-	// Restore the old interrupt state
-	SREG = oldSREG;
+  // Restore the old interrupt state
+  SREG = oldSREG;
 }
 
 void LongPress(void * /*oneButton*/)
@@ -74,15 +75,16 @@ void LongPress(void * /*oneButton*/)
     digitalWrite(PIN_PC1, LOW);
   }
   else 
-  {    
+  {
     digitalWrite(PIN_PC1, HIGH);
     digitalWrite(PIN_PA1, HIGH);
     FAB_PORT(B, 0x00); // all pins low
-  	FAB_DDR(B, 0xFF); // all pins out
-		myLeds1.clear(numPixels);
+    FAB_DDR(B, 0xFF); // all pins out
+    myLeds1.clear(numPixels);
     myLeds2.clear(numPixels);
     myLeds3.clear(numPixels);
     myLeds4.clear(numPixels);
+    previousMillis = 0;
   }
   test_en = !test_en;
 }
@@ -102,7 +104,7 @@ void setup()
   button.setLongPressIntervalMs(1000);
 
   //FAB_PORT(B, 0x00); // all pins low
-  PORTB.DIR =    0b00000000;
+  PORTB.DIR = 0b00000000;
   PORTB.PIN0CTRL = 0;
   PORTB.PIN1CTRL = 0;
   PORTB.PIN2CTRL = 0;
@@ -114,29 +116,26 @@ void setup()
 void loop()
 {
   button.tick();
-
   unsigned long currentMillis = millis();
-
-  if (currentMillis - previousMillis >= interval) 
+  if (currentMillis - previousMillis >= interval)
   {
     previousMillis = currentMillis;
     if(test_en)
     {
-        switch(mode) {
-          case 0:
-            color1N(127,0,0);
-            mode = 1;
-            break;
-          case 1:
-            color1N(0,127,0);
-            mode = 2;
-            break;
-          case 2:
-            color1N(0,0,127);
-            mode = 0;
-            break;        
-        }
-        //delay(1000);
+      switch(mode) {
+        case 0:
+          color1N(127,0,0);
+          mode = 1;
+          break;
+        case 1:
+          color1N(0,127,0);
+          mode = 2;
+          break;
+        case 2:
+          color1N(0,0,127);
+          mode = 0;
+          break;
+      }
     }
   }
   delay(10);
