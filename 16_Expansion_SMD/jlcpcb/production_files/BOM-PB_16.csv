@@ -1,0 +1,31 @@
+Comment,Designator,Footprint,LCSC,Quantity
+0.1uF,"C1,C2",C_0402_1005Metric,C1525,2
+100,"R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35",R_0603_1608Metric,C22775,16
+10uF,C3,CP_Elec_4x5.3,C72485,1
+2.2K,"R1,R2",R_0603_1608Metric,C4190,2
+330,R3,R_0603_1608Metric,C23138,1
+33ohm,"R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R4,R5,R6,R7,R8,R9",R_0603_1608Metric,C23140,16
+3544-2,"F1,F10,F11,F12,F13,F14,F15,F16,F2,F3,F4,F5,F6,F7,F8,F9",FUSE_3544-2,C492610,16
+5V LED,D5,LED_0603_1608Metric,C2286,1
+74HCT541,"U1,U2",TSSOP-20_4.4x6.5mm_P0.65mm,C436096,2
+String1,J1,PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,C192778,1
+String10,J10,PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,C192778,1
+String11,J11,PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,C192778,1
+String12,J12,PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,C192778,1
+String13,J13,PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,C192778,1
+String14,J14,PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,C192778,1
+String15,J15,PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,C192778,1
+String16,J16,PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,C192778,1
+String2,J2,PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,C192778,1
+String3,J3,PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,C192778,1
+String4,J4,PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,C192778,1
+String5,J5,PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,C192778,1
+String6,J6,PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,C192778,1
+String7,J7,PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,C192778,1
+String8,J8,PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,C192778,1
+String9,J9,PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,C192778,1
+VIN1 LED,D3,LED_0603_1608Metric,C2286,1
+VIN2 LED,D4,LED_0603_1608Metric,C2286,1
+Expansion Header,J19,IDC-Header_2x20_P2.54mm_Vertical,,1
+Power In Left,J17,BARRIER_BLOCK_1ROW_2POS_P9.5MM,,1
+Power In Right,J18,BARRIER_BLOCK_1ROW_2POS_P9.5MM,,1
