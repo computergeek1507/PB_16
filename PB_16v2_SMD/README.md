@@ -36,23 +36,32 @@ I (Scott) have a limited quantity of fully assembled PCB's available for purchas
 
 ![Image of PB 16v2](https://github.com/computergeek1507/PB_16/raw/master/PB_16v2_SMD/Real_PB_16v2.jpg)
 
----
+----
 ## Changelog
 
+v2.3
+----
+* 2026-02-09
+* Switched to TSSOP-20 for U4 & U5.
+* Switched to 603 Resistors for Pixel Outputs.
+* Switched Pixel Outputs to Dual 3.5mm/3.81mm Pads.
+* Switched Expansion Header to 24pin Falcon V4 pinout.
+* Removed Top Solder pour.
+
 v2.2
--
+----
 * 2022-06-05
 * Updated 5V regulator to "Universal" footprint to support different regulators.
 * Switched to 603 Resistors and Capacitors
 * Added Logo
 
 v2.1
--
+----
 * 2022-05-26
 * Switched to surface mount 33ohm resistors on pixel outputs.
 
 v2
--
+----
 * 2020-08-11 (publicly released 2022-01-22)
 * First SMD version.
 * Based off PB16v1.
