@@ -1,62 +1,62 @@
-"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet","Digi-Key_PN","LCSC","MPN","Manufacturer"
-"C1","1","220uF","","","","Capacitor_THT:CP_Radial_D10.0mm_P5.00mm","~","P5183-ND","C338228","ECA-1HM221",""
-"C2","1","100uF","","","","Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon","~","493-2105-1-ND","C134723","UWX1C101MCL1GB",""
-"C3,C4,C5,C6,C7,C8,C9","7","0.1uF","","","","Capacitor_SMD:C_0603_1608Metric","~","1276-1935-2-ND","C14663","CL10B104KB8NNWC",""
-"D1","1","VIN1 LED","","","","LED_SMD:LED_0603_1608Metric","~","160-1436-2-ND","C2286","LTST-C190KRKT",""
-"D2","1","VIN2 LED","","","","LED_SMD:LED_0603_1608Metric","~","160-1436-2-ND","C2286","LTST-C190KRKT",""
-"D3","1","5V LED","","","","LED_SMD:LED_0603_1608Metric","~","160-1436-2-ND","C2286","LTST-C190KRKT",""
-"D4","1","Zener 10V","","","","Diode_SMD:D_SOD-123","~","MMSZ5240B-FDICT-ND","C173431","MMSZ5240B-7-F",""
-"D5","1","Zener 5.1V","","","","Diode_SMD:D_SOD-123","~","MMSZ5231B-FDICT-ND","C173407","MMSZ5231B-7-F",""
-"F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12,F13,F14,F15,F16,F17,F18","18","3544-2","","","","Scotts:FUSE_3544-2","","36-3544-2-ND","C492610","3544-2",""
-"FB1","1","150 OHM","","","","Inductor_SMD:L_0805_2012Metric","~","MU2029-151YCT-ND","C1015","MU2029-151Y",""
-"H1,H2,H3,H4","4","MountingHole","","Excluded from BOM","","Scotts:MountingHole_3.7mm","~","","","",""
-"J1","1","String1","","","","Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical","~","277-5737-ND/ED10555-ND","C8389","1843619/OSTTJ0311530",""
-"J2","1","String2","","","","Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical","~","277-5737-ND/ED10555-ND","C8389","1843619/OSTTJ0311530",""
-"J3","1","String3","","","","Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical","~","277-5737-ND/ED10555-ND","C8389","1843619/OSTTJ0311530",""
-"J4","1","String4","","","","Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical","~","277-5737-ND/ED10555-ND","C8389","1843619/OSTTJ0311530",""
-"J5","1","String5","","","","Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical","~","277-5737-ND/ED10555-ND","C8389","1843619/OSTTJ0311530",""
-"J6","1","String6","","","","Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical","~","277-5737-ND/ED10555-ND","C8389","1843619/OSTTJ0311530",""
-"J7","1","String7","","","","Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical","~","277-5737-ND/ED10555-ND","C8389","1843619/OSTTJ0311530",""
-"J8","1","String8","","","","Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical","~","277-5737-ND/ED10555-ND","C8389","1843619/OSTTJ0311530",""
-"J9","1","String9","","","","Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical","~","277-5737-ND/ED10555-ND","C8389","1843619/OSTTJ0311530",""
-"J10","1","String10","","","","Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical","~","277-5737-ND/ED10555-ND","C8389","1843619/OSTTJ0311530",""
-"J11","1","String11","","","","Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical","~","277-5737-ND/ED10555-ND","C8389","1843619/OSTTJ0311530",""
-"J12","1","String12","","","","Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical","~","277-5737-ND/ED10555-ND","C8389","1843619/OSTTJ0311530",""
-"J13","1","String13","","","","Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical","~","277-5737-ND/ED10555-ND","C8389","1843619/OSTTJ0311530",""
-"J14","1","String14","","","","Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical","~","277-5737-ND/ED10555-ND","C8389","1843619/OSTTJ0311530",""
-"J15","1","String15","","","","Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical","~","277-5737-ND/ED10555-ND","C8389","1843619/OSTTJ0311530",""
-"J16","1","String16","","","","Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical","~","277-5737-ND/ED10555-ND","C8389","1843619/OSTTJ0311530",""
-"J17","1","Power In Left","","","","Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS_P9.5MM","~","ED2953-ND","C707421","OSTYK51102030",""
-"J18","1","Power In Right","","","","Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS_P9.5MM","~","ED2953-ND","C707421","OSTYK51102030",""
-"J19","1","USB","","","","Connector_USB:USB_A_Molex_105057_Vertical","~","WM8672-ND","C39455","1050570001",""
-"J20","1","DMX1 RJ45","","","","Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal","~","AE10392-ND","C2938579","X05ADIWA1DY1022",""
-"J21","1","Diff Out","","","","Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal","~","AE10392-ND","C2938579","X05ADIWA1DY1022",""
-"J22","1","DMX2","","","","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal","~","277-1238-ND","C192769","1729034",""
-"J23","1","VIN Voltage","","","","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","~","732-5316-ND","C49257","61300311121",""
-"J24","1","Expansion Header","","","","Connector_IDC:IDC-Header_2x12_P2.54mm_Vertical","~","S9175-ND","C9138","SBH11-PBPC-D20-ST-BK",""
-"J25","1","RTC Conn","","","","Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical","~","732-5318-ND","C358687","61300511121",""
-"J26","1","OLED Conn","","","","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical","~","S7002-ND","C225501","PPTC041LFBN-RC",""
-"J27","1","GPIO Header","","","","Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical","~","455-2249-ND","C144395","B4B-XH-A(LF)(SN)",""
-"J28","1","Aux Pwr","","","","MKDS1_2-3.81:PHOENIX_MKDS1_2-3.81","~","277-1947-ND","C69811","1727010",""
-"J29","1","VIN Select","","","","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","~","732-5316-ND","C49257","61300311121",""
-"JP1","1","PIN_3_JMP","","Excluded from BOM","","Scotts:SolderJumper-3_P1mm_Bridged12","~","","","",""
-"JP2","1","PIN_4_JMP","","Excluded from BOM","","Scotts:SolderJumper-3_P1mm_Bridged23","~","","","",""
-"Q1","1","DMP3056L","","","","Package_TO_SOT_SMD:SOT-23","~","DMP3056L-7DICT-ND","C150724","DMP3056L-7",""
-"R1,R2","2","2.2K","","","","Resistor_SMD:R_0603_1608Metric","~","311-1.00KHRTR-ND","","RC0603FR-071KL",""
-"R3","1","330","","","","Resistor_SMD:R_0603_1608Metric","~","A129677CT-ND","","CRGCQ0603F120R",""
-"R4","1","100K","","","","Resistor_SMD:R_0603_1608Metric","~","YAG1235CT-ND","C25803","RT0603BRD07100KL",""
-"R5,R6","2","4.7K","","","","Resistor_SMD:R_0603_1608Metric","~","311-4.7KGRCT-ND","C23162","RC0603JR-074K7L",""
-"R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22","16","33","","","","Resistor_SMD:R_0603_1608Metric","~","311-33.0HRCT-ND","C23140","RC0603FR-0733RL",""
-"R23,R24,R25,R26,R27,R28","6","120","","","","Resistor_SMD:R_0603_1608Metric","~","A129677CT-ND","C22787","CRGCQ0603F120R",""
-"R29,R30","2","10K","","","","Resistor_SMD:R_0603_1608Metric","~","311-10.0KHRCT-ND","C25804","RC0603FR-0710KL",""
-"SW1","1","Enter BTN","","","","Scotts:SW_Push_1P1T_NO_6x6mm_H9.5mm","~","CKN9088CT-ND","C127509","PTS645SL50SMTR92 LFS",""
-"SW2","1","Down BTN","","","","Scotts:SW_Push_1P1T_NO_6x6mm_H9.5mm","~","CKN9088CT-ND","C127509","PTS645SL50SMTR92 LFS",""
-"SW4","1","DMX_LOR_Select","","","","Scotts:SW_CK_JS202011CQN_DPDT_Straight","~","","C189615","K3-2235D-F1",""
-"U1","1","OKI-78SR-5","","","","Scotts:Universal_5V_Horizontal","http://www.fairchildsemi.com/ds/LM/LM7805.pdf","811-2196-5-ND","","OKI-78SR-5/1.5-W36-C",""
-"U2","1","24LC256","","","","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://ww1.microchip.com/downloads/en/devicedoc/21203m.pdf","24LC256T-I/SNCT-ND","C6482","24LC256T-I/SN",""
-"U3","1","POCKETBEAGLE-SC-569","","","","POCKETBEAGLE:BEAGLE_POCKETBEAGLE-SC-569","","POCKETBEAGLE-SC-569-ND","","POCKETBEAGLE-SC-569",""
-"U4,U5","2","74HCT541","","","","Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm","http://www.ti.com/lit/gpn/sn74HCT541","MC74HCT541ADTR2GOSTR-ND","C133641","SN74HCT541PWR",""
-"U6","1","UA9638CDR","","","","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.ti.com/lit/ds/symlink/ua9638.pdf","296-15058-1-ND","C435812","UA9638CDR",""
-"U7","1","AM26C31","","","","Package_SO:SOIC-16_3.9x9.9mm_P1.27mm","http://www.ti.com.cn/cn/lit/ds/symlink/am26c31.pdf","296-24344-1-ND","C157476","AM26C31IDR",""
-"U8","1","TPS2051BDBVR","","","","digikey-footprints:SOT-753","http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps2051b","296-21265-1-ND","C24593","TPS2051BDBVR","Texas Instruments"
-"U9","1","TPD4S009DBVR","","","","Package_TO_SOT_SMD:SOT-23-6_Handsoldering","","296-23749-1-ND","C88032","TPD4S009DBVR",""
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet,Digi-Key_PN,LCSC,MPN,Manufacturer
+C1,1,220uF,,,,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,~,P5183-ND,C338228,ECA-1HM221,
+C2,1,100uF,,,,Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon,~,493-2105-1-ND,C134723,UWX1C101MCL1GB,
+"C3,C4,C5,C6,C7,C8,C9",7,0.1uF,,,,Capacitor_SMD:C_0603_1608Metric,~,1276-1935-2-ND,C14663,CL10B104KB8NNWC,
+D1,1,VIN1 LED,,,,LED_SMD:LED_0603_1608Metric,~,160-1436-2-ND,C2286,LTST-C190KRKT,
+D2,1,VIN2 LED,,,,LED_SMD:LED_0603_1608Metric,~,160-1436-2-ND,C2286,LTST-C190KRKT,
+D3,1,5V LED,,,,LED_SMD:LED_0603_1608Metric,~,160-1436-2-ND,C2286,LTST-C190KRKT,
+D4,1,Zener 10V,,,,Diode_SMD:D_SOD-123,~,MMSZ5240B-FDICT-ND,C173431,MMSZ5240B-7-F,
+D5,1,Zener 5.1V,,,,Diode_SMD:D_SOD-123,~,MMSZ5231B-FDICT-ND,C173407,MMSZ5231B-7-F,
+"F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12,F13,F14,F15,F16,F17,F18",18,3544-2,,,,Scotts:FUSE_3544-2,,36-3544-2-ND,C492610,3544-2,
+FB1,1,150 OHM,,,,Inductor_SMD:L_0805_2012Metric,~,MU2029-151YCT-ND,C1015,MU2029-151Y,
+"H1,H2,H3,H4",4,MountingHole,,Excluded from BOM,,Scotts:MountingHole_3.7mm,~,,,,
+J1,1,String1,,,,Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,~,277-5737-ND/ED10555-ND,C8389,1843619/OSTTJ0311530,
+J2,1,String2,,,,Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,~,277-5737-ND/ED10555-ND,C8389,1843619/OSTTJ0311530,
+J3,1,String3,,,,Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,~,277-5737-ND/ED10555-ND,C8389,1843619/OSTTJ0311530,
+J4,1,String4,,,,Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,~,277-5737-ND/ED10555-ND,C8389,1843619/OSTTJ0311530,
+J5,1,String5,,,,Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,~,277-5737-ND/ED10555-ND,C8389,1843619/OSTTJ0311530,
+J6,1,String6,,,,Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,~,277-5737-ND/ED10555-ND,C8389,1843619/OSTTJ0311530,
+J7,1,String7,,,,Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,~,277-5737-ND/ED10555-ND,C8389,1843619/OSTTJ0311530,
+J8,1,String8,,,,Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,~,277-5737-ND/ED10555-ND,C8389,1843619/OSTTJ0311530,
+J9,1,String9,,,,Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,~,277-5737-ND/ED10555-ND,C8389,1843619/OSTTJ0311530,
+J10,1,String10,,,,Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,~,277-5737-ND/ED10555-ND,C8389,1843619/OSTTJ0311530,
+J11,1,String11,,,,Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,~,277-5737-ND/ED10555-ND,C8389,1843619/OSTTJ0311530,
+J12,1,String12,,,,Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,~,277-5737-ND/ED10555-ND,C8389,1843619/OSTTJ0311530,
+J13,1,String13,,,,Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,~,277-5737-ND/ED10555-ND,C8389,1843619/OSTTJ0311530,
+J14,1,String14,,,,Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,~,277-5737-ND/ED10555-ND,C8389,1843619/OSTTJ0311530,
+J15,1,String15,,,,Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,~,277-5737-ND/ED10555-ND,C8389,1843619/OSTTJ0311530,
+J16,1,String16,,,,Scotts:PhoenixContact_MCV_3.81mm_3.5mm_1x03_Vertical,~,277-5737-ND/ED10555-ND,C8389,1843619/OSTTJ0311530,
+J17,1,Power In Left,,,,Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS_P9.5MM,~,ED2953-ND,C707421,OSTYK51102030,
+J18,1,Power In Right,,,,Barrier_Blocks:BARRIER_BLOCK_1ROW_2POS_P9.5MM,~,ED2953-ND,C707421,OSTYK51102030,
+J19,1,USB,,,,Connector_USB:USB_A_Molex_105057_Vertical,~,WM8672-ND,C39455,1050570001,
+J20,1,DMX1 RJ45,,,,Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal,~,AE10392-ND,C2938579,X05ADIWA1DY1022,
+J21,1,Diff Out,,,,Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal,~,AE10392-ND,C2938579,X05ADIWA1DY1022,
+J22,1,DMX2,,,,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal",~,277-1238-ND,C192769,1729034,
+J23,1,VIN Voltage,,,,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~,732-5316-ND,C49257,61300311121,
+J24,1,Expansion Header,,,,Connector_IDC:IDC-Header_2x12_P2.54mm_Vertical,~,S9175-ND,C9138,SBH11-PBPC-D20-ST-BK,
+J25,1,RTC Conn,,,,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,~,732-5318-ND,C358687,61300511121,
+J26,1,OLED Conn,,,,Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical,~,S7002-ND,C225501,PPTC041LFBN-RC,
+J27,1,GPIO Header,,,,Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,~,455-2249-ND,C144395,B4B-XH-A(LF)(SN),
+J28,1,Aux Pwr,,,,MKDS1_2-3.81:PHOENIX_MKDS1_2-3.81,~,277-1947-ND,C69811,1727010,
+J29,1,VIN Select,,,,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~,732-5316-ND,C49257,61300311121,
+JP1,1,PIN_3_JMP,,Excluded from BOM,,Scotts:SolderJumper-3_P1mm_Bridged12,~,,,,
+JP2,1,PIN_4_JMP,,Excluded from BOM,,Scotts:SolderJumper-3_P1mm_Bridged23,~,,,,
+Q1,1,DMP3056L,,,,Package_TO_SOT_SMD:SOT-23,~,DMP3056L-7DICT-ND,C150724,DMP3056L-7,
+"R1,R2",2,2.2K,,,,Resistor_SMD:R_0603_1608Metric,~,311-1.00KHRTR-ND,,RC0603FR-071KL,
+R3,1,330,,,,Resistor_SMD:R_0603_1608Metric,~,A129677CT-ND,,CRGCQ0603F120R,
+R4,1,100K,,,,Resistor_SMD:R_0603_1608Metric,~,YAG1235CT-ND,C25803,RT0603BRD07100KL,
+"R5,R6",2,4.7K,,,,Resistor_SMD:R_0603_1608Metric,~,311-4.7KGRCT-ND,C23162,RC0603JR-074K7L,
+"R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22",16,33,,,,Resistor_SMD:R_0603_1608Metric,~,311-33.0HRCT-ND,C23140,RC0603FR-0733RL,
+"R23,R24,R25,R26,R27,R28",6,120,,,,Resistor_SMD:R_0603_1608Metric,~,A129677CT-ND,C22787,CRGCQ0603F120R,
+"R29,R30",2,10K,,,,Resistor_SMD:R_0603_1608Metric,~,311-10.0KHRCT-ND,C25804,RC0603FR-0710KL,
+SW1,1,Enter BTN,,,,Scotts:SW_Push_1P1T_NO_6x6mm_H9.5mm,~,CKN9088CT-ND,C127509,PTS645SL50SMTR92 LFS,
+SW2,1,Down BTN,,,,Scotts:SW_Push_1P1T_NO_6x6mm_H9.5mm,~,CKN9088CT-ND,C127509,PTS645SL50SMTR92 LFS,
+SW4,1,DMX_LOR_Select,,,,Scotts:SW_CK_JS202011CQN_DPDT_Straight,~,,C189615,K3-2235D-F1,
+U1,1,OKI-78SR-5,,,,Scotts:Universal_5V_Horizontal,http://www.fairchildsemi.com/ds/LM/LM7805.pdf,811-2196-5-ND,,OKI-78SR-5/1.5-W36-C,
+U2,1,24LC256,,,,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://ww1.microchip.com/downloads/en/devicedoc/21203m.pdf,24LC256T-I/SNCT-ND,C6482,24LC256T-I/SN,
+U3,1,POCKETBEAGLE-SC-569,,,,POCKETBEAGLE:BEAGLE_POCKETBEAGLE-SC-569,,POCKETBEAGLE-SC-569-ND,,POCKETBEAGLE-SC-569,
+"U4,U5",2,74HCT541,,,,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,http://www.ti.com/lit/gpn/sn74HCT541,MC74HCT541ADTR2GOSTR-ND,C133641,SN74HCT541PWR,
+U6,1,UA9638CDR,,,,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://www.ti.com/lit/ds/symlink/ua9638.pdf,296-15058-1-ND,C435812,UA9638CDR,
+U7,1,AM26C31,,,,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,http://www.ti.com.cn/cn/lit/ds/symlink/am26c31.pdf,296-24344-1-ND,C157476,AM26C31IDR,
+U8,1,TPS2051BDBVR,,,,digikey-footprints:SOT-753,http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps2051b,296-21265-1-ND,C24593,TPS2051BDBVR,Texas Instruments
+U9,1,TPD4S009DBVR,,,,Package_TO_SOT_SMD:SOT-23-6_Handsoldering,,296-23749-1-ND,C88032,TPD4S009DBVR,
