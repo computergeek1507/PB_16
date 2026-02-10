@@ -5971,7 +5971,7 @@
     )
   )
 
-  (footprint "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight" (layer "F.Cu")
+  (footprint "Scotts:SW_CuK_JS202011CQN_DPDT_Straight" (layer "F.Cu")
     (tstamp 00000000-0000-0000-0000-00005d4bb59c)
     (at 115.6438 81.2766 -90)
     (descr "CuK sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf")
@@ -7134,7 +7134,7 @@
     )
   )
 
-  (footprint "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight" (layer "F.Cu")
+  (footprint "Scotts:SW_CuK_JS202011CQN_DPDT_Straight" (layer "F.Cu")
     (tstamp 00000000-0000-0000-0000-00005d576dfe)
     (at 163.4962 56.3846 180)
     (descr "CuK sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf")
@@ -8838,7 +8838,7 @@
     )
   )
 
-  (footprint "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight" (layer "F.Cu")
+  (footprint "Scotts:SW_CuK_JS202011CQN_DPDT_Straight" (layer "F.Cu")
     (tstamp 00000000-0000-0000-0000-00005eb48cf0)
     (at 92.851 68.1678 180)
     (descr "CuK sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf")
