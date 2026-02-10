@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "PB 16")
-		(date "2026-02-09")
+		(date "2026-02-10")
 		(rev "v2.3")
 		(company "Scott Hanson")
 	)
@@ -2372,7 +2372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 199.644 91.44 0)
 			(effects
 				(font

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "PB 16")
-		(date "2026-02-09")
+		(date "2026-02-10")
 		(rev "v2.3")
 		(company "Scott Hanson")
 	)
@@ -4929,7 +4929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key_PN" "296-15849-1-ND"
+		(property "Digi-Key_PN" "MC74HCT541ADTR2GOSTR-ND"
 			(at 8.128 221.742 0)
 			(effects
 				(font
@@ -4938,7 +4938,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SN74HCT245NSR"
+		(property "MPN" "SN74HCT541PWR"
 			(at 8.128 221.742 0)
 			(effects
 				(font

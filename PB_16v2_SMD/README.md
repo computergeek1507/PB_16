@@ -43,9 +43,9 @@ v2.3
 ----
 * 2026-02-09
 * Switched to TSSOP-20 for U4 & U5.
-* Switched to 603 Resistors for Pixel Outputs.
 * Switched Pixel Outputs to Dual 3.5mm/3.81mm Pads.
 * Switched Expansion Header to 24pin Falcon V4 pinout.
+* Removed OLED Slide Switch.
 * Removed Top Solder pour.
 
 v2.2
