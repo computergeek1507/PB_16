@@ -6,7 +6,7 @@ jobs:
   generate-files:
     name: Generate Everything
     runs-on: ubuntu-latest
-    container: setsoft/kicad_auto:dev_k6
+    container: ghcr.io/inti-cmnb/kicad9_auto:latest
       
     steps:
 
