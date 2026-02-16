@@ -11885,7 +11885,7 @@
 		(path "/775ab3ae-5a9d-4bec-b3ea-35088ebcd7d1")
 		(sheetname "/")
 		(sheetfile "Receiver_Out.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -15259,7 +15259,7 @@
 		(path "/00000000-0000-0000-0000-00005e06688b/7f0f7e16-cb23-45e5-b9e3-a4632c2f283c")
 		(sheetname "/Diff In/")
 		(sheetfile "Diff_In.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
