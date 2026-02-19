@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Receiver_Out-rescue")(type "Legacy")(uri "${KIPRJMOD}/Receiver_Out-rescue.lib")(options "")(descr ""))
+  (lib (name "Scotts")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Scotts/Scotts.kicad_sym")(options "")(descr ""))
+)
