@@ -1847,12 +1847,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 165.1 61.976 0)
+		(property "Description" "IC PWR DIST SWITCH SNGL SOT23-5"
+			(at 170.18 36.576 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Digi-Key_PN" "296-21265-1-ND"
@@ -1907,16 +1909,6 @@
 		)
 		(property "DK_Detail_Page" "/product-detail/en/texas-instruments/TPS2051BDBVR/296-21265-1-ND/1219985"
 			(at 170.18 39.116 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC PWR DIST SWITCH SNGL SOT23-5"
-			(at 170.18 36.576 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2617,7 +2609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 221.996 62.738 90)
 			(effects
 				(font
