@@ -5,9 +5,9 @@
 	(uuid "88a9010c-54d1-4952-a800-bdaaacc62488")
 	(paper "A4")
 	(title_block
-		(title "Receiver Out SMD")
-		(date "2025-02-23")
-		(rev "v3")
+		(title "Receiver Out Edge")
+		(date "2026-02-22")
+		(rev "v1")
 		(company "Scott Hanson")
 	)
 	(lib_symbols
