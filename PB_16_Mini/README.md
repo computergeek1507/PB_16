@@ -16,3 +16,30 @@ The PB16 Mini is a compact version of the PB16 with only an Expansions Header. I
 ![Image of PB16 Mini Out](https://github.com/computergeek1507/PB_16/raw/master/PB_16_Mini/PB_16_Mini.png)
 
 ![Real Image of PB16 Mini Out](https://github.com/computergeek1507/PB_16/raw/master/PB_16_Mini/IMG_20191203_202850.jpg)
+
+
+----
+## Changelog
+
+v4
+----
+* 2026-03-04
+* Add Different Output
+* Switched Expansion Header to 24pin Falcon V4 pinout.
+* Switched to PB16v2 pinout, use PB16v2 EEPROM
+
+v3
+----
+* 2022-08-13
+* Updated 5V regulator to "Universal" footprint to support different regulators.
+* Added Logo
+
+v2
+----
+* 2019-12-03
+* Add Serial Outputs.
+
+v1
+----
+* 2019-??-??
+* First Internal Version with only Expansion Port.
