@@ -48,7 +48,7 @@
       "drc_warnings",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0fffffff_fffffffb",
+    "visible_layers": "00000000_00000000_0fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -86,16 +86,16 @@
       9
     ],
     "col_widths": [
-      294,
-      279,
-      173,
-      120,
-      173,
-      173,
-      173,
-      126,
-      173,
-      173
+      222,
+      207,
+      136,
+      92,
+      136,
+      136,
+      136,
+      98,
+      136,
+      136
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
