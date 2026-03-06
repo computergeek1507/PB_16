@@ -3338,7 +3338,8 @@
 			(rotate
 				(xyz 0 0 0)
 			)
-		)	)
+		)
+	)
 	(footprint "Scotts:FUSE_3544-2"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005dfb3bf2")
@@ -8688,7 +8689,7 @@
 			(net 2 "+5V")
 			(pinfunction "VO")
 			(pintype "power_out")
-			(uuid "17dccccc-0b52-460b-b2ea-f26a9b3fe290")
+			(uuid "0cdf4196-98fe-4acf-a8d0-fb83b87f51a4")
 		)
 		(pad "3" smd roundrect
 			(at -3.15 2.3)
@@ -13015,7 +13016,7 @@
 			(net 38 "Net-(SW4-Pad1)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "6b25f522-8e2d-4cd8-9d5d-a2b80f60133b")
+			(uuid "76c57fb7-7c4c-4ebd-9a84-7a83ef7fffa2")
 		)
 		(pad "2" smd rect
 			(at -3.975 2.25 90)
@@ -13033,7 +13034,7 @@
 			(net 1 "GND")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "dabe541b-b164-4180-97a4-5ca761b86800")
+			(uuid "4ce13540-bdd5-4c8b-a420-7e018f1f18dc")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/../libraries/3D_Models/Tactal Switch - SMD (6mmx 6mmx 6mm) - Marked.stp"
@@ -13692,7 +13693,7 @@
 			(net 1 "GND")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "f9865a9f-edb8-49c7-828f-4896e1f3047a")
+			(uuid "2825d62c-2c22-4cc3-89e7-b761c0ff0823")
 		)
 		(pad "2" smd rect
 			(at -3.975 2.25 180)
@@ -13710,7 +13711,7 @@
 			(net 37 "Net-(SW3-Pad2)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "55992e35-fe7b-468a-9b7a-1e4dc931b904")
+			(uuid "4c31f606-8f19-4ca6-a16f-5c92fffb14fa")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/../libraries/3D_Models/Tactal Switch - SMD (6mmx 6mmx 6mm) - Marked.stp"
@@ -15519,7 +15520,7 @@
 			(net 1 "GND")
 			(pinfunction "C")
 			(pintype "passive")
-			(uuid "bb4b1afc-c46e-451d-8dad-36b7dec82f26")
+			(uuid "81fec7fb-6dc4-4d5b-86de-c8793372260b")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/Nidec_Copal_SH-7010C.step"

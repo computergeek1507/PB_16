@@ -1,0 +1,39 @@
+Comment,Designator,Footprint,LCSC,Quantity
+3544-2,F2,FUSE_3544-2,C492610,1
+Diff Out,J21,RJ45_Amphenol_54602-x08_Horizontal,C2938579,1
+220uF,C2,CP_Radial_D10.0mm_P5.00mm,,1
+100uF,C3,CP_Radial_D5.0mm_P2.00mm,,1
+Zener 5.1V,D1,D_5W_P10.16mm_Horizontal,,1
+5V LED,D2,LED_D3.0mm,,1
+OLED Conn,J2,PinSocket_1x04_P2.54mm_Vertical,,1
+GPIO Header,J3,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,,1
+RTC Conn,J4,PinHeader_1x05_P2.54mm_Vertical,,1
+VIN_Voltage,J6,PinHeader_1x03_P2.54mm_Vertical,,1
+Output Header,J7,IDC-Header_2x12_P2.54mm_Vertical,,1
+POCKETBEAGLE-SC-569,U2,BEAGLE_POCKETBEAGLE-SC-569,,1
+UA9638CP,U3,DIP-8_W7.62mm,,1
+120,R2,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,,1
+120,R3,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,,1
+0.1uF,C5,C_Rect_L7.0mm_W2.0mm_P5.00mm,,1
+500ma,F1,Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm,,1
+0.1uF,C1,C_Rect_L7.0mm_W2.0mm_P5.00mm,,1
+0.1uF,C4,C_Rect_L7.0mm_W2.0mm_P5.00mm,,1
+USB,J1,USB_A_Molex_105057_Vertical,,1
+DMX1 RJ45,J9,RJ45_Amphenol_54602-x08_Horizontal,,1
+4.7K,R4,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,,1
+4.7K,R5,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,,1
+0.1uF,C6,C_Rect_L7.0mm_W2.0mm_P5.00mm,,1
+24LC256,U4,DIP-8_W7.62mm,,1
+Down BTN,SW5,SW_PUSH_6mm,,1
+120,R1,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,,1
+Enter BTN,SW4,SW_PUSH_6mm,,1
+Power In,J5,PHOENIX_MKDS1_2-3.81,,1
+Universe5V,U1,Universal_5V_Horizontal,,1
+MountingHole,H1,MountingHole_3.7mm,,1
+MountingHole,H2,MountingHole_3.7mm,,1
+MountingHole,H3,MountingHole_3.7mm,,1
+MountingHole,H4,MountingHole_3.7mm,,1
+DMX2,J8,"TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal",,1
+0.1uF,C8,C_Rect_L7.0mm_W2.0mm_P5.00mm,,1
+120,RN1,R_Array_SIP8,,1
+AM26C31,U7,DIP-16_W7.62mm,,1
