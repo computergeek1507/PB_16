@@ -1,7 +1,7 @@
 (footprint "SW_Push_1P1T_NO_6x6mm_H9.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "tactile push button, 6x6mm e.g. PTS645xx series, height=9.5mm")
 	(tags "tact sw push 6mm smd")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c9b37d53-5ef8-467f-bacc-2c5583b6edaa")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -231,7 +221,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "24e9c3c5-2d47-47bc-a3ac-90076b1ce0e4")
 	)
@@ -249,28 +239,29 @@
 	(pad "1" smd rect
 		(at -3.975 -2.25)
 		(size 1.55 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ee106920-6ecf-45ee-94e7-a4dfd0c2fcb2")
 	)
 	(pad "1" smd rect
 		(at 3.975 -2.25)
 		(size 1.55 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "606ece18-3a9f-4d83-ac3f-76789dda7dd4")
 	)
 	(pad "2" smd rect
 		(at -3.975 2.25)
 		(size 1.55 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0d00fb02-0ec0-4e67-ac65-6a49d54c1a5b")
 	)
 	(pad "2" smd rect
 		(at 3.975 2.25)
 		(size 1.55 1.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9b1d7e77-d06e-47b3-9f83-98d745df92c0")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_PUSH_6mm_H9.5mm.wrl"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../libraries/3D_Models/Tactal Switch - SMD (6mmx 6mmx 6mm) - Marked.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -208,4 +208,15 @@
 		(uuid "f3d2149d-5f34-43a7-ac3f-53fb49d4da8f")
 	)
 	(embedded_fonts no)
+	(model "D:/kicad_data/PB_16/libraries/3D_Models/DG250-3.5-03P-11-00A.stp"
+		(offset
+			(xyz 5.3 -3.7 6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -90)
+		)
+	)
 )
