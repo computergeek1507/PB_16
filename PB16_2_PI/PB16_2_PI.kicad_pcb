@@ -1575,6 +1575,29 @@
 			(uuid "bdf40d30-88ff-4479-bad1-69529464b61b")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/../PB_16v1/PB_16.step"
+			(hide yes)
+			(offset
+				(xyz 53 43.5 -14)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
+		)
+		(model "${KIPRJMOD}/../PB_16v2_SMD/PB_16.step"
+			(offset
+				(xyz 50 43.5 -11.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 		(layer "F.Cu")
