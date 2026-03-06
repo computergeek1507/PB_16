@@ -1934,7 +1934,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.015)
+					(thickness 0.1)
 				)
 			)
 		)
