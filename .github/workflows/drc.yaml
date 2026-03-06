@@ -183,6 +183,11 @@ jobs:
         rm -rf Pi_Zero_Expansion_SMD/
         kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e Pi_Zero_Expansion.kicad_sch -b Pi_Zero_Expansion.kicad_pcb -d Pi_Zero_Expansion_SMD
 
+    - name: DRC PB_8_DMX Files
+      run: |
+        cd PB_8_DMX
+        rm -rf PB_8_DMX/
+        kibot -c ../.github/workflows/scripts/kibot/drc.config.kibot.yaml -e PB_8_DMX.kicad_sch -b PB_8_DMX.kicad_pcb -d PB_8_DMX
 
     - name: Upload Export Files as Artifacts
       uses: actions/upload-artifact@v4
@@ -214,6 +219,7 @@ jobs:
           Pi_Zero_W_16_SMD/Pi_Zero_W_16_SMD/**
           Pi_Zero_24_Diff_SMD/Pi_Zero_24_Diff_SMD/**
           Pi_Zero_Expansion_SMD/Pi_Zero_Expansion_SMD/**
+          PB_8_DMX/PB_8_DMX/**
         if-no-files-found: error
         retention-days: 60
 
