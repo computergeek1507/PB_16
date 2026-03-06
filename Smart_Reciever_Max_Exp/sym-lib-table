@@ -1,6 +1,0 @@
-(sym_lib_table
-  (lib (name Smart_Reciever_Max-rescue)(type Legacy)(uri ${KIPRJMOD}/../Smart_Reciever_Max-rescue.lib)(options "")(descr ""))
-  (lib (name NUCLEO-F303K8)(type Legacy)(uri ${KIPRJMOD}/../libraries/NUCLEO/NUCLEO-F303K8.lib)(options "")(descr ""))
-  (lib (name Barrier_Blocks)(type Legacy)(uri ${KIPRJMOD}/../libraries/Barrier_Blocks/Barrier_Blocks.lib)(options "")(descr ""))
-  (lib (name 3544-2)(type Legacy)(uri ${KIPRJMOD}/../libraries/Fuse/3544-2.lib)(options "")(descr ""))
-)
