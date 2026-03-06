@@ -772,13 +772,13 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "LCSC_PN",
           "name": "LCSC_PN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

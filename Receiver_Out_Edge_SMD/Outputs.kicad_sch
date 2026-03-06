@@ -2536,7 +2536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuseholder_Littelfuse_Nano2_154x"
+		(property "Footprint" "Scotts:JK30-500"
 			(at 155.702 90.17 90)
 			(effects
 				(font
@@ -2563,7 +2563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "3544-2"
+		(property "Field4" ""
 			(at 157.48 90.17 0)
 			(effects
 				(font
@@ -2593,7 +2593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses"
+		(property "Field7" ""
 			(at 157.48 90.17 0)
 			(effects
 				(font
@@ -2603,7 +2603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "Keystone Electronics"
+		(property "Field8" ""
 			(at 157.48 90.17 0)
 			(effects
 				(font
@@ -2613,7 +2613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key_PN" "36-3544-2-ND"
+		(property "Digi-Key_PN" ""
 			(at -44.196 134.874 0)
 			(effects
 				(font
@@ -2622,7 +2622,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "3544-2"
+		(property "MPN" ""
 			(at -44.196 134.874 0)
 			(effects
 				(font
@@ -2631,7 +2631,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C492610"
+		(property "LCSC_PN" "C19078763"
 			(at 157.48 90.17 0)
 			(effects
 				(font
@@ -2640,7 +2640,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C492610"
+		(property "LCSC" "C19078763"
 			(at 162.56 86.36 0)
 			(effects
 				(font
@@ -2691,7 +2691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuseholder_Littelfuse_Nano2_154x"
+		(property "Footprint" "Scotts:JK30-500"
 			(at 167.132 90.17 90)
 			(effects
 				(font
@@ -2718,7 +2718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "3544-2"
+		(property "Field4" ""
 			(at 168.91 90.17 0)
 			(effects
 				(font
@@ -2748,7 +2748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses"
+		(property "Field7" ""
 			(at 168.91 90.17 0)
 			(effects
 				(font
@@ -2758,7 +2758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "Keystone Electronics"
+		(property "Field8" ""
 			(at 168.91 90.17 0)
 			(effects
 				(font
@@ -2768,7 +2768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key_PN" "36-3544-2-ND"
+		(property "Digi-Key_PN" ""
 			(at -32.766 134.874 0)
 			(effects
 				(font
@@ -2777,7 +2777,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "3544-2"
+		(property "MPN" ""
 			(at -32.766 134.874 0)
 			(effects
 				(font
@@ -2786,7 +2786,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C492610"
+		(property "LCSC_PN" "C19078763"
 			(at 168.91 90.17 0)
 			(effects
 				(font
@@ -2795,7 +2795,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C492610"
+		(property "LCSC" "C19078763"
 			(at 173.99 86.36 0)
 			(effects
 				(font
@@ -2846,7 +2846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuseholder_Littelfuse_Nano2_154x"
+		(property "Footprint" "Scotts:JK30-500"
 			(at 178.562 90.17 90)
 			(effects
 				(font
@@ -2873,7 +2873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "3544-2"
+		(property "Field4" ""
 			(at 180.34 90.17 0)
 			(effects
 				(font
@@ -2903,7 +2903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses"
+		(property "Field7" ""
 			(at 180.34 90.17 0)
 			(effects
 				(font
@@ -2913,7 +2913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "Keystone Electronics"
+		(property "Field8" ""
 			(at 180.34 90.17 0)
 			(effects
 				(font
@@ -2923,7 +2923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key_PN" "36-3544-2-ND"
+		(property "Digi-Key_PN" ""
 			(at -21.336 134.874 0)
 			(effects
 				(font
@@ -2932,7 +2932,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "3544-2"
+		(property "MPN" ""
 			(at -21.336 134.874 0)
 			(effects
 				(font
@@ -2941,7 +2941,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C492610"
+		(property "LCSC_PN" "C19078763"
 			(at 180.34 90.17 0)
 			(effects
 				(font
@@ -2950,7 +2950,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C492610"
+		(property "LCSC" "C19078763"
 			(at 185.42 86.36 0)
 			(effects
 				(font
@@ -3227,7 +3227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuseholder_Littelfuse_Nano2_154x"
+		(property "Footprint" "Scotts:JK30-500"
 			(at 144.272 90.17 90)
 			(effects
 				(font
@@ -3254,7 +3254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "3544-2"
+		(property "Field4" ""
 			(at 146.05 90.17 0)
 			(effects
 				(font
@@ -3284,7 +3284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses"
+		(property "Field7" ""
 			(at 146.05 90.17 0)
 			(effects
 				(font
@@ -3294,7 +3294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "Keystone Electronics"
+		(property "Field8" ""
 			(at 146.05 90.17 0)
 			(effects
 				(font
@@ -3304,7 +3304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key_PN" "36-3544-2-ND"
+		(property "Digi-Key_PN" ""
 			(at -55.626 134.874 0)
 			(effects
 				(font
@@ -3313,7 +3313,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "3544-2"
+		(property "MPN" ""
 			(at -55.626 134.874 0)
 			(effects
 				(font
@@ -3322,7 +3322,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C492610"
+		(property "LCSC_PN" "C19078763"
 			(at 146.05 90.17 0)
 			(effects
 				(font
@@ -3331,7 +3331,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C492610"
+		(property "LCSC" "C19078763"
 			(at 151.13 86.36 0)
 			(effects
 				(font
