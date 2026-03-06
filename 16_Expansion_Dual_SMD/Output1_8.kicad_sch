@@ -4780,7 +4780,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 130.5052 104.14 0)
 			(effects
 				(font
@@ -4806,7 +4806,7 @@
 				)
 			)
 		)
-		(property "Digi-Key_PN" "1276-1935-2-ND"
+		(property "Digi-Key_PN" ""
 			(at -42.672 210.312 0)
 			(effects
 				(font
@@ -4815,7 +4815,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B104KB8NNWC"
+		(property "MPN" ""
 			(at -42.672 210.312 0)
 			(effects
 				(font
@@ -4824,7 +4824,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" ""
 			(at 129.54 100.33 0)
 			(effects
 				(font

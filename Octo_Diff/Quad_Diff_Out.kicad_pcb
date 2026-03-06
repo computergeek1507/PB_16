@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -15,25 +15,25 @@
 	)
 	(layers
 		(0 "F.Cu" signal)
-		(31 "B.Cu" signal)
-		(32 "B.Adhes" user "B.Adhesive")
-		(33 "F.Adhes" user "F.Adhesive")
-		(34 "B.Paste" user)
-		(35 "F.Paste" user)
-		(36 "B.SilkS" user "B.Silkscreen")
-		(37 "F.SilkS" user "F.Silkscreen")
-		(38 "B.Mask" user)
-		(39 "F.Mask" user)
-		(40 "Dwgs.User" user "User.Drawings")
-		(41 "Cmts.User" user "User.Comments")
-		(42 "Eco1.User" user "User.Eco1")
-		(43 "Eco2.User" user "User.Eco2")
-		(44 "Edge.Cuts" user)
-		(45 "Margin" user)
-		(46 "B.CrtYd" user "B.Courtyard")
-		(47 "F.CrtYd" user "F.Courtyard")
-		(48 "B.Fab" user)
-		(49 "F.Fab" user)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
 	)
 	(setup
 		(stackup
@@ -78,9 +78,10 @@
 		(pad_to_mask_clearance 0.051)
 		(solder_mask_min_width 0.25)
 		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes no)
@@ -90,7 +91,6 @@
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
 			(plotframeref no)
-			(viasonmask no)
 			(mode 1)
 			(useauxorigin no)
 			(hpglpennumber 1)
@@ -98,16 +98,19 @@
 			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
 			(dxfpolygonmode yes)
 			(dxfimperialunits yes)
 			(dxfusepcbnewfont yes)
 			(psnegative no)
 			(psa4output no)
-			(plotreference yes)
-			(plotvalue yes)
-			(plotfptext yes)
-			(plotinvisibletext no)
+			(plot_black_and_white yes)
 			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
@@ -177,18 +180,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "87bb416c-9d19-4719-acab-0415b3666db8")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -386,6 +377,7 @@
 			(pintype "passive")
 			(uuid "fd1d3368-fabc-4121-9944-b261929a3edf")
 		)
+		(embedded_fonts no)
 		(model "${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Rect_L7.0mm_W2.0mm_P5.00mm.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -422,18 +414,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "33eac314-b92d-4b50-97f8-9833f02bfbc1")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -745,6 +725,7 @@
 			(pintype "passive")
 			(uuid "6921812b-173e-48a0-9d9b-847f624b3146")
 		)
+		(embedded_fonts no)
 		(model "${KISYS3DMOD}/Connector_RJ.3dshapes/RJ45_Amphenol_54602-x08_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -792,18 +773,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8a22763a-56b8-4f2f-b0d7-3549a5cfab55")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1089,6 +1058,7 @@
 			(pintype "passive")
 			(uuid "90bb46ee-03e4-4208-9167-286c27043825")
 		)
+		(embedded_fonts no)
 		(model "${KISYS3DMOD}/Resistor_THT.3dshapes/R_Array_SIP8.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -1129,20 +1099,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "08f77dd9-244b-462c-b31e-720fc457676f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "http://www.ti.com.cn/cn/lit/ds/symlink/am26c31.pdf"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "57e5b021-fad9-4f66-90df-df1a6145bb49")
@@ -1154,7 +1112,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "131723cb-21d8-46d1-8ea3-b514f2c28f7a")
@@ -1166,7 +1124,7 @@
 			)
 		)
 		(property "Farnell" "4975637"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1179,7 +1137,7 @@
 			)
 		)
 		(property "Digikey PN" "296-6785-5-ND"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1533,6 +1491,7 @@
 			(pintype "power_in")
 			(uuid "a20d9175-6389-4da9-8856-4b7ae313634d")
 		)
+		(embedded_fonts no)
 		(model "${KISYS3DMOD}/Package_DIP.3dshapes/DIP-16_W7.62mm.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -1569,19 +1528,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "52ee516c-115f-4259-85d9-b5cbec2209a9")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1869,6 +1815,7 @@
 			(pintype "passive")
 			(uuid "147dcfca-518d-4999-852a-7e33550b7ec8")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Array_SIP8.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -1905,19 +1852,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f0d5d9b8-4d1b-4096-9a11-bc3aa3049949")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2231,6 +2165,7 @@
 			(pintype "passive")
 			(uuid "cf755de7-f746-4392-bc90-4b3b748ac454")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_54602-x08_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -2282,21 +2217,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2cd15cf1-7795-4d28-86f4-e463ebc2ec7f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "http://www.ti.com.cn/cn/lit/ds/symlink/am26c31.pdf"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2309,7 +2231,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2322,7 +2244,7 @@
 			)
 		)
 		(property "Farnell" "4975637"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2335,7 +2257,7 @@
 			)
 		)
 		(property "Digikey PN" "296-6785-5-ND"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2689,6 +2611,7 @@
 			(pintype "power_in")
 			(uuid "8672da1d-0701-4925-bd1d-f22fb34f7e8a")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -2725,19 +2648,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "163b65a6-d7b1-4eab-8fc4-001a02260f57")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2780,7 +2690,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "675d9ecc-59f2-4761-9be9-97ab90382705")
 		)
@@ -2791,7 +2701,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "b1cd894d-d303-4cd7-9751-3a7d2be1c18d")
 		)
@@ -2813,6 +2723,7 @@
 			(layers "*.Cu" "*.Mask")
 			(uuid "a6725551-c48d-413f-a49f-af59d9dc8c90")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
@@ -2838,19 +2749,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "72f59555-ddc0-4043-bad3-24bb2fabbc05")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2893,7 +2791,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "d0947713-fd86-47e2-a60b-e0c17b32f5ca")
 		)
@@ -2904,7 +2802,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "e3bff82b-d047-4743-9277-664d2f271683")
 		)
@@ -2923,9 +2821,10 @@
 			(at 0 -0.15)
 			(size 3.2 3.2)
 			(drill 3.2)
-			(layers "F&B.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(uuid "7b650750-0115-4d76-b965-f6e745503df8")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
 		(layer "F.Cu")
@@ -2951,19 +2850,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bf5d3a86-555a-4351-8300-9c3361573b1a")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -3163,6 +3049,7 @@
 			(pintype "passive")
 			(uuid "7e3f1e74-2e37-40e7-8883-1c7536fe3ca4")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L7.0mm_W2.0mm_P5.00mm.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -3205,22 +3092,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "05c92491-cd5e-4875-9e45-fd3cb1fab771")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -3234,7 +3107,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -3874,6 +3747,7 @@
 			(pintype "passive")
 			(uuid "0abe79f4-3a4c-4238-89a2-463c638c386d")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x20_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -6647,6 +6521,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -6674,6 +6552,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -6703,6 +6585,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -6730,6 +6616,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -6759,6 +6649,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -6786,6 +6680,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -6815,6 +6713,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -6842,6 +6744,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -8654,4 +8560,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )
