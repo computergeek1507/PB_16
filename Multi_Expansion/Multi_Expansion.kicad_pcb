@@ -18694,13 +18694,13 @@
 		(uuid "00000000-0000-0000-0000-0000612d0a11")
 		(at 112.051 58.6428)
 		(property "Reference" "J13"
-			(at -15.875 -6.35 0)
+			(at 21.55 -2.325 0)
 			(layer "F.SilkS")
 			(uuid "3acadbda-6bca-44fa-9b55-028a5e7eecef")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.015)
+					(thickness 0.1)
 				)
 			)
 		)
