@@ -77,7 +77,7 @@
 		)
 		(pad_to_mask_clearance 0.051)
 		(solder_mask_min_width 0.25)
-		(allow_soldermask_bridges_in_footprints no)
+		(allow_soldermask_bridges_in_footprints yes)
 		(tenting front back)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)

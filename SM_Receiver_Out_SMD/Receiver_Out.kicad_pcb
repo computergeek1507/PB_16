@@ -77,7 +77,7 @@
 		)
 		(pad_to_mask_clearance 0.051)
 		(solder_mask_min_width 0.25)
-		(allow_soldermask_bridges_in_footprints no)
+		(allow_soldermask_bridges_in_footprints yes)
 		(tenting none)
 		(aux_axis_origin 201.1172 129.6035)
 		(grid_origin 123.301 130.7178)
