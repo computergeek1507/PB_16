@@ -729,7 +729,7 @@
       "gencad": "PB_16.cad",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "PB_16.step",

@@ -45,6 +45,12 @@ Assembly Instructions are included in the manual below.
 ---
 ## Changelog
 
+v1 rev I 
+- 
+* 2026-03-06
+* Switched Expansion Header to 24pin Falcon V4 pinout.
+* Removed OLED Slide Switch.
+
 v1 rev H 
 - 
 * 2022-05-29

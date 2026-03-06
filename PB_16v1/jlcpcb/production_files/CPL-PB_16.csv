@@ -1,0 +1,66 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,220uF,CP_Radial_D10.0mm_P5.00mm,-1.4984,30.7359,180.0,top
+C2,100uF,CP_Radial_D5.0mm_P2.00mm,-11.631088,36.4457,180.0,top
+C3,0.1uF,C_Rect_L7.0mm_W2.0mm_P5.00mm,-65.8749,27.773,90.0,top
+C4,0.1uF,C_Rect_L7.0mm_W2.0mm_P5.00mm,-11.7348,27.7984,90.0,top
+C5,0.1uF,C_Rect_L7.0mm_W2.0mm_P5.00mm,-113.5162,24.3857,180.0,top
+C6,0.1uF,C_Rect_L7.0mm_W2.0mm_P5.00mm,-10.3414,64.7849,-90.0,top
+C7,0.1uF,C_Rect_L7.0mm_W2.0mm_P5.00mm,-13.6746,64.7949,90.0,top
+C8,0.1uF,C_Rect_L7.0mm_W2.0mm_P5.00mm,-23.5662,54.4857,90.0,top
+D1,SB5100-T,D_DO-201AD_P12.70mm_Horizontal,-83.7846,-15.2151,90.0,top
+D2,SB5100-T,D_DO-201AD_P12.70mm_Horizontal,-29.2696,-15.3515,90.0,top
+D3,Zener 5.1V,D_5W_P10.16mm_Horizontal,-12.8062,46.9157,-90.0,top
+D4,5V LED,LED_D3.0mm_Clear,-47.6512,30.6057,0.0,top
+D5,VIN1 LED,LED_D3.0mm_Clear,-121.397,5.6295,-90.0,top
+D6,VIN2 LED,LED_D3.0mm_Clear,8.055,5.5025,-90.0,top
+F19,500ma,Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm,-10.6162,58.0857,180.0,top
+J1,String1,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-108.5172,13.0035,0.0,top
+J10,String10,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-48.5172,0.0035,0.0,top
+J11,String11,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-33.5172,13.0035,0.0,top
+J12,String12,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-33.5172,0.0035,0.0,top
+J13,String13,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-18.5172,13.0035,0.0,top
+J14,String14,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-18.5172,0.0035,0.0,top
+J15,String15,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-3.5172,13.0035,0.0,top
+J16,String16,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-3.5172,0.0035,0.0,top
+J17,Power In Left,BARRIER_BLOCK_1ROW_2POS_P9.5MM,-120.1968,-15.8139,0.0,top
+J18,Power In Right,BARRIER_BLOCK_1ROW_2POS_P9.5MM,6.8032,-15.8139,0.0,top
+J19,USB,USB_A_Molex_105057_Vertical,-4.9074,69.4899,90.0,top
+J2,String2,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-108.5172,0.0035,0.0,top
+J20,DMX1 RJ45,RJ45_Amphenol_54602-x08_Horizontal,-120.2612,46.0907,180.0,top
+J21,DMX2 RJ45,RJ45_Amphenol_54602-x08_Horizontal,-100.4112,46.0907,180.0,top
+J22,DMX2,"TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal",-124.8162,27.8857,-90.0,top
+J23,VIN Voltage,PinHeader_1x03_P2.54mm_Vertical,3.9936,21.7443,-90.0,top
+J24,Expansion Header,IDC-Header_2x12_P2.54mm_Vertical,-98.5662,73.8449,-90.0,top
+J25,RTC Conn,PinHeader_1x05_P2.54mm_Vertical,-23.8146,76.0249,-90.0,top
+J26,OLED Select,PinSocket_1x04_P2.54mm_Vertical,-51.1146,76.0249,90.0,top
+J27,GPIO Header,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,8.8666,75.5089,0.0,top
+J28,Aux Pwr,PHOENIX_MKDS1_2-3.81,12.959259,30.14534,90.0,top
+J29,VIN Select,PinHeader_1x03_P2.54mm_Vertical,14.7164,19.6107,0.0,top
+J3,String3,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-93.5172,13.0035,0.0,top
+J4,String4,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-93.5172,0.0035,0.0,top
+J5,String5,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-78.5172,13.0035,0.0,top
+J6,String6,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-78.402858,0.0035,0.0,top
+J7,String7,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-63.5172,13.0035,0.0,top
+J8,String8,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-63.5172,0.0035,0.0,top
+J9,String9,"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical",-48.5172,13.0035,0.0,top
+R1,120,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,-112.2562,37.6357,0.0,top
+R2,120,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,-101.8062,37.6357,0.0,top
+R3,120,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,-56.7662,30.6257,0.0,top
+R4,1K,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,-123.8162,-2.1743,-90.0,top
+R5,1K,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,10.1838,-2.1743,-90.0,top
+R6,4.7K,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,-37.3662,55.8957,90.0,top
+R7,4.7K,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,-40.4662,55.8957,90.0,top
+RN1,33,R_Array_SIP8,-96.6657,20.7899,0.0,top
+RN2,33,R_Array_SIP8,-75.3745,20.7899,0.0,top
+RN3,33,R_Array_SIP8,-38.741,20.7899,0.0,top
+RN4,33,R_Array_SIP8,-17.4146,20.7899,0.0,top
+SW1,DMX_Renard_Select,SW_CK_JS202011CQN_DPDT_Straight,-87.1234,45.8269,-90.0,top
+SW3,DMX_LOR_Select,SW_CK_JS202011CQN_DPDT_Straight,-110.7662,63.0857,180.0,top
+SW4,Enter BTN,SW_PUSH_6mm,2.9338,52.9357,-90.0,top
+SW5,Down BTN,SW_PUSH_6mm,12.5338,52.9357,-90.0,top
+U1,POCKETBEAGLE-SC-569,BEAGLE_POCKETBEAGLE-SC-569,-43.6715,53.3483,-90.0,top
+U2,Universe5V,Universal_5V_Horizontal,5.1228,41.9057,90.0,top
+U3,SN74HCT245N,SN74HCT245N,-81.3746,27.7249,-90.0,top
+U4,SN74HCT245N,SN74HCT245N,-27.1246,27.7249,-90.0,top
+U5,UA9638CP,DIP-8_W7.62mm,-107.1962,30.9457,90.0,top
+U6,24L256,DIP-8_W7.62mm,-30.3762,55.7757,-90.0,top

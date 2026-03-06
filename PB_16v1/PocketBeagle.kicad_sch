@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "PB 16")
-		(date "2022-05-29")
-		(rev "v1.0h")
+		(date "2026-03-06")
+		(rev "v1.0i")
 		(company "Scott Hanson")
 	)
 	(lib_symbols
