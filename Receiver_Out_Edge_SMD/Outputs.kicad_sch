@@ -2534,9 +2534,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Scotts:JK30-500"
+		(property "Footprint" "Scotts:Fuse_1812_4532Metric"
 			(at 155.702 90.17 90)
 			(effects
 				(font
@@ -2631,7 +2632,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C19078763"
+		(property "LCSC_PN" "C22374900"
 			(at 157.48 90.17 0)
 			(effects
 				(font
@@ -2640,7 +2641,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C19078763"
+		(property "LCSC" "C22374900"
 			(at 162.56 86.36 0)
 			(effects
 				(font
@@ -2689,9 +2690,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Scotts:JK30-500"
+		(property "Footprint" "Scotts:Fuse_1812_4532Metric"
 			(at 167.132 90.17 90)
 			(effects
 				(font
@@ -2786,7 +2788,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C19078763"
+		(property "LCSC_PN" "C22374900"
 			(at 168.91 90.17 0)
 			(effects
 				(font
@@ -2795,7 +2797,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C19078763"
+		(property "LCSC" "C22374900"
 			(at 173.99 86.36 0)
 			(effects
 				(font
@@ -2844,9 +2846,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Scotts:JK30-500"
+		(property "Footprint" "Scotts:Fuse_1812_4532Metric"
 			(at 178.562 90.17 90)
 			(effects
 				(font
@@ -2941,7 +2944,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C19078763"
+		(property "LCSC_PN" "C22374900"
 			(at 180.34 90.17 0)
 			(effects
 				(font
@@ -2950,7 +2953,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C19078763"
+		(property "LCSC" "C22374900"
 			(at 185.42 86.36 0)
 			(effects
 				(font
@@ -3225,9 +3228,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Scotts:JK30-500"
+		(property "Footprint" "Scotts:Fuse_1812_4532Metric"
 			(at 144.272 90.17 90)
 			(effects
 				(font
@@ -3322,7 +3326,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C19078763"
+		(property "LCSC_PN" "C22374900"
 			(at 146.05 90.17 0)
 			(effects
 				(font
@@ -3331,7 +3335,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C19078763"
+		(property "LCSC" "C22374900"
 			(at 151.13 86.36 0)
 			(effects
 				(font
