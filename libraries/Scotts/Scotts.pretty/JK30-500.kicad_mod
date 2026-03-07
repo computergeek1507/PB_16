@@ -319,4 +319,15 @@
 		(uuid "d25f31c0-07f3-4383-8c93-6c9ad3e0050d")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/../libraries/3D_Models/FUSE_2920L50016_LTF.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

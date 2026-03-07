@@ -452,17 +452,6 @@
 		(layer "Eco1.User")
 		(uuid "4b03f850-f763-455a-9295-7411ff86671f")
 	)
-	(fp_text user "1"
-		(at -11.7602 -0.6858 0)
-		(layer "F.SilkS")
-		(uuid "44d55c69-5385-4d83-aee5-9ed93822472e")
-		(effects
-			(font
-				(size 2.032 1.778)
-				(thickness 0.254)
-			)
-		)
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0.635 8.3566 0)
 		(layer "Eco1.User")
