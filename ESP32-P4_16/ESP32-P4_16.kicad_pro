@@ -203,7 +203,9 @@
       ],
       "track_widths": [
         0.0,
-        0.5
+        0.4,
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -541,7 +543,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.3,
+        "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -559,7 +561,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.3,
+        "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -735,6 +737,10 @@
       {
         "netclass": "power2",
         "pattern": "Net-(D1-Pad2)"
+      },
+      {
+        "netclass": "Gnd",
+        "pattern": "GND"
       }
     ]
   },
@@ -871,8 +877,14 @@
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
+    "space_save_all_events": true,
     "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
@@ -882,7 +894,7 @@
         "uuid": "d66d3c12-11ce-4566-9a45-962e329503d8"
       }
     ],
-    "used_designators": "#PWR20-21,SW1-2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
