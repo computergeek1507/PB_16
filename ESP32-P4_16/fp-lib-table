@@ -5,5 +5,7 @@
 	(lib (name "OKI-78SR-5") (type "KiCad") (uri "${KIPRJMOD}/../libraries/OKI-78SR-5/OKI-78SR-5.pretty") (options "") (descr ""))
 	(lib (name "Scotts") (type "KiCad") (uri "${KIPRJMOD}/../libraries/Scotts/Scotts.pretty") (options "") (descr ""))
 	(lib (name "ESP32-P4-ETH") (type "KiCad") (uri "${KIPRJMOD}/../libraries/ESP32-P4-ETH/ESP32-P4-ETH.pretty") (options "") (descr ""))
-	(lib (name "MKDS1_2-3.81") (type "KiCad") (uri "C:/PB_16/libraries/MKDS1_2-3.81/MKDS1_2-3.81.pretty") (options "") (descr ""))
+	(lib (name "MKDS1_2-3.81") (type "KiCad") (uri "${KIPRJMOD}/../libraries/MKDS1_2-3.81/MKDS1_2-3.81.pretty") (options "") (descr ""))
+	(lib (name "LMR38020S") (type "KiCad") (uri "D:/kicad_data/PB_16/libraries/LMR38020SDDAR/LMR38020S.pretty") (options "") (descr ""))
+	(lib (name "VLS5045EX_150M") (type "KiCad") (uri "D:/kicad_data/PB_16/libraries/VLS5045EX_150M") (options "") (descr ""))
 )

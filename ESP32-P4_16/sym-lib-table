@@ -1,8 +1,7 @@
 (sym_lib_table
-  (version 7)
-  (lib (name "AM26C31")(type "Legacy")(uri "${KIPRJMOD}/../libraries/AM26C31/AM26C31.lib")(options "")(descr ""))
-  (lib (name "AM26C32IN")(type "Legacy")(uri "${KIPRJMOD}/../libraries/AM26C32IN/AM26C32IN.lib")(options "")(descr ""))
-  (lib (name "Barrier_Blocks")(type "Legacy")(uri "${KIPRJMOD}/../libraries/Barrier_Blocks/Barrier_Blocks.lib")(options "")(descr ""))
-  (lib (name "Scotts")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Scotts/Scotts.kicad_sym")(options "")(descr ""))
-  (lib (name "ESP32-P4-ETH")(type "KiCad")(uri "${KIPRJMOD}/../libraries/ESP32-P4-ETH/ESP32-P4-ETH.kicad_sym")(options "")(descr ""))
+	(version 7)
+	(lib (name "Barrier_Blocks") (type "Legacy") (uri "${KIPRJMOD}/../libraries/Barrier_Blocks/Barrier_Blocks.lib") (options "") (descr ""))
+	(lib (name "Scotts") (type "KiCad") (uri "${KIPRJMOD}/../libraries/Scotts/Scotts.kicad_sym") (options "") (descr ""))
+	(lib (name "ESP32-P4-ETH") (type "KiCad") (uri "${KIPRJMOD}/../libraries/ESP32-P4-ETH/ESP32-P4-ETH.kicad_sym") (options "") (descr ""))
+	(lib (name "LMR38020SDDAR") (type "KiCad") (uri "D:/kicad_data/PB_16/libraries/LMR38020SDDAR/LMR38020SDDAR.kicad_sym") (options "") (descr ""))
 )
