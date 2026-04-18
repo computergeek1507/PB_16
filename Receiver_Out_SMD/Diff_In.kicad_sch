@@ -3058,9 +3058,9 @@
 		(at 165.1 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "7f0f7e16-cb23-45e5-b9e3-a4632c2f283c")
 		(property "Reference" "R12"
 			(at 159.8422 128.27 90)

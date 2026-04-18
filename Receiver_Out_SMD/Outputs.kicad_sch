@@ -671,6 +671,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -921,229 +1057,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Scotts:3544-2"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F?"
-				(at -3.81 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "3544-2"
-				(at -3.81 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Scotts:FUSE_3544-2"
-				(at -1.27 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digi-Key_PN" "36-3544-2-ND"
-				(at -201.676 -44.704 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "3544-2"
-				(at -201.676 -44.704 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C492610"
-				(at 5.08 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "FUSE_3544-2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "3544-2_0_0"
-				(polyline
-					(pts
-						(xy -3.81 1.27) (xy 3.81 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -3.81 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy -3.81 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "~"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2_2"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1550,23 +1463,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 99.06) (xy 157.48 93.98)
+			(xy 157.48 91.44) (xy 157.48 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "68246bf8-fba0-4b0a-8a97-fd4a53422439")
-	)
-	(wire
-		(pts
-			(xy 168.91 93.98) (xy 168.91 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f6ecb05-1139-4b38-8abb-c6cce994b087")
 	)
 	(wire
 		(pts
@@ -1620,7 +1523,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 99.06) (xy 180.34 93.98)
+			(xy 180.34 91.44) (xy 180.34 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1670,13 +1573,23 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 93.98) (xy 146.05 99.06)
+			(xy 146.05 91.44) (xy 146.05 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f3a6a807-87de-47bb-a6c0-ef269e00d4ca")
+	)
+	(wire
+		(pts
+			(xy 168.91 91.44) (xy 168.91 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f07d52-a45b-494d-8e5b-4da64ff2ea64")
 	)
 	(wire
 		(pts
@@ -1812,7 +1725,7 @@
 	)
 	(global_label "VIN1"
 		(shape input)
-		(at 180.34 81.28 90)
+		(at 180.34 83.82 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1822,7 +1735,7 @@
 		)
 		(uuid "2647c6e5-4b66-4ce9-a25d-bf1333961799")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 12.7 0)
+			(at 0 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1833,7 +1746,7 @@
 	)
 	(global_label "VIN1"
 		(shape input)
-		(at 146.05 81.28 90)
+		(at 146.05 83.82 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1843,7 +1756,7 @@
 		)
 		(uuid "2a3f06c6-29c6-4d7b-842c-1c6eb5f9bac9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0.254 12.954 0)
+			(at 0.254 15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1854,7 +1767,7 @@
 	)
 	(global_label "VIN1"
 		(shape input)
-		(at 157.48 81.28 90)
+		(at 157.48 83.82 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1864,7 +1777,7 @@
 		)
 		(uuid "2b3a45a6-d57f-48f3-8096-5ebf0f9ba60d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0.254 13.208 0)
+			(at 0.254 15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,7 +1830,7 @@
 	)
 	(global_label "VIN1"
 		(shape input)
-		(at 168.91 81.28 90)
+		(at 168.91 83.82 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1927,7 +1840,7 @@
 		)
 		(uuid "e83b3ce2-c9c9-4920-9233-18cd6a8458b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 12.954 0)
+			(at 0 15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,7 +1877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical"
+		(property "Footprint" "Scotts:DG250-3.5-03P"
 			(at 151.13 101.6 0)
 			(effects
 				(font
@@ -2064,7 +1977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical"
+		(property "Footprint" "Scotts:DG250-3.5-03P"
 			(at 162.56 101.6 0)
 			(effects
 				(font
@@ -2164,7 +2077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical"
+		(property "Footprint" "Scotts:DG250-3.5-03P"
 			(at 173.99 101.6 0)
 			(effects
 				(font
@@ -2264,7 +2177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical"
+		(property "Footprint" "Scotts:DG250-3.5-03P"
 			(at 185.42 101.6 0)
 			(effects
 				(font
@@ -2597,8 +2510,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Scotts:3544-2")
-		(at 157.48 87.63 270)
+		(lib_id "Device:Fuse")
+		(at 157.48 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2606,7 +2519,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d4cfb8b")
 		(property "Reference" "F2"
-			(at 160.782 86.4616 90)
+			(at 155.702 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,8 +2527,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3544-2"
-			(at 160.782 88.773 90)
+		(property "Value" "1812L400/16GR"
+			(at 159.512 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,27 +2536,25 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Scotts:FUSE_3544-2"
-			(at 161.29 86.36 0)
+		(property "Footprint" "Scotts:Fuse_1812_4532Metric"
+			(at 155.702 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 157.48 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fuse"
 			(at 157.48 87.63 0)
 			(effects
 				(font
@@ -2703,7 +2614,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "36-3544-2-ND"
-			(at 112.776 -114.046 0)
+			(at -44.196 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,7 +2623,7 @@
 			)
 		)
 		(property "MPN" "3544-2"
-			(at 112.776 -114.046 0)
+			(at -44.196 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2720,7 +2631,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C492610"
+		(property "LCSC_PN" "C22374900"
 			(at 157.48 87.63 0)
 			(effects
 				(font
@@ -2729,8 +2640,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C492610"
-			(at 161.29 92.71 0)
+		(property "LCSC" "C22374900"
+			(at 162.56 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,17 +2649,11 @@
 				(hide yes)
 			)
 		)
-		(pin "1_1"
-			(uuid "7f787ccf-c66d-4cfe-903b-42157ef13fbe")
-		)
-		(pin "1_2"
+		(pin "1"
 			(uuid "62135b6d-181e-41d9-a5fe-262ced7d7c17")
 		)
-		(pin "2_1"
+		(pin "2"
 			(uuid "8633fafc-fdd0-4623-b208-57d2a9c11711")
-		)
-		(pin "2_2"
-			(uuid "67a18b94-1b14-4c5b-84c2-0c35deeb94de")
 		)
 		(instances
 			(project "Receiver_Out"
@@ -2760,8 +2665,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Scotts:3544-2")
-		(at 168.91 87.63 270)
+		(lib_id "Device:Fuse")
+		(at 168.91 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2769,7 +2674,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d4cfb98")
 		(property "Reference" "F3"
-			(at 172.212 86.4616 90)
+			(at 167.132 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,8 +2682,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3544-2"
-			(at 172.212 88.773 90)
+		(property "Value" "1812L400/16GR"
+			(at 170.942 90.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,27 +2691,25 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Scotts:FUSE_3544-2"
-			(at 172.72 86.36 0)
+		(property "Footprint" "Scotts:Fuse_1812_4532Metric"
+			(at 167.132 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 168.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fuse"
 			(at 168.91 87.63 0)
 			(effects
 				(font
@@ -2866,7 +2769,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "36-3544-2-ND"
-			(at 124.206 -114.046 0)
+			(at -32.766 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,7 +2778,7 @@
 			)
 		)
 		(property "MPN" "3544-2"
-			(at 124.206 -114.046 0)
+			(at -32.766 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2786,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C492610"
+		(property "LCSC_PN" "C22374900"
 			(at 168.91 87.63 0)
 			(effects
 				(font
@@ -2892,8 +2795,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C492610"
-			(at 172.72 92.71 0)
+		(property "LCSC" "C22374900"
+			(at 173.99 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2901,16 +2804,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1_1"
-			(uuid "39dfb437-a015-4c27-9585-c3fa6141f1e0")
-		)
-		(pin "1_2"
-			(uuid "ba4e011d-bed5-4e3e-9473-fd27b07a6004")
-		)
-		(pin "2_1"
+		(pin "1"
 			(uuid "f8af50b0-6760-47e8-966e-ea4d897ba4b0")
 		)
-		(pin "2_2"
+		(pin "2"
 			(uuid "442d4aa2-0016-40c5-9407-ba19060098eb")
 		)
 		(instances
@@ -2923,8 +2820,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Scotts:3544-2")
-		(at 180.34 87.63 270)
+		(lib_id "Device:Fuse")
+		(at 180.34 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2932,7 +2829,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d4cfba5")
 		(property "Reference" "F4"
-			(at 183.642 86.4616 90)
+			(at 178.562 89.154 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,8 +2837,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3544-2"
-			(at 183.642 88.773 90)
+		(property "Value" "1812L400/16GR"
+			(at 182.626 91.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,27 +2846,25 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Scotts:FUSE_3544-2"
-			(at 184.15 86.36 0)
+		(property "Footprint" "Scotts:Fuse_1812_4532Metric"
+			(at 178.562 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 180.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fuse"
 			(at 180.34 87.63 0)
 			(effects
 				(font
@@ -3029,7 +2924,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "36-3544-2-ND"
-			(at 135.636 -114.046 0)
+			(at -21.336 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3038,7 +2933,7 @@
 			)
 		)
 		(property "MPN" "3544-2"
-			(at 135.636 -114.046 0)
+			(at -21.336 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3046,7 +2941,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C492610"
+		(property "LCSC_PN" "C22374900"
 			(at 180.34 87.63 0)
 			(effects
 				(font
@@ -3055,8 +2950,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C492610"
-			(at 184.15 92.71 0)
+		(property "LCSC" "C22374900"
+			(at 185.42 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3064,16 +2959,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1_1"
-			(uuid "4d7f92c8-254e-4b2b-b97e-b696e9f24772")
-		)
-		(pin "1_2"
-			(uuid "c88b85e0-8940-4f10-b1c4-4f1ddd5f9842")
-		)
-		(pin "2_1"
+		(pin "1"
 			(uuid "3e592fd3-cd28-4ae4-a39e-fb3480f669b4")
 		)
-		(pin "2_2"
+		(pin "2"
 			(uuid "fdaa7759-1147-4f12-bc15-a9ab7c700511")
 		)
 		(instances
@@ -3312,8 +3201,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Scotts:3544-2")
-		(at 146.05 87.63 270)
+		(lib_id "Device:Fuse")
+		(at 146.05 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3321,7 +3210,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d4cfc1c")
 		(property "Reference" "F1"
-			(at 149.352 86.4616 90)
+			(at 144.272 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3329,8 +3218,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3544-2"
-			(at 149.352 88.773 90)
+		(property "Value" "1812L400/16GR"
+			(at 148.336 91.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3338,27 +3227,25 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Scotts:FUSE_3544-2"
-			(at 149.86 86.36 0)
+		(property "Footprint" "Scotts:Fuse_1812_4532Metric"
+			(at 144.272 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 146.05 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fuse"
 			(at 146.05 87.63 0)
 			(effects
 				(font
@@ -3418,7 +3305,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "36-3544-2-ND"
-			(at 101.346 -114.046 0)
+			(at -55.626 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3427,7 +3314,7 @@
 			)
 		)
 		(property "MPN" "3544-2"
-			(at 101.346 -114.046 0)
+			(at -55.626 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3435,7 +3322,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C492610"
+		(property "LCSC_PN" "C22374900"
 			(at 146.05 87.63 0)
 			(effects
 				(font
@@ -3444,8 +3331,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C492610"
-			(at 149.86 92.71 0)
+		(property "LCSC" "C22374900"
+			(at 151.13 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3453,17 +3340,11 @@
 				(hide yes)
 			)
 		)
-		(pin "1_1"
+		(pin "2"
 			(uuid "69df4f4b-6a36-4756-a517-411d54c41832")
 		)
-		(pin "1_2"
+		(pin "1"
 			(uuid "0e61bcd1-1303-4cfd-8ad8-a1a3720221af")
-		)
-		(pin "2_1"
-			(uuid "6ce0ab98-20ca-4711-8cb7-6d43f3174413")
-		)
-		(pin "2_2"
-			(uuid "834fbafb-bacd-4c9c-a154-495ab19630ae")
 		)
 		(instances
 			(project "Receiver_Out"
@@ -4100,7 +3981,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C131314"
+		(property "LCSC" "C436096"
 			(at 121.92 137.16 0)
 			(effects
 				(font
@@ -4127,7 +4008,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C131314"
+		(property "LCSC_PN" "C436096"
 			(at 121.92 137.16 0)
 			(effects
 				(font
