@@ -7,15 +7,15 @@ You may redistribute and modify this documentation under the terms of the CERN O
 
 **Under CERN OHL-S-v2, derivative work must be publicly released as defined in subsection 3.3**
 
-# Teensy 16 SMD
+# ESP32-P4 16
 
 **WIP, Do not use**
 
-The Teensy 16 SMD is a Teensy 4.1 based 16 port controller. All the design files are open source and available on github.
+The ESP32-P4 16 is a ESP32-P4 based 16 port controller. All the design files are open source and available on github.
 
-## [Interactive BOM](https://computergeek1507.github.io/PB_16/Teensy_16_SMD/bom/ibom)
+## [Interactive BOM](https://computergeek1507.github.io/PB_16/ESP32-P4_16/bom/ibom)
 
-## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/Teensy_16_SMD/Teensy_16_BOM.ods)
+## [Part BOM](https://github.com/computergeek1507/PB_16/raw/master/ESP32-P4_16/ESP32-P4_16_BOM.ods)
 
-![Image of Teensy 16 Out](https://github.com/computergeek1507/PB_16/raw/master/Teensy_16_SMD/Teensy_16.png)
+![Image of ESP32-P4 16 Out](https://github.com/computergeek1507/PB_16/raw/master/ESP32-P4_16/ESP32-P4_16.png)
 
