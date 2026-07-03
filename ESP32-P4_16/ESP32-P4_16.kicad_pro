@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.7,
-          "height": 3.7,
-          "width": 3.7
+          "drill": 1.7,
+          "height": 4.0,
+          "width": 4.0
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -51,7 +51,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.3
+          "min_clearance": 0.4
         }
       },
       "diff_pair_dimensions": [
@@ -819,13 +819,13 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -843,43 +843,43 @@
           "group_by": false,
           "label": "Digi-Key_PN",
           "name": "Digi-Key_PN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Field4",
           "name": "Field4",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Field5",
           "name": "Field5",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Field6",
           "name": "Field6",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Field7",
           "name": "Field7",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Field8",
           "name": "Field8",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1032,7 +1032,7 @@
         "uuid": "d66d3c12-11ce-4566-9a45-962e329503d8"
       }
     ],
-    "used_designators": "#PWR32,#PWR37,C9",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

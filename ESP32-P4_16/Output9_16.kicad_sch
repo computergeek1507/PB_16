@@ -705,6 +705,158 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -838,249 +990,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Scotts:3544-2"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "F?"
-				(at -3.81 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "3544-2"
-				(at -3.81 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Scotts:FUSE_3544-2"
-				(at -1.27 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Digi-Key_PN" "36-3544-2-ND"
-				(at -201.676 -44.704 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "3544-2"
-				(at -201.676 -44.704 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C492610"
-				(at 5.08 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "FUSE_3544-2"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "3544-2_0_0"
-				(polyline
-					(pts
-						(xy -3.81 1.27) (xy 3.81 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -3.81 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy -3.81 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "~"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2_2"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2164,7 +2073,7 @@
 	)
 	(global_label "VIN2"
 		(shape input)
-		(at 227.33 76.2 90)
+		(at 227.33 81.28 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2174,7 +2083,7 @@
 		)
 		(uuid "6776c573-26e6-4a02-ab96-18129f258651")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 12.446 0)
+			(at 0 17.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2210,7 +2119,7 @@
 	)
 	(global_label "VIN2"
 		(shape input)
-		(at 193.04 76.2 90)
+		(at 193.04 81.28 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2220,7 +2129,7 @@
 		)
 		(uuid "6dfa921c-8a4f-4fcf-a0e7-8718b6271ea9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 11.938 0)
+			(at 0 17.018 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2279,7 +2188,7 @@
 	)
 	(global_label "VIN2"
 		(shape input)
-		(at 215.9 76.2 90)
+		(at 215.9 81.28 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2289,7 +2198,7 @@
 		)
 		(uuid "9ba85d0a-e58f-45a8-9d86-ad6c976003b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 12.446 0)
+			(at 0 17.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2302,7 +2211,7 @@
 	)
 	(global_label "VIN2"
 		(shape input)
-		(at 158.75 76.2 90)
+		(at 158.75 81.28 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2312,7 +2221,7 @@
 		)
 		(uuid "9fa51663-d9ff-42d5-ab2b-c96b6768fc7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0.254 12.192 0)
+			(at 0.254 17.272 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2348,7 +2257,7 @@
 	)
 	(global_label "VIN2"
 		(shape input)
-		(at 181.61 76.2 90)
+		(at 181.61 81.28 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2358,7 +2267,7 @@
 		)
 		(uuid "ab26a42e-b7f6-4a80-b26c-c01085e448c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 12.192 0)
+			(at 0 17.272 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2371,7 +2280,7 @@
 	)
 	(global_label "VIN2"
 		(shape input)
-		(at 170.18 76.2 90)
+		(at 170.18 81.28 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2381,7 +2290,7 @@
 		)
 		(uuid "d25a1e45-06d1-4c1c-9b3a-0fd8abd0bfed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0.254 12.446 0)
+			(at 0.254 17.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2417,7 +2326,7 @@
 	)
 	(global_label "VIN2"
 		(shape input)
-		(at 238.76 76.2 90)
+		(at 238.76 81.28 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2427,7 +2336,7 @@
 		)
 		(uuid "dbd87a35-3166-440e-a8f0-c71d214a12a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 12.446 0)
+			(at 0 17.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2440,7 +2349,7 @@
 	)
 	(global_label "VIN2"
 		(shape input)
-		(at 204.47 76.2 90)
+		(at 204.47 81.28 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2450,7 +2359,7 @@
 		)
 		(uuid "ee3188d0-94cf-4bcc-9f57-e516684fc142")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 12.192 0)
+			(at 0 17.272 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2495,7 +2404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical"
+		(property "Footprint" "Scotts:DG250-3.5-03P"
 			(at 163.83 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2527,7 +2436,7 @@
 				)
 			)
 		)
-		(property "Digi-Key_PN" "277-5737-ND/ED10555-ND"
+		(property "Digi-Key_PN" ""
 			(at -23.622 -6.858 0)
 			(hide yes)
 			(show_name no)
@@ -2549,7 +2458,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C192778"
+		(property "LCSC" ""
 			(at 163.83 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2612,7 +2521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical"
+		(property "Footprint" "Scotts:DG250-3.5-03P"
 			(at 175.26 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2644,7 +2553,7 @@
 				)
 			)
 		)
-		(property "Digi-Key_PN" "277-5737-ND/ED10555-ND"
+		(property "Digi-Key_PN" ""
 			(at -26.416 -6.604 0)
 			(hide yes)
 			(show_name no)
@@ -2666,7 +2575,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C192778"
+		(property "LCSC" ""
 			(at 175.26 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2729,7 +2638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical"
+		(property "Footprint" "Scotts:DG250-3.5-03P"
 			(at 186.69 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2761,7 +2670,7 @@
 				)
 			)
 		)
-		(property "Digi-Key_PN" "277-5737-ND/ED10555-ND"
+		(property "Digi-Key_PN" ""
 			(at -25.654 -6.096 0)
 			(hide yes)
 			(show_name no)
@@ -2783,7 +2692,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C192778"
+		(property "LCSC" ""
 			(at 186.69 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2846,7 +2755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical"
+		(property "Footprint" "Scotts:DG250-3.5-03P"
 			(at 198.12 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2878,7 +2787,7 @@
 				)
 			)
 		)
-		(property "Digi-Key_PN" "277-5737-ND/ED10555-ND"
+		(property "Digi-Key_PN" ""
 			(at -23.368 -5.842 0)
 			(hide yes)
 			(show_name no)
@@ -2900,7 +2809,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C192778"
+		(property "LCSC" ""
 			(at 198.12 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2963,7 +2872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical"
+		(property "Footprint" "Scotts:DG250-3.5-03P"
 			(at 209.55 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2995,7 +2904,7 @@
 				)
 			)
 		)
-		(property "Digi-Key_PN" "277-5737-ND/ED10555-ND"
+		(property "Digi-Key_PN" ""
 			(at -20.574 -5.334 0)
 			(hide yes)
 			(show_name no)
@@ -3017,7 +2926,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C192778"
+		(property "LCSC" ""
 			(at 209.55 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3080,7 +2989,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical"
+		(property "Footprint" "Scotts:DG250-3.5-03P"
 			(at 220.98 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3112,7 +3021,7 @@
 				)
 			)
 		)
-		(property "Digi-Key_PN" "277-5737-ND/ED10555-ND"
+		(property "Digi-Key_PN" ""
 			(at -17.526 -5.842 0)
 			(hide yes)
 			(show_name no)
@@ -3134,7 +3043,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C192778"
+		(property "LCSC" ""
 			(at 220.98 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3197,7 +3106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical"
+		(property "Footprint" "Scotts:DG250-3.5-03P"
 			(at 232.41 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3229,7 +3138,7 @@
 				)
 			)
 		)
-		(property "Digi-Key_PN" "277-5737-ND/ED10555-ND"
+		(property "Digi-Key_PN" ""
 			(at -14.478 -5.588 0)
 			(hide yes)
 			(show_name no)
@@ -3251,7 +3160,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C192778"
+		(property "LCSC" ""
 			(at 232.41 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3314,7 +3223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical"
+		(property "Footprint" "Scotts:DG250-3.5-03P"
 			(at 243.84 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3346,7 +3255,7 @@
 				)
 			)
 		)
-		(property "Digi-Key_PN" "277-5737-ND/ED10555-ND"
+		(property "Digi-Key_PN" ""
 			(at -13.462 -5.588 0)
 			(hide yes)
 			(show_name no)
@@ -3368,7 +3277,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C192778"
+		(property "LCSC" ""
 			(at 243.84 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4006,8 +3915,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Scotts:3544-2")
-		(at 170.18 82.55 270)
+		(lib_id "Device:Fuse")
+		(at 170.18 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4017,7 +3926,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d4e3a70")
 		(property "Reference" "F10"
-			(at 173.482 81.3816 90)
+			(at 165.608 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4028,7 +3937,7 @@
 			)
 		)
 		(property "Value" "3544-2"
-			(at 173.482 83.693 90)
+			(at 171.323 81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4038,8 +3947,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Scotts:FUSE_3544-2"
-			(at 173.99 81.28 0)
+		(property "Footprint" "Scotts:Fuse_1812_4532Metric"
+			(at 168.402 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4047,11 +3956,32 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 82.55 0)
+			(at 170.18 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 170.18 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" ""
+			(at 170.18 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4062,19 +3992,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
-			(at 170.18 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field4" "3544-2"
-			(at 170.18 82.55 0)
+		(property "Field5" ""
+			(at 170.18 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4085,8 +4004,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field5" "None"
-			(at 170.18 82.55 0)
+		(property "Field6" ""
+			(at 170.18 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4097,8 +4016,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field6" "Unavailable"
-			(at 170.18 82.55 0)
+		(property "Field7" ""
+			(at 170.18 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4109,8 +4028,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field7" "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses"
-			(at 170.18 82.55 0)
+		(property "Field8" ""
+			(at 170.18 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4121,20 +4040,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field8" "Keystone Electronics"
-			(at 170.18 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Digi-Key_PN" "36-3544-2-ND"
-			(at 125.476 -119.126 0)
+		(property "Digi-Key_PN" ""
+			(at -31.496 129.794 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4145,7 +4052,7 @@
 			)
 		)
 		(property "MPN" "3544-2"
-			(at 125.476 -119.126 0)
+			(at -31.496 129.794 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4155,8 +4062,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C492610"
-			(at 173.99 87.63 0)
+		(property "LCSC" ""
+			(at 175.26 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4166,17 +4073,11 @@
 				)
 			)
 		)
-		(pin "1_1"
+		(pin "1"
 			(uuid "8d87f65d-592b-4cc3-ac75-189a38950aee")
 		)
-		(pin "1_2"
+		(pin "2"
 			(uuid "f7dfd53f-7ad4-435a-9b23-4200a9fab8b4")
-		)
-		(pin "2_1"
-			(uuid "77871392-402b-4e14-87ed-cb0a5762a3f9")
-		)
-		(pin "2_2"
-			(uuid "d7b6c19d-a87a-4be3-960f-22242978f346")
 		)
 		(instances
 			(project "ESP32-P4_16"
@@ -4188,8 +4089,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Scotts:3544-2")
-		(at 181.61 82.55 270)
+		(lib_id "Device:Fuse")
+		(at 181.61 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4199,7 +4100,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d4e3a7d")
 		(property "Reference" "F11"
-			(at 184.912 81.3816 90)
+			(at 177.038 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4210,7 +4111,7 @@
 			)
 		)
 		(property "Value" "3544-2"
-			(at 184.912 83.693 90)
+			(at 182.753 81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4220,8 +4121,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Scotts:FUSE_3544-2"
-			(at 185.42 81.28 0)
+		(property "Footprint" "Scotts:Fuse_1812_4532Metric"
+			(at 179.832 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4229,11 +4130,32 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 82.55 0)
+			(at 181.61 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 181.61 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" ""
+			(at 181.61 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4244,19 +4166,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
-			(at 181.61 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field4" "3544-2"
-			(at 181.61 82.55 0)
+		(property "Field5" ""
+			(at 181.61 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4267,8 +4178,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field5" "None"
-			(at 181.61 82.55 0)
+		(property "Field6" ""
+			(at 181.61 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4279,8 +4190,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field6" "Unavailable"
-			(at 181.61 82.55 0)
+		(property "Field7" ""
+			(at 181.61 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4291,8 +4202,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field7" "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses"
-			(at 181.61 82.55 0)
+		(property "Field8" ""
+			(at 181.61 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4303,20 +4214,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field8" "Keystone Electronics"
-			(at 181.61 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Digi-Key_PN" "36-3544-2-ND"
-			(at 136.906 -119.126 0)
+		(property "Digi-Key_PN" ""
+			(at -20.066 129.794 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4327,7 +4226,7 @@
 			)
 		)
 		(property "MPN" "3544-2"
-			(at 136.906 -119.126 0)
+			(at -20.066 129.794 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4337,8 +4236,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C492610"
-			(at 185.42 87.63 0)
+		(property "LCSC" ""
+			(at 186.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4348,17 +4247,11 @@
 				)
 			)
 		)
-		(pin "1_1"
+		(pin "1"
 			(uuid "c6a198d2-e0e4-4d6d-8a2a-bdeb249501be")
 		)
-		(pin "1_2"
+		(pin "2"
 			(uuid "ba54f50c-d12f-43c2-8756-845c9dd68f54")
-		)
-		(pin "2_1"
-			(uuid "46c7da43-7282-47b5-9035-d0ab5ba0193c")
-		)
-		(pin "2_2"
-			(uuid "ec018475-be21-4878-a71e-6be5bb3b5f97")
 		)
 		(instances
 			(project "ESP32-P4_16"
@@ -4370,8 +4263,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Scotts:3544-2")
-		(at 193.04 82.55 270)
+		(lib_id "Device:Fuse")
+		(at 193.04 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4381,7 +4274,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d4e3a8a")
 		(property "Reference" "F12"
-			(at 196.342 81.3816 90)
+			(at 188.468 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4392,7 +4285,7 @@
 			)
 		)
 		(property "Value" "3544-2"
-			(at 196.342 83.693 90)
+			(at 194.056 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4402,8 +4295,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Scotts:FUSE_3544-2"
-			(at 196.85 81.28 0)
+		(property "Footprint" "Scotts:Fuse_1812_4532Metric"
+			(at 191.262 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4411,11 +4304,32 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 82.55 0)
+			(at 193.04 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 193.04 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" ""
+			(at 193.04 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4426,19 +4340,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
-			(at 193.04 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field4" "3544-2"
-			(at 193.04 82.55 0)
+		(property "Field5" ""
+			(at 193.04 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4449,8 +4352,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field5" "None"
-			(at 193.04 82.55 0)
+		(property "Field6" ""
+			(at 193.04 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4461,8 +4364,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field6" "Unavailable"
-			(at 193.04 82.55 0)
+		(property "Field7" ""
+			(at 193.04 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4473,8 +4376,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field7" "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses"
-			(at 193.04 82.55 0)
+		(property "Field8" ""
+			(at 193.04 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4485,20 +4388,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field8" "Keystone Electronics"
-			(at 193.04 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Digi-Key_PN" "36-3544-2-ND"
-			(at 148.336 -119.126 0)
+		(property "Digi-Key_PN" ""
+			(at -8.636 129.794 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4509,7 +4400,7 @@
 			)
 		)
 		(property "MPN" "3544-2"
-			(at 148.336 -119.126 0)
+			(at -8.636 129.794 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4519,8 +4410,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C492610"
-			(at 196.85 87.63 0)
+		(property "LCSC" ""
+			(at 198.12 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4530,17 +4421,11 @@
 				)
 			)
 		)
-		(pin "1_1"
+		(pin "2"
 			(uuid "2bc94379-3310-4ef2-b904-c8a17c95b4e0")
 		)
-		(pin "1_2"
+		(pin "1"
 			(uuid "03372a77-434e-40fd-aef7-342f10a2bf26")
-		)
-		(pin "2_1"
-			(uuid "7ab2f5f3-3aa5-4cf1-ba83-49fe65d42c15")
-		)
-		(pin "2_2"
-			(uuid "ddf3d706-da54-40be-a40e-10165b36eabf")
 		)
 		(instances
 			(project "ESP32-P4_16"
@@ -4552,8 +4437,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Scotts:3544-2")
-		(at 204.47 82.55 270)
+		(lib_id "Device:Fuse")
+		(at 204.47 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4563,7 +4448,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d4e3a97")
 		(property "Reference" "F13"
-			(at 207.772 81.3816 90)
+			(at 199.898 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4574,7 +4459,7 @@
 			)
 		)
 		(property "Value" "3544-2"
-			(at 207.772 83.693 90)
+			(at 205.613 81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4584,8 +4469,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Scotts:FUSE_3544-2"
-			(at 208.28 81.28 0)
+		(property "Footprint" "Scotts:Fuse_1812_4532Metric"
+			(at 202.692 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4593,11 +4478,32 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 82.55 0)
+			(at 204.47 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 204.47 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" ""
+			(at 204.47 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4608,19 +4514,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
-			(at 204.47 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field4" "3544-2"
-			(at 204.47 82.55 0)
+		(property "Field5" ""
+			(at 204.47 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4631,8 +4526,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field5" "None"
-			(at 204.47 82.55 0)
+		(property "Field6" ""
+			(at 204.47 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4643,8 +4538,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field6" "Unavailable"
-			(at 204.47 82.55 0)
+		(property "Field7" ""
+			(at 204.47 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4655,8 +4550,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field7" "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses"
-			(at 204.47 82.55 0)
+		(property "Field8" ""
+			(at 204.47 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4667,20 +4562,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field8" "Keystone Electronics"
-			(at 204.47 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Digi-Key_PN" "36-3544-2-ND"
-			(at 159.766 -119.126 0)
+		(property "Digi-Key_PN" ""
+			(at 2.794 129.794 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4691,7 +4574,7 @@
 			)
 		)
 		(property "MPN" "3544-2"
-			(at 159.766 -119.126 0)
+			(at 2.794 129.794 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4701,8 +4584,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C492610"
-			(at 208.28 87.63 0)
+		(property "LCSC" ""
+			(at 209.55 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4712,16 +4595,10 @@
 				)
 			)
 		)
-		(pin "1_1"
-			(uuid "fdc0d8b9-2974-46af-918f-2e1bc0fae131")
-		)
-		(pin "1_2"
-			(uuid "26e0eeae-bb6a-4689-823d-cad31807259e")
-		)
-		(pin "2_1"
+		(pin "1"
 			(uuid "06a28614-ba1a-4a26-a335-6de49bef9b0b")
 		)
-		(pin "2_2"
+		(pin "2"
 			(uuid "2406a8f3-bd6c-4f1f-832b-d1e5cdbb4f7c")
 		)
 		(instances
@@ -4734,8 +4611,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Scotts:3544-2")
-		(at 215.9 82.55 270)
+		(lib_id "Device:Fuse")
+		(at 215.9 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4745,7 +4622,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d4e3aa4")
 		(property "Reference" "F14"
-			(at 219.202 81.3816 90)
+			(at 211.328 85.344 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4756,7 +4633,7 @@
 			)
 		)
 		(property "Value" "3544-2"
-			(at 219.202 83.693 90)
+			(at 217.043 81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4766,8 +4643,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Scotts:FUSE_3544-2"
-			(at 219.71 81.28 0)
+		(property "Footprint" "Scotts:Fuse_1812_4532Metric"
+			(at 214.122 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4775,11 +4652,32 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 82.55 0)
+			(at 215.9 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 215.9 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" ""
+			(at 215.9 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4790,19 +4688,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
-			(at 215.9 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field4" "3544-2"
-			(at 215.9 82.55 0)
+		(property "Field5" ""
+			(at 215.9 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4813,8 +4700,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field5" "None"
-			(at 215.9 82.55 0)
+		(property "Field6" ""
+			(at 215.9 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4825,8 +4712,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field6" "Unavailable"
-			(at 215.9 82.55 0)
+		(property "Field7" ""
+			(at 215.9 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4837,8 +4724,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field7" "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses"
-			(at 215.9 82.55 0)
+		(property "Field8" ""
+			(at 215.9 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4849,20 +4736,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field8" "Keystone Electronics"
-			(at 215.9 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Digi-Key_PN" "36-3544-2-ND"
-			(at 171.196 -119.126 0)
+		(property "Digi-Key_PN" ""
+			(at 14.224 129.794 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4873,7 +4748,7 @@
 			)
 		)
 		(property "MPN" "3544-2"
-			(at 171.196 -119.126 0)
+			(at 14.224 129.794 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4883,8 +4758,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C492610"
-			(at 219.71 87.63 0)
+		(property "LCSC" ""
+			(at 220.98 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4894,17 +4769,11 @@
 				)
 			)
 		)
-		(pin "1_1"
+		(pin "1"
 			(uuid "4b268e62-3759-47ac-947c-1e77d305b3af")
 		)
-		(pin "1_2"
+		(pin "2"
 			(uuid "e6a5310e-f445-408c-870f-3c30ce286407")
-		)
-		(pin "2_1"
-			(uuid "00378c1d-8c9f-487f-a3ba-e1defefa3517")
-		)
-		(pin "2_2"
-			(uuid "a97fb80a-2549-42f2-9959-6c752b314245")
 		)
 		(instances
 			(project "ESP32-P4_16"
@@ -4916,8 +4785,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Scotts:3544-2")
-		(at 227.33 82.55 270)
+		(lib_id "Device:Fuse")
+		(at 227.33 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4927,7 +4796,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d4e3ab1")
 		(property "Reference" "F15"
-			(at 230.632 81.3816 90)
+			(at 222.758 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4938,7 +4807,7 @@
 			)
 		)
 		(property "Value" "3544-2"
-			(at 230.632 83.693 90)
+			(at 228.473 81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4948,8 +4817,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Scotts:FUSE_3544-2"
-			(at 231.14 81.28 0)
+		(property "Footprint" "Scotts:Fuse_1812_4532Metric"
+			(at 225.552 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4957,11 +4826,32 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 82.55 0)
+			(at 227.33 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 227.33 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" ""
+			(at 227.33 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4972,19 +4862,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
-			(at 227.33 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field4" "3544-2"
-			(at 227.33 82.55 0)
+		(property "Field5" ""
+			(at 227.33 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4995,8 +4874,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field5" "None"
-			(at 227.33 82.55 0)
+		(property "Field6" ""
+			(at 227.33 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5007,8 +4886,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field6" "Unavailable"
-			(at 227.33 82.55 0)
+		(property "Field7" ""
+			(at 227.33 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5019,8 +4898,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field7" "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses"
-			(at 227.33 82.55 0)
+		(property "Field8" ""
+			(at 227.33 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5031,20 +4910,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field8" "Keystone Electronics"
-			(at 227.33 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Digi-Key_PN" "36-3544-2-ND"
-			(at 182.626 -119.126 0)
+		(property "Digi-Key_PN" ""
+			(at 25.654 129.794 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5055,7 +4922,7 @@
 			)
 		)
 		(property "MPN" "3544-2"
-			(at 182.626 -119.126 0)
+			(at 25.654 129.794 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5065,8 +4932,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C492610"
-			(at 231.14 87.63 0)
+		(property "LCSC" ""
+			(at 232.41 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5076,17 +4943,11 @@
 				)
 			)
 		)
-		(pin "1_1"
+		(pin "2"
 			(uuid "51e25e81-7b5a-46c6-8133-77833d753510")
 		)
-		(pin "1_2"
-			(uuid "1b563b5d-ceaa-41a2-9bc1-dfbd45adccf9")
-		)
-		(pin "2_1"
+		(pin "1"
 			(uuid "59abb002-bdad-4bad-9827-9b580f4d9778")
-		)
-		(pin "2_2"
-			(uuid "2a4bd803-138e-4a1f-a378-3422a41c27fc")
 		)
 		(instances
 			(project "ESP32-P4_16"
@@ -5098,8 +4959,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Scotts:3544-2")
-		(at 238.76 82.55 270)
+		(lib_id "Device:Fuse")
+		(at 238.76 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5109,7 +4970,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d4e3abe")
 		(property "Reference" "F16"
-			(at 242.062 81.3816 90)
+			(at 233.934 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5120,7 +4981,7 @@
 			)
 		)
 		(property "Value" "3544-2"
-			(at 242.062 83.693 90)
+			(at 239.903 81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5130,8 +4991,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Scotts:FUSE_3544-2"
-			(at 242.57 81.28 0)
+		(property "Footprint" "Scotts:Fuse_1812_4532Metric"
+			(at 236.982 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5139,11 +5000,32 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 82.55 0)
+			(at 238.76 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 238.76 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" ""
+			(at 238.76 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5154,19 +5036,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
-			(at 238.76 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field4" "3544-2"
-			(at 238.76 82.55 0)
+		(property "Field5" ""
+			(at 238.76 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5177,8 +5048,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field5" "None"
-			(at 238.76 82.55 0)
+		(property "Field6" ""
+			(at 238.76 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5189,8 +5060,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field6" "Unavailable"
-			(at 238.76 82.55 0)
+		(property "Field7" ""
+			(at 238.76 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5201,8 +5072,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field7" "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses"
-			(at 238.76 82.55 0)
+		(property "Field8" ""
+			(at 238.76 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5213,20 +5084,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field8" "Keystone Electronics"
-			(at 238.76 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Digi-Key_PN" "36-3544-2-ND"
-			(at 194.056 -119.126 0)
+		(property "Digi-Key_PN" ""
+			(at 37.084 129.794 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5237,7 +5096,7 @@
 			)
 		)
 		(property "MPN" "3544-2"
-			(at 194.056 -119.126 0)
+			(at 37.084 129.794 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5247,8 +5106,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C492610"
-			(at 242.57 87.63 0)
+		(property "LCSC" ""
+			(at 243.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5258,16 +5117,10 @@
 				)
 			)
 		)
-		(pin "1_1"
-			(uuid "f54f848c-5975-446e-9ba8-addb20180a12")
-		)
-		(pin "1_2"
+		(pin "1"
 			(uuid "314ea9fc-09d0-4e3f-95ef-d77a87ad93a6")
 		)
-		(pin "2_1"
-			(uuid "a17866fe-485f-4a86-bce3-df672d821478")
-		)
-		(pin "2_2"
+		(pin "2"
 			(uuid "6eb64fde-c910-4090-8799-a4bae8683b7d")
 		)
 		(instances
@@ -5545,8 +5398,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Scotts:3544-2")
-		(at 158.75 82.55 270)
+		(lib_id "Device:Fuse")
+		(at 158.75 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5556,7 +5409,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d4e3b01")
 		(property "Reference" "F9"
-			(at 162.052 81.3816 90)
+			(at 155.194 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5567,7 +5420,7 @@
 			)
 		)
 		(property "Value" "3544-2"
-			(at 162.052 83.693 90)
+			(at 159.893 81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5577,8 +5430,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Scotts:FUSE_3544-2"
-			(at 162.56 81.28 0)
+		(property "Footprint" "Scotts:Fuse_1812_4532Metric"
+			(at 156.972 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5586,11 +5439,32 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 82.55 0)
+			(at 158.75 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 158.75 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" ""
+			(at 158.75 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5601,19 +5475,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
-			(at 158.75 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field4" "3544-2"
-			(at 158.75 82.55 0)
+		(property "Field5" ""
+			(at 158.75 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5624,8 +5487,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field5" "None"
-			(at 158.75 82.55 0)
+		(property "Field6" ""
+			(at 158.75 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5636,8 +5499,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field6" "Unavailable"
-			(at 158.75 82.55 0)
+		(property "Field7" ""
+			(at 158.75 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5648,8 +5511,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field7" "Fuse Clip; 500 VAC; 30 A; PCB; For 0.110 in. x 0.032 in. mini blade fuses"
-			(at 158.75 82.55 0)
+		(property "Field8" ""
+			(at 158.75 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5660,20 +5523,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Field8" "Keystone Electronics"
-			(at 158.75 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Digi-Key_PN" "36-3544-2-ND"
-			(at 114.046 -119.126 0)
+		(property "Digi-Key_PN" ""
+			(at -42.926 129.794 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5684,7 +5535,7 @@
 			)
 		)
 		(property "MPN" "3544-2"
-			(at 114.046 -119.126 0)
+			(at -42.926 129.794 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5694,8 +5545,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C492610"
-			(at 162.56 87.63 0)
+		(property "LCSC" ""
+			(at 163.83 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5705,17 +5556,11 @@
 				)
 			)
 		)
-		(pin "1_1"
+		(pin "2"
 			(uuid "e5b940cc-73c8-48d9-a894-07d619db9382")
 		)
-		(pin "1_2"
-			(uuid "8e4c2470-b074-4a5f-8594-23eb2c972038")
-		)
-		(pin "2_1"
+		(pin "1"
 			(uuid "3ad8bc68-a85d-4724-893f-baaf08d76027")
-		)
-		(pin "2_2"
-			(uuid "5ffb1ed8-8cb5-4477-97f9-eaa7c6934d7c")
 		)
 		(instances
 			(project "ESP32-P4_16"
